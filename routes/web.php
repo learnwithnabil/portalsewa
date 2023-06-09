@@ -23,7 +23,7 @@ Route::middleware('guest')->group(function () {
 
 Route::middleware('auth')->group(function () {
     Route::post('/logout', [\App\Http\Controllers\AuthController::class, 'logout'])->name('logout');
-    Route::get('/', [PagesController::class, 'dashboardsPersonal'])->name('index');
+    Route::get('/', [PagesController::class, 'dashboardsPersonal'])->name('index')->middleware('role:superoot');
 
     Route::get('/elements/avatar', [PagesController::class, 'elementsAvatar'])->name('elements/avatar');
     Route::get('/elements/alert', [PagesController::class, 'elementsAlert'])->name('elements/alert');
