@@ -5,7 +5,7 @@
             class="mt-4 grid grid-cols-12 gap-4 px-[var(--margin-x)] transition-all duration-[.25s] sm:mt-5 sm:gap-5 lg:mt-6 lg:gap-6">
             <div class="card col-span-12 lg:col-span-8 xl:col-span-9">
                 <div class="mt-3 flex items-center justify-between px-4 sm:px-5">
-                    <h2 class="text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                    <h2 class="text-base font-medium tracking-wide text-slate-700 line-clamp-1">
                         Travels History
                     </h2>
                     <div class="flex">
@@ -13,11 +13,11 @@
                             <label class="block">
                                 <input x-effect="isInputActive === true && $nextTick(() => { $el.focus()});"
                                     :class="isInputActive ? 'w-32 lg:w-48' : 'w-0'"
-                                    class="form-input w-full bg-transparent px-1 text-right transition-all duration-100 placeholder:text-slate-500 dark:placeholder:text-navy-200"
+                                    class="form-input w-full bg-transparent px-1 text-right transition-all duration-100 placeholder:text-slate-500"
                                     placeholder="Search here..." type="text" />
                             </label>
                             <button @click="isInputActive = !isInputActive"
-                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -28,7 +28,7 @@
                         <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -37,28 +37,28 @@
                             </button>
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -110,7 +110,7 @@
                 <div class="scrollbar-sm mt-5 min-w-full overflow-x-auto">
                     <table class="is-hoverable w-full text-left">
                         <tbody>
-                            <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                            <tr class="border-y border-transparent border-b-slate-200">
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                     <div class="flex items-center space-x-4">
                                         <div class="h-12 w-12">
@@ -118,10 +118,10 @@
                                                 src="{{ asset('images/600x400.png') }}" alt="image" />
                                         </div>
                                         <div>
-                                            <p class="font-medium text-slate-600 dark:text-navy-100">
+                                            <p class="font-medium text-slate-600">
                                                 Glacier National Park
                                             </p>
-                                            <p class="mt-1 text-xs text-slate-400 dark:text-navy-300">
+                                            <p class="mt-1 text-xs text-slate-400">
                                                 Unated States
                                             </p>
                                         </div>
@@ -140,12 +140,12 @@
                                 </td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">2 Adult</td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         $120
                                     </p>
                                 </td>
                             </tr>
-                            <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                            <tr class="border-y border-transparent border-b-slate-200">
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                     <div class="flex items-center space-x-4">
                                         <div class="h-12 w-12">
@@ -153,10 +153,10 @@
                                                 src="{{ asset('images/600x400.png') }}" alt="image" />
                                         </div>
                                         <div>
-                                            <p class="font-medium text-slate-600 dark:text-navy-100">
+                                            <p class="font-medium text-slate-600">
                                                 Tahiti
                                             </p>
-                                            <p class="mt-1 text-xs text-slate-400 dark:text-navy-300">
+                                            <p class="mt-1 text-xs text-slate-400">
                                                 French
                                             </p>
                                         </div>
@@ -175,13 +175,13 @@
                                 </td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">3 Adult</td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         $140
                                     </p>
                                 </td>
                             </tr>
 
-                            <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                            <tr class="border-y border-transparent border-b-slate-200">
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                     <div class="flex items-center space-x-4">
                                         <div class="h-12 w-12">
@@ -189,10 +189,10 @@
                                                 src="{{ asset('images/600x400.png') }}" alt="image" />
                                         </div>
                                         <div>
-                                            <p class="font-medium text-slate-600 dark:text-navy-100">
+                                            <p class="font-medium text-slate-600">
                                                 Argentine Patagonia
                                             </p>
-                                            <p class="mt-1 text-xs text-slate-400 dark:text-navy-300">
+                                            <p class="mt-1 text-xs text-slate-400">
                                                 Argentine
                                             </p>
                                         </div>
@@ -213,12 +213,12 @@
                                 </td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">6 Adult</td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         $300
                                     </p>
                                 </td>
                             </tr>
-                            <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                            <tr class="border-y border-transparent border-b-slate-200">
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                     <div class="flex items-center space-x-4">
                                         <div class="h-12 w-12">
@@ -226,10 +226,10 @@
                                                 src="{{ asset('images/600x400.png') }}" alt="image" />
                                         </div>
                                         <div>
-                                            <p class="font-medium text-slate-600 dark:text-navy-100">
+                                            <p class="font-medium text-slate-600">
                                                 Amalfi Coast
                                             </p>
-                                            <p class="mt-1 text-xs text-slate-400 dark:text-navy-300">
+                                            <p class="mt-1 text-xs text-slate-400">
                                                 Italy
                                             </p>
                                         </div>
@@ -248,12 +248,12 @@
                                 </td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">1 Adult</td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         $80
                                     </p>
                                 </td>
                             </tr>
-                            <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                            <tr class="border-y border-transparent border-b-slate-200">
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                     <div class="flex items-center space-x-4">
                                         <div class="h-12 w-12">
@@ -261,10 +261,10 @@
                                                 src="{{ asset('images/600x400.png') }}" alt="image" />
                                         </div>
                                         <div>
-                                            <p class="font-medium text-slate-600 dark:text-navy-100">
+                                            <p class="font-medium text-slate-600">
                                                 Great Barrier Reef
                                             </p>
-                                            <p class="mt-1 text-xs text-slate-400 dark:text-navy-300">
+                                            <p class="mt-1 text-xs text-slate-400">
                                                 Australia
                                             </p>
                                         </div>
@@ -283,7 +283,7 @@
                                 </td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">3 Adult</td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         $100
                                     </p>
                                 </td>
@@ -297,38 +297,38 @@
                     <div class="text-xs+">1 - 10 of 10 entries</div>
 
                     <ol class="pagination">
-                        <li class="rounded-l-full bg-slate-150 dark:bg-navy-500">
+                        <li class="rounded-l-full bg-slate-150">
                             <a href="#"
-                                class="flex h-8 w-8 items-center justify-center rounded-full text-slate-500 transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:text-navy-200 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                class="flex h-8 w-8 items-center justify-center rounded-full text-slate-500 transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
                                 </svg>
                             </a>
                         </li>
-                        <li class="bg-slate-150 dark:bg-navy-500">
+                        <li class="bg-slate-150">
                             <a href="#"
-                                class="flex h-8 min-w-[2rem] items-center justify-center rounded-full px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">1</a>
+                                class="flex h-8 min-w-[2rem] items-center justify-center rounded-full px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80">1</a>
                         </li>
-                        <li class="bg-slate-150 dark:bg-navy-500">
+                        <li class="bg-slate-150">
                             <a href="#"
-                                class="flex h-8 min-w-[2rem] items-center justify-center rounded-full bg-primary px-3 leading-tight text-white transition-colors hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">2</a>
+                                class="flex h-8 min-w-[2rem] items-center justify-center rounded-full bg-primary px-3 leading-tight text-white transition-colors hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">2</a>
                         </li>
-                        <li class="bg-slate-150 dark:bg-navy-500">
+                        <li class="bg-slate-150">
                             <a href="#"
-                                class="flex h-8 min-w-[2rem] items-center justify-center rounded-full px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">3</a>
+                                class="flex h-8 min-w-[2rem] items-center justify-center rounded-full px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80">3</a>
                         </li>
-                        <li class="bg-slate-150 dark:bg-navy-500">
+                        <li class="bg-slate-150">
                             <a href="#"
-                                class="flex h-8 min-w-[2rem] items-center justify-center rounded-full px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">4</a>
+                                class="flex h-8 min-w-[2rem] items-center justify-center rounded-full px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80">4</a>
                         </li>
-                        <li class="bg-slate-150 dark:bg-navy-500">
+                        <li class="bg-slate-150">
                             <a href="#"
-                                class="flex h-8 min-w-[2rem] items-center justify-center rounded-full px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">5</a>
+                                class="flex h-8 min-w-[2rem] items-center justify-center rounded-full px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80">5</a>
                         </li>
-                        <li class="rounded-r-full bg-slate-150 dark:bg-navy-500">
+                        <li class="rounded-r-full bg-slate-150">
                             <a href="#"
-                                class="flex h-8 w-8 items-center justify-center rounded-full text-slate-500 transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:text-navy-200 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                class="flex h-8 w-8 items-center justify-center rounded-full text-slate-500 transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -343,14 +343,14 @@
                 class="col-span-12 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:col-span-4 lg:grid-cols-1 lg:gap-6 xl:col-span-3">
                 <div class="card pb-5">
                     <div class="my-3 flex h-8 items-center justify-between px-4 sm:px-5">
-                        <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                        <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1">
                             Analytics
                         </h2>
 
                         <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -360,28 +360,28 @@
 
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -402,14 +402,14 @@
                 </div>
                 <div class="card">
                     <div class="mt-3 flex items-center justify-between px-4 sm:px-5">
-                        <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="font-medium tracking-wide text-slate-700">
                             Expense
                         </h2>
 
                         <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn -mr-2 h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn -mr-2 h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -419,28 +419,28 @@
 
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -448,7 +448,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="grow px-4 text-xl font-semibold text-slate-700 dark:text-navy-100 sm:px-5">
+                    <p class="grow px-4 text-xl font-semibold text-slate-700 sm:px-5">
                         $34.6k
                     </p>
                     <div class="ax-transparent-gridline">
@@ -461,9 +461,9 @@
             </div>
         </div>
         <div class="mt-4 pl-[var(--margin-x)] transition-all duration-[.25s] sm:mt-5 lg:mt-6">
-            <div class="rounded-l-lg bg-slate-150 pt-4 pb-1 dark:bg-navy-800">
+            <div class="rounded-l-lg bg-slate-150 pt-4 pb-1">
                 <h2
-                    class="px-4 text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 sm:px-5 lg:text-lg">
+                    class="px-4 text-base font-medium tracking-wide text-slate-700 line-clamp-1 sm:px-5 lg:text-lg">
                     Top Hotels
                 </h2>
                 <div class="scrollbar-sm mt-4 flex space-x-4 overflow-x-auto px-4 pb-4 sm:px-5">
@@ -478,23 +478,23 @@
                                 </div>
                                 <div class="flex flex-wrap items-center font-inter text-xs uppercase">
                                     <p>3 beds</p>
-                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200"></div>
                                     <p>3 Adult</p>
                                 </div>
                             </div>
                             <div class="mt-2">
                                 <a href="#"
-                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Emerald
+                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">Emerald
                                     Bay Inn.</a>
                             </div>
                             <div class="flex items-end justify-between">
                                 <p class="mt-2">
-                                    <span class="text-base font-medium text-slate-700 dark:text-navy-100">$100</span>
-                                    <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                    <span class="text-base font-medium text-slate-700">$100</span>
+                                    <span class="text-xs text-slate-400">/day</span>
                                 </p>
                                 <p class="flex shrink-0 items-center space-x-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                        class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                        class="h-3.5 w-3.5 text-slate-400" fill="none"
                                         viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                             d="M13.948 4.29l1.643 3.169c.224.44.82.864 1.325.945l2.977.477c1.905.306 2.353 1.639.98 2.953l-2.314 2.233c-.392.378-.607 1.107-.486 1.63l.663 2.763c.523 2.188-.681 3.034-2.688 1.89l-2.791-1.593c-.504-.288-1.335-.288-1.848 0l-2.791 1.594c-1.997 1.143-3.21.288-2.688-1.89l.663-2.765c.12-.522-.094-1.251-.486-1.63l-2.315-2.232c-1.362-1.314-.924-2.647.98-2.953l2.978-.477c.495-.081 1.092-.504 1.316-.945l1.643-3.17c.896-1.719 2.352-1.719 3.239 0z" />
@@ -515,23 +515,23 @@
                                 </div>
                                 <div class="flex flex-wrap items-center font-inter text-xs uppercase">
                                     <p>2 beds</p>
-                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200"></div>
                                     <p>5 Adult</p>
                                 </div>
                             </div>
                             <div class="mt-2">
                                 <a href="#"
-                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Crowne
+                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">Crowne
                                     Plaza.</a>
                             </div>
                             <div class="flex items-end justify-between">
                                 <p class="mt-2">
-                                    <span class="text-base font-medium text-slate-700 dark:text-navy-100">$80</span>
-                                    <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                    <span class="text-base font-medium text-slate-700">$80</span>
+                                    <span class="text-xs text-slate-400">/day</span>
                                 </p>
                                 <p class="flex shrink-0 items-center space-x-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                        class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                        class="h-3.5 w-3.5 text-slate-400" fill="none"
                                         viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                             d="M13.948 4.29l1.643 3.169c.224.44.82.864 1.325.945l2.977.477c1.905.306 2.353 1.639.98 2.953l-2.314 2.233c-.392.378-.607 1.107-.486 1.63l.663 2.763c.523 2.188-.681 3.034-2.688 1.89l-2.791-1.593c-.504-.288-1.335-.288-1.848 0l-2.791 1.594c-1.997 1.143-3.21.288-2.688-1.89l.663-2.765c.12-.522-.094-1.251-.486-1.63l-2.315-2.232c-1.362-1.314-.924-2.647.98-2.953l2.978-.477c.495-.081 1.092-.504 1.316-.945l1.643-3.17c.896-1.719 2.352-1.719 3.239 0z" />
@@ -552,23 +552,23 @@
                                 </div>
                                 <div class="flex flex-wrap items-center font-inter text-xs uppercase">
                                     <p>3 beds</p>
-                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200"></div>
                                     <p>3 Adult</p>
                                 </div>
                             </div>
                             <div class="mt-2">
                                 <a href="#"
-                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Sunset
+                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">Sunset
                                     Lodge.</a>
                             </div>
                             <div class="flex items-end justify-between">
                                 <p class="mt-2">
-                                    <span class="text-base font-medium text-slate-700 dark:text-navy-100">$100</span>
-                                    <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                    <span class="text-base font-medium text-slate-700">$100</span>
+                                    <span class="text-xs text-slate-400">/day</span>
                                 </p>
                                 <p class="flex shrink-0 items-center space-x-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                        class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                        class="h-3.5 w-3.5 text-slate-400" fill="none"
                                         viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                             d="M13.948 4.29l1.643 3.169c.224.44.82.864 1.325.945l2.977.477c1.905.306 2.353 1.639.98 2.953l-2.314 2.233c-.392.378-.607 1.107-.486 1.63l.663 2.763c.523 2.188-.681 3.034-2.688 1.89l-2.791-1.593c-.504-.288-1.335-.288-1.848 0l-2.791 1.594c-1.997 1.143-3.21.288-2.688-1.89l.663-2.765c.12-.522-.094-1.251-.486-1.63l-2.315-2.232c-1.362-1.314-.924-2.647.98-2.953l2.978-.477c.495-.081 1.092-.504 1.316-.945l1.643-3.17c.896-1.719 2.352-1.719 3.239 0z" />
@@ -589,23 +589,23 @@
                                 </div>
                                 <div class="flex flex-wrap items-center font-inter text-xs uppercase">
                                     <p>1 beds</p>
-                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200"></div>
                                     <p>2 Adult</p>
                                 </div>
                             </div>
                             <div class="mt-2">
                                 <a href="#"
-                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Hotel
+                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">Hotel
                                     Elite.</a>
                             </div>
                             <div class="flex items-end justify-between">
                                 <p class="mt-2">
-                                    <span class="text-base font-medium text-slate-700 dark:text-navy-100">$120</span>
-                                    <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                    <span class="text-base font-medium text-slate-700">$120</span>
+                                    <span class="text-xs text-slate-400">/day</span>
                                 </p>
                                 <p class="flex shrink-0 items-center space-x-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                        class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                        class="h-3.5 w-3.5 text-slate-400" fill="none"
                                         viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                             d="M13.948 4.29l1.643 3.169c.224.44.82.864 1.325.945l2.977.477c1.905.306 2.353 1.639.98 2.953l-2.314 2.233c-.392.378-.607 1.107-.486 1.63l.663 2.763c.523 2.188-.681 3.034-2.688 1.89l-2.791-1.593c-.504-.288-1.335-.288-1.848 0l-2.791 1.594c-1.997 1.143-3.21.288-2.688-1.89l.663-2.765c.12-.522-.094-1.251-.486-1.63l-2.315-2.232c-1.362-1.314-.924-2.647.98-2.953l2.978-.477c.495-.081 1.092-.504 1.316-.945l1.643-3.17c.896-1.719 2.352-1.719 3.239 0z" />
@@ -626,23 +626,23 @@
                                 </div>
                                 <div class="flex flex-wrap items-center font-inter text-xs uppercase">
                                     <p>2 beds</p>
-                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200"></div>
                                     <p>5 Adult</p>
                                 </div>
                             </div>
                             <div class="mt-2">
                                 <a href="#"
-                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Hotel
+                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">Hotel
                                     Bliss.</a>
                             </div>
                             <div class="flex items-end justify-between">
                                 <p class="mt-2">
-                                    <span class="text-base font-medium text-slate-700 dark:text-navy-100">$90</span>
-                                    <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                    <span class="text-base font-medium text-slate-700">$90</span>
+                                    <span class="text-xs text-slate-400">/day</span>
                                 </p>
                                 <p class="flex shrink-0 items-center space-x-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                        class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                        class="h-3.5 w-3.5 text-slate-400" fill="none"
                                         viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                             d="M13.948 4.29l1.643 3.169c.224.44.82.864 1.325.945l2.977.477c1.905.306 2.353 1.639.98 2.953l-2.314 2.233c-.392.378-.607 1.107-.486 1.63l.663 2.763c.523 2.188-.681 3.034-2.688 1.89l-2.791-1.593c-.504-.288-1.335-.288-1.848 0l-2.791 1.594c-1.997 1.143-3.21.288-2.688-1.89l.663-2.765c.12-.522-.094-1.251-.486-1.63l-2.315-2.232c-1.362-1.314-.924-2.647.98-2.953l2.978-.477c.495-.081 1.092-.504 1.316-.945l1.643-3.17c.896-1.719 2.352-1.719 3.239 0z" />
@@ -663,23 +663,23 @@
                                 </div>
                                 <div class="flex flex-wrap items-center font-inter text-xs uppercase">
                                     <p>3 beds</p>
-                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200"></div>
                                     <p>3 Adult</p>
                                 </div>
                             </div>
                             <div class="mt-2">
                                 <a href="#"
-                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Emerald
+                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">Emerald
                                     Bay Inn.</a>
                             </div>
                             <div class="flex items-end justify-between">
                                 <p class="mt-2">
-                                    <span class="text-base font-medium text-slate-700 dark:text-navy-100">$100</span>
-                                    <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                    <span class="text-base font-medium text-slate-700">$100</span>
+                                    <span class="text-xs text-slate-400">/day</span>
                                 </p>
                                 <p class="flex shrink-0 items-center space-x-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                        class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                        class="h-3.5 w-3.5 text-slate-400" fill="none"
                                         viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                             d="M13.948 4.29l1.643 3.169c.224.44.82.864 1.325.945l2.977.477c1.905.306 2.353 1.639.98 2.953l-2.314 2.233c-.392.378-.607 1.107-.486 1.63l.663 2.763c.523 2.188-.681 3.034-2.688 1.89l-2.791-1.593c-.504-.288-1.335-.288-1.848 0l-2.791 1.594c-1.997 1.143-3.21.288-2.688-1.89l.663-2.765c.12-.522-.094-1.251-.486-1.63l-2.315-2.232c-1.362-1.314-.924-2.647.98-2.953l2.978-.477c.495-.081 1.092-.504 1.316-.945l1.643-3.17c.896-1.719 2.352-1.719 3.239 0z" />
@@ -700,23 +700,23 @@
                                 </div>
                                 <div class="flex flex-wrap items-center font-inter text-xs uppercase">
                                     <p>2 beds</p>
-                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200"></div>
                                     <p>5 Adult</p>
                                 </div>
                             </div>
                             <div class="mt-2">
                                 <a href="#"
-                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Crowne
+                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">Crowne
                                     Plaza.</a>
                             </div>
                             <div class="flex items-end justify-between">
                                 <p class="mt-2">
-                                    <span class="text-base font-medium text-slate-700 dark:text-navy-100">$80</span>
-                                    <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                    <span class="text-base font-medium text-slate-700">$80</span>
+                                    <span class="text-xs text-slate-400">/day</span>
                                 </p>
                                 <p class="flex shrink-0 items-center space-x-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                        class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                        class="h-3.5 w-3.5 text-slate-400" fill="none"
                                         viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                             d="M13.948 4.29l1.643 3.169c.224.44.82.864 1.325.945l2.977.477c1.905.306 2.353 1.639.98 2.953l-2.314 2.233c-.392.378-.607 1.107-.486 1.63l.663 2.763c.523 2.188-.681 3.034-2.688 1.89l-2.791-1.593c-.504-.288-1.335-.288-1.848 0l-2.791 1.594c-1.997 1.143-3.21.288-2.688-1.89l.663-2.765c.12-.522-.094-1.251-.486-1.63l-2.315-2.232c-1.362-1.314-.924-2.647.98-2.953l2.978-.477c.495-.081 1.092-.504 1.316-.945l1.643-3.17c.896-1.719 2.352-1.719 3.239 0z" />
@@ -737,23 +737,23 @@
                                 </div>
                                 <div class="flex flex-wrap items-center font-inter text-xs uppercase">
                                     <p>3 beds</p>
-                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200"></div>
                                     <p>3 Adult</p>
                                 </div>
                             </div>
                             <div class="mt-2">
                                 <a href="#"
-                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Sunset
+                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">Sunset
                                     Lodge.</a>
                             </div>
                             <div class="flex items-end justify-between">
                                 <p class="mt-2">
-                                    <span class="text-base font-medium text-slate-700 dark:text-navy-100">$100</span>
-                                    <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                    <span class="text-base font-medium text-slate-700">$100</span>
+                                    <span class="text-xs text-slate-400">/day</span>
                                 </p>
                                 <p class="flex shrink-0 items-center space-x-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                        class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                        class="h-3.5 w-3.5 text-slate-400" fill="none"
                                         viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                             d="M13.948 4.29l1.643 3.169c.224.44.82.864 1.325.945l2.977.477c1.905.306 2.353 1.639.98 2.953l-2.314 2.233c-.392.378-.607 1.107-.486 1.63l.663 2.763c.523 2.188-.681 3.034-2.688 1.89l-2.791-1.593c-.504-.288-1.335-.288-1.848 0l-2.791 1.594c-1.997 1.143-3.21.288-2.688-1.89l.663-2.765c.12-.522-.094-1.251-.486-1.63l-2.315-2.232c-1.362-1.314-.924-2.647.98-2.953l2.978-.477c.495-.081 1.092-.504 1.316-.945l1.643-3.17c.896-1.719 2.352-1.719 3.239 0z" />
@@ -774,23 +774,23 @@
                                 </div>
                                 <div class="flex flex-wrap items-center font-inter text-xs uppercase">
                                     <p>1 beds</p>
-                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200"></div>
                                     <p>2 Adult</p>
                                 </div>
                             </div>
                             <div class="mt-2">
                                 <a href="#"
-                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Hotel
+                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">Hotel
                                     Elite.</a>
                             </div>
                             <div class="flex items-end justify-between">
                                 <p class="mt-2">
-                                    <span class="text-base font-medium text-slate-700 dark:text-navy-100">$120</span>
-                                    <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                    <span class="text-base font-medium text-slate-700">$120</span>
+                                    <span class="text-xs text-slate-400">/day</span>
                                 </p>
                                 <p class="flex shrink-0 items-center space-x-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                        class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                        class="h-3.5 w-3.5 text-slate-400" fill="none"
                                         viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                             d="M13.948 4.29l1.643 3.169c.224.44.82.864 1.325.945l2.977.477c1.905.306 2.353 1.639.98 2.953l-2.314 2.233c-.392.378-.607 1.107-.486 1.63l.663 2.763c.523 2.188-.681 3.034-2.688 1.89l-2.791-1.593c-.504-.288-1.335-.288-1.848 0l-2.791 1.594c-1.997 1.143-3.21.288-2.688-1.89l.663-2.765c.12-.522-.094-1.251-.486-1.63l-2.315-2.232c-1.362-1.314-.924-2.647.98-2.953l2.978-.477c.495-.081 1.092-.504 1.316-.945l1.643-3.17c.896-1.719 2.352-1.719 3.239 0z" />
@@ -811,23 +811,23 @@
                                 </div>
                                 <div class="flex flex-wrap items-center font-inter text-xs uppercase">
                                     <p>2 beds</p>
-                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                                    <div class="mx-2 my-1 w-px self-stretch bg-slate-200"></div>
                                     <p>5 Adult</p>
                                 </div>
                             </div>
                             <div class="mt-2">
                                 <a href="#"
-                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Hotel
+                                    class="text-sm+ font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">Hotel
                                     Bliss.</a>
                             </div>
                             <div class="flex items-end justify-between">
                                 <p class="mt-2">
-                                    <span class="text-base font-medium text-slate-700 dark:text-navy-100">$90</span>
-                                    <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                    <span class="text-base font-medium text-slate-700">$90</span>
+                                    <span class="text-xs text-slate-400">/day</span>
                                 </p>
                                 <p class="flex shrink-0 items-center space-x-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                        class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                        class="h-3.5 w-3.5 text-slate-400" fill="none"
                                         viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                             d="M13.948 4.29l1.643 3.169c.224.44.82.864 1.325.945l2.977.477c1.905.306 2.353 1.639.98 2.953l-2.314 2.233c-.392.378-.607 1.107-.486 1.63l.663 2.763c.523 2.188-.681 3.034-2.688 1.89l-2.791-1.593c-.504-.288-1.335-.288-1.848 0l-2.791 1.594c-1.997 1.143-3.21.288-2.688-1.89l.663-2.765c.12-.522-.094-1.251-.486-1.63l-2.315-2.232c-1.362-1.314-.924-2.647.98-2.953l2.978-.477c.495-.081 1.092-.504 1.316-.945l1.643-3.17c.896-1.719 2.352-1.719 3.239 0z" />

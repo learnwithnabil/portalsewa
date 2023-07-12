@@ -5,13 +5,13 @@
             <div class="card col-span-12 lg:col-span-8">
                 <div class="mt-3 flex flex-col justify-between px-4 sm:flex-row sm:items-center sm:px-5">
                     <div class="flex flex-1 items-center justify-between space-x-2 sm:flex-initial">
-                        <h2 class="text-sm+ font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="text-sm+ font-medium tracking-wide text-slate-700">
                             Order Overview
                         </h2>
                         <div x-data="usePopper({ placement: 'bottom-start', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -21,28 +21,28 @@
 
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -53,26 +53,26 @@
                     <div class="hidden space-x-2 sm:flex" x-data="{ activeTab: 'tabYearly' }">
                         <button @click="activeTab = 'tabMonthly'" class="btn h-8 rounded-full text-xs font-medium"
                             :class="activeTab === 'tabMonthly' ?
-                                'bg-primary/10 text-primary dark:bg-accent-light/10 dark:text-accent-light' :
-                                'hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 hover:text-slate-800 focus:text-slate-800 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 dark:hover:text-navy-100 dark:focus:text-navy-100'">
+                                'bg-primary/10 text-primary' :
+                                'hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 hover:text-slate-800 focus:text-slate-800'">
                             Monthly
                         </button>
                         <button @click="activeTab = 'tabYearly'" class="btn h-8 rounded-full text-xs+ font-medium"
                             :class="activeTab === 'tabYearly' ?
-                                'bg-primary/10 text-primary dark:bg-accent-light/10 dark:text-accent-light' :
-                                'hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 hover:text-slate-800 focus:text-slate-800 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 dark:hover:text-navy-100 dark:focus:text-navy-100'">
+                                'bg-primary/10 text-primary' :
+                                'hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 hover:text-slate-800 focus:text-slate-800'">
                             Yearly
                         </button>
                     </div>
                 </div>
 
                 <div class="mt-4 grid grid-cols-2 gap-3 px-4 sm:mt-5 sm:grid-cols-4 sm:gap-5 sm:px-5 lg:mt-6">
-                    <div class="rounded-lg bg-slate-100 p-4 dark:bg-navy-600">
+                    <div class="rounded-lg bg-slate-100 p-4">
                         <div class="flex justify-between space-x-1">
-                            <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                            <p class="text-xl font-semibold text-slate-700">
                                 $67.6k
                             </p>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary dark:text-accent"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -80,9 +80,9 @@
                         </div>
                         <p class="mt-1 text-xs+">Income</p>
                     </div>
-                    <div class="rounded-lg bg-slate-100 p-4 dark:bg-navy-600">
+                    <div class="rounded-lg bg-slate-100 p-4">
                         <div class="flex justify-between">
-                            <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                            <p class="text-xl font-semibold text-slate-700">
                                 12.6K
                             </p>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-success" fill="none"
@@ -93,9 +93,9 @@
                         </div>
                         <p class="mt-1 text-xs+">Completed</p>
                     </div>
-                    <div class="rounded-lg bg-slate-100 p-4 dark:bg-navy-600">
+                    <div class="rounded-lg bg-slate-100 p-4">
                         <div class="flex justify-between">
-                            <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                            <p class="text-xl font-semibold text-slate-700">
                                 143
                             </p>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-warning" fill="none"
@@ -106,9 +106,9 @@
                         </div>
                         <p class="mt-1 text-xs+">Pending</p>
                     </div>
-                    <div class="rounded-lg bg-slate-100 p-4 dark:bg-navy-600">
+                    <div class="rounded-lg bg-slate-100 p-4">
                         <div class="flex justify-between">
-                            <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                            <p class="text-xl font-semibold text-slate-700">
                                 651
                             </p>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-info" fill="none"
@@ -133,13 +133,13 @@
                 class="col-span-12 grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-5 lg:col-span-4 lg:grid-cols-2 lg:gap-6">
                 <div class="card col-span-2 px-4 pb-5 sm:px-5">
                     <div class="flex items-center justify-between py-3">
-                        <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="font-medium tracking-wide text-slate-700">
                             Budget
                         </h2>
                         <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -149,28 +149,28 @@
 
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -181,11 +181,11 @@
                     <div class="flex grow space-x-5">
                         <div class="flex w-1/2 flex-col">
                             <div class="grow">
-                                <p class="text-2xl font-semibold text-slate-700 dark:text-navy-100">
+                                <p class="text-2xl font-semibold text-slate-700">
                                     $67.4k
                                 </p>
                                 <a href="#"
-                                    class="border-b border-dotted border-current pb-0.5 text-tiny font-medium uppercase text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">
+                                    class="border-b border-dotted border-current pb-0.5 text-tiny font-medium uppercase text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">
                                     Yearly Budget
                                 </a>
                             </div>
@@ -204,14 +204,14 @@
                 </div>
                 <div class="card">
                     <div class="mt-3 flex items-center justify-between px-4 sm:px-5">
-                        <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="font-medium tracking-wide text-slate-700">
                             Income
                         </h2>
 
                         <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn -mr-2 h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn -mr-2 h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -221,28 +221,28 @@
 
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -250,7 +250,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="grow px-4 text-xl font-semibold text-slate-700 dark:text-navy-100 sm:px-5">
+                    <p class="grow px-4 text-xl font-semibold text-slate-700 sm:px-5">
                         $169.6k
                     </p>
                     <div class="ax-transparent-gridline">
@@ -262,14 +262,14 @@
                 </div>
                 <div class="card">
                     <div class="mt-3 flex items-center justify-between px-4 sm:px-5">
-                        <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="font-medium tracking-wide text-slate-700">
                             Expense
                         </h2>
 
                         <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn -mr-2 h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn -mr-2 h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -279,28 +279,28 @@
 
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -308,7 +308,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="grow px-4 text-xl font-semibold text-slate-700 dark:text-navy-100 sm:px-5">
+                    <p class="grow px-4 text-xl font-semibold text-slate-700 sm:px-5">
                         $34.6k
                     </p>
                     <div class="ax-transparent-gridline">
@@ -321,13 +321,13 @@
             </div>
             <div class="card col-span-12 pb-2 lg:col-span-5 xl:col-span-6">
                 <div class="my-3 flex items-center justify-between px-4 sm:px-5">
-                    <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                    <h2 class="font-medium tracking-wide text-slate-700">
                         Top Sellers
                     </h2>
                     <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                         class="inline-flex">
                         <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                            class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -337,28 +337,28 @@
 
                         <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                             <div
-                                class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                 <ul>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                             Action</a>
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                             else</a>
                                     </li>
                                 </ul>
-                                <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                <div class="my-1 h-px bg-slate-150"></div>
                                 <ul>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                             Link</a>
                                     </li>
                                 </ul>
@@ -367,17 +367,17 @@
                     </div>
                 </div>
                 <div class="scrollbar-sm flex space-x-3 overflow-x-auto px-4 pb-3 sm:px-5">
-                    <div class="w-56 shrink-0 rounded-xl bg-slate-50 p-4 dark:bg-navy-600">
+                    <div class="w-56 shrink-0 rounded-xl bg-slate-50 p-4">
                         <div class="flex flex-col items-center space-y-3 text-center">
                             <div class="h-16 w-16 rounded-full bg-gradient-to-r from-sky-400 to-blue-600 p-0.5">
-                                <img class="h-full w-full rounded-full border-2 border-white object-cover object-center dark:border-navy-700"
+                                <img class="h-full w-full rounded-full border-2 border-white object-cover object-center"
                                     src="{{ asset('images/200x200.png') }}" alt="image" />
                             </div>
                             <div>
-                                <p class="text-base font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-base font-medium text-slate-700">
                                     Travis Fuller
                                 </p>
-                                <p class="text-xs+ text-slate-400 dark:text-navy-300">
+                                <p class="text-xs+ text-slate-400">
                                     Salesman
                                 </p>
                             </div>
@@ -386,7 +386,7 @@
                             <div>
                                 <p>Sales</p>
                                 <div class="mt-0.5 flex space-x-2">
-                                    <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                                    <p class="text-xl font-semibold text-slate-700">
                                         2 348
                                     </p>
                                     <p class="flex items-center space-x-0.5 text-xs text-success">
@@ -408,7 +408,7 @@
                         </div>
                         <div class="mt-5 flex justify-center space-x-2">
                             <button
-                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -416,7 +416,7 @@
                                 </svg>
                             </button>
                             <button
-                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -424,7 +424,7 @@
                                 </svg>
                             </button>
                             <button
-                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -433,17 +433,17 @@
                             </button>
                         </div>
                     </div>
-                    <div class="w-56 shrink-0 rounded-xl bg-slate-50 p-4 dark:bg-navy-600">
+                    <div class="w-56 shrink-0 rounded-xl bg-slate-50 p-4">
                         <div class="flex flex-col items-center space-y-3 text-center">
                             <div class="h-16 w-16 rounded-full bg-gradient-to-r from-sky-400 to-blue-600 p-0.5">
-                                <img class="h-full w-full rounded-full border-2 border-white object-cover object-center dark:border-navy-700"
+                                <img class="h-full w-full rounded-full border-2 border-white object-cover object-center"
                                     src="{{ asset('images/200x200.png') }}" alt="image" />
                             </div>
                             <div>
-                                <p class="text-base font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-base font-medium text-slate-700">
                                     Konnor Guzman
                                 </p>
-                                <p class="text-xs+ text-slate-400 dark:text-navy-300">
+                                <p class="text-xs+ text-slate-400">
                                     Salesman
                                 </p>
                             </div>
@@ -452,7 +452,7 @@
                             <div>
                                 <p>Sales</p>
                                 <div class="mt-0.5 flex space-x-2">
-                                    <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                                    <p class="text-xl font-semibold text-slate-700">
                                         6 052
                                     </p>
                                     <p class="flex items-center space-x-0.5 text-xs text-error">
@@ -474,7 +474,7 @@
                         </div>
                         <div class="mt-5 flex justify-center space-x-2">
                             <button
-                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -482,7 +482,7 @@
                                 </svg>
                             </button>
                             <button
-                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -490,7 +490,7 @@
                                 </svg>
                             </button>
                             <button
-                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -499,17 +499,17 @@
                             </button>
                         </div>
                     </div>
-                    <div class="w-56 shrink-0 rounded-xl bg-slate-50 p-4 dark:bg-navy-600">
+                    <div class="w-56 shrink-0 rounded-xl bg-slate-50 p-4">
                         <div class="flex flex-col items-center space-y-3 text-center">
                             <div class="h-16 w-16 rounded-full bg-gradient-to-r from-sky-400 to-blue-600 p-0.5">
-                                <img class="h-full w-full rounded-full border-2 border-white object-cover object-center dark:border-navy-700"
+                                <img class="h-full w-full rounded-full border-2 border-white object-cover object-center"
                                     src="{{ asset('images/200x200.png') }}" alt="image" />
                             </div>
                             <div>
-                                <p class="text-base font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-base font-medium text-slate-700">
                                     Katrina West
                                 </p>
-                                <p class="text-xs+ text-slate-400 dark:text-navy-300">
+                                <p class="text-xs+ text-slate-400">
                                     Saleswoman
                                 </p>
                             </div>
@@ -518,7 +518,7 @@
                             <div>
                                 <p>Sales</p>
                                 <div class="mt-0.5 flex space-x-2">
-                                    <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                                    <p class="text-xl font-semibold text-slate-700">
                                         2 348
                                     </p>
                                     <p class="flex items-center space-x-0.5 text-xs text-success">
@@ -540,7 +540,7 @@
                         </div>
                         <div class="mt-5 flex justify-center space-x-2">
                             <button
-                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -548,7 +548,7 @@
                                 </svg>
                             </button>
                             <button
-                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -556,7 +556,7 @@
                                 </svg>
                             </button>
                             <button
-                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -565,17 +565,17 @@
                             </button>
                         </div>
                     </div>
-                    <div class="w-56 shrink-0 rounded-xl bg-slate-50 p-4 dark:bg-navy-600">
+                    <div class="w-56 shrink-0 rounded-xl bg-slate-50 p-4">
                         <div class="flex flex-col items-center space-y-3 text-center">
                             <div class="h-16 w-16 rounded-full bg-gradient-to-r from-sky-400 to-blue-600 p-0.5">
-                                <img class="h-full w-full rounded-full border-2 border-white object-cover object-center dark:border-navy-700"
+                                <img class="h-full w-full rounded-full border-2 border-white object-cover object-center"
                                     src="{{ asset('images/200x200.png') }}" alt="image" />
                             </div>
                             <div>
-                                <p class="text-base font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-base font-medium text-slate-700">
                                     Henry Curtis
                                 </p>
-                                <p class="text-xs+ text-slate-400 dark:text-navy-300">
+                                <p class="text-xs+ text-slate-400">
                                     Salesman
                                 </p>
                             </div>
@@ -584,7 +584,7 @@
                             <div>
                                 <p>Sales</p>
                                 <div class="mt-0.5 flex space-x-2">
-                                    <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                                    <p class="text-xl font-semibold text-slate-700">
                                         4 574
                                     </p>
                                     <p class="flex items-center space-x-0.5 text-xs text-success">
@@ -606,7 +606,7 @@
                         </div>
                         <div class="mt-5 flex justify-center space-x-2">
                             <button
-                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -614,7 +614,7 @@
                                 </svg>
                             </button>
                             <button
-                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -622,7 +622,7 @@
                                 </svg>
                             </button>
                             <button
-                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-8 w-8 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -637,13 +637,13 @@
                 class="col-span-12 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:col-span-7 lg:gap-6 xl:col-span-6">
                 <div class="card px-4 pb-5 sm:px-5">
                     <div class="flex items-center justify-between py-3">
-                        <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="font-medium tracking-wide text-slate-700">
                             Social Traffic
                         </h2>
                         <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -653,28 +653,28 @@
 
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -684,7 +684,7 @@
                     </div>
                     <div>
                         <p>
-                            <span class="text-2xl text-slate-700 dark:text-navy-100">135K</span>
+                            <span class="text-2xl text-slate-700">135K</span>
                             <span class="text-xs text-success">+3.1%</span>
                         </p>
                         <p class="text-xs+">View in this month</p>
@@ -696,7 +696,7 @@
                                 <p>Instagram</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     34.3k
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success" fill="none"
@@ -712,7 +712,7 @@
                                 <p>Facebook</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     17.72k
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success" fill="none"
@@ -728,7 +728,7 @@
                                 <p>Youtube</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     12.41k
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-error" fill="none"
@@ -744,7 +744,7 @@
                                 <p>Pinterest</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     11.89k
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success" fill="none"
@@ -760,7 +760,7 @@
                                 <p>Discord</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     9.47k
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success" fill="none"
@@ -776,7 +776,7 @@
                                 <p>TikTok</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     8.11k
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-error" fill="none"
@@ -792,7 +792,7 @@
                                 <p>Twitter</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     5.98k
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success" fill="none"
@@ -808,7 +808,7 @@
                                 <p>Tumblr</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     2.7k
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success" fill="none"
@@ -823,17 +823,17 @@
 
                 <div class="card px-4 pb-5 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
-                        <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="font-medium tracking-wide text-slate-700">
                             Top Countries
                         </h2>
                         <a href="#"
-                            class="border-b border-dotted border-current pb-0.5 text-xs+ font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">
+                            class="border-b border-dotted border-current pb-0.5 text-xs+ font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">
                             View All
                         </a>
                     </div>
                     <div>
                         <p>
-                            <span class="text-2xl text-slate-700 dark:text-navy-100">64</span>
+                            <span class="text-2xl text-slate-700">64</span>
                         </p>
                         <p class="text-xs+">Countries</p>
                     </div>
@@ -845,7 +845,7 @@
                                 <p>Australia</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     $6.41k
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success" fill="none"
@@ -862,7 +862,7 @@
                                 <p>Brazil</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     $2.33k
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success" fill="none"
@@ -879,7 +879,7 @@
                                 <p>China</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     $7.21k
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success" fill="none"
@@ -896,7 +896,7 @@
                                 <p>India</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     $754
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-error" fill="none"
@@ -913,7 +913,7 @@
                                 <p>Italy</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     $699
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success" fill="none"
@@ -930,7 +930,7 @@
                                 <p>Japan</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     $624
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success" fill="none"
@@ -947,7 +947,7 @@
                                 <p>Russia</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     $574
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-error" fill="none"
@@ -964,7 +964,7 @@
                                 <p>Spain</p>
                             </div>
                             <div class="flex items-center space-x-2">
-                                <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                <p class="text-sm+ text-slate-800">
                                     $506
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success" fill="none"
@@ -979,7 +979,7 @@
             </div>
             <div class="col-span-12">
                 <div class="flex items-center justify-between">
-                    <h2 class="text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                    <h2 class="text-base font-medium tracking-wide text-slate-700 line-clamp-1">
                         Latest Orders
                     </h2>
                     <div class="flex">
@@ -987,11 +987,11 @@
                             <label class="block">
                                 <input x-effect="isInputActive === true && $nextTick(() => { $el.focus()});"
                                     :class="isInputActive ? 'w-32 lg:w-48' : 'w-0'"
-                                    class="form-input w-full bg-transparent px-1 text-right transition-all duration-100 placeholder:text-slate-500 dark:placeholder:text-navy-200"
+                                    class="form-input w-full bg-transparent px-1 text-right transition-all duration-100 placeholder:text-slate-500"
                                     placeholder="Search here..." type="text" />
                             </label>
                             <button @click="isInputActive = !isInputActive"
-                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -1002,7 +1002,7 @@
                         <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -1011,28 +1011,28 @@
                             </button>
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -1047,43 +1047,43 @@
                             <thead>
                                 <tr>
                                     <th
-                                        class="whitespace-nowrap rounded-tl-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                        class="whitespace-nowrap rounded-tl-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                         Order
                                     </th>
                                     <th
-                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                         Date
                                     </th>
                                     <th
-                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                         Name
                                     </th>
                                     <th
-                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                         Address
                                     </th>
                                     <th
-                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                         Order Status
                                     </th>
                                     <th
-                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                         Payment
                                     </th>
                                     <th
-                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                         Total
                                     </th>
 
                                     <th
-                                        class="whitespace-nowrap rounded-tr-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                        class="whitespace-nowrap rounded-tr-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="font-medium text-primary dark:text-accent-light">
+                                        <p class="font-medium text-primary">
                                             #95647
                                         </p>
                                     </td>
@@ -1098,7 +1098,7 @@
                                                     alt="avatar" />
                                             </div>
 
-                                            <span class="font-medium text-slate-700 dark:text-navy-100">Anthony Jensen
+                                            <span class="font-medium text-slate-700">Anthony Jensen
                                             </span>
                                         </div>
                                     </td>
@@ -1108,7 +1108,7 @@
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <div class="badge bg-warning/10 text-warning dark:bg-warning/15">
+                                        <div class="badge bg-warning/10 text-warning">
                                             Unconfirmed
                                         </div>
                                     </td>
@@ -1120,13 +1120,13 @@
                                     </td>
 
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="text-sm+ font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-sm+ font-medium text-slate-700">
                                             $2 654
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <button
-                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -1135,9 +1135,9 @@
                                         </button>
                                     </td>
                                 </tr>
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="font-medium text-primary dark:text-accent-light">
+                                        <p class="font-medium text-primary">
                                             #84895
                                         </p>
                                     </td>
@@ -1152,7 +1152,7 @@
                                                     alt="avatar" />
                                             </div>
 
-                                            <span class="font-medium text-slate-700 dark:text-navy-100">John Due
+                                            <span class="font-medium text-slate-700">John Due
                                             </span>
                                         </div>
                                     </td>
@@ -1162,7 +1162,7 @@
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <div class="badge bg-success/10 text-success dark:bg-success/15">
+                                        <div class="badge bg-success/10 text-success">
                                             Completed
                                         </div>
                                     </td>
@@ -1173,13 +1173,13 @@
                                         </div>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="text-sm+ font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-sm+ font-medium text-slate-700">
                                             $3 654
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <button
-                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -1188,9 +1188,9 @@
                                         </button>
                                     </td>
                                 </tr>
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="font-medium text-primary dark:text-accent-light">
+                                        <p class="font-medium text-primary">
                                             #49756
                                         </p>
                                     </td>
@@ -1205,7 +1205,7 @@
                                                     alt="avatar" />
                                             </div>
 
-                                            <span class="font-medium text-slate-700 dark:text-navy-100">Tom Robert
+                                            <span class="font-medium text-slate-700">Tom Robert
                                             </span>
                                         </div>
                                     </td>
@@ -1215,7 +1215,7 @@
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <div class="badge bg-info/10 text-info dark:bg-info/15">
+                                        <div class="badge bg-info/10 text-info">
                                             Shipped
                                         </div>
                                     </td>
@@ -1226,13 +1226,13 @@
                                         </div>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="text-sm+ font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-sm+ font-medium text-slate-700">
                                             $6 156
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <button
-                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -1241,9 +1241,9 @@
                                         </button>
                                     </td>
                                 </tr>
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="font-medium text-primary dark:text-accent-light">
+                                        <p class="font-medium text-primary">
                                             #79632
                                         </p>
                                     </td>
@@ -1258,7 +1258,7 @@
                                                     alt="avatar" />
                                             </div>
 
-                                            <span class="font-medium text-slate-700 dark:text-navy-100">Nolan Doe
+                                            <span class="font-medium text-slate-700">Nolan Doe
                                             </span>
                                         </div>
                                     </td>
@@ -1269,7 +1269,7 @@
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <div
-                                            class="badge bg-primary/10 text-primary dark:bg-accent-light/15 dark:text-accent-light">
+                                            class="badge bg-primary/10 text-primary">
                                             Processing
                                         </div>
                                     </td>
@@ -1280,13 +1280,13 @@
                                         </div>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="text-sm+ font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-sm+ font-medium text-slate-700">
                                             $7 621
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <button
-                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -1295,9 +1295,9 @@
                                         </button>
                                     </td>
                                 </tr>
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="font-medium text-primary dark:text-accent-light">
+                                        <p class="font-medium text-primary">
                                             #12668
                                         </p>
                                     </td>
@@ -1312,7 +1312,7 @@
                                                     alt="avatar" />
                                             </div>
 
-                                            <span class="font-medium text-slate-700 dark:text-navy-100">Henry Curtis
+                                            <span class="font-medium text-slate-700">Henry Curtis
                                             </span>
                                         </div>
                                     </td>
@@ -1322,7 +1322,7 @@
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <div class="badge bg-error/10 text-error dark:bg-error/15">
+                                        <div class="badge bg-error/10 text-error">
                                             Cancelled
                                         </div>
                                     </td>
@@ -1333,13 +1333,13 @@
                                         </div>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="text-sm+ font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-sm+ font-medium text-slate-700">
                                             $456
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <button
-                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -1348,9 +1348,9 @@
                                         </button>
                                     </td>
                                 </tr>
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="font-medium text-primary dark:text-accent-light">
+                                        <p class="font-medium text-primary">
                                             #66463
                                         </p>
                                     </td>
@@ -1365,7 +1365,7 @@
                                                     alt="avatar" />
                                             </div>
 
-                                            <span class="font-medium text-slate-700 dark:text-navy-100">Katrina West
+                                            <span class="font-medium text-slate-700">Katrina West
                                             </span>
                                         </div>
                                     </td>
@@ -1375,7 +1375,7 @@
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <div class="badge bg-warning/10 text-warning dark:bg-warning/15">
+                                        <div class="badge bg-warning/10 text-warning">
                                             Unconfirmed
                                         </div>
                                     </td>
@@ -1386,13 +1386,13 @@
                                         </div>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="text-sm+ font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-sm+ font-medium text-slate-700">
                                             $5 116
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <button
-                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -1402,9 +1402,9 @@
                                     </td>
                                 </tr>
 
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="font-medium text-primary dark:text-accent-light">
+                                        <p class="font-medium text-primary">
                                             #53133
                                         </p>
                                     </td>
@@ -1419,7 +1419,7 @@
                                                     src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                             </div>
 
-                                            <span class="font-medium text-slate-700 dark:text-navy-100">Lance Tucker
+                                            <span class="font-medium text-slate-700">Lance Tucker
                                             </span>
                                         </div>
                                     </td>
@@ -1429,7 +1429,7 @@
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <div class="badge bg-warning/10 text-warning dark:bg-warning/15">
+                                        <div class="badge bg-warning/10 text-warning">
                                             Unconfirmed
                                         </div>
                                     </td>
@@ -1441,13 +1441,13 @@
                                     </td>
 
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="text-sm+ font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-sm+ font-medium text-slate-700">
                                             $4 952
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <button
-                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -1456,9 +1456,9 @@
                                         </button>
                                     </td>
                                 </tr>
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="font-medium text-primary dark:text-accent-light">
+                                        <p class="font-medium text-primary">
                                             #5684
                                         </p>
                                     </td>
@@ -1473,7 +1473,7 @@
                                                     src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                             </div>
 
-                                            <span class="font-medium text-slate-700 dark:text-navy-100">Raul Bradley
+                                            <span class="font-medium text-slate-700">Raul Bradley
                                             </span>
                                         </div>
                                     </td>
@@ -1483,7 +1483,7 @@
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <div class="badge bg-success/10 text-success dark:bg-success/15">
+                                        <div class="badge bg-success/10 text-success">
                                             Completed
                                         </div>
                                     </td>
@@ -1494,13 +1494,13 @@
                                         </div>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="text-sm+ font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-sm+ font-medium text-slate-700">
                                             $5 137
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <button
-                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -1509,9 +1509,9 @@
                                         </button>
                                     </td>
                                 </tr>
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="font-medium text-primary dark:text-accent-light">
+                                        <p class="font-medium text-primary">
                                             #64669
                                         </p>
                                     </td>
@@ -1526,7 +1526,7 @@
                                                     src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                             </div>
 
-                                            <span class="font-medium text-slate-700 dark:text-navy-100">Derrick
+                                            <span class="font-medium text-slate-700">Derrick
                                                 Simmons
                                             </span>
                                         </div>
@@ -1537,7 +1537,7 @@
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <div class="badge bg-info/10 text-info dark:bg-info/15">
+                                        <div class="badge bg-info/10 text-info">
                                             Shipped
                                         </div>
                                     </td>
@@ -1548,13 +1548,13 @@
                                         </div>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="text-sm+ font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-sm+ font-medium text-slate-700">
                                             $2 566
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <button
-                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -1563,9 +1563,9 @@
                                         </button>
                                     </td>
                                 </tr>
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="font-medium text-primary dark:text-accent-light">
+                                        <p class="font-medium text-primary">
                                             #31669
                                         </p>
                                     </td>
@@ -1580,7 +1580,7 @@
                                                     src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                             </div>
 
-                                            <span class="font-medium text-slate-700 dark:text-navy-100">Samantha
+                                            <span class="font-medium text-slate-700">Samantha
                                                 Shelton
                                             </span>
                                         </div>
@@ -1592,7 +1592,7 @@
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <div
-                                            class="badge bg-primary/10 text-primary dark:bg-accent-light/15 dark:text-accent-light">
+                                            class="badge bg-primary/10 text-primary">
                                             Processing
                                         </div>
                                     </td>
@@ -1603,13 +1603,13 @@
                                         </div>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                                        <p class="text-sm+ font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-sm+ font-medium text-slate-700">
                                             $9 665
                                         </p>
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <button
-                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -1627,7 +1627,7 @@
                             <span>Show</span>
                             <label class="block">
                                 <select
-                                    class="form-select rounded-full border border-slate-300 bg-white px-2 py-1 pr-6 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent">
+                                    class="form-select rounded-full border border-slate-300 bg-white px-2 py-1 pr-6 hover:border-slate-400 focus:border-primary">
                                     <option>10</option>
                                     <option>30</option>
                                     <option>50</option>
@@ -1637,9 +1637,9 @@
                         </div>
 
                         <ol class="pagination">
-                            <li class="rounded-l-lg bg-slate-150 dark:bg-navy-500">
+                            <li class="rounded-l-lg bg-slate-150">
                                 <a href="#"
-                                    class="flex h-8 w-8 items-center justify-center rounded-lg text-slate-500 transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:text-navy-200 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                    class="flex h-8 w-8 items-center justify-center rounded-lg text-slate-500 transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -1647,29 +1647,29 @@
                                     </svg>
                                 </a>
                             </li>
-                            <li class="bg-slate-150 dark:bg-navy-500">
+                            <li class="bg-slate-150">
                                 <a href="#"
-                                    class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">1</a>
+                                    class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80">1</a>
                             </li>
-                            <li class="bg-slate-150 dark:bg-navy-500">
+                            <li class="bg-slate-150">
                                 <a href="#"
-                                    class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg bg-primary px-3 leading-tight text-white transition-colors hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">2</a>
+                                    class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg bg-primary px-3 leading-tight text-white transition-colors hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">2</a>
                             </li>
-                            <li class="bg-slate-150 dark:bg-navy-500">
+                            <li class="bg-slate-150">
                                 <a href="#"
-                                    class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">3</a>
+                                    class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80">3</a>
                             </li>
-                            <li class="bg-slate-150 dark:bg-navy-500">
+                            <li class="bg-slate-150">
                                 <a href="#"
-                                    class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">4</a>
+                                    class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80">4</a>
                             </li>
-                            <li class="bg-slate-150 dark:bg-navy-500">
+                            <li class="bg-slate-150">
                                 <a href="#"
-                                    class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">5</a>
+                                    class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80">5</a>
                             </li>
-                            <li class="rounded-r-lg bg-slate-150 dark:bg-navy-500">
+                            <li class="rounded-r-lg bg-slate-150">
                                 <a href="#"
-                                    class="flex h-8 w-8 items-center justify-center rounded-lg text-slate-500 transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:text-navy-200 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                    class="flex h-8 w-8 items-center justify-center rounded-lg text-slate-500 transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

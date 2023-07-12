@@ -2,13 +2,13 @@
     <!-- Main Content Wrapper -->
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center justify-between space-x-2 py-5">
-            <h3 class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl">
+            <h3 class="text-xl font-medium text-slate-800 lg:text-2xl">
                 Travel
             </h3>
 
             <div>
                 <a href="#"
-                    class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">Explore
+                    class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">Explore
                     the world</a>
             </div>
         </div>
@@ -18,10 +18,10 @@
                     <div class="flex w-full max-w-lg">
                         <label class="relative flex w-full">
                             <input
-                                class="form-input peer h-9 w-full rounded-l-lg bg-white px-3 py-2 shadow-soft ring-primary/50 placeholder:text-slate-400 focus:ring dark:bg-navy-700 dark:shadow-none dark:ring-accent/50 dark:placeholder:text-navy-300 lg:pl-9"
+                                class="form-input peer h-9 w-full rounded-l-lg bg-white px-3 py-2 shadow-soft ring-primary/50 placeholder:text-slate-400 focus:ring lg:pl-9"
                                 placeholder="Location, Country or Destination..." type="text" />
                             <span
-                                class="pointer-events-none absolute hidden h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent lg:flex">
+                                class="pointer-events-none absolute hidden h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary lg:flex">
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="h-4.5 w-4.5 transition-colors duration-200" fill="currentColor"
                                     viewBox="0 0 24 24">
@@ -31,7 +31,7 @@
                             </span>
                         </label>
                         <button
-                            class="btn h-9 rounded-l-none bg-primary px-3 font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90 lg:px-5">
+                            class="btn h-9 rounded-l-none bg-primary px-3 font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 lg:px-5">
                             <span class="hidden lg:inline-flex">Search</span>
                             <svg class="h-4.5 w-4.5 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -41,7 +41,7 @@
                     </div>
                     <div class="flex">
                         <button
-                            class="btn h-8 w-8 shrink-0 rounded-full p-0 text-slate-700 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:text-navy-100 dark:hover:bg-navy-300/20 dark:hover:text-accent dark:focus:bg-navy-300/20 dark:focus:text-accent dark:active:bg-navy-300/25">
+                            class="btn h-8 w-8 shrink-0 rounded-full p-0 text-slate-700 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor" stroke-width="1.5">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
@@ -49,7 +49,7 @@
                             </svg>
                         </button>
                         <button
-                            class="btn h-8 w-8 shrink-0 rounded-full p-0 text-slate-700 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:text-navy-100 dark:hover:bg-navy-300/20 dark:hover:text-accent dark:focus:bg-navy-300/20 dark:focus:text-accent dark:active:bg-navy-300/25">
+                            class="btn h-8 w-8 shrink-0 rounded-full p-0 text-slate-700 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor" stroke-width="1">
                                 <path
@@ -470,13 +470,13 @@
             <div class="col-span-12 lg:col-span-4">
                 <div class="card px-4 pb-5 sm:px-5">
                     <div class="flex items-center justify-between py-3">
-                        <h2 class="text-sm+ font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="text-sm+ font-medium tracking-wide text-slate-700">
                             Top Hotels
                         </h2>
                         <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -486,28 +486,28 @@
 
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -523,12 +523,12 @@
                                     src="{{ asset('images/800x600.png') }}" alt="image" />
                                 <div class="space-y-1">
                                     <a href="#"
-                                        class="font-medium text-slate-600 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Crowne
+                                        class="font-medium text-slate-600 line-clamp-1 hover:text-primary focus:text-primary">Crowne
                                         Plaza</a>
                                     <div class="flex items-center space-x-3 text-xs">
                                         <p class="flex items-center space-x-1">
                                             <svg xmlns="http://www.w3.org/2000/svg"
-                                                class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                                class="h-3.5 w-3.5 text-slate-400" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                     stroke-width="1.5"
@@ -540,7 +540,7 @@
                                         </p>
                                         <p class="flex shrink-0 items-center space-x-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                                class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                                class="h-3.5 w-3.5 text-slate-400" fill="none"
                                                 viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                     stroke-width="1.5"
@@ -552,8 +552,8 @@
                                 </div>
                             </div>
                             <p class="shrink-0">
-                                <span class="text-base font-medium text-slate-700 dark:text-navy-100">$100</span>
-                                <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                <span class="text-base font-medium text-slate-700">$100</span>
+                                <span class="text-xs text-slate-400">/day</span>
                             </p>
                         </div>
                         <div class="flex items-center justify-between space-x-2">
@@ -562,12 +562,12 @@
                                     src="{{ asset('images/800x600.png') }}" alt="image" />
                                 <div class="space-y-1">
                                     <a href="#"
-                                        class="font-medium text-slate-600 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Emerald
+                                        class="font-medium text-slate-600 line-clamp-1 hover:text-primary focus:text-primary">Emerald
                                         Bay Inn.</a>
                                     <div class="flex items-center space-x-3 text-xs">
                                         <p class="flex items-center space-x-1">
                                             <svg xmlns="http://www.w3.org/2000/svg"
-                                                class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                                class="h-3.5 w-3.5 text-slate-400" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                     stroke-width="1.5"
@@ -579,7 +579,7 @@
                                         </p>
                                         <p class="flex shrink-0 items-center space-x-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                                class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                                class="h-3.5 w-3.5 text-slate-400" fill="none"
                                                 viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                     stroke-width="1.5"
@@ -591,8 +591,8 @@
                                 </div>
                             </div>
                             <p class="shrink-0">
-                                <span class="text-base font-medium text-slate-700 dark:text-navy-100">$80</span>
-                                <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                <span class="text-base font-medium text-slate-700">$80</span>
+                                <span class="text-xs text-slate-400">/day</span>
                             </p>
                         </div>
                         <div class="flex items-center justify-between space-x-2">
@@ -601,12 +601,12 @@
                                     src="{{ asset('images/800x600.png') }}" alt="image" />
                                 <div class="space-y-1">
                                     <a href="#"
-                                        class="font-medium text-slate-600 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Hotel
+                                        class="font-medium text-slate-600 line-clamp-1 hover:text-primary focus:text-primary">Hotel
                                         Bliss.</a>
                                     <div class="flex items-center space-x-3 text-xs">
                                         <p class="flex items-center space-x-1">
                                             <svg xmlns="http://www.w3.org/2000/svg"
-                                                class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                                class="h-3.5 w-3.5 text-slate-400" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                     stroke-width="1.5"
@@ -618,7 +618,7 @@
                                         </p>
                                         <p class="flex shrink-0 items-center space-x-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                                class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                                class="h-3.5 w-3.5 text-slate-400" fill="none"
                                                 viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                     stroke-width="1.5"
@@ -630,8 +630,8 @@
                                 </div>
                             </div>
                             <p class="shrink-0">
-                                <span class="text-base font-medium text-slate-700 dark:text-navy-100">$110</span>
-                                <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                <span class="text-base font-medium text-slate-700">$110</span>
+                                <span class="text-xs text-slate-400">/day</span>
                             </p>
                         </div>
                         <div class="flex items-center justify-between space-x-2">
@@ -640,12 +640,12 @@
                                     src="{{ asset('images/800x600.png') }}" alt="image" />
                                 <div class="space-y-1">
                                     <a href="#"
-                                        class="font-medium text-slate-600 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Sunset
+                                        class="font-medium text-slate-600 line-clamp-1 hover:text-primary focus:text-primary">Sunset
                                         Lodge.</a>
                                     <div class="flex items-center space-x-3 text-xs">
                                         <p class="flex items-center space-x-1">
                                             <svg xmlns="http://www.w3.org/2000/svg"
-                                                class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                                class="h-3.5 w-3.5 text-slate-400" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                     stroke-width="1.5"
@@ -657,7 +657,7 @@
                                         </p>
                                         <p class="flex shrink-0 items-center space-x-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                                class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                                class="h-3.5 w-3.5 text-slate-400" fill="none"
                                                 viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                     stroke-width="1.5"
@@ -669,8 +669,8 @@
                                 </div>
                             </div>
                             <p class="shrink-0">
-                                <span class="text-base font-medium text-slate-700 dark:text-navy-100">$180</span>
-                                <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                <span class="text-base font-medium text-slate-700">$180</span>
+                                <span class="text-xs text-slate-400">/day</span>
                             </p>
                         </div>
                         <div class="flex items-center justify-between space-x-2">
@@ -679,12 +679,12 @@
                                     src="{{ asset('images/800x600.png') }}" alt="image" />
                                 <div class="space-y-1">
                                     <a href="#"
-                                        class="font-medium text-slate-600 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Hotel
+                                        class="font-medium text-slate-600 line-clamp-1 hover:text-primary focus:text-primary">Hotel
                                         Elite.</a>
                                     <div class="flex items-center space-x-3 text-xs">
                                         <p class="flex items-center space-x-1">
                                             <svg xmlns="http://www.w3.org/2000/svg"
-                                                class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                                class="h-3.5 w-3.5 text-slate-400" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                     stroke-width="1.5"
@@ -696,7 +696,7 @@
                                         </p>
                                         <p class="flex shrink-0 items-center space-x-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                                                class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                                class="h-3.5 w-3.5 text-slate-400" fill="none"
                                                 viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                     stroke-width="1.5"
@@ -708,8 +708,8 @@
                                 </div>
                             </div>
                             <p class="shrink-0">
-                                <span class="text-base font-medium text-slate-700 dark:text-navy-100">$220</span>
-                                <span class="text-xs text-slate-400 dark:text-navy-300">/day</span>
+                                <span class="text-base font-medium text-slate-700">$220</span>
+                                <span class="text-xs text-slate-400">/day</span>
                             </p>
                         </div>
                     </div>
@@ -717,13 +717,13 @@
 
                 <div class="mt-4 sm:mt-5">
                     <div class="flex items-center justify-between">
-                        <h2 class="text-base font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="text-base font-medium tracking-wide text-slate-700">
                             My Plan
                         </h2>
                         <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -733,28 +733,28 @@
 
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -769,11 +769,11 @@
                                     src="{{ asset('images/600x400.png') }}" alt="image" />
                                 <div>
                                     <a href="#"
-                                        class="font-medium text-slate-700 outline-none transition-colors hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Picnic
+                                        class="font-medium text-slate-700 outline-none transition-colors hover:text-primary focus:text-primary">Picnic
                                         on forest</a>
                                     <p class="flex items-center space-x-1.5 text-xs">
                                         <svg xmlns="http://www.w3.org/2000/svg"
-                                            class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                            class="h-3.5 w-3.5 text-slate-400" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -782,15 +782,15 @@
                                     </p>
                                     <div class="mt-2 flex -space-x-2">
                                         <div class="avatar h-6 w-6 hover:z-10">
-                                            <img class="rounded-full ring-2 ring-white dark:ring-navy-700"
+                                            <img class="rounded-full ring-2 ring-white"
                                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                         </div>
                                         <div class="avatar h-6 w-6 hover:z-10">
-                                            <img class="rounded-full ring-2 ring-white dark:ring-navy-700"
+                                            <img class="rounded-full ring-2 ring-white"
                                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                         </div>
                                         <div class="avatar h-6 w-6 hover:z-10">
-                                            <img class="rounded-full ring-2 ring-white dark:ring-navy-700"
+                                            <img class="rounded-full ring-2 ring-white"
                                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                         </div>
                                     </div>
@@ -803,11 +803,11 @@
                                     src="{{ asset('images/600x400.png') }}" alt="image" />
                                 <div>
                                     <a href="#"
-                                        class="font-medium text-slate-700 outline-none transition-colors hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Picnic
+                                        class="font-medium text-slate-700 outline-none transition-colors hover:text-primary focus:text-primary">Picnic
                                         with Family</a>
                                     <p class="flex items-center space-x-1.5 text-xs">
                                         <svg xmlns="http://www.w3.org/2000/svg"
-                                            class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                            class="h-3.5 w-3.5 text-slate-400" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -816,15 +816,15 @@
                                     </p>
                                     <div class="mt-2 flex -space-x-2">
                                         <div class="avatar h-6 w-6 hover:z-10">
-                                            <img class="rounded-full ring-2 ring-white dark:ring-navy-700"
+                                            <img class="rounded-full ring-2 ring-white"
                                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                         </div>
                                         <div class="avatar h-6 w-6 hover:z-10">
-                                            <img class="rounded-full ring-2 ring-white dark:ring-navy-700"
+                                            <img class="rounded-full ring-2 ring-white"
                                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                         </div>
                                         <div class="avatar h-6 w-6 hover:z-10">
-                                            <img class="rounded-full ring-2 ring-white dark:ring-navy-700"
+                                            <img class="rounded-full ring-2 ring-white"
                                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                         </div>
                                     </div>
@@ -838,11 +838,11 @@
                                     src="{{ asset('images/600x400.png') }}" alt="image" />
                                 <div>
                                     <a href="#"
-                                        class="font-medium text-slate-700 outline-none transition-colors hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Turtaruga
+                                        class="font-medium text-slate-700 outline-none transition-colors hover:text-primary focus:text-primary">Turtaruga
                                         campy</a>
                                     <p class="flex items-center space-x-1.5 text-xs">
                                         <svg xmlns="http://www.w3.org/2000/svg"
-                                            class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                            class="h-3.5 w-3.5 text-slate-400" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -851,15 +851,15 @@
                                     </p>
                                     <div class="mt-2 flex -space-x-2">
                                         <div class="avatar h-6 w-6 hover:z-10">
-                                            <img class="rounded-full ring-2 ring-white dark:ring-navy-700"
+                                            <img class="rounded-full ring-2 ring-white"
                                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                         </div>
                                         <div class="avatar h-6 w-6 hover:z-10">
-                                            <img class="rounded-full ring-2 ring-white dark:ring-navy-700"
+                                            <img class="rounded-full ring-2 ring-white"
                                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                         </div>
                                         <div class="avatar h-6 w-6 hover:z-10">
-                                            <img class="rounded-full ring-2 ring-white dark:ring-navy-700"
+                                            <img class="rounded-full ring-2 ring-white"
                                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                         </div>
                                     </div>
@@ -873,11 +873,11 @@
                                     src="{{ asset('images/600x400.png') }}" alt="image" />
                                 <div>
                                     <a href="#"
-                                        class="font-medium text-slate-700 outline-none transition-colors hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Gioc
+                                        class="font-medium text-slate-700 outline-none transition-colors hover:text-primary focus:text-primary">Gioc
                                         waterfall</a>
                                     <p class="flex items-center space-x-1.5 text-xs">
                                         <svg xmlns="http://www.w3.org/2000/svg"
-                                            class="h-3.5 w-3.5 text-slate-400 dark:text-navy-300" fill="none"
+                                            class="h-3.5 w-3.5 text-slate-400" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -886,15 +886,15 @@
                                     </p>
                                     <div class="mt-2 flex -space-x-2">
                                         <div class="avatar h-6 w-6 hover:z-10">
-                                            <img class="rounded-full ring-2 ring-white dark:ring-navy-700"
+                                            <img class="rounded-full ring-2 ring-white"
                                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                         </div>
                                         <div class="avatar h-6 w-6 hover:z-10">
-                                            <img class="rounded-full ring-2 ring-white dark:ring-navy-700"
+                                            <img class="rounded-full ring-2 ring-white"
                                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                         </div>
                                         <div class="avatar h-6 w-6 hover:z-10">
-                                            <img class="rounded-full ring-2 ring-white dark:ring-navy-700"
+                                            <img class="rounded-full ring-2 ring-white"
                                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                         </div>
                                     </div>

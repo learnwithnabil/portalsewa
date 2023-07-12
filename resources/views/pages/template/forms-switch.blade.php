@@ -2,17 +2,17 @@
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center space-x-4 py-5 lg:py-6">
           <h2
-            class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl"
+            class="text-xl font-medium text-slate-800 lg:text-2xl"
           >
             Form Switch
           </h2>
           <div class="hidden h-full py-1 sm:flex">
-            <div class="h-full w-px bg-slate-300 dark:bg-navy-600"></div>
+            <div class="h-full w-px bg-slate-300"></div>
           </div>
           <ul class="hidden flex-wrap items-center space-x-2 sm:flex">
             <li class="flex items-center space-x-2">
               <a
-                class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                class="text-primary transition-colors hover:text-primary-focus"
                 href="#"
                 >Forms</a
               >
@@ -40,15 +40,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Basic Switch
               </h2>
               <label class="inline-flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -65,49 +65,49 @@
               >
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-slate-500 checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-navy-400 dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-slate-500 checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Default</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Primary</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-secondary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-secondary-light dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-secondary checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Secondary</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-info checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-info checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Info</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-success checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-success checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Success</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-warning checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-warning checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Warning</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-error checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-error checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Error</span>
@@ -120,7 +120,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-slate-500 checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-navy-400 dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Default&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Primary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-secondary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-secondary-light dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Secondary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-info checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Info&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-success checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Success&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-warning checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Warning&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-error checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Error&lt;/span&gt;&#13;&#10;  &lt;/label&gt;</code>
+  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-slate-500 checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Default&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Primary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-secondary checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Secondary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-info checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Info&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-success checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Success&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-warning checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Warning&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:!bg-error checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Error&lt;/span&gt;&#13;&#10;  &lt;/label&gt;</code>
               </pre>
             </div>
           </div>
@@ -129,15 +129,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Squircle Switch
               </h2>
               <label class="inline-flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -152,49 +152,49 @@
               >
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-slate-500 checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-navy-400 dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-slate-500 checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Default</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Primary</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-secondary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-secondary-light dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-secondary checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Secondary</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-info checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-info checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Info</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-success checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-success checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Success</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-warning checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-warning checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Warning</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-error checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-error checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Error</span>
@@ -207,7 +207,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-slate-500 checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-navy-400 dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Default&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Primary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-secondary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-secondary-light dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Secondary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-info checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Info&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-success checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Success&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-warning checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Warning&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-error checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Error&lt;/span&gt;&#13;&#10;  &lt;/label&gt;</code>
+  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-slate-500 checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Default&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-primary checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Primary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-secondary checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Secondary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-info checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Info&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-success checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Success&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-warning checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Warning&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:!bg-error checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Error&lt;/span&gt;&#13;&#10;  &lt;/label&gt;</code>
               </pre>
             </div>
           </div>
@@ -216,15 +216,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Outline Switch
               </h2>
               <label class="inline-flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -239,49 +239,49 @@
               >
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:border-slate-500 checked:before:bg-slate-500 dark:border-navy-400 dark:before:bg-navy-300 dark:checked:border-navy-200 dark:checked:before:bg-navy-200"
+                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:border-slate-500 checked:before:bg-slate-500"
                     type="checkbox"
                   />
                   <span>Default</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:border-primary checked:before:bg-primary dark:border-navy-400 dark:before:bg-navy-300 dark:checked:border-accent dark:checked:before:bg-accent"
+                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:border-primary checked:before:bg-primary"
                     type="checkbox"
                   />
                   <span>Primary</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:border-secondary checked:before:bg-secondary dark:border-navy-400 dark:before:bg-navy-300 dark:checked:border-secondary-light dark:checked:before:bg-secondary-light"
+                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:border-secondary checked:before:bg-secondary"
                     type="checkbox"
                   />
                   <span>Secondary</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-info checked:before:!bg-info dark:border-navy-400 dark:before:bg-navy-300"
+                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-info checked:before:!bg-info"
                     type="checkbox"
                   />
                   <span>Info</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-success checked:before:!bg-success dark:border-navy-400 dark:before:bg-navy-300"
+                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-success checked:before:!bg-success"
                     type="checkbox"
                   />
                   <span>Success</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-warning checked:before:!bg-warning dark:border-navy-400 dark:before:bg-navy-300"
+                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-warning checked:before:!bg-warning"
                     type="checkbox"
                   />
                   <span>Warning</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-error checked:before:!bg-error dark:border-navy-400 dark:before:bg-navy-300"
+                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-error checked:before:!bg-error"
                     type="checkbox"
                   />
                   <span>Error</span>
@@ -294,7 +294,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:border-slate-500 checked:before:bg-slate-500 dark:border-navy-400 dark:before:bg-navy-300 dark:checked:border-navy-200 dark:checked:before:bg-navy-200&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Default&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:border-primary checked:before:bg-primary dark:border-navy-400 dark:before:bg-navy-300 dark:checked:border-accent dark:checked:before:bg-accent&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Primary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:border-secondary checked:before:bg-secondary dark:border-navy-400 dark:before:bg-navy-300 dark:checked:border-secondary-light dark:checked:before:bg-secondary-light&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Secondary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-info checked:before:!bg-info dark:border-navy-400 dark:before:bg-navy-300&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Info&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-success checked:before:!bg-success dark:border-navy-400 dark:before:bg-navy-300&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Success&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-warning checked:before:!bg-warning dark:border-navy-400 dark:before:bg-navy-300&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Warning&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-error checked:before:!bg-error dark:border-navy-400 dark:before:bg-navy-300&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Error&lt;/span&gt;&#13;&#10;  &lt;/label&gt;</code>
+  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:border-slate-500 checked:before:bg-slate-500      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Default&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:border-primary checked:before:bg-primary      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Primary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:border-secondary checked:before:bg-secondary      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Secondary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-info checked:before:!bg-info      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Info&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-success checked:before:!bg-success      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Success&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-warning checked:before:!bg-warning      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Warning&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-transparent before:rounded-full before:bg-slate-300 checked:!border-error checked:before:!bg-error      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Error&lt;/span&gt;&#13;&#10;  &lt;/label&gt;</code>
               </pre>
             </div>
           </div>
@@ -303,15 +303,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Outline Filled
               </h2>
               <label class="inline-flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -326,49 +326,49 @@
               >
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:border-slate-500 checked:before:bg-slate-500 dark:border-navy-500 dark:bg-navy-900 dark:before:bg-navy-400 dark:checked:border-navy-200 dark:checked:before:bg-navy-200"
+                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:border-slate-500 checked:before:bg-slate-500"
                     type="checkbox"
                   />
                   <span>Default</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:border-primary checked:before:bg-primary dark:border-navy-500 dark:bg-navy-900 dark:before:bg-navy-400 dark:checked:border-accent dark:checked:before:bg-accent"
+                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:border-primary checked:before:bg-primary"
                     type="checkbox"
                   />
                   <span>Primary</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:border-secondary checked:before:bg-secondary dark:border-navy-500 dark:bg-navy-900 dark:before:bg-navy-400 dark:checked:border-secondary-light dark:checked:before:bg-secondary-light"
+                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:border-secondary checked:before:bg-secondary"
                     type="checkbox"
                   />
                   <span>Secondary</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-info checked:before:!bg-info dark:border-navy-500 dark:bg-navy-900 dark:before:bg-navy-400"
+                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-info checked:before:!bg-info"
                     type="checkbox"
                   />
                   <span>Info</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-success checked:before:!bg-success dark:border-navy-500 dark:bg-navy-900 dark:before:bg-navy-400"
+                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-success checked:before:!bg-success"
                     type="checkbox"
                   />
                   <span>Success</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-warning checked:before:!bg-warning dark:border-navy-500 dark:bg-navy-900 dark:before:bg-navy-400"
+                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-warning checked:before:!bg-warning"
                     type="checkbox"
                   />
                   <span>Warning</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-error checked:before:!bg-error dark:border-navy-500 dark:bg-navy-900 dark:before:bg-navy-400"
+                    class="form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-error checked:before:!bg-error"
                     type="checkbox"
                   />
                   <span>Error</span>
@@ -381,7 +381,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:border-slate-500 checked:before:bg-slate-500 dark:border-navy-500 dark:bg-navy-900 dark:before:bg-navy-400 dark:checked:border-navy-200 dark:checked:before:bg-navy-200&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Default&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:border-primary checked:before:bg-primary dark:border-navy-500 dark:bg-navy-900 dark:before:bg-navy-400 dark:checked:border-accent dark:checked:before:bg-accent&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Primary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:border-secondary checked:before:bg-secondary dark:border-navy-500 dark:bg-navy-900 dark:before:bg-navy-400 dark:checked:border-secondary-light dark:checked:before:bg-secondary-light&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Secondary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-info checked:before:!bg-info dark:border-navy-500 dark:bg-navy-900 dark:before:bg-navy-400&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Info&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-success checked:before:!bg-success dark:border-navy-500 dark:bg-navy-900 dark:before:bg-navy-400&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Success&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-warning checked:before:!bg-warning dark:border-navy-500 dark:bg-navy-900 dark:before:bg-navy-400&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Warning&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-error checked:before:!bg-error dark:border-navy-500 dark:bg-navy-900 dark:before:bg-navy-400&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Error&lt;/span&gt;&#13;&#10;  &lt;/label&gt;</code>
+  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:border-slate-500 checked:before:bg-slate-500      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Default&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:border-primary checked:before:bg-primary      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Primary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:border-secondary checked:before:bg-secondary      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Secondary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-info checked:before:!bg-info      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Info&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-success checked:before:!bg-success      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Success&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-warning checked:before:!bg-warning      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Warning&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-full border border-slate-400/70 bg-slate-100 before:rounded-full before:bg-slate-300 checked:!border-error checked:before:!bg-error      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Error&lt;/span&gt;&#13;&#10;  &lt;/label&gt;</code>
               </pre>
             </div>
           </div>
@@ -390,15 +390,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Outline Squircle
               </h2>
               <label class="inline-flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -413,49 +413,49 @@
               >
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:border-slate-500 checked:before:bg-slate-500 dark:border-navy-400 dark:before:bg-navy-300 dark:checked:border-navy-200 dark:checked:before:bg-navy-200"
+                    class="form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:border-slate-500 checked:before:bg-slate-500"
                     type="checkbox"
                   />
                   <span>Default</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:border-primary checked:before:bg-primary dark:border-navy-400 dark:before:bg-navy-300 dark:checked:border-accent dark:checked:before:bg-accent"
+                    class="form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:border-primary checked:before:bg-primary"
                     type="checkbox"
                   />
                   <span>Primary</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:border-secondary checked:before:bg-secondary dark:border-navy-400 dark:before:bg-navy-300 dark:checked:border-secondary-light dark:checked:before:bg-secondary-light"
+                    class="form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:border-secondary checked:before:bg-secondary"
                     type="checkbox"
                   />
                   <span>Secondary</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-info checked:before:!bg-info dark:border-navy-400 dark:before:bg-navy-300"
+                    class="form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-info checked:before:!bg-info"
                     type="checkbox"
                   />
                   <span>Info</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-success checked:before:!bg-success dark:border-navy-400 dark:before:bg-navy-300"
+                    class="form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-success checked:before:!bg-success"
                     type="checkbox"
                   />
                   <span>Success</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-warning checked:before:!bg-warning dark:border-navy-400 dark:before:bg-navy-300"
+                    class="form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-warning checked:before:!bg-warning"
                     type="checkbox"
                   />
                   <span>Warning</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-error checked:before:!bg-error dark:border-navy-400 dark:before:bg-navy-300"
+                    class="form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-error checked:before:!bg-error"
                     type="checkbox"
                   />
                   <span>Error</span>
@@ -468,7 +468,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:border-slate-500 checked:before:bg-slate-500 dark:border-navy-400 dark:before:bg-navy-300 dark:checked:border-navy-200 dark:checked:before:bg-navy-200&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Default&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:border-primary checked:before:bg-primary dark:border-navy-400 dark:before:bg-navy-300 dark:checked:border-accent dark:checked:before:bg-accent&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Primary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:border-secondary checked:before:bg-secondary dark:border-navy-400 dark:before:bg-navy-300 dark:checked:border-secondary-light dark:checked:before:bg-secondary-light&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Secondary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-info checked:before:!bg-info dark:border-navy-400 dark:before:bg-navy-300&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Info&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-success checked:before:!bg-success dark:border-navy-400 dark:before:bg-navy-300&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Success&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-warning checked:before:!bg-warning dark:border-navy-400 dark:before:bg-navy-300&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Warning&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-error checked:before:!bg-error dark:border-navy-400 dark:before:bg-navy-300&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Error&lt;/span&gt;&#13;&#10;  &lt;/label&gt;</code>
+  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:border-slate-500 checked:before:bg-slate-500      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Default&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:border-primary checked:before:bg-primary      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Primary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:border-secondary checked:before:bg-secondary      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Secondary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-info checked:before:!bg-info      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Info&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-success checked:before:!bg-success      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Success&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-warning checked:before:!bg-warning      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Warning&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch is-outline h-5 w-10 rounded-lg border border-slate-400/70 bg-transparent before:rounded-md before:bg-slate-300 checked:!border-error checked:before:!bg-error      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Error&lt;/span&gt;&#13;&#10;  &lt;/label&gt;</code>
               </pre>
             </div>
           </div>
@@ -477,15 +477,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Disabled Switch
               </h2>
               <label class="inline-flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -501,7 +501,7 @@
                 <label class="inline-flex items-center space-x-2">
                   <input
                     disabled
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-slate-500 checked:before:bg-white disabled:pointer-events-none disabled:select-none disabled:opacity-60 dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-navy-400 dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-slate-500 checked:before:bg-white disabled:pointer-events-none disabled:select-none disabled:opacity-60"
                     type="checkbox"
                   />
                   <span>Default</span>
@@ -510,7 +510,7 @@
                   <input
                     checked
                     disabled
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white disabled:pointer-events-none disabled:select-none disabled:opacity-60 dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white disabled:pointer-events-none disabled:select-none disabled:opacity-60"
                     type="checkbox"
                   />
                   <span>Primary</span>
@@ -523,7 +523,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      disabled&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-slate-500 checked:before:bg-white disabled:pointer-events-none disabled:select-none disabled:opacity-60 dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-navy-400 dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Default&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      checked&#13;&#10;      disabled&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white disabled:pointer-events-none disabled:select-none disabled:opacity-60 dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Primary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;</code>
+  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      disabled&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-slate-500 checked:before:bg-white disabled:pointer-events-none disabled:select-none disabled:opacity-60      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Default&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      checked&#13;&#10;      disabled&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white disabled:pointer-events-none disabled:select-none disabled:opacity-60      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Primary&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;</code>
               </pre>
             </div>
           </div>
@@ -532,15 +532,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Switch Size
               </h2>
               <label class="inline-flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -555,21 +555,21 @@
               >
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-3.5 w-7 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                    class="form-switch h-3.5 w-7 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                     type="checkbox"
                   />
                   <span class="text-xs">Small</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Normal</span>
                 </label>
                 <label class="inline-flex items-center space-x-2">
                   <input
-                    class="form-switch h-7 w-14 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                    class="form-switch h-7 w-14 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                     type="checkbox"
                   />
                   <span class="text-base">Large</span>
@@ -582,7 +582,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-3.5 w-7 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span class=&quot;text-xs&quot;&gt;Small&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Normal&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-7 w-14 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span class=&quot;text-base&quot;&gt;Large&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;</code>
+  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-3.5 w-7 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span class=&quot;text-xs&quot;&gt;Small&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;Normal&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-switch h-7 w-14 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span class=&quot;text-base&quot;&gt;Large&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;</code>
               </pre>
             </div>
           </div>
@@ -591,15 +591,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Thumb Size
               </h2>
               <label class="inline-flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -615,7 +615,7 @@
                 <label class="inline-flex items-center space-x-2">
                   <input
                     checked
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:6px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:6px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>label</span>
@@ -623,7 +623,7 @@
                 <label class="inline-flex items-center space-x-2">
                   <input
                     checked
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:5px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:5px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>label</span>
@@ -631,7 +631,7 @@
                 <label class="inline-flex items-center space-x-2">
                   <input
                     checked
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:4px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:4px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>label</span>
@@ -639,7 +639,7 @@
                 <label class="inline-flex items-center space-x-2">
                   <input
                     checked
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:3px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:3px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>label</span>
@@ -647,7 +647,7 @@
                 <label class="inline-flex items-center space-x-2">
                   <input
                     checked
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>label</span>
@@ -660,7 +660,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      checked&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:6px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;label&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      checked&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:5px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;label&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      checked&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:4px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;label&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      checked&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:3px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;label&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      checked&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;label&lt;/span&gt;&#13;&#10;  &lt;/label&gt;</code>
+  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      checked&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:6px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;label&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      checked&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:5px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;label&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      checked&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:4px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;label&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      checked&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 [--thumb-border:3px] before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;label&lt;/span&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      checked&#13;&#10;      class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white      type=&quot;checkbox&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;span&gt;label&lt;/span&gt;&#13;&#10;  &lt;/label&gt;</code>
               </pre>
             </div>
           </div>
@@ -669,15 +669,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Multipie Switch
               </h2>
               <label class="inline-flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -695,7 +695,7 @@
                     <input
                       value="Orange"
                       x-model="selected"
-                      class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                      class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                       type="checkbox"
                     />
                     <span>Orange</span>
@@ -704,7 +704,7 @@
                     <input
                       value="Raspberry"
                       x-model="selected"
-                      class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                      class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                       type="checkbox"
                     />
                     <span>Raspberry</span>
@@ -713,7 +713,7 @@
                     <input
                       value="Melon"
                       x-model="selected"
-                      class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                      class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                       type="checkbox"
                     />
                     <span>Melon</span>
@@ -728,7 +728,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div x-data=&quot;{selected:[]}&quot;&gt;&#13;&#10;    &lt;div class=&quot;grid grid-cols-2 place-items-start gap-6 sm:grid-cols-3&quot;&gt;&#13;&#10;      &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;        &lt;input&#13;&#10;          value=&quot;Orange&quot;&#13;&#10;          x-model=&quot;selected&quot;&#13;&#10;          class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;          type=&quot;checkbox&quot;&#13;&#10;        /&gt;&#13;&#10;        &lt;span&gt;Orange&lt;/span&gt;&#13;&#10;      &lt;/label&gt;&#13;&#10;      &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;        &lt;input&#13;&#10;          value=&quot;Raspberry&quot;&#13;&#10;          x-model=&quot;selected&quot;&#13;&#10;          class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;          type=&quot;checkbox&quot;&#13;&#10;        /&gt;&#13;&#10;        &lt;span&gt;Raspberry&lt;/span&gt;&#13;&#10;      &lt;/label&gt;&#13;&#10;      &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;        &lt;input&#13;&#10;          value=&quot;Melon&quot;&#13;&#10;          x-model=&quot;selected&quot;&#13;&#10;          class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;          type=&quot;checkbox&quot;&#13;&#10;        /&gt;&#13;&#10;        &lt;span&gt;Melon&lt;/span&gt;&#13;&#10;      &lt;/label&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;p class=&quot;mt-2&quot;&gt;Value: &lt;span x-text=&quot;selected&quot;&gt;&lt;/span&gt;&lt;/p&gt;&#13;&#10;  &lt;/div&gt;</code>
+  &lt;div x-data=&quot;{selected:[]}&quot;&gt;&#13;&#10;    &lt;div class=&quot;grid grid-cols-2 place-items-start gap-6 sm:grid-cols-3&quot;&gt;&#13;&#10;      &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;        &lt;input&#13;&#10;          value=&quot;Orange&quot;&#13;&#10;          x-model=&quot;selected&quot;&#13;&#10;          class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white          type=&quot;checkbox&quot;&#13;&#10;        /&gt;&#13;&#10;        &lt;span&gt;Orange&lt;/span&gt;&#13;&#10;      &lt;/label&gt;&#13;&#10;      &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;        &lt;input&#13;&#10;          value=&quot;Raspberry&quot;&#13;&#10;          x-model=&quot;selected&quot;&#13;&#10;          class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white          type=&quot;checkbox&quot;&#13;&#10;        /&gt;&#13;&#10;        &lt;span&gt;Raspberry&lt;/span&gt;&#13;&#10;      &lt;/label&gt;&#13;&#10;      &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;        &lt;input&#13;&#10;          value=&quot;Melon&quot;&#13;&#10;          x-model=&quot;selected&quot;&#13;&#10;          class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white          type=&quot;checkbox&quot;&#13;&#10;        /&gt;&#13;&#10;        &lt;span&gt;Melon&lt;/span&gt;&#13;&#10;      &lt;/label&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;p class=&quot;mt-2&quot;&gt;Value: &lt;span x-text=&quot;selected&quot;&gt;&lt;/span&gt;&lt;/p&gt;&#13;&#10;  &lt;/div&gt;</code>
               </pre>
             </div>
           </div>
@@ -737,15 +737,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Single Switch
               </h2>
               <label class="inline-flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -759,7 +759,7 @@
                 <label class="inline-flex items-center space-x-2">
                   <input
                     x-model="active"
-                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                    class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                     type="checkbox"
                   />
                   <span>Option</span>
@@ -773,7 +773,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div x-data=&quot;{active:true}&quot; class=&quot;mt-5&quot;&gt;&#13;&#10;    &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;input&#13;&#10;        x-model=&quot;active&quot;&#13;&#10;        class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white&quot;&#13;&#10;        type=&quot;checkbox&quot;&#13;&#10;      /&gt;&#13;&#10;      &lt;span&gt;Option&lt;/span&gt;&#13;&#10;    &lt;/label&gt;&#13;&#10;    &lt;p class=&quot;mt-2&quot;&gt;Value: &lt;span x-text=&quot;active&quot;&gt;&lt;/span&gt;&lt;/p&gt;&#13;&#10;  &lt;/div&gt;</code>
+  &lt;div x-data=&quot;{active:true}&quot; class=&quot;mt-5&quot;&gt;&#13;&#10;    &lt;label class=&quot;inline-flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;input&#13;&#10;        x-model=&quot;active&quot;&#13;&#10;        class=&quot;form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white        type=&quot;checkbox&quot;&#13;&#10;      /&gt;&#13;&#10;      &lt;span&gt;Option&lt;/span&gt;&#13;&#10;    &lt;/label&gt;&#13;&#10;    &lt;p class=&quot;mt-2&quot;&gt;Value: &lt;span x-text=&quot;active&quot;&gt;&lt;/span&gt;&lt;/p&gt;&#13;&#10;  &lt;/div&gt;</code>
               </pre>
             </div>
           </div>

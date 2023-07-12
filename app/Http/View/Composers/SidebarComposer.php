@@ -32,6 +32,9 @@ class SidebarComposer
                 case 'layouts':
                     $view->with('sidebarMenu', SidebarPanel::layouts());
                     break;
+                case 'access':
+                    $view->with('sidebarMenu', SidebarPanel::access());
+                    break;
                 case 'apps':
                     $view->with('sidebarMenu', SidebarPanel::apps());
                     break;
@@ -41,7 +44,7 @@ class SidebarComposer
                 default:
                     $view->with('sidebarMenu', SidebarPanel::dashboards());
             }
-            
+
             $view->with('allSidebarItems', SidebarPanel::all());
             $view->with('pageName', $pageName);
             $view->with('routePrefix', $routePrefix);

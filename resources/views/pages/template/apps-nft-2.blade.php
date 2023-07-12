@@ -5,11 +5,11 @@
             <div class="col-span-12 space-y-4 sm:space-y-5 lg:col-span-8 lg:space-y-6 xl:col-span-9">
                 <div>
                     <div class="flex items-center justify-between">
-                        <h3 class="text-xl font-medium text-slate-800 dark:text-navy-50">
+                        <h3 class="text-xl font-medium text-slate-800">
                             Featured Artists
                         </h3>
                         <a href="#"
-                            class="border-b border-dotted border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                            class="border-b border-dotted border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                             All</a>
                     </div>
                     <div class="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-5">
@@ -17,19 +17,19 @@
                             <img class="h-24 w-full rounded-t-lg object-cover object-center"
                                 src="{{ asset('images/800x600.png') }}" alt="image" />
                             <div class="avatar -mt-12 h-20 w-20">
-                                <img class="rounded-full border-2 border-white dark:border-navy-700"
+                                <img class="rounded-full border-2 border-white"
                                     src="{{ asset('images/200x200.png') }}" alt="avatar" />
                             </div>
                             <div class="mt-1.5 px-2">
                                 <a href="#"
-                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">
                                     Travis Fuller
                                 </a>
-                                <p class="text-xs text-slate-400 dark:text-navy-300">
+                                <p class="text-xs text-slate-400">
                                     USA, Washington DC
                                 </p>
                                 <button
-                                    class="btn mt-4 h-8 min-w-[7rem] rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                    class="btn mt-4 h-8 min-w-[7rem] rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                                     Follow
                                 </button>
                             </div>
@@ -38,19 +38,19 @@
                             <img class="h-24 w-full rounded-t-lg object-cover object-center"
                                 src="{{ asset('images/800x600.png') }}" alt="image" />
                             <div class="avatar -mt-12 h-20 w-20">
-                                <img class="rounded-full border-2 border-white dark:border-navy-700"
+                                <img class="rounded-full border-2 border-white"
                                     src="{{ asset('images/200x200.png') }}" alt="avatar" />
                             </div>
                             <div class="mt-1.5 px-2">
                                 <a href="#"
-                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">
                                     Alfredo Elliott
                                 </a>
-                                <p class="text-xs text-slate-400 dark:text-navy-300">
+                                <p class="text-xs text-slate-400">
                                     Australia, Sydney
                                 </p>
                                 <button
-                                    class="btn mt-4 h-8 min-w-[7rem] rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                    class="btn mt-4 h-8 min-w-[7rem] rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                                     Follow
                                 </button>
                             </div>
@@ -59,19 +59,19 @@
                             <img class="h-24 w-full rounded-t-lg object-cover object-center"
                                 src="{{ asset('images/800x600.png') }}" alt="image" />
                             <div class="avatar -mt-12 h-20 w-20">
-                                <img class="rounded-full border-2 border-white dark:border-navy-700"
+                                <img class="rounded-full border-2 border-white"
                                     src="{{ asset('images/200x200.png') }}" alt="avatar" />
                             </div>
                             <div class="mt-1.5 px-2">
                                 <a href="#"
-                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">
                                     Raul Bradley
                                 </a>
-                                <p class="text-xs text-slate-400 dark:text-navy-300">
+                                <p class="text-xs text-slate-400">
                                     Germany, Berlin
                                 </p>
                                 <button
-                                    class="btn mt-4 h-8 min-w-[7rem] rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                    class="btn mt-4 h-8 min-w-[7rem] rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                                     Follow
                                 </button>
                             </div>
@@ -80,19 +80,19 @@
                             <img class="h-24 w-full rounded-t-lg object-cover object-center"
                                 src="{{ asset('images/800x600.png') }}" alt="image" />
                             <div class="avatar -mt-12 h-20 w-20">
-                                <img class="rounded-full border-2 border-white dark:border-navy-700"
+                                <img class="rounded-full border-2 border-white"
                                     src="{{ asset('images/200x200.png') }}" alt="avatar" />
                             </div>
                             <div class="mt-1.5 px-2">
                                 <a href="#"
-                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">
                                     Henry Curtis
                                 </a>
-                                <p class="text-xs text-slate-400 dark:text-navy-300">
+                                <p class="text-xs text-slate-400">
                                     Switzerland, Zurich
                                 </p>
                                 <button
-                                    class="btn mt-4 h-8 min-w-[7rem] rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                    class="btn mt-4 h-8 min-w-[7rem] rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                                     Follow
                                 </button>
                             </div>
@@ -102,37 +102,37 @@
 
                 <div>
                     <div class="flex items-center justify-between">
-                        <h3 class="text-xl font-medium text-slate-800 dark:text-navy-50">
+                        <h3 class="text-xl font-medium text-slate-800">
                             Feed
                         </h3>
 
-                        <div class="hidden w-full max-w-xs justify-between space-x-4 text-slate-700 dark:text-navy-100 sm:flex"
+                        <div class="hidden w-full max-w-xs justify-between space-x-4 text-slate-700 sm:flex"
                             x-data="{ activeTab: 'tabAll' }">
                             <button @click="activeTab = 'tabAll'" class="font-medium tracking-wide"
-                                :class="activeTab === 'tabAll' && 'text-primary dark:text-accent-light'">
+                                :class="activeTab === 'tabAll' && 'text-primary'">
                                 All
                             </button>
                             <button @click="activeTab = 'tabArt'" class="font-medium tracking-wide"
-                                :class="activeTab === 'tabArt' && 'text-primary dark:text-accent-light'">
+                                :class="activeTab === 'tabArt' && 'text-primary'">
                                 Art
                             </button>
                             <button @click="activeTab = 'tabSport'" class="font-medium tracking-wide"
-                                :class="activeTab === 'tabSport' && 'text-primary dark:text-accent-light'">
+                                :class="activeTab === 'tabSport' && 'text-primary'">
                                 Sport
                             </button>
                             <button @click="activeTab = 'tabMusic'" class="font-medium tracking-wide"
-                                :class="activeTab === 'tabMusic' && 'text-primary dark:text-accent-light'">
+                                :class="activeTab === 'tabMusic' && 'text-primary'">
                                 Music
                             </button>
                             <button @click="activeTab = 'tabMore'" class="font-medium tracking-wide"
-                                :class="activeTab === 'tabMore' && 'text-primary dark:text-accent-light'">
+                                :class="activeTab === 'tabMore' && 'text-primary'">
                                 More
                             </button>
                         </div>
 
                         <div class="flex space-x-1 sm:hidden">
                             <button
-                                class="btn h-7 w-7 shrink-0 rounded-full p-0 text-slate-700 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:text-navy-100 dark:hover:bg-navy-300/20 dark:hover:text-accent dark:focus:bg-navy-300/20 dark:focus:text-accent dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 shrink-0 rounded-full p-0 text-slate-700 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
                                     <path
@@ -141,7 +141,7 @@
                             </button>
 
                             <button
-                                class="btn h-7 w-7 shrink-0 rounded-full p-0 text-slate-700 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:text-navy-100 dark:hover:bg-navy-300/20 dark:hover:text-accent dark:focus:bg-navy-300/20 dark:focus:text-accent dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 shrink-0 rounded-full p-0 text-slate-700 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
@@ -161,15 +161,15 @@
                                     </div>
                                     <div>
                                         <a href="#"
-                                            class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">Travis
+                                            class="font-medium text-slate-600 line-clamp-1">Travis
                                             Fuller</a>
-                                        <p class="text-xs text-primary dark:text-accent-light">
+                                        <p class="text-xs text-primary">
                                             952 items
                                         </p>
                                     </div>
                                 </div>
                                 <button x-data="{ isLiked: false }" @click="isLiked = !isLiked"
-                                    class="btn h-9 w-9 bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                    class="btn h-9 w-9 bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                                     <i x-show="!isLiked" class="fa-regular fa-heart text-lg"></i>
                                     <i x-show="isLiked" class="fa-solid fa-heart text-lg text-error"></i>
                                 </button>
@@ -190,24 +190,24 @@
                             </div>
                             <div class="mt-3 px-1">
                                 <a href="#"
-                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">
                                     The Runner #265
                                 </a>
-                                <div class="my-3 h-px bg-slate-200 dark:bg-navy-500"></div>
+                                <div class="my-3 h-px bg-slate-200"></div>
                                 <div class="flex justify-between">
                                     <div>
-                                        <p class="text-xs text-slate-400 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400">
                                             Ending in
                                         </p>
-                                        <p class="text-base font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-base font-medium text-slate-700">
                                             9h 12m 33s
                                         </p>
                                     </div>
                                     <div class="text-right">
-                                        <p class="text-xs text-slate-400 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400">
                                             Highest bid
                                         </p>
-                                        <p class="text-base font-medium text-primary dark:text-accent-light">
+                                        <p class="text-base font-medium text-primary">
                                             4.56 ETH
                                         </p>
                                     </div>
@@ -224,15 +224,15 @@
                                     </div>
                                     <div>
                                         <a href="#"
-                                            class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">Katrina
+                                            class="font-medium text-slate-600 line-clamp-1">Katrina
                                             West</a>
-                                        <p class="text-xs text-primary dark:text-accent-light">
+                                        <p class="text-xs text-primary">
                                             896 items
                                         </p>
                                     </div>
                                 </div>
                                 <button x-data="{ isLiked: false }" @click="isLiked = !isLiked"
-                                    class="btn h-9 w-9 bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                    class="btn h-9 w-9 bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                                     <i x-show="!isLiked" class="fa-regular fa-heart text-lg"></i>
                                     <i x-show="isLiked" class="fa-solid fa-heart text-lg text-error"></i>
                                 </button>
@@ -253,24 +253,24 @@
                             </div>
                             <div class="mt-3 px-1">
                                 <a href="#"
-                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">
                                     Punkiber #015
                                 </a>
-                                <div class="my-3 h-px bg-slate-200 dark:bg-navy-500"></div>
+                                <div class="my-3 h-px bg-slate-200"></div>
                                 <div class="flex justify-between">
                                     <div>
-                                        <p class="text-xs text-slate-400 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400">
                                             Ending in
                                         </p>
-                                        <p class="text-base font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-base font-medium text-slate-700">
                                             2h 48m 18s
                                         </p>
                                     </div>
                                     <div class="text-right">
-                                        <p class="text-xs text-slate-400 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400">
                                             Highest bid
                                         </p>
-                                        <p class="text-base font-medium text-primary dark:text-accent-light">
+                                        <p class="text-base font-medium text-primary">
                                             11.06 ETH
                                         </p>
                                     </div>
@@ -287,15 +287,15 @@
                                     </div>
                                     <div>
                                         <a href="#"
-                                            class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">Raul
+                                            class="font-medium text-slate-600 line-clamp-1">Raul
                                             Bradley</a>
-                                        <p class="text-xs text-primary dark:text-accent-light">
+                                        <p class="text-xs text-primary">
                                             1,643 items
                                         </p>
                                     </div>
                                 </div>
                                 <button x-data="{ isLiked: true }" @click="isLiked = !isLiked"
-                                    class="btn h-9 w-9 bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                    class="btn h-9 w-9 bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                                     <i x-show="!isLiked" class="fa-regular fa-heart text-lg"></i>
                                     <i x-show="isLiked" class="fa-solid fa-heart text-lg text-error"></i>
                                 </button>
@@ -317,24 +317,24 @@
 
                             <div class="mt-3 px-1">
                                 <a href="#"
-                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">
                                     Cube Store #015
                                 </a>
-                                <div class="my-3 h-px bg-slate-200 dark:bg-navy-500"></div>
+                                <div class="my-3 h-px bg-slate-200"></div>
                                 <div class="flex justify-between">
                                     <div>
-                                        <p class="text-xs text-slate-400 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400">
                                             Ending in
                                         </p>
-                                        <p class="text-base font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-base font-medium text-slate-700">
                                             1d 6s 16m
                                         </p>
                                     </div>
                                     <div class="text-right">
-                                        <p class="text-xs text-slate-400 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400">
                                             Highest bid
                                         </p>
-                                        <p class="text-base font-medium text-primary dark:text-accent-light">
+                                        <p class="text-base font-medium text-primary">
                                             7.23 ETH
                                         </p>
                                     </div>
@@ -351,15 +351,15 @@
                                     </div>
                                     <div>
                                         <a href="#"
-                                            class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">Henry
+                                            class="font-medium text-slate-600 line-clamp-1">Henry
                                             Curtis</a>
-                                        <p class="text-xs text-primary dark:text-accent-light">
+                                        <p class="text-xs text-primary">
                                             163 items
                                         </p>
                                     </div>
                                 </div>
                                 <button x-data="{ isLiked: false }" @click="isLiked = !isLiked"
-                                    class="btn h-9 w-9 bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                    class="btn h-9 w-9 bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                                     <i x-show="!isLiked" class="fa-regular fa-heart text-lg"></i>
                                     <i x-show="isLiked" class="fa-solid fa-heart text-lg text-error"></i>
                                 </button>
@@ -381,24 +381,24 @@
 
                             <div class="mt-3 px-1">
                                 <a href="#"
-                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">
                                     Abstraktio #699
                                 </a>
-                                <div class="my-3 h-px bg-slate-200 dark:bg-navy-500"></div>
+                                <div class="my-3 h-px bg-slate-200"></div>
                                 <div class="flex justify-between">
                                     <div>
-                                        <p class="text-xs text-slate-400 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400">
                                             Ending in
                                         </p>
-                                        <p class="text-base font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-base font-medium text-slate-700">
                                             2d 4s 52m
                                         </p>
                                     </div>
                                     <div class="text-right">
-                                        <p class="text-xs text-slate-400 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400">
                                             Highest bid
                                         </p>
-                                        <p class="text-base font-medium text-primary dark:text-accent-light">
+                                        <p class="text-base font-medium text-primary">
                                             3.09 ETH
                                         </p>
                                     </div>
@@ -415,16 +415,16 @@
                                     </div>
                                     <div>
                                         <a href="#"
-                                            class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">Lance
+                                            class="font-medium text-slate-600 line-clamp-1">Lance
                                             Tucker
                                         </a>
-                                        <p class="text-xs text-primary dark:text-accent-light">
+                                        <p class="text-xs text-primary">
                                             533 items
                                         </p>
                                     </div>
                                 </div>
                                 <button x-data="{ isLiked: true }" @click="isLiked = !isLiked"
-                                    class="btn h-9 w-9 bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                    class="btn h-9 w-9 bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                                     <i x-show="!isLiked" class="fa-regular fa-heart text-lg"></i>
                                     <i x-show="isLiked" class="fa-solid fa-heart text-lg text-error"></i>
                                 </button>
@@ -445,24 +445,24 @@
                             </div>
                             <div class="mt-3 px-1">
                                 <a href="#"
-                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">
                                     Galaxy #236
                                 </a>
-                                <div class="my-3 h-px bg-slate-200 dark:bg-navy-500"></div>
+                                <div class="my-3 h-px bg-slate-200"></div>
                                 <div class="flex justify-between">
                                     <div>
-                                        <p class="text-xs text-slate-400 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400">
                                             Ending in
                                         </p>
-                                        <p class="text-base font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-base font-medium text-slate-700">
                                             4d 5s 3m
                                         </p>
                                     </div>
                                     <div class="text-right">
-                                        <p class="text-xs text-slate-400 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400">
                                             Highest bid
                                         </p>
-                                        <p class="text-base font-medium text-primary dark:text-accent-light">
+                                        <p class="text-base font-medium text-primary">
                                             1.49 ETH
                                         </p>
                                     </div>
@@ -479,16 +479,16 @@
                                     </div>
                                     <div>
                                         <a href="#"
-                                            class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">Henry
+                                            class="font-medium text-slate-600 line-clamp-1">Henry
                                             Curtis
                                         </a>
-                                        <p class="text-xs text-primary dark:text-accent-light">
+                                        <p class="text-xs text-primary">
                                             669 items
                                         </p>
                                     </div>
                                 </div>
                                 <button x-data="{ isLiked: false }" @click="isLiked = !isLiked"
-                                    class="btn h-9 w-9 bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                    class="btn h-9 w-9 bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                                     <i x-show="!isLiked" class="fa-regular fa-heart text-lg"></i>
                                     <i x-show="isLiked" class="fa-solid fa-heart text-lg text-error"></i>
                                 </button>
@@ -509,24 +509,24 @@
                             </div>
                             <div class="mt-3 px-1">
                                 <a href="#"
-                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                                    class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">
                                     Avrang #965
                                 </a>
-                                <div class="my-3 h-px bg-slate-200 dark:bg-navy-500"></div>
+                                <div class="my-3 h-px bg-slate-200"></div>
                                 <div class="flex justify-between">
                                     <div>
-                                        <p class="text-xs text-slate-400 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400">
                                             Ending in
                                         </p>
-                                        <p class="text-base font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-base font-medium text-slate-700">
                                             6d 2s 11m
                                         </p>
                                     </div>
                                     <div class="text-right">
-                                        <p class="text-xs text-slate-400 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400">
                                             Highest bid
                                         </p>
-                                        <p class="text-base font-medium text-primary dark:text-accent-light">
+                                        <p class="text-base font-medium text-primary">
                                             3.63 ETH
                                         </p>
                                     </div>
@@ -558,11 +558,11 @@
                     <div class="mt-3 p-1">
                         <div class="flex items-center justify-between space-x-1">
                             <a href="#"
-                                class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                                class="text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">
                                 The Runner #033
                             </a>
                             <button x-data="{ isLiked: true }" @click="isLiked = !isLiked"
-                                class="btn h-7 w-7 rounded-full bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                class="btn h-7 w-7 rounded-full bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                                 <i x-show="!isLiked" class="fa-regular fa-heart"></i>
                                 <i x-show="isLiked" class="fa-solid fa-heart text-error"></i>
                             </button>
@@ -579,42 +579,42 @@
                                 </div>
                                 <div>
                                     <a href="#"
-                                        class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">Travis
+                                        class="font-medium text-slate-600 line-clamp-1">Travis
                                         Fuller</a>
-                                    <p class="text-xs text-slate-400 dark:text-navy-300">
+                                    <p class="text-xs text-slate-400">
                                         952 items
                                     </p>
                                 </div>
                             </div>
                             <button
-                                class="btn h-7 rounded-full bg-primary/10 px-2.5 text-xs font-medium text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-7 rounded-full bg-primary/10 px-2.5 text-xs font-medium text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 Follow
                             </button>
                         </div>
                         <p class="mt-6 font-medium">Action End in</p>
                         <div
-                            class="mt-3 grid grid-cols-3 gap-3 text-center font-inter text-4xl font-semibold text-primary dark:text-accent-light">
+                            class="mt-3 grid grid-cols-3 gap-3 text-center font-inter text-4xl font-semibold text-primary">
                             <div class="grid grid-cols-2 gap-1">
-                                <div class="rounded-lg bg-primary/10 py-3 dark:bg-accent-light/10">
+                                <div class="rounded-lg bg-primary/10 py-3">
                                     1
                                 </div>
-                                <div class="rounded-lg bg-primary/10 py-3 dark:bg-accent-light/10">
+                                <div class="rounded-lg bg-primary/10 py-3">
                                     4
                                 </div>
                             </div>
                             <div class="grid grid-cols-2 gap-1">
-                                <div class="rounded-lg bg-primary/10 py-3 dark:bg-accent-light/10">
+                                <div class="rounded-lg bg-primary/10 py-3">
                                     3
                                 </div>
-                                <div class="rounded-lg bg-primary/10 py-3 dark:bg-accent-light/10">
+                                <div class="rounded-lg bg-primary/10 py-3">
                                     5
                                 </div>
                             </div>
                             <div class="grid grid-cols-2 gap-1">
-                                <div class="rounded-lg bg-primary/10 py-3 dark:bg-accent-light/10">
+                                <div class="rounded-lg bg-primary/10 py-3">
                                     4
                                 </div>
-                                <div class="rounded-lg bg-primary/10 py-3 dark:bg-accent-light/10">
+                                <div class="rounded-lg bg-primary/10 py-3">
                                     5
                                 </div>
                             </div>
@@ -624,13 +624,13 @@
                             <p>minutes</p>
                             <p>seconds</p>
                         </div>
-                        <div class="my-5 h-px bg-slate-200 dark:bg-navy-500"></div>
+                        <div class="my-5 h-px bg-slate-200"></div>
                         <div class="flex items-center justify-between">
-                            <p class="text-lg font-medium text-slate-700 dark:text-navy-100">
+                            <p class="text-lg font-medium text-slate-700">
                                 156 ETH
                             </p>
                             <button
-                                class="btn h-9 min-w-[7rem] rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                class="btn h-9 min-w-[7rem] rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                                 Place a Bid
                             </button>
                         </div>
@@ -639,11 +639,11 @@
 
                 <div class="card px-4 pb-4">
                     <div class="my-3 flex h-8 items-center justify-between">
-                        <h2 class="text-sm+ font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="text-sm+ font-medium tracking-wide text-slate-700">
                             History
                         </h2>
                         <a href="#"
-                            class="border-b border-dotted border-current pb-0.5 text-xs+ font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                            class="border-b border-dotted border-current pb-0.5 text-xs+ font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                             All</a>
                     </div>
 
@@ -655,11 +655,11 @@
                                         alt="avatar" />
                                 </div>
                                 <div>
-                                    <p class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">
+                                    <p class="font-medium text-slate-600 line-clamp-1">
                                         You Followed
                                     </p>
                                     <p></p>
-                                    <p class="text-xs text-slate-400 dark:text-navy-300">
+                                    <p class="text-xs text-slate-400">
                                         Travis Fuller
                                     </p>
                                 </div>
@@ -673,11 +673,11 @@
                                         alt="avatar" />
                                 </div>
                                 <div>
-                                    <p class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">
+                                    <p class="font-medium text-slate-600 line-clamp-1">
                                         New NFT
                                     </p>
                                     <p></p>
-                                    <p class="text-xs text-slate-400 dark:text-navy-300">
+                                    <p class="text-xs text-slate-400">
                                         by Alfredo Elliott
                                     </p>
                                 </div>
@@ -691,11 +691,11 @@
                                         alt="avatar" />
                                 </div>
                                 <div>
-                                    <p class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">
+                                    <p class="font-medium text-slate-600 line-clamp-1">
                                         You liked NFT
                                     </p>
                                     <p></p>
-                                    <p class="text-xs text-slate-400 dark:text-navy-300">
+                                    <p class="text-xs text-slate-400">
                                         by Henry Curtis
                                     </p>
                                 </div>
@@ -709,11 +709,11 @@
                                         alt="avatar" />
                                 </div>
                                 <div>
-                                    <p class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">
+                                    <p class="font-medium text-slate-600 line-clamp-1">
                                         New NFT
                                     </p>
                                     <p></p>
-                                    <p class="text-xs text-slate-400 dark:text-navy-300">
+                                    <p class="text-xs text-slate-400">
                                         by Kartina West
                                     </p>
                                 </div>
@@ -727,11 +727,11 @@
                                         alt="avatar" />
                                 </div>
                                 <div>
-                                    <p class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">
+                                    <p class="font-medium text-slate-600 line-clamp-1">
                                         Followed
                                     </p>
                                     <p></p>
-                                    <p class="text-xs text-slate-400 dark:text-navy-300">
+                                    <p class="text-xs text-slate-400">
                                         by Lance Tucker
                                     </p>
                                 </div>

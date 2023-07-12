@@ -6,7 +6,7 @@
 
         <!-- Sidebar Panel -->
         <div class="sidebar-panel">
-            <div class="flex h-full grow flex-col bg-white pl-[var(--main-sidebar-width)] dark:bg-navy-750">
+            <div class="flex h-full grow flex-col bg-white pl-[var(--main-sidebar-width)]">
                 <!-- Sidebar Panel Header -->
                 <div class="flex h-18 w-full items-center justify-between pl-4 pr-1">
                     <div class="flex items-center">
@@ -21,12 +21,12 @@
                                 </svg>
                             </div>
                         </div>
-                        <p class="text-lg font-medium tracking-wider text-slate-800 dark:text-navy-100">
+                        <p class="text-lg font-medium tracking-wider text-slate-800">
                             Todo
                         </p>
                     </div>
                     <button @click="$store.global.isSidebarExpanded = false"
-                        class="btn h-7 w-7 rounded-full p-0 text-primary hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:text-accent-light/80 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 xl:hidden">
+                        class="btn h-7 w-7 rounded-full p-0 text-primary hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 xl:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
@@ -39,7 +39,7 @@
                     <div class="is-scrollbar-hidden grow overflow-y-auto">
                         <div class="mt-2 px-4">
                             <button
-                                class="btn w-full space-x-2 rounded-full border border-slate-200 py-2 font-medium text-slate-800 hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80 dark:border-navy-500 dark:text-navy-50 dark:hover:bg-navy-500 dark:focus:bg-navy-500 dark:active:bg-navy-500/90">
+                                class="btn w-full space-x-2 rounded-full border border-slate-200 py-2 font-medium text-slate-800 hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
@@ -49,7 +49,7 @@
                         </div>
                         <ul class="mt-5 space-y-1.5 px-2 font-inter text-xs+ font-medium">
                             <li>
-                                <a class="group flex space-x-2 rounded-lg bg-primary/10 p-2 tracking-wide text-primary outline-none transition-all dark:bg-accent-light/10 dark:text-accent-light"
+                                <a class="group flex space-x-2 rounded-lg bg-primary/10 p-2 tracking-wide text-primary outline-none transition-all"
                                     href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
@@ -60,10 +60,10 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="group flex space-x-2 rounded-lg p-2 tracking-wide text-slate-800 outline-none transition-all hover:bg-slate-100 focus:bg-slate-100 dark:text-navy-100 dark:hover:bg-navy-600 dark:focus:bg-navy-600"
+                                <a class="group flex space-x-2 rounded-lg p-2 tracking-wide text-slate-800 outline-none transition-all hover:bg-slate-100 focus:bg-slate-100"
                                     href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                                        class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                                         fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
@@ -72,10 +72,10 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="group flex space-x-2 rounded-lg p-2 tracking-wide text-slate-800 outline-none transition-all hover:bg-slate-100 focus:bg-slate-100 dark:text-navy-100 dark:hover:bg-navy-600 dark:focus:bg-navy-600"
+                                <a class="group flex space-x-2 rounded-lg p-2 tracking-wide text-slate-800 outline-none transition-all hover:bg-slate-100 focus:bg-slate-100"
                                     href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                                        class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                                         fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
@@ -84,10 +84,10 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="group flex space-x-2 rounded-lg p-2 tracking-wide text-slate-800 outline-none transition-all hover:bg-slate-100 focus:bg-slate-100 dark:text-navy-100 dark:hover:bg-navy-600 dark:focus:bg-navy-600"
+                                <a class="group flex space-x-2 rounded-lg p-2 tracking-wide text-slate-800 outline-none transition-all hover:bg-slate-100 focus:bg-slate-100"
                                     href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                                        class="h-4.5 w-4.5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                                         fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
@@ -107,12 +107,12 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="my-4 mx-4 h-px bg-slate-200 dark:bg-navy-500"></div>
+                        <div class="my-4 mx-4 h-px bg-slate-200"></div>
                         <div class="flex items-center justify-between px-4">
                             <span class="text-xs font-medium uppercase">Labels</span>
                             <div class="-mr-1.5 flex">
                                 <button
-                                    class="btn h-6 w-6 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn h-6 w-6 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -123,7 +123,7 @@
                                 <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                                     class="inline-flex">
                                     <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                        class="btn h-6 w-6 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                        class="btn h-6 w-6 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -133,28 +133,28 @@
 
                                     <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                         <div
-                                            class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                            class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                             <ul>
                                                 <li>
                                                     <a href="#"
-                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                                 </li>
                                                 <li>
                                                     <a href="#"
-                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                         Action</a>
                                                 </li>
                                                 <li>
                                                     <a href="#"
-                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                         else</a>
                                                 </li>
                                             </ul>
-                                            <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                            <div class="my-1 h-px bg-slate-150"></div>
                                             <ul>
                                                 <li>
                                                     <a href="#"
-                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                         Link</a>
                                                 </li>
                                             </ul>
@@ -174,7 +174,7 @@
                                         <path d="M3 6H4M3 12H4M3 18H4" stroke-linecap="round"
                                             stroke-linejoin="round" />
                                     </svg>
-                                    <span class="text-slate-800 dark:text-navy-100">Low</span>
+                                    <span class="text-slate-800">Low</span>
                                 </a>
                             </li>
                             <li>
@@ -187,7 +187,7 @@
                                         <path d="M3 6H4M3 12H4M3 18H4" stroke-linecap="round"
                                             stroke-linejoin="round" />
                                     </svg>
-                                    <span class="text-slate-800 dark:text-navy-100">Medium</span>
+                                    <span class="text-slate-800">Medium</span>
                                 </a>
                             </li>
                             <li>
@@ -200,7 +200,7 @@
                                         <path d="M3 6H4M3 12H4M3 18H4" stroke-linecap="round"
                                             stroke-linejoin="round" />
                                     </svg>
-                                    <span class="text-slate-800 dark:text-navy-100">High</span>
+                                    <span class="text-slate-800">High</span>
                                 </a>
                             </li>
                             <li>
@@ -213,7 +213,7 @@
                                         <path d="M3 6H4M3 12H4M3 18H4" stroke-linecap="round"
                                             stroke-linejoin="round" />
                                     </svg>
-                                    <span class="text-slate-800 dark:text-navy-100">Update</span>
+                                    <span class="text-slate-800">Update</span>
                                 </a>
                             </li>
                         </ul>
@@ -221,7 +221,7 @@
 
                     <div class="flex shrink-0 justify-between px-1.5 py-1">
                         <a href="{{route('apps/mail')}}" x-tooltip="'Mail App'"
-                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -229,7 +229,7 @@
                             </svg>
                         </a>
                         <a href="{{route('apps/kanban')}}" x-tooltip="'Kanban App'"
-                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -237,7 +237,7 @@
                             </svg>
                         </a>
                         <a href="{{route('apps/chat')}}" x-tooltip="'Chat App'"
-                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -245,7 +245,7 @@
                             </svg>
                         </a>
                         <a href="{{route('apps/pos')}}" x-tooltip="'POS App'"
-                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -253,7 +253,7 @@
                             </svg>
                         </a>
                         <a href="{{route('apps/filemanager')}}" x-tooltip="'File Manager App'"
-                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -267,7 +267,7 @@
 
         <!-- Minimized Sidebar Panel -->
         <div class="sidebar-panel-min">
-            <div class="flex h-full flex-col items-center bg-white dark:bg-navy-750">
+            <div class="flex h-full flex-col items-center bg-white">
                 <div class="flex h-18 shrink-0 items-center justify-center">
                     <div class="avatar flex h-10 w-10 rounded-full bg-info/10 text-info">
                         <div class="is-initial">
@@ -286,7 +286,7 @@
                         <ul class="mt-4 space-y-1">
                             <li>
                                 <a href="#"
-                                    class="btn h-10 w-10 bg-primary/10 p-0 font-medium text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                    class="btn h-10 w-10 bg-primary/10 p-0 font-medium text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5.5 w-5.5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -296,7 +296,7 @@
                             </li>
                             <li>
                                 <a href="#"
-                                    class="btn h-10 w-10 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn h-10 w-10 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5.5 w-5.5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -306,7 +306,7 @@
                             </li>
                             <li>
                                 <a href="#"
-                                    class="btn h-10 w-10 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn h-10 w-10 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5.5 w-5.5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -316,7 +316,7 @@
                             </li>
                             <li>
                                 <a href="#"
-                                    class="btn h-10 w-10 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn h-10 w-10 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5.5 w-5.5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -335,7 +335,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="my-4 h-px bg-slate-200 dark:bg-navy-500"></div>
+                        <div class="my-4 h-px bg-slate-200"></div>
                         <ul class="space-y-1">
                             <li>
                                 <a href="#"
@@ -392,7 +392,7 @@
                         <div x-data="usePopper({ placement: 'right-start', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn h-10 w-10 rounded-full border border-slate-300 p-0 font-medium hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80 dark:border-navy-450 dark:hover:bg-navy-500 dark:focus:bg-navy-500 dark:active:bg-navy-500/90">
+                                class="btn h-10 w-10 rounded-full border border-slate-300 p-0 font-medium hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -403,28 +403,28 @@
                             <template x-teleport="#x-teleport-target">
                                 <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                     <div
-                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                     Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                     else</a>
                                             </li>
                                         </ul>
-                                        <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                        <div class="my-1 h-px bg-slate-150"></div>
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                     Link</a>
                                             </li>
                                         </ul>
@@ -455,14 +455,14 @@
             <div x-show="!isSearchbarActive" class="flex items-center justify-between">
                 <div>
                     <div class="flex space-x-2">
-                        <p class="text-xl font-medium text-slate-800 dark:text-navy-50">
+                        <p class="text-xl font-medium text-slate-800">
                             My Day
                         </p>
 
                         <div x-data="usePopper({ placement: 'bottom-start', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -472,28 +472,28 @@
 
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -506,10 +506,10 @@
                 <div class="flex items-center space-x-2">
                     <label class="relative hidden sm:flex">
                         <input
-                            class="form-input peer h-9 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:text-slate-400/70 hover:z-10 hover:border-slate-400 focus:z-10 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                            class="form-input peer h-9 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:text-slate-400/70 hover:z-10 hover:border-slate-400 focus:z-10 focus:border-primary"
                             placeholder="Search todos..." type="text" />
                         <span
-                            class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent">
+                            class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5 transition-colors duration-200"
                                 fill="currentColor" viewBox="0 0 24 24">
                                 <path
@@ -519,7 +519,7 @@
                     </label>
                     <div class="flex">
                         <button @click="isSearchbarActive = true" x-tooltip="'Search'"
-                            class="btn h-9 w-9 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:hidden">
+                            class="btn h-9 w-9 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -527,7 +527,7 @@
                             </svg>
                         </button>
                         <button x-tooltip="'Filter'"
-                            class="btn h-9 w-9 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-9 w-9 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -535,7 +535,7 @@
                             </svg>
                         </button>
                         <button x-tooltip="'Sort'"
-                            class="btn h-9 w-9 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-9 w-9 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -550,10 +550,10 @@
                 <div class="flex space-x-2">
                     <label class="relative flex w-full">
                         <input
-                            class="form-input peer h-9 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:text-slate-400/70 hover:z-10 hover:border-slate-400 focus:z-10 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                            class="form-input peer h-9 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:text-slate-400/70 hover:z-10 hover:border-slate-400 focus:z-10 focus:border-primary"
                             placeholder="Search todos..." type="text" />
                         <span
-                            class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent">
+                            class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5 transition-colors duration-200"
                                 fill="currentColor" viewBox="0 0 24 24">
                                 <path
@@ -562,7 +562,7 @@
                         </span>
                     </label>
                     <button @click="isSearchbarActive = false" x-tooltip="'Search'"
-                        class="btn h-9 w-9 shrink-0 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:hidden">
+                        class="btn h-9 w-9 shrink-0 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -579,21 +579,21 @@
                 delay: 150,
                 delayOnTouchOnly: true,
             })">
-                <div class="border-b border-slate-150 py-3 dark:border-navy-500"
+                <div class="border-b border-slate-150 py-3"
                     @click="$dispatch('show-drawer', { drawerId: 'edit-todo-drawer' })">
                     <div class="flex items-center space-x-2 sm:space-x-3">
                         <label class="flex">
                             <input type="checkbox" checked @click.stop
-                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary dark:border-navy-400 dark:before:bg-accent dark:checked:border-accent dark:hover:border-accent dark:focus:border-accent" />
+                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary" />
                         </label>
-                        <h2 class="cursor-pointer text-slate-600 line-clamp-1 dark:text-navy-100">
+                        <h2 class="cursor-pointer text-slate-600 line-clamp-1">
                             Design UI
                         </h2>
                     </div>
                     <div class="mt-1 flex items-end justify-between">
                         <div class="flex flex-wrap items-center font-inter text-xs">
                             <p>Today</p>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <span class="flex items-center space-x-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
@@ -602,7 +602,7 @@
                                 </svg>
                                 <span>06:00</span>
                             </span>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <div class="badge space-x-2.5 px-1 text-success">
                                 <div class="h-2 w-2 rounded-full bg-current"></div>
                                 <span>Low</span>
@@ -610,14 +610,14 @@
                         </div>
                         <div class="flex items-center space-x-1">
                             <button x-data="{ isImportant: false }" @click.stop="isImportant =! isImportant"
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg x-show="!isImportant" xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5"
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                         d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                                 </svg>
                                 <svg x-show="isImportant" xmlns="http://www.w3.org/2000/svg"
-                                    class="h-5.5 w-5.5 text-primary dark:text-accent" viewBox="0 0 20 20"
+                                    class="h-5.5 w-5.5 text-primary" viewBox="0 0 20 20"
                                     fill="currentColor">
                                     <path
                                         d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -632,21 +632,21 @@
                     </div>
                 </div>
 
-                <div class="border-b border-slate-150 py-3 dark:border-navy-500"
+                <div class="border-b border-slate-150 py-3"
                     @click="$dispatch('show-drawer', { drawerId: 'edit-todo-drawer' })">
                     <div class="flex items-center space-x-2 sm:space-x-3">
                         <label class="flex">
                             <input type="checkbox" @click.stop
-                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary dark:border-navy-400 dark:before:bg-accent dark:checked:border-accent dark:hover:border-accent dark:focus:border-accent" />
+                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary" />
                         </label>
-                        <h2 class="cursor-pointer text-slate-600 line-clamp-1 dark:text-navy-100">
+                        <h2 class="cursor-pointer text-slate-600 line-clamp-1">
                             Lorem ipsum dolor.
                         </h2>
                     </div>
                     <div class="mt-1 flex items-end justify-between">
                         <div class="flex flex-wrap items-center font-inter text-xs">
                             <p>Today</p>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <span class="flex items-center space-x-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
@@ -655,12 +655,12 @@
                                 </svg>
                                 <span>10:00</span>
                             </span>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <div class="badge space-x-2.5 px-1 text-warning">
                                 <div class="h-2 w-2 rounded-full bg-current"></div>
                                 <span>Medium</span>
                             </div>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <div class="badge space-x-2.5 px-1 text-info">
                                 <div class="h-2 w-2 rounded-full bg-current"></div>
                                 <span>Update</span>
@@ -668,14 +668,14 @@
                         </div>
                         <div class="flex items-center space-x-1">
                             <button x-data="{ isImportant: false }" @click.stop="isImportant =! isImportant"
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg x-show="!isImportant" xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5"
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                         d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                                 </svg>
                                 <svg x-show="isImportant" xmlns="http://www.w3.org/2000/svg"
-                                    class="h-5.5 w-5.5 text-primary dark:text-accent" viewBox="0 0 20 20"
+                                    class="h-5.5 w-5.5 text-primary" viewBox="0 0 20 20"
                                     fill="currentColor">
                                     <path
                                         d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -685,21 +685,21 @@
                     </div>
                 </div>
 
-                <div class="border-b border-slate-150 py-3 dark:border-navy-500"
+                <div class="border-b border-slate-150 py-3"
                     @click="$dispatch('show-drawer', { drawerId: 'edit-todo-drawer' })">
                     <div class="flex items-center space-x-2 sm:space-x-3">
                         <label class="flex">
                             <input type="checkbox" @click.stop
-                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary dark:border-navy-400 dark:before:bg-accent dark:checked:border-accent dark:hover:border-accent dark:focus:border-accent" />
+                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary" />
                         </label>
-                        <h2 class="cursor-pointer text-slate-600 line-clamp-1 dark:text-navy-100">
+                        <h2 class="cursor-pointer text-slate-600 line-clamp-1">
                             Chat App fragment.
                         </h2>
                     </div>
                     <div class="mt-1 flex items-end justify-between">
                         <div class="flex flex-wrap items-center font-inter text-xs">
                             <p>Today</p>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <span class="flex items-center space-x-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
@@ -708,7 +708,7 @@
                                 </svg>
                                 <span>11:00</span>
                             </span>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <div class="badge space-x-2.5 px-1 text-error">
                                 <div class="h-2 w-2 rounded-full bg-current"></div>
                                 <span>High</span>
@@ -716,14 +716,14 @@
                         </div>
                         <div class="flex items-center space-x-1">
                             <button x-data="{ isImportant: true }" @click.stop="isImportant =! isImportant"
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg x-show="!isImportant" xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5"
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                         d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                                 </svg>
                                 <svg x-show="isImportant" xmlns="http://www.w3.org/2000/svg"
-                                    class="h-5.5 w-5.5 text-primary dark:text-accent" viewBox="0 0 20 20"
+                                    class="h-5.5 w-5.5 text-primary" viewBox="0 0 20 20"
                                     fill="currentColor">
                                     <path
                                         d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -737,21 +737,21 @@
                     </div>
                 </div>
 
-                <div class="border-b border-slate-150 py-3 dark:border-navy-500"
+                <div class="border-b border-slate-150 py-3"
                     @click="$dispatch('show-drawer', { drawerId: 'edit-todo-drawer' })">
                     <div class="flex items-center space-x-2 sm:space-x-3">
                         <label class="flex">
                             <input checked type="checkbox" @click.stop
-                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary dark:border-navy-400 dark:before:bg-accent dark:checked:border-accent dark:hover:border-accent dark:focus:border-accent" />
+                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary" />
                         </label>
-                        <h2 class="cursor-pointer text-slate-600 line-clamp-1 dark:text-navy-100">
+                        <h2 class="cursor-pointer text-slate-600 line-clamp-1">
                             Unit Testing
                         </h2>
                     </div>
                     <div class="mt-1 flex items-end justify-between">
                         <div class="flex flex-wrap items-center font-inter text-xs">
                             <p>Tomorrow</p>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <span class="flex items-center space-x-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
@@ -760,7 +760,7 @@
                                 </svg>
                                 <span>14:00</span>
                             </span>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <div class="badge space-x-2.5 px-1 text-info">
                                 <div class="h-2 w-2 rounded-full bg-current"></div>
                                 <span>Update</span>
@@ -768,14 +768,14 @@
                         </div>
                         <div class="flex items-center space-x-1">
                             <button x-data="{ isImportant: false }" @click.stop="isImportant =! isImportant"
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg x-show="!isImportant" xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5"
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                         d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                                 </svg>
                                 <svg x-show="isImportant" xmlns="http://www.w3.org/2000/svg"
-                                    class="h-5.5 w-5.5 text-primary dark:text-accent" viewBox="0 0 20 20"
+                                    class="h-5.5 w-5.5 text-primary" viewBox="0 0 20 20"
                                     fill="currentColor">
                                     <path
                                         d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -789,14 +789,14 @@
                     </div>
                 </div>
 
-                <div class="border-b border-slate-150 py-3 dark:border-navy-500"
+                <div class="border-b border-slate-150 py-3"
                     @click="$dispatch('show-drawer', { drawerId: 'edit-todo-drawer' })">
                     <div class="flex items-center space-x-2 sm:space-x-3">
                         <label class="flex">
                             <input type="checkbox" @click.stop
-                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary dark:border-navy-400 dark:before:bg-accent dark:checked:border-accent dark:hover:border-accent dark:focus:border-accent" />
+                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary" />
                         </label>
-                        <h2 class="cursor-pointer text-slate-600 line-clamp-1 dark:text-navy-100">
+                        <h2 class="cursor-pointer text-slate-600 line-clamp-1">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Aliquid minus numquam vero.
                         </h2>
@@ -804,7 +804,7 @@
                     <div class="mt-1 flex items-end justify-between">
                         <div class="flex flex-wrap items-center font-inter text-xs">
                             <p>Tomorrow</p>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <span class="flex items-center space-x-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
@@ -813,7 +813,7 @@
                                 </svg>
                                 <span>08:00</span>
                             </span>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <div class="badge space-x-2.5 px-1 text-error">
                                 <div class="h-2 w-2 rounded-full bg-current"></div>
                                 <span>High</span>
@@ -821,14 +821,14 @@
                         </div>
                         <div class="flex items-center space-x-1">
                             <button x-data="{ isImportant: false }" @click.stop="isImportant =! isImportant"
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg x-show="!isImportant" xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5"
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                         d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                                 </svg>
                                 <svg x-show="isImportant" xmlns="http://www.w3.org/2000/svg"
-                                    class="h-5.5 w-5.5 text-primary dark:text-accent" viewBox="0 0 20 20"
+                                    class="h-5.5 w-5.5 text-primary" viewBox="0 0 20 20"
                                     fill="currentColor">
                                     <path
                                         d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -842,21 +842,21 @@
                     </div>
                 </div>
 
-                <div class="border-b border-slate-150 py-3 dark:border-navy-500"
+                <div class="border-b border-slate-150 py-3"
                     @click="$dispatch('show-drawer', { drawerId: 'edit-todo-drawer' })">
                     <div class="flex items-center space-x-2 sm:space-x-3">
                         <label class="flex">
                             <input type="checkbox" @click.stop
-                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary dark:border-navy-400 dark:before:bg-accent dark:checked:border-accent dark:hover:border-accent dark:focus:border-accent" />
+                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary" />
                         </label>
-                        <h2 class="cursor-pointer text-slate-600 line-clamp-1 dark:text-navy-100">
+                        <h2 class="cursor-pointer text-slate-600 line-clamp-1">
                             Launch new home page
                         </h2>
                     </div>
                     <div class="mt-1 flex items-end justify-between">
                         <div class="flex flex-wrap items-center font-inter text-xs">
                             <p>Tomorrow</p>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <span class="flex items-center space-x-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
@@ -865,7 +865,7 @@
                                 </svg>
                                 <span>10:30</span>
                             </span>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <div class="badge space-x-2.5 px-1 text-warning">
                                 <div class="h-2 w-2 rounded-full bg-current"></div>
                                 <span>Medium</span>
@@ -873,14 +873,14 @@
                         </div>
                         <div class="flex items-center space-x-1">
                             <button x-data="{ isImportant: true }" @click.stop="isImportant =! isImportant"
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg x-show="!isImportant" xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5"
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                         d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                                 </svg>
                                 <svg x-show="isImportant" xmlns="http://www.w3.org/2000/svg"
-                                    class="h-5.5 w-5.5 text-primary dark:text-accent" viewBox="0 0 20 20"
+                                    class="h-5.5 w-5.5 text-primary" viewBox="0 0 20 20"
                                     fill="currentColor">
                                     <path
                                         d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -894,21 +894,21 @@
                     </div>
                 </div>
 
-                <div class="border-b border-slate-150 py-3 dark:border-navy-500"
+                <div class="border-b border-slate-150 py-3"
                     @click="$dispatch('show-drawer', { drawerId: 'edit-todo-drawer' })">
                     <div class="flex items-center space-x-2 sm:space-x-3">
                         <label class="flex">
                             <input type="checkbox" @click.stop
-                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary dark:border-navy-400 dark:before:bg-accent dark:checked:border-accent dark:hover:border-accent dark:focus:border-accent" />
+                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary" />
                         </label>
-                        <h2 class="cursor-pointer text-slate-600 line-clamp-1 dark:text-navy-100">
+                        <h2 class="cursor-pointer text-slate-600 line-clamp-1">
                             Review Announcement Blog
                         </h2>
                     </div>
                     <div class="mt-1 flex items-end justify-between">
                         <div class="flex flex-wrap items-center font-inter text-xs">
                             <p>Tomorrow</p>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <span class="flex items-center space-x-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
@@ -917,7 +917,7 @@
                                 </svg>
                                 <span>12:00</span>
                             </span>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <div class="badge space-x-2.5 px-1 text-success">
                                 <div class="h-2 w-2 rounded-full bg-current"></div>
                                 <span>Low</span>
@@ -925,14 +925,14 @@
                         </div>
                         <div class="flex items-center space-x-1">
                             <button x-data="{ isImportant: false }" @click.stop="isImportant =! isImportant"
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg x-show="!isImportant" xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5"
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                         d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                                 </svg>
                                 <svg x-show="isImportant" xmlns="http://www.w3.org/2000/svg"
-                                    class="h-5.5 w-5.5 text-primary dark:text-accent" viewBox="0 0 20 20"
+                                    class="h-5.5 w-5.5 text-primary" viewBox="0 0 20 20"
                                     fill="currentColor">
                                     <path
                                         d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -946,21 +946,21 @@
                     </div>
                 </div>
 
-                <div class="border-b border-slate-150 py-3 dark:border-navy-500"
+                <div class="border-b border-slate-150 py-3"
                     @click="$dispatch('show-drawer', { drawerId: 'edit-todo-drawer' })">
                     <div class="flex items-center space-x-2 sm:space-x-3">
                         <label class="flex">
                             <input checked type="checkbox" @click.stop
-                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary dark:border-navy-400 dark:before:bg-accent dark:checked:border-accent dark:hover:border-accent dark:focus:border-accent" />
+                                class="form-checkbox is-outline h-5 w-5 rounded-full border-slate-400/70 before:bg-primary checked:border-primary hover:border-primary focus:border-primary" />
                         </label>
-                        <h2 class="cursor-pointer text-slate-600 line-clamp-1 dark:text-navy-100">
+                        <h2 class="cursor-pointer text-slate-600 line-clamp-1">
                             Check Email
                         </h2>
                     </div>
                     <div class="mt-1 flex items-end justify-between">
                         <div class="flex flex-wrap items-center font-inter text-xs">
                             <p>Every Day</p>
-                            <div class="m-1.5 w-px self-stretch bg-slate-200 dark:bg-navy-500"></div>
+                            <div class="m-1.5 w-px self-stretch bg-slate-200"></div>
                             <span class="flex items-center space-x-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
@@ -972,14 +972,14 @@
                         </div>
                         <div class="flex items-center space-x-1">
                             <button x-data="{ isImportant: false }" @click.stop="isImportant =! isImportant"
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg x-show="!isImportant" xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5"
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                         d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                                 </svg>
                                 <svg x-show="isImportant" xmlns="http://www.w3.org/2000/svg"
-                                    class="h-5.5 w-5.5 text-primary dark:text-accent" viewBox="0 0 20 20"
+                                    class="h-5.5 w-5.5 text-primary" viewBox="0 0 20 20"
                                     fill="currentColor">
                                     <path
                                         d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -1000,36 +1000,36 @@
             x-transition:enter-end="opacity-100" x-transition:leave="ease-in" x-transition:leave-start="opacity-100"
             x-transition:leave-end="opacity-0"></div>
         <div class="fixed right-0 top-0 z-[101] h-full w-80">
-            <div class="flex h-full w-full transform-gpu flex-col bg-white transition-transform duration-200 dark:bg-navy-700"
+            <div class="flex h-full w-full transform-gpu flex-col bg-white transition-transform duration-200"
                 x-show="showDrawer" x-transition:enter="ease-out" x-transition:enter-start="translate-x-full"
                 x-transition:enter-end="translate-x-0" x-transition:leave="ease-in"
                 x-transition:leave-start="translate-x-0" x-transition:leave-end="translate-x-full">
-                <div class="flex h-14 items-center justify-between bg-slate-150 p-4 dark:bg-navy-800">
-                    <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                <div class="flex h-14 items-center justify-between bg-slate-150 p-4">
+                    <h3 class="text-base font-medium text-slate-700">
                         Edit Todo
                     </h3>
                     <div class="-mr-1.5 flex items-center space-x-2.5">
                         <input x-tooltip.primary="'Mark as Completed'"
                             x-effect="showDrawer && setTimeout(() => showDrawer && $el.__x_tippy.show(), 500)"
-                            class="form-checkbox is-basic h-5 w-5 rounded-full border-slate-400/70 checked:border-primary checked:bg-primary hover:border-primary focus:border-primary dark:border-navy-400 dark:checked:border-accent dark:checked:bg-accent dark:hover:border-accent dark:focus:border-accent"
+                            class="form-checkbox is-basic h-5 w-5 rounded-full border-slate-400/70 checked:border-primary checked:bg-primary hover:border-primary focus:border-primary"
                             type="checkbox" />
                         <div class="flex">
                             <button x-data="{ isImportant: false }" @click.stop="isImportant =! isImportant"
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg x-show="!isImportant" xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5"
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                         d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                                 </svg>
                                 <svg x-show="isImportant" xmlns="http://www.w3.org/2000/svg"
-                                    class="h-5.5 w-5.5 text-primary dark:text-accent" viewBox="0 0 20 20"
+                                    class="h-5.5 w-5.5 text-primary" viewBox="0 0 20 20"
                                     fill="currentColor" style="display: none">
                                     <path
                                         d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                                 </svg>
                             </button>
                             <button @click="showDrawer=false"
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -1043,7 +1043,7 @@
                         <span>Todo Title</span>
 
                         <input
-                            class="form-input mt-1.5 h-9 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                            class="form-input mt-1.5 h-9 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                             placeholder="Enter todo title" type="text" value="Design UI" />
                     </label>
 
@@ -1062,10 +1062,10 @@
                         <span>Due date:</span>
                         <label class="relative mt-1.5 flex">
                             <input x-init="$el._x_flatpickr = flatpickr($el, { defaultDate: '2020-01-05' })"
-                                class="form-input peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                                class="form-input peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                                 placeholder="Choose date..." type="text" />
                             <span
-                                class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent">
+                                class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transition-colors duration-200"
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -1106,7 +1106,7 @@
                     </div>
                 </div>
                 <div
-                    class="flex items-center justify-between border-t border-slate-150 py-3 px-4 dark:border-navy-600">
+                    class="flex items-center justify-between border-t border-slate-150 py-3 px-4">
                     <div class="flex space-x-1">
                         <button
                             class="btn h-8 w-8 rounded-full p-0 text-error hover:bg-error/20 focus:bg-error/20 active:bg-error/25">
@@ -1117,7 +1117,7 @@
                             </svg>
                         </button>
                         <button
-                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -1126,7 +1126,7 @@
                         </button>
                     </div>
                     <button @click="showDrawer=false"
-                        class="btn min-w-[7rem] bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                        class="btn min-w-[7rem] bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                         Save
                     </button>
                 </div>
@@ -1134,7 +1134,7 @@
         </div>
     </div>
 
-    <div class="fixed right-3 bottom-3 rounded-full bg-white dark:bg-navy-700">
+    <div class="fixed right-3 bottom-3 rounded-full bg-white">
         <button
             class="btn h-14 w-14 rounded-full bg-info p-0 font-medium text-white hover:bg-info-focus focus:bg-info-focus active:bg-info-focus/90 sm:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24"

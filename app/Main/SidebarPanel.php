@@ -285,6 +285,30 @@ class SidebarPanel
         ];
     }
 
+    public static function access()
+    {
+        return [
+            'title' => 'Access Setting',
+            'items' => [
+                [
+                    'access_roles' => [
+                        'title' => 'Roles',
+                        'submenu' => [
+                            'access_roles_index' => [
+                                'title' => 'Roles',
+                                'route_name' => 'access/roles.index'
+                            ],
+                            'access_roles_create' => [
+                                'title' => 'Roles Create',
+                                'route_name' => 'access/roles.create'
+                            ],
+
+                        ]
+                    ],
+                ],
+            ]
+        ];
+    }
     public static function layouts()
     {
         return [

@@ -2,15 +2,15 @@
     <!-- Main Content Wrapper -->
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center space-x-4 py-5 lg:py-6">
-            <h2 class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl">
+            <h2 class="text-xl font-medium text-slate-800 lg:text-2xl">
                 Input File
             </h2>
             <div class="hidden h-full py-1 sm:flex">
-                <div class="h-full w-px bg-slate-300 dark:bg-navy-600"></div>
+                <div class="h-full w-px bg-slate-300"></div>
             </div>
             <ul class="hidden flex-wrap items-center space-x-2 sm:flex">
                 <li class="flex items-center space-x-2">
-                    <a class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                    <a class="text-primary transition-colors hover:text-primary-focus"
                         href="#">Forms</a>
                     <svg x-ignore xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
@@ -24,13 +24,13 @@
             <!-- Input File -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Input File
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
@@ -43,7 +43,7 @@
                     </p>
                     <div class="inline-space mt-5 flex flex-wrap">
                         <label
-                            class="btn bg-slate-150 font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                            class="btn bg-slate-150 font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                             <input tabindex="-1" type="file"
                                 class="pointer-events-none absolute inset-0 h-full w-full opacity-0" />
                             <span class="flex items-center space-x-2">
@@ -56,7 +56,7 @@
                             </span>
                         </label>
                         <label
-                            class="btn relative bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                            class="btn relative bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                             <input tabindex="-1" type="file"
                                 class="pointer-events-none absolute inset-0 h-full w-full opacity-0" />
                             <span class="flex items-center space-x-2">
@@ -65,7 +65,7 @@
                             </span>
                         </label>
                         <label
-                            class="btn border border-slate-300 font-medium text-slate-600 hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80 dark:border-navy-450 dark:text-navy-100 dark:hover:bg-navy-500 dark:focus:bg-navy-500 dark:active:bg-navy-500/90">
+                            class="btn border border-slate-300 font-medium text-slate-600 hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80">
                             <input tabindex="-1" type="file"
                                 class="pointer-events-none absolute inset-0 h-full w-full opacity-0" />
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -89,7 +89,7 @@
                 <div class="code-wrapper hidden pt-4">
                     <pre class="is-scrollbar-hidden max-h-96 overflow-auto rounded-lg" x-init="hljs.highlightElement($el)">
               <code class="language-html" x-ignore>
-&lt;label&#13;&#10;    class=&quot;btn bg-slate-150 font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;input&#13;&#10;      tabindex=&quot;-1&quot;&#13;&#10;      type=&quot;file&quot;&#13;&#10;      class=&quot;pointer-events-none absolute inset-0 h-full w-full opacity-0&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;svg&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-5 w-5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;      &lt;span&gt;Choose File&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label&#13;&#10;    class=&quot;btn relative bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;input&#13;&#10;      tabindex=&quot;-1&quot;&#13;&#10;      type=&quot;file&quot;&#13;&#10;      class=&quot;pointer-events-none absolute inset-0 h-full w-full opacity-0&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;i class=&quot;fa-solid fa-cloud-arrow-up text-base&quot;&gt;&lt;/i&gt;&#13;&#10;      &lt;span&gt;Choose File&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label&#13;&#10;    class=&quot;btn border border-slate-300 font-medium text-slate-600 hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80 dark:border-navy-450 dark:text-navy-100 dark:hover:bg-navy-500 dark:focus:bg-navy-500 dark:active:bg-navy-500/90&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;input&#13;&#10;      tabindex=&quot;-1&quot;&#13;&#10;      type=&quot;file&quot;&#13;&#10;      class=&quot;pointer-events-none absolute inset-0 h-full w-full opacity-0&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-5 w-5&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 24 24&quot;&#13;&#10;      stroke=&quot;currentColor&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        stroke-linecap=&quot;round&quot;&#13;&#10;        stroke-linejoin=&quot;round&quot;&#13;&#10;        stroke-width=&quot;2&quot;&#13;&#10;        d=&quot;M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label&#13;&#10;    class=&quot;btn h-9 w-9 rounded-full bg-info p-0 font-medium text-white hover:bg-info-focus hover:shadow-lg hover:shadow-info/50 focus:bg-info-focus active:bg-info-focus/90&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;input&#13;&#10;      tabindex=&quot;-1&quot;&#13;&#10;      type=&quot;file&quot;&#13;&#10;      class=&quot;pointer-events-none absolute inset-0 h-full w-full opacity-0&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-5 w-5&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 24 24&quot;&#13;&#10;      stroke=&quot;currentColor&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        stroke-linecap=&quot;round&quot;&#13;&#10;        stroke-linejoin=&quot;round&quot;&#13;&#10;        stroke-width=&quot;2&quot;&#13;&#10;        d=&quot;M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/label&gt;
+&lt;label&#13;&#10;    class=&quot;btn bg-slate-150 font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80  &gt;&#13;&#10;    &lt;input&#13;&#10;      tabindex=&quot;-1&quot;&#13;&#10;      type=&quot;file&quot;&#13;&#10;      class=&quot;pointer-events-none absolute inset-0 h-full w-full opacity-0&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;svg&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-5 w-5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;      &lt;span&gt;Choose File&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label&#13;&#10;    class=&quot;btn relative bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90  &gt;&#13;&#10;    &lt;input&#13;&#10;      tabindex=&quot;-1&quot;&#13;&#10;      type=&quot;file&quot;&#13;&#10;      class=&quot;pointer-events-none absolute inset-0 h-full w-full opacity-0&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;i class=&quot;fa-solid fa-cloud-arrow-up text-base&quot;&gt;&lt;/i&gt;&#13;&#10;      &lt;span&gt;Choose File&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label&#13;&#10;    class=&quot;btn border border-slate-300 font-medium text-slate-600 hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80  &gt;&#13;&#10;    &lt;input&#13;&#10;      tabindex=&quot;-1&quot;&#13;&#10;      type=&quot;file&quot;&#13;&#10;      class=&quot;pointer-events-none absolute inset-0 h-full w-full opacity-0&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-5 w-5&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 24 24&quot;&#13;&#10;      stroke=&quot;currentColor&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        stroke-linecap=&quot;round&quot;&#13;&#10;        stroke-linejoin=&quot;round&quot;&#13;&#10;        stroke-width=&quot;2&quot;&#13;&#10;        d=&quot;M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label&#13;&#10;    class=&quot;btn h-9 w-9 rounded-full bg-info p-0 font-medium text-white hover:bg-info-focus hover:shadow-lg hover:shadow-info/50 focus:bg-info-focus active:bg-info-focus/90&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;input&#13;&#10;      tabindex=&quot;-1&quot;&#13;&#10;      type=&quot;file&quot;&#13;&#10;      class=&quot;pointer-events-none absolute inset-0 h-full w-full opacity-0&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-5 w-5&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 24 24&quot;&#13;&#10;      stroke=&quot;currentColor&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        stroke-linecap=&quot;round&quot;&#13;&#10;        stroke-linejoin=&quot;round&quot;&#13;&#10;        stroke-width=&quot;2&quot;&#13;&#10;        d=&quot;M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/label&gt;
               </code>
             </pre>
                 </div>
@@ -98,13 +98,13 @@
             <!-- Basic Filepond -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Basic Filepond
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
@@ -114,7 +114,7 @@
                         at it, optimizes images for faster uploads, and offers a great,
                         accessible, silky smooth user experience. You can check the
                         plugin documentation on
-                        <a class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                        <a class="font-normal text-primary transition-colors hover:text-primary-focus"
                             href="https://github.com/pqina/filepond">Github.</a>
                     </p>
                     <div class="mt-5">
@@ -134,13 +134,13 @@
             <!-- Filled Filepond -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Filled Filepond
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
@@ -150,7 +150,7 @@
                         at it, optimizes images for faster uploads, and offers a great,
                         accessible, silky smooth user experience. You can check the
                         plugin documentation on
-                        <a class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                        <a class="font-normal text-primary transition-colors hover:text-primary-focus"
                             href="https://github.com/pqina/filepond">Github.</a>
                     </p>
                     <div class="mt-5">
@@ -170,13 +170,13 @@
             <!-- Filled & Bordered -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Filled & Bordered
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
@@ -186,7 +186,7 @@
                         at it, optimizes images for faster uploads, and offers a great,
                         accessible, silky smooth user experience. You can check the
                         plugin documentation on
-                        <a class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                        <a class="font-normal text-primary transition-colors hover:text-primary-focus"
                             href="https://github.com/pqina/filepond">Github.</a>
                     </p>
                     <div class="mt-5">
@@ -206,13 +206,13 @@
             <!-- Two Grid -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Two Grid
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
@@ -222,7 +222,7 @@
                         at it, optimizes images for faster uploads, and offers a great,
                         accessible, silky smooth user experience. You can check the
                         plugin documentation on
-                        <a class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                        <a class="font-normal text-primary transition-colors hover:text-primary-focus"
                             href="https://github.com/pqina/filepond">Github.</a>
                     </p>
                     <div class="mt-5">
@@ -243,13 +243,13 @@
             <!-- Three Grid -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Three Grid
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
@@ -259,7 +259,7 @@
                         at it, optimizes images for faster uploads, and offers a great,
                         accessible, silky smooth user experience. You can check the
                         plugin documentation on
-                        <a class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                        <a class="font-normal text-primary transition-colors hover:text-primary-focus"
                             href="https://github.com/pqina/filepond">Github.</a>
                     </p>
                     <div class="mt-5">
@@ -280,13 +280,13 @@
             <!-- Four Grid -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Four Grid
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
@@ -296,7 +296,7 @@
                         at it, optimizes images for faster uploads, and offers a great,
                         accessible, silky smooth user experience. You can check the
                         plugin documentation on
-                        <a class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                        <a class="font-normal text-primary transition-colors hover:text-primary-focus"
                             href="https://github.com/pqina/filepond">Github.</a>
                     </p>
                     <div class="mt-5">
@@ -317,13 +317,13 @@
             <!-- Circle Filepond -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Circle Filepond
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
@@ -333,7 +333,7 @@
                         at it, optimizes images for faster uploads, and offers a great,
                         accessible, silky smooth user experience. You can check the
                         plugin documentation on
-                        <a class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                        <a class="font-normal text-primary transition-colors hover:text-primary-focus"
                             href="https://github.com/pqina/filepond">Github.</a>
                     </p>
                     <div class="inline-space mt-5 flex flex-wrap items-end">

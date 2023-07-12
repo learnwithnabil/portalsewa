@@ -5,7 +5,7 @@
         <div class="py-5 text-center lg:py-6">
           <p class="text-sm uppercase">Are you new here?</p>
           <h3
-            class="mt-1 text-xl font-semibold text-slate-600 dark:text-navy-100"
+            class="mt-1 text-xl font-semibold text-slate-600"
           >
             Welcome. Where do you like to Start?
           </h3>

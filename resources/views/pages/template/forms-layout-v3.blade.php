@@ -2,17 +2,17 @@
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center space-x-4 py-5 lg:py-6">
           <h2
-            class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl"
+            class="text-xl font-medium text-slate-800 lg:text-2xl"
           >
             Form Layout 3
           </h2>
           <div class="hidden h-full py-1 sm:flex">
-            <div class="h-full w-px bg-slate-300 dark:bg-navy-600"></div>
+            <div class="h-full w-px bg-slate-300"></div>
           </div>
           <ul class="hidden flex-wrap items-center space-x-2 sm:flex">
             <li class="flex items-center space-x-2">
               <a
-                class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                class="text-primary transition-colors hover:text-primary-focus"
                 href="#"
                 >Forms</a
               >
@@ -73,11 +73,11 @@
             </div>
             <div class="flex items-center justify-between py-4">
               <p
-                class="text-xl font-semibold text-primary dark:text-accent-light"
+                class="text-xl font-semibold text-primary"
                 x-text="cardText"
               ></p>
               <div
-                class="badge rounded-full border border-primary text-primary dark:border-accent-light dark:text-accent-light"
+                class="badge rounded-full border border-primary text-primary"
               >
                 Primary
               </div>
@@ -86,7 +86,7 @@
               <label class="block">
                 <span>Card number</span>
                 <input
-                  class="form-input mt-1.5 w-full rounded-lg bg-slate-150 px-3 py-2 ring-primary/50 placeholder:text-slate-400 hover:bg-slate-200 focus:ring dark:bg-navy-900/90 dark:ring-accent/50 dark:placeholder:text-navy-300 dark:hover:bg-navy-900 dark:focus:bg-navy-900"
+                  class="form-input mt-1.5 w-full rounded-lg bg-slate-150 px-3 py-2 ring-primary/50 placeholder:text-slate-400 hover:bg-slate-200 focus:ring"
                   placeholder="**** **** **** ****"
                   type="text"
                   x-model.debounce="cardNumber"
@@ -96,7 +96,7 @@
               <label class="block">
                 <span>Name on card</span>
                 <input
-                  class="form-input mt-1.5 w-full rounded-lg bg-slate-150 px-3 py-2 ring-primary/50 placeholder:text-slate-400 hover:bg-slate-200 focus:ring dark:bg-navy-900/90 dark:ring-accent/50 dark:placeholder:text-navy-300 dark:hover:bg-navy-900 dark:focus:bg-navy-900"
+                  class="form-input mt-1.5 w-full rounded-lg bg-slate-150 px-3 py-2 ring-primary/50 placeholder:text-slate-400 hover:bg-slate-200 focus:ring"
                   placeholder="John Doe"
                   type="text"
                   x-model.debounce="nameOnCard"
@@ -106,7 +106,7 @@
                 <label class="block">
                   <span>Expiration date</span>
                   <input
-                    class="form-input mt-1.5 w-full rounded-lg bg-slate-150 px-3 py-2 ring-primary/50 placeholder:text-slate-400 hover:bg-slate-200 focus:ring dark:bg-navy-900/90 dark:ring-accent/50 dark:placeholder:text-navy-300 dark:hover:bg-navy-900 dark:focus:bg-navy-900"
+                    class="form-input mt-1.5 w-full rounded-lg bg-slate-150 px-3 py-2 ring-primary/50 placeholder:text-slate-400 hover:bg-slate-200 focus:ring"
                     placeholder="mm/yy"
                     type="text"
                     x-input-mask="{ date: true, datePattern: ['m', 'y'] }"
@@ -115,7 +115,7 @@
                 <label class="block">
                   <span>CVV</span>
                   <input
-                    class="form-input mt-1.5 w-full rounded-lg bg-slate-150 px-3 py-2 ring-primary/50 placeholder:text-slate-400 hover:bg-slate-200 focus:ring dark:bg-navy-900/90 dark:ring-accent/50 dark:placeholder:text-navy-300 dark:hover:bg-navy-900 dark:focus:bg-navy-900"
+                    class="form-input mt-1.5 w-full rounded-lg bg-slate-150 px-3 py-2 ring-primary/50 placeholder:text-slate-400 hover:bg-slate-200 focus:ring"
                     placeholder="***"
                     type="password"
                     x-input-mask="{ numeral: true }"
@@ -125,12 +125,12 @@
               </div>
               <div class="flex justify-center space-x-2 pt-4">
                 <button
-                  class="btn min-w-[7rem] border border-slate-300 font-medium text-slate-800 hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80 dark:border-navy-450 dark:text-navy-50 dark:hover:bg-navy-500 dark:focus:bg-navy-500 dark:active:bg-navy-500/90"
+                  class="btn min-w-[7rem] border border-slate-300 font-medium text-slate-800 hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80"
                 >
                   Cancel
                 </button>
                 <button
-                  class="btn min-w-[7rem] bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90"
+                  class="btn min-w-[7rem] bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90"
                 >
                   Save
                 </button>

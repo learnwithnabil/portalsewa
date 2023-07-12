@@ -2,22 +2,22 @@
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center justify-between py-5 lg:py-6">
             <div class="group flex items-center space-x-1">
-                <h2 class="text-xl font-medium text-slate-700 line-clamp-1 dark:text-navy-50 lg:text-2xl">
+                <h2 class="text-xl font-medium text-slate-700 line-clamp-1 lg:text-2xl">
                     User Card
                 </h2>
                 <div x-data="usePopper({ placement: 'bottom-start', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false" class="inline-flex">
                     <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                         <i class="fas fa-chevron-down"></i>
                     </button>
 
                     <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                         <div
-                            class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                            class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                             <ul>
                                 <li>
                                     <a href="#"
-                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">
+                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="mt-px h-4.5 w-4.5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
@@ -26,7 +26,7 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">
+                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="mt-px h-4.5 w-4.5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -36,7 +36,7 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">
+                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="mt-px h-4.5 w-4.5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -55,10 +55,10 @@
             <div class="flex items-center space-x-2">
                 <label class="relative hidden sm:flex">
                     <input
-                        class="form-input peer h-9 w-full rounded-full border border-slate-300 bg-transparent px-3 py-2 pl-9 text-xs+ placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                        class="form-input peer h-9 w-full rounded-full border border-slate-300 bg-transparent px-3 py-2 pl-9 text-xs+ placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                         placeholder="Search users..." type="text" />
                     <span
-                        class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent">
+                        class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-colors duration-200"
                             fill="currentColor" viewBox="0 0 24 24">
                             <path
@@ -69,7 +69,7 @@
 
                 <div class="flex">
                     <button
-                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:hidden sm:h-9 sm:w-9">
+                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:hidden sm:h-9 sm:w-9">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" stroke="currentColor" fill="none"
                             viewBox="0 0 24 24">
                             <circle cx="10.2" cy="10.2" r="7.2" stroke-width="1.5"></circle>
@@ -77,14 +77,14 @@
                         </svg>
                     </button>
                     <button
-                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:h-9 sm:w-9">
+                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:h-9 sm:w-9">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24">
                             <path fill="currentColor"
                                 d="M3 5.109C3 4.496 3.47 4 4.05 4h16.79c.58 0 1.049.496 1.049 1.109 0 .612-.47 1.108-1.05 1.108H4.05C3.47 6.217 3 5.721 3 5.11zM5.798 12.5c0-.612.47-1.109 1.05-1.109H18.04c.58 0 1.05.497 1.05 1.109s-.47 1.109-1.05 1.109H6.848c-.58 0-1.05-.497-1.05-1.109zM9.646 18.783c-.58 0-1.05.496-1.05 1.108 0 .613.47 1.109 1.05 1.109h5.597c.58 0 1.05-.496 1.05-1.109 0-.612-.47-1.108-1.05-1.108H9.646z" />
                         </svg>
                     </button>
                     <button
-                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:h-9 sm:w-9">
+                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:h-9 sm:w-9">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -102,32 +102,32 @@
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                 </div>
                 <div class="my-2 grow">
-                    <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                    <h3 class="text-base font-medium text-slate-700">
                         Konnor Guzman
                     </h3>
                     <div>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#PHP
+                            class="text-xs+ text-primary hover:text-primary-focus">#PHP
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#ReactJS
+                            class="text-xs+ text-primary hover:text-primary-focus">#ReactJS
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#NextJS
+                            class="text-xs+ text-primary hover:text-primary-focus">#NextJS
                             &VeryThinSpace;</a>
                     </div>
                 </div>
                 <div class="mt-3 flex space-x-1">
                     <button
-                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         Follow
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="far fa-envelope"></i>
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="fa fa-ellipsis-h"></i>
                     </button>
                 </div>
@@ -137,29 +137,29 @@
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                 </div>
                 <div class="my-2 grow">
-                    <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                    <h3 class="text-base font-medium text-slate-700">
                         Travis Fuller
                     </h3>
                     <div>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#Laravel
+                            class="text-xs+ text-primary hover:text-primary-focus">#Laravel
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#ReactJS
+                            class="text-xs+ text-primary hover:text-primary-focus">#ReactJS
                             &VeryThinSpace;</a>
                     </div>
                 </div>
                 <div class="mt-3 flex space-x-1">
                     <button
-                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         Follow
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="far fa-envelope"></i>
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="fa fa-ellipsis-h"></i>
                     </button>
                 </div>
@@ -169,32 +169,32 @@
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                 </div>
                 <div class="my-2 grow">
-                    <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                    <h3 class="text-base font-medium text-slate-700">
                         Alfredo Elliott
                     </h3>
                     <div>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#Javascript
+                            class="text-xs+ text-primary hover:text-primary-focus">#Javascript
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#CSS
+                            class="text-xs+ text-primary hover:text-primary-focus">#CSS
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#ES6
+                            class="text-xs+ text-primary hover:text-primary-focus">#ES6
                             &VeryThinSpace;</a>
                     </div>
                 </div>
                 <div class="mt-3 flex space-x-1">
                     <button
-                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         Follow
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="far fa-envelope"></i>
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="fa fa-ellipsis-h"></i>
                     </button>
                 </div>
@@ -204,29 +204,29 @@
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                 </div>
                 <div class="my-2 grow">
-                    <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                    <h3 class="text-base font-medium text-slate-700">
                         Derrick Simmons
                     </h3>
                     <div>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#ReactJS
+                            class="text-xs+ text-primary hover:text-primary-focus">#ReactJS
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#NodeJS
+                            class="text-xs+ text-primary hover:text-primary-focus">#NodeJS
                             &VeryThinSpace;</a>
                     </div>
                 </div>
                 <div class="mt-3 flex space-x-1">
                     <button
-                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         Follow
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="far fa-envelope"></i>
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="fa fa-ellipsis-h"></i>
                     </button>
                 </div>
@@ -236,32 +236,32 @@
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                 </div>
                 <div class="my-2 grow">
-                    <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                    <h3 class="text-base font-medium text-slate-700">
                         Katrina West
                     </h3>
                     <div>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#Ionic
+                            class="text-xs+ text-primary hover:text-primary-focus">#Ionic
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#ReactNative
+                            class="text-xs+ text-primary hover:text-primary-focus">#ReactNative
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#Flutter
+                            class="text-xs+ text-primary hover:text-primary-focus">#Flutter
                             &VeryThinSpace;</a>
                     </div>
                 </div>
                 <div class="mt-3 flex space-x-1">
                     <button
-                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         Follow
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="far fa-envelope"></i>
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="fa fa-ellipsis-h"></i>
                     </button>
                 </div>
@@ -271,29 +271,29 @@
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                 </div>
                 <div class="my-2 grow">
-                    <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                    <h3 class="text-base font-medium text-slate-700">
                         Henry Curtis
                     </h3>
                     <div>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#Laravel
+                            class="text-xs+ text-primary hover:text-primary-focus">#Laravel
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#VueJS
+                            class="text-xs+ text-primary hover:text-primary-focus">#VueJS
                             &VeryThinSpace;</a>
                     </div>
                 </div>
                 <div class="mt-3 flex space-x-1">
                     <button
-                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         Follow
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="far fa-envelope"></i>
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="fa fa-ellipsis-h"></i>
                     </button>
                 </div>
@@ -303,29 +303,29 @@
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                 </div>
                 <div class="my-2 grow">
-                    <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                    <h3 class="text-base font-medium text-slate-700">
                         Raul Bradley
                     </h3>
                     <div>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#TailwindCSS
+                            class="text-xs+ text-primary hover:text-primary-focus">#TailwindCSS
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#Laravel
+                            class="text-xs+ text-primary hover:text-primary-focus">#Laravel
                             &VeryThinSpace;</a>
                     </div>
                 </div>
                 <div class="mt-3 flex space-x-1">
                     <button
-                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         Follow
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="far fa-envelope"></i>
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="fa fa-ellipsis-h"></i>
                     </button>
                 </div>
@@ -335,29 +335,29 @@
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                 </div>
                 <div class="my-2 grow">
-                    <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                    <h3 class="text-base font-medium text-slate-700">
                         Samantha Shelton
                     </h3>
                     <div>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#PHP
+                            class="text-xs+ text-primary hover:text-primary-focus">#PHP
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#Laravel
+                            class="text-xs+ text-primary hover:text-primary-focus">#Laravel
                             &VeryThinSpace;</a>
                     </div>
                 </div>
                 <div class="mt-3 flex space-x-1">
                     <button
-                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         Follow
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="far fa-envelope"></i>
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="fa fa-ellipsis-h"></i>
                     </button>
                 </div>
@@ -368,29 +368,29 @@
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                 </div>
                 <div class="my-2 grow">
-                    <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                    <h3 class="text-base font-medium text-slate-700">
                         Corey Evans
                     </h3>
                     <div>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#ReactJS
+                            class="text-xs+ text-primary hover:text-primary-focus">#ReactJS
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#AlpineJS
+                            class="text-xs+ text-primary hover:text-primary-focus">#AlpineJS
                             &VeryThinSpace;</a>
                     </div>
                 </div>
                 <div class="mt-3 flex space-x-1">
                     <button
-                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         Follow
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="far fa-envelope"></i>
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="fa fa-ellipsis-h"></i>
                     </button>
                 </div>
@@ -400,29 +400,29 @@
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                 </div>
                 <div class="my-2 grow">
-                    <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                    <h3 class="text-base font-medium text-slate-700">
                         Lance Tucker
                     </h3>
                     <div>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#RemixJS
+                            class="text-xs+ text-primary hover:text-primary-focus">#RemixJS
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#ReactJS
+                            class="text-xs+ text-primary hover:text-primary-focus">#ReactJS
                             &VeryThinSpace;</a>
                     </div>
                 </div>
                 <div class="mt-3 flex space-x-1">
                     <button
-                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         Follow
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="far fa-envelope"></i>
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="fa fa-ellipsis-h"></i>
                     </button>
                 </div>
@@ -432,29 +432,29 @@
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                 </div>
                 <div class="my-2 grow">
-                    <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                    <h3 class="text-base font-medium text-slate-700">
                         Anthony Jensen
                     </h3>
                     <div>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#Figma
+                            class="text-xs+ text-primary hover:text-primary-focus">#Figma
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#Sketch
+                            class="text-xs+ text-primary hover:text-primary-focus">#Sketch
                             &VeryThinSpace;</a>
                     </div>
                 </div>
                 <div class="mt-3 flex space-x-1">
                     <button
-                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         Follow
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="far fa-envelope"></i>
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="fa fa-ellipsis-h"></i>
                     </button>
                 </div>
@@ -464,29 +464,29 @@
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                 </div>
                 <div class="my-2 grow">
-                    <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                    <h3 class="text-base font-medium text-slate-700">
                         Joe Perkins
                     </h3>
                     <div>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#NextJS
+                            class="text-xs+ text-primary hover:text-primary-focus">#NextJS
                             &VeryThinSpace;</a>
                         <a href="#"
-                            class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#Bootstrap
+                            class="text-xs+ text-primary hover:text-primary-focus">#Bootstrap
                             &VeryThinSpace;</a>
                     </div>
                 </div>
                 <div class="mt-3 flex space-x-1">
                     <button
-                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 rounded-full bg-slate-150 px-3 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         Follow
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="far fa-envelope"></i>
                     </button>
                     <button
-                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                        class="btn h-7 w-7 rounded-full bg-slate-150 px-0 text-xs+ font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                         <i class="fa fa-ellipsis-h"></i>
                     </button>
                 </div>

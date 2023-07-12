@@ -2,17 +2,17 @@
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center space-x-4 py-5 lg:py-6">
           <h2
-            class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl"
+            class="text-xl font-medium text-slate-800 lg:text-2xl"
           >
             Input Text
           </h2>
           <div class="hidden h-full py-1 sm:flex">
-            <div class="h-full w-px bg-slate-300 dark:bg-navy-600"></div>
+            <div class="h-full w-px bg-slate-300"></div>
           </div>
           <ul class="hidden flex-wrap items-center space-x-2 sm:flex">
             <li class="flex items-center space-x-2">
               <a
-                class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                class="text-primary transition-colors hover:text-primary-focus"
                 href="#"
                 >Forms</a
               >
@@ -40,15 +40,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Basic Input Text
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -63,7 +63,7 @@
               <div class="mt-5">
                 <label class="block">
                   <input
-                    class="form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                    class="form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                     placeholder="Username"
                     type="text"
                   />
@@ -77,7 +77,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent&quot;&#13;&#10;      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;</code>
+  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;</code>
               </pre>
             </div>
           </div>
@@ -86,15 +86,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Label Text
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -109,7 +109,7 @@
                 <label class="block">
                   <span>Choose Username:</span>
                   <input
-                    class="form-input mt-1.5 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                    class="form-input mt-1.5 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                     placeholder="Username"
                     type="text"
                   />
@@ -123,7 +123,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                   <code class="language-html" x-ignore>
-  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;span&gt;Choose Username:&lt;/span&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input mt-1.5 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent&quot;&#13;&#10;      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;</code>
+  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;span&gt;Choose Username:&lt;/span&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input mt-1.5 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;</code>
                 </pre>
             </div>
           </div>
@@ -132,15 +132,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Helper Text
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -154,12 +154,12 @@
               <div class="mt-5">
                 <label class="block">
                   <input
-                    class="form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                    class="form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                     placeholder="Username"
                     type="text"
                   />
                 </label>
-                <span class="text-tiny+ text-slate-400 dark:text-navy-300"
+                <span class="text-tiny+ text-slate-400"
                   >This is a help text</span
                 >
               </div>
@@ -171,7 +171,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                   <code class="language-html" x-ignore>
-  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent&quot;&#13;&#10;      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;span class=&quot;text-tiny+ text-slate-400 dark:text-navy-300&quot;&#13;&#10;    &gt;This is a help text&lt;/span&#13;&#10;  &gt;</code>
+  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;span class=&quot;text-tiny+ text-slate-400    &gt;This is a help text&lt;/span&#13;&#10;  &gt;</code>
                 </pre>
             </div>
           </div>
@@ -180,15 +180,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Rounded Input
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -204,7 +204,7 @@
               <div class="mt-5">
                 <label class="block">
                   <input
-                    class="form-input w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                    class="form-input w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                     placeholder="Username"
                     type="text"
                   />
@@ -218,7 +218,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                   <code class="language-html" x-ignore>
-  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent&quot;&#13;&#10;      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;</code>
+  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;</code>
                 </pre>
             </div>
           </div>
@@ -227,15 +227,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Filled Input
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -246,7 +246,7 @@
               <div class="mt-5">
                 <label class="block">
                   <input
-                    class="form-input w-full rounded-lg bg-slate-150 px-3 py-2 ring-primary/50 placeholder:text-slate-400 hover:bg-slate-200 focus:ring dark:bg-navy-900/90 dark:ring-accent/50 dark:placeholder:text-navy-300 dark:hover:bg-navy-900 dark:focus:bg-navy-900"
+                    class="form-input w-full rounded-lg bg-slate-150 px-3 py-2 ring-primary/50 placeholder:text-slate-400 hover:bg-slate-200 focus:ring"
                     placeholder="Username"
                     type="text"
                   />
@@ -260,7 +260,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input w-full rounded-lg bg-slate-150 px-3 py-2 ring-primary/50 placeholder:text-slate-400 hover:bg-slate-200 focus:ring dark:bg-navy-900/90 dark:ring-accent/50 dark:placeholder:text-navy-300 dark:hover:bg-navy-900 dark:focus:bg-navy-900&quot;&#13;&#10;      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;</code>
+  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input w-full rounded-lg bg-slate-150 px-3 py-2 ring-primary/50 placeholder:text-slate-400 hover:bg-slate-200 focus:ring      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;</code>
               </pre>
             </div>
           </div>
@@ -269,15 +269,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Input Size
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -291,21 +291,21 @@
               <div class="mt-5 space-y-4">
                 <label class="block">
                   <input
-                    class="form-input h-8 w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 text-xs+ placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                    class="form-input h-8 w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 text-xs+ placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                     placeholder="Username"
                     type="text"
                   />
                 </label>
                 <label class="block">
                   <input
-                    class="form-input w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                    class="form-input w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                     placeholder="Username"
                     type="text"
                   />
                 </label>
                 <label class="block">
                   <input
-                    class="form-input h-12 w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 text-base placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                    class="form-input h-12 w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 text-base placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                     placeholder="Username"
                     type="text"
                   />
@@ -319,7 +319,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input h-8 w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 text-xs+ placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent&quot;&#13;&#10;      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent&quot;&#13;&#10;      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input h-12 w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 text-base placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent&quot;&#13;&#10;      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;</code>
+  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input h-8 w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 text-xs+ placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input h-12 w-full rounded-full border border-slate-300 bg-transparent px-4 py-2 text-base placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary      placeholder=&quot;Username&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;</code>
               </pre>
             </div>
           </div>
@@ -328,15 +328,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Input Dataset
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -351,7 +351,7 @@
               <div class="mt-5">
                 <label class="block">
                   <input
-                    class="form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                    class="form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                     placeholder="Choose browser"
                     type="text"
                     list="browsers"
@@ -373,7 +373,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent&quot;&#13;&#10;      placeholder=&quot;Choose browser&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;      list=&quot;browsers&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;datalist id=&quot;browsers&quot;&gt;&#13;&#10;      &lt;option value=&quot;Google Chrome&quot;&gt;&lt;/option&gt;&#13;&#10;      &lt;option value=&quot;Edge&quot;&gt;&lt;/option&gt;&#13;&#10;      &lt;option value=&quot;Firefox&quot;&gt;&lt;/option&gt;&#13;&#10;      &lt;option value=&quot;Safari&quot;&gt;&lt;/option&gt;&#13;&#10;      &lt;option value=&quot;Opera&quot;&gt;&lt;/option&gt;&#13;&#10;    &lt;/datalist&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;</code>
+  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      class=&quot;form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary      placeholder=&quot;Choose browser&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;      list=&quot;browsers&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;datalist id=&quot;browsers&quot;&gt;&#13;&#10;      &lt;option value=&quot;Google Chrome&quot;&gt;&lt;/option&gt;&#13;&#10;      &lt;option value=&quot;Edge&quot;&gt;&lt;/option&gt;&#13;&#10;      &lt;option value=&quot;Firefox&quot;&gt;&lt;/option&gt;&#13;&#10;      &lt;option value=&quot;Safari&quot;&gt;&lt;/option&gt;&#13;&#10;      &lt;option value=&quot;Opera&quot;&gt;&lt;/option&gt;&#13;&#10;    &lt;/datalist&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;</code>
               </pre>
             </div>
           </div>
@@ -382,15 +382,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Disabled Text Input
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -405,12 +405,12 @@
                 <label class="block">
                   <input
                     disabled
-                    class="form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary disabled:pointer-events-none disabled:select-none disabled:border-none disabled:bg-zinc-100 dark:border-navy-450 dark:bg-navy-600 dark:hover:border-navy-400 dark:focus:border-accent"
+                    class="form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary disabled:pointer-events-none disabled:select-none disabled:border-none disabled:bg-zinc-100"
                     placeholder="Disabled"
                     type="text"
                   />
                 </label>
-                <span class="text-tiny+ text-slate-400 dark:text-navy-300"
+                <span class="text-tiny+ text-slate-400"
                   >This is a disabled input text</span
                 >
               </div>
@@ -422,7 +422,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      disabled&#13;&#10;      class=&quot;form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary disabled:pointer-events-none disabled:select-none disabled:border-none disabled:bg-zinc-100 dark:border-navy-450 dark:bg-navy-600 dark:hover:border-navy-400 dark:focus:border-accent&quot;&#13;&#10;      placeholder=&quot;Disabled&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;span class=&quot;text-tiny+ text-slate-400 dark:text-navy-300&quot;&#13;&#10;    &gt;This is a disabled input text&lt;/span&#13;&#10;  &gt;</code>
+  &lt;label class=&quot;block&quot;&gt;&#13;&#10;    &lt;input&#13;&#10;      disabled&#13;&#10;      class=&quot;form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary disabled:pointer-events-none disabled:select-none disabled:border-none disabled:bg-zinc-100      placeholder=&quot;Disabled&quot;&#13;&#10;      type=&quot;text&quot;&#13;&#10;    /&gt;&#13;&#10;  &lt;/label&gt;&#13;&#10;  &lt;span class=&quot;text-tiny+ text-slate-400    &gt;This is a disabled input text&lt;/span&#13;&#10;  &gt;</code>
               </pre>
             </div>
           </div>
@@ -431,15 +431,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Input Validation
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -493,15 +493,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Debounce Support
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -516,7 +516,7 @@
               <div x-data="{debounceText:''}" class="mt-5">
                 <label class="block">
                   <input
-                    class="form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                    class="form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                     placeholder="Username"
                     type="text"
                     x-model.debounce="debounceText"
@@ -532,7 +532,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div x-data=&quot;{debounceText:&apos;&apos;}&quot;&gt;&#13;&#10;    &lt;label class=&quot;block&quot;&gt;&#13;&#10;      &lt;input&#13;&#10;        class=&quot;form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent&quot;&#13;&#10;        placeholder=&quot;Username&quot;&#13;&#10;        type=&quot;text&quot;&#13;&#10;        x-model.debounce=&quot;debounceText&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/label&gt;&#13;&#10;    &lt;p class=&quot;mt-1&quot;&gt;Value: &lt;span x-text=&quot;debounceText&quot;&gt;&lt;/span&gt;&lt;/p&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;</code>
+  &lt;div x-data=&quot;{debounceText:&apos;&apos;}&quot;&gt;&#13;&#10;    &lt;label class=&quot;block&quot;&gt;&#13;&#10;      &lt;input&#13;&#10;        class=&quot;form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary        placeholder=&quot;Username&quot;&#13;&#10;        type=&quot;text&quot;&#13;&#10;        x-model.debounce=&quot;debounceText&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/label&gt;&#13;&#10;    &lt;p class=&quot;mt-1&quot;&gt;Value: &lt;span x-text=&quot;debounceText&quot;&gt;&lt;/span&gt;&lt;/p&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;</code>
               </pre>
             </div>
           </div>
@@ -543,15 +543,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Lazy Support
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -567,7 +567,7 @@
               <div x-data="{lazyText:''}" class="mt-5">
                 <label class="block">
                   <input
-                    class="form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                    class="form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                     placeholder="Username"
                     type="text"
                     x-model.lazy="lazyText"
@@ -583,7 +583,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div x-data=&quot;{lazyText:&apos;&apos;}&quot;&gt;&#13;&#10;    &lt;label class=&quot;block&quot;&gt;&#13;&#10;      &lt;input&#13;&#10;        class=&quot;form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent&quot;&#13;&#10;        placeholder=&quot;Username&quot;&#13;&#10;        type=&quot;text&quot;&#13;&#10;        x-model.lazy=&quot;lazyText&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/label&gt;&#13;&#10;    &lt;p class=&quot;mt-1&quot;&gt;Value: &lt;span x-text=&quot;lazyText&quot;&gt;&lt;/span&gt;&lt;/p&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;</code>
+  &lt;div x-data=&quot;{lazyText:&apos;&apos;}&quot;&gt;&#13;&#10;    &lt;label class=&quot;block&quot;&gt;&#13;&#10;      &lt;input&#13;&#10;        class=&quot;form-input w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary        placeholder=&quot;Username&quot;&#13;&#10;        type=&quot;text&quot;&#13;&#10;        x-model.lazy=&quot;lazyText&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/label&gt;&#13;&#10;    &lt;p class=&quot;mt-1&quot;&gt;Value: &lt;span x-text=&quot;lazyText&quot;&gt;&lt;/span&gt;&lt;/p&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;</code>
               </pre>
             </div>
           </div>

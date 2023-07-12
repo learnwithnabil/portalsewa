@@ -2,6 +2,95 @@
 
 return [
 
+    'authorities' => [
+        'manage_certificate' => [
+            'certificate_show',
+            'certificate_create',
+            'certificate_update',
+            'certificate_detail',
+            'certificate_delete'
+        ],
+        'manage_customers' => [
+            'customer_show',
+            'customer_create',
+            'customer_update',
+            'customer_detail',
+            'customer_delete'
+        ],
+        'manage_agencies' => [
+            'agency_show',
+            'agency_create',
+            'agency_update',
+            'agency_detail',
+            'agency_delete'
+        ],
+        'manage_products' => [
+            'product_show',
+            'product_create',
+            'product_update',
+            'product_detail',
+            'product_delete'
+        ],
+        'manage_brands' => [
+            'brand_show',
+            'brand_create',
+            'brand_update',
+            'brand_detail',
+            'brand_delete'
+        ],
+        'manage_tags' => [
+            'tag_show',
+            'tag_create',
+            'tag_update',
+            'tag_detail',
+            'tag_delete'
+        ],
+        'manage_rents' => [
+            'rent_show',
+            'rent_create',
+            'rent_update',
+            'rent_delete'
+        ],
+        'manage_orders' => [
+            'order_show',
+            'order_create',
+            'order_update',
+            'order_delete'
+        ],
+        'manage_bookings' => [
+            'booking_show',
+            'booking_create',
+            'booking_update',
+            'booking_delete'
+        ],
+        'manage_rent_histories' => [
+            'rent_history_show',
+            'rent_history_create',
+            'rent_history_update',
+            'rent_history_delete'
+        ],
+        'manage_roles' => [
+            'role_show',
+            'role_create',
+            'role_update',
+            'role_detail',
+            'role_delete'
+        ],
+        'manage_users' => [
+            'user_show',
+            'user_create',
+            'user_update',
+            'user_detail',
+            'user_delete'
+        ],
+        'manage_filemanager' => [
+            'filemanager_show',
+        ],
+        'manage_menu' => [
+            'access_show',
+        ],
+    ],
+
     'models' => [
 
         /*

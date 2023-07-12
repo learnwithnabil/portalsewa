@@ -2,17 +2,17 @@
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center space-x-4 py-5 lg:py-6">
             <h2
-                class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl"
+                class="text-xl font-medium text-slate-800 lg:text-2xl"
             >
                 Breadcrumb
             </h2>
             <div class="hidden h-full py-1 sm:flex">
-                <div class="h-full w-px bg-slate-300 dark:bg-navy-600"></div>
+                <div class="h-full w-px bg-slate-300"></div>
             </div>
             <ul class="hidden flex-wrap items-center space-x-2 sm:flex">
                 <li class="flex items-center space-x-2">
                     <a
-                        class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                        class="text-primary transition-colors hover:text-primary-focus"
                         href="#"
                     >Elements</a
                     >
@@ -40,15 +40,15 @@
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
                     <h2
-                        class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                        class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                     >
                         Breadcrumb
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input
                             @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox"
                         />
                     </label>
@@ -63,7 +63,7 @@
                         <ul class="flex flex-wrap items-center space-x-2">
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                                    class="text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >Home</a
                                 >
@@ -85,7 +85,7 @@
                             </li>
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                                    class="text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >Elements</a
                                 >
@@ -115,7 +115,7 @@
                   x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;        &gt;Home&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;svg&#13;&#10;        x-ignore&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M9 5l7 7-7 7&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;        &gt;Elements&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;svg&#13;&#10;        x-ignore&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M9 5l7 7-7 7&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;Breadcrumb&lt;/li&gt;&#13;&#10;  &lt;/ul&gt;
+  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;        &gt;Home&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;svg&#13;&#10;        x-ignore&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M9 5l7 7-7 7&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;        &gt;Elements&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;svg&#13;&#10;        x-ignore&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M9 5l7 7-7 7&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;Breadcrumb&lt;/li&gt;&#13;&#10;  &lt;/ul&gt;
                 </code>
               </pre>
                 </div>
@@ -125,15 +125,15 @@
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
                     <h2
-                        class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                        class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                     >
                         Separators
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input
                             @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox"
                         />
                     </label>
@@ -147,7 +147,7 @@
                         <ul class="flex flex-wrap items-center space-x-2">
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                                    class="text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >Home</a
                                 >
@@ -155,7 +155,7 @@
                             </li>
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                                    class="text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >Elements</a
                                 >
@@ -166,7 +166,7 @@
                         <ul class="flex flex-wrap items-center space-x-2">
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                                    class="text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >Home</a
                                 >
@@ -174,7 +174,7 @@
                             </li>
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                                    class="text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >Elements</a
                                 >
@@ -185,7 +185,7 @@
                         <ul class="flex flex-wrap items-center space-x-2">
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                                    class="text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >Home</a
                                 >
@@ -193,7 +193,7 @@
                             </li>
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                                    class="text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >Elements</a
                                 >
@@ -204,7 +204,7 @@
                         <ul class="flex flex-wrap items-center space-x-2">
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                                    class="text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >Home</a
                                 >
@@ -212,7 +212,7 @@
                             </li>
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                                    class="text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >Elements</a
                                 >
@@ -223,7 +223,7 @@
                         <ul class="flex flex-wrap items-center space-x-2">
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                                    class="text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >Home</a
                                 >
@@ -244,7 +244,7 @@
                             </li>
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                                    class="text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >Elements</a
                                 >
@@ -273,7 +273,7 @@
                   x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;        &gt;Home&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span&gt; &amp;DoubleRightArrow; &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;        &gt;Elements&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span&gt; &amp;DoubleRightArrow; &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;Breadcrumb&lt;/li&gt;&#13;&#10;  &lt;/ul&gt;&#13;&#10;  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;        &gt;Home&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span&gt; &amp;centerdot; &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;        &gt;Elements&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span&gt; &amp;centerdot; &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;Breadcrumb&lt;/li&gt;&#13;&#10;  &lt;/ul&gt;&#13;&#10;  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;        &gt;Home&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span class=&quot;text-xs font-light&quot;&gt; | &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;        &gt;Elements&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span class=&quot;text-xs font-light&quot;&gt; | &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;Breadcrumb&lt;/li&gt;&#13;&#10;  &lt;/ul&gt;&#13;&#10;  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;        &gt;Home&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span class=&quot;text-xs font-light&quot;&gt; / &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;        &gt;Elements&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span class=&quot;text-xs font-light&quot;&gt; / &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;Breadcrumb&lt;/li&gt;&#13;&#10;  &lt;/ul&gt;&#13;&#10;  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;        &gt;Home&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;svg&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M13 7l5 5m0 0l-5 5m5-5H6&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;        &gt;Elements&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;svg&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M13 7l5 5m0 0l-5 5m5-5H6&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;Breadcrumb&lt;/li&gt;&#13;&#10;  &lt;/ul&gt;&#13;&#10;
+  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;        &gt;Home&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span&gt; &amp;DoubleRightArrow; &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;        &gt;Elements&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span&gt; &amp;DoubleRightArrow; &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;Breadcrumb&lt;/li&gt;&#13;&#10;  &lt;/ul&gt;&#13;&#10;  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;        &gt;Home&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span&gt; &amp;centerdot; &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;        &gt;Elements&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span&gt; &amp;centerdot; &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;Breadcrumb&lt;/li&gt;&#13;&#10;  &lt;/ul&gt;&#13;&#10;  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;        &gt;Home&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span class=&quot;text-xs font-light&quot;&gt; | &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;        &gt;Elements&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span class=&quot;text-xs font-light&quot;&gt; | &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;Breadcrumb&lt;/li&gt;&#13;&#10;  &lt;/ul&gt;&#13;&#10;  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;        &gt;Home&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span class=&quot;text-xs font-light&quot;&gt; / &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;        &gt;Elements&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;span class=&quot;text-xs font-light&quot;&gt; / &lt;/span&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;Breadcrumb&lt;/li&gt;&#13;&#10;  &lt;/ul&gt;&#13;&#10;  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;        &gt;Home&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;svg&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M13 7l5 5m0 0l-5 5m5-5H6&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;        &gt;Elements&lt;/a&#13;&#10;      &gt;&#13;&#10;      &lt;svg&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M13 7l5 5m0 0l-5 5m5-5H6&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;Breadcrumb&lt;/li&gt;&#13;&#10;  &lt;/ul&gt;&#13;&#10;
                 </code>
               </pre>
                 </div>
@@ -283,15 +283,15 @@
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
                     <h2
-                        class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                        class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                     >
                         With Icon
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input
                             @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox"
                         />
                     </label>
@@ -304,7 +304,7 @@
                         <ul class="flex flex-wrap items-center space-x-2">
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                                    class="text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >
                                     <svg
@@ -340,7 +340,7 @@
                             </li>
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="flex items-center space-x-1.5 text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                                    class="flex items-center space-x-1.5 text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >
                                     <svg
@@ -379,7 +379,7 @@
                                 <div class="flex items-center space-x-1.5">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        class="h-4.5 w-4.5 text-slate-400 dark:text-navy-300"
+                                        class="h-4.5 w-4.5 text-slate-400"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -403,7 +403,7 @@
                   x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;svg&#13;&#10;          xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;          class=&quot;h-4.5 w-4.5&quot;&#13;&#10;          fill=&quot;none&quot;&#13;&#10;          viewBox=&quot;0 0 24 24&quot;&#13;&#10;          stroke=&quot;currentColor&quot;&#13;&#10;        &gt;&#13;&#10;          &lt;path&#13;&#10;            stroke-linecap=&quot;round&quot;&#13;&#10;            stroke-linejoin=&quot;round&quot;&#13;&#10;            stroke-width=&quot;1.5&quot;&#13;&#10;            d=&quot;M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6&quot;&#13;&#10;          /&gt;&#13;&#10;        &lt;/svg&gt;&#13;&#10;      &lt;/a&gt;&#13;&#10;      &lt;svg&#13;&#10;        x-ignore&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M9 5l7 7-7 7&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;flex items-center space-x-1.5 text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;svg&#13;&#10;          xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;          class=&quot;h-4.5 w-4.5&quot;&#13;&#10;          fill=&quot;none&quot;&#13;&#10;          viewBox=&quot;0 0 24 24&quot;&#13;&#10;          stroke=&quot;currentColor&quot;&#13;&#10;        &gt;&#13;&#10;          &lt;path&#13;&#10;            stroke-linecap=&quot;round&quot;&#13;&#10;            stroke-linejoin=&quot;round&quot;&#13;&#10;            stroke-width=&quot;1.5&quot;&#13;&#10;            d=&quot;M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z&quot;&#13;&#10;          &gt;&lt;/path&gt;&#13;&#10;        &lt;/svg&gt;&#13;&#10;        &lt;span&gt;Elements&lt;/span&gt;&#13;&#10;      &lt;/a&gt;&#13;&#10;      &lt;svg&#13;&#10;        x-ignore&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M9 5l7 7-7 7&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;&#13;&#10;      &lt;div class=&quot;flex items-center space-x-1.5&quot;&gt;&#13;&#10;        &lt;svg&#13;&#10;          xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;          class=&quot;h-4.5 w-4.5 text-slate-400 dark:text-navy-300&quot;&#13;&#10;          fill=&quot;none&quot;&#13;&#10;          viewBox=&quot;0 0 24 24&quot;&#13;&#10;          stroke=&quot;currentColor&quot;&#13;&#10;        &gt;&#13;&#10;          &lt;path&#13;&#10;            stroke-linecap=&quot;round&quot;&#13;&#10;            stroke-linejoin=&quot;round&quot;&#13;&#10;            stroke-width=&quot;1.5&quot;&#13;&#10;            d=&quot;M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z&quot;&#13;&#10;          /&gt;&#13;&#10;        &lt;/svg&gt;&#13;&#10;        &lt;span&gt;Calendar&lt;/span&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;  &lt;/ul&gt;</code>
+  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;svg&#13;&#10;          xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;          class=&quot;h-4.5 w-4.5&quot;&#13;&#10;          fill=&quot;none&quot;&#13;&#10;          viewBox=&quot;0 0 24 24&quot;&#13;&#10;          stroke=&quot;currentColor&quot;&#13;&#10;        &gt;&#13;&#10;          &lt;path&#13;&#10;            stroke-linecap=&quot;round&quot;&#13;&#10;            stroke-linejoin=&quot;round&quot;&#13;&#10;            stroke-width=&quot;1.5&quot;&#13;&#10;            d=&quot;M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6&quot;&#13;&#10;          /&gt;&#13;&#10;        &lt;/svg&gt;&#13;&#10;      &lt;/a&gt;&#13;&#10;      &lt;svg&#13;&#10;        x-ignore&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M9 5l7 7-7 7&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;flex items-center space-x-1.5 text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;svg&#13;&#10;          xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;          class=&quot;h-4.5 w-4.5&quot;&#13;&#10;          fill=&quot;none&quot;&#13;&#10;          viewBox=&quot;0 0 24 24&quot;&#13;&#10;          stroke=&quot;currentColor&quot;&#13;&#10;        &gt;&#13;&#10;          &lt;path&#13;&#10;            stroke-linecap=&quot;round&quot;&#13;&#10;            stroke-linejoin=&quot;round&quot;&#13;&#10;            stroke-width=&quot;1.5&quot;&#13;&#10;            d=&quot;M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z&quot;&#13;&#10;          &gt;&lt;/path&gt;&#13;&#10;        &lt;/svg&gt;&#13;&#10;        &lt;span&gt;Elements&lt;/span&gt;&#13;&#10;      &lt;/a&gt;&#13;&#10;      &lt;svg&#13;&#10;        x-ignore&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M9 5l7 7-7 7&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;&#13;&#10;      &lt;div class=&quot;flex items-center space-x-1.5&quot;&gt;&#13;&#10;        &lt;svg&#13;&#10;          xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;          class=&quot;h-4.5 w-4.5 text-slate-400          fill=&quot;none&quot;&#13;&#10;          viewBox=&quot;0 0 24 24&quot;&#13;&#10;          stroke=&quot;currentColor&quot;&#13;&#10;        &gt;&#13;&#10;          &lt;path&#13;&#10;            stroke-linecap=&quot;round&quot;&#13;&#10;            stroke-linejoin=&quot;round&quot;&#13;&#10;            stroke-width=&quot;1.5&quot;&#13;&#10;            d=&quot;M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z&quot;&#13;&#10;          /&gt;&#13;&#10;        &lt;/svg&gt;&#13;&#10;        &lt;span&gt;Calendar&lt;/span&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;  &lt;/ul&gt;</code>
               </pre>
                 </div>
             </div>
@@ -412,15 +412,15 @@
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
                     <h2
-                        class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                        class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                     >
                         Bordered Breadcrumb
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input
                             @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox"
                         />
                     </label>
@@ -433,7 +433,7 @@
                         <ul class="flex flex-wrap items-center space-x-2">
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="rounded-lg border border-slate-200 px-1.5 py-1 leading-none text-primary transition-colors hover:text-primary-focus dark:border-navy-500 dark:text-accent-light dark:hover:text-accent"
+                                    class="rounded-lg border border-slate-200 px-1.5 py-1 leading-none text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >
                                     <svg
@@ -469,7 +469,7 @@
                             </li>
                             <li class="flex items-center space-x-2">
                                 <a
-                                    class="flex items-center space-x-1.5 rounded-lg border border-slate-200 py-1 px-1.5 leading-none text-primary transition-colors hover:text-primary-focus dark:border-navy-500 dark:text-accent-light dark:hover:text-accent"
+                                    class="flex items-center space-x-1.5 rounded-lg border border-slate-200 py-1 px-1.5 leading-none text-primary transition-colors hover:text-primary-focus"
                                     href="#"
                                 >
                                     <svg
@@ -508,7 +508,7 @@
                                 <div class="flex items-center space-x-1.5">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        class="h-4.5 w-4.5 text-slate-400 dark:text-navy-300"
+                                        class="h-4.5 w-4.5 text-slate-400"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -532,7 +532,7 @@
                   x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;rounded-lg border border-slate-200 px-1.5 py-1 leading-none text-primary transition-colors hover:text-primary-focus dark:border-navy-500 dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;svg&#13;&#10;          xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;          class=&quot;h-4.5 w-4.5&quot;&#13;&#10;          fill=&quot;none&quot;&#13;&#10;          viewBox=&quot;0 0 24 24&quot;&#13;&#10;          stroke=&quot;currentColor&quot;&#13;&#10;        &gt;&#13;&#10;          &lt;path&#13;&#10;            stroke-linecap=&quot;round&quot;&#13;&#10;            stroke-linejoin=&quot;round&quot;&#13;&#10;            stroke-width=&quot;1.5&quot;&#13;&#10;            d=&quot;M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6&quot;&#13;&#10;          /&gt;&#13;&#10;        &lt;/svg&gt;&#13;&#10;      &lt;/a&gt;&#13;&#10;      &lt;svg&#13;&#10;        x-ignore&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M9 5l7 7-7 7&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;flex items-center space-x-1.5 rounded-lg border border-slate-200 py-1 px-1.5 leading-none text-primary transition-colors hover:text-primary-focus dark:border-navy-500 dark:text-accent-light dark:hover:text-accent&quot;&#13;&#10;        href=&quot;#&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;svg&#13;&#10;          xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;          class=&quot;h-4.5 w-4.5&quot;&#13;&#10;          fill=&quot;none&quot;&#13;&#10;          viewBox=&quot;0 0 24 24&quot;&#13;&#10;          stroke=&quot;currentColor&quot;&#13;&#10;        &gt;&#13;&#10;          &lt;path&#13;&#10;            stroke-linecap=&quot;round&quot;&#13;&#10;            stroke-linejoin=&quot;round&quot;&#13;&#10;            stroke-width=&quot;1.5&quot;&#13;&#10;            d=&quot;M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z&quot;&#13;&#10;          &gt;&lt;/path&gt;&#13;&#10;        &lt;/svg&gt;&#13;&#10;        &lt;span&gt;Elements&lt;/span&gt;&#13;&#10;      &lt;/a&gt;&#13;&#10;      &lt;svg&#13;&#10;        x-ignore&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M9 5l7 7-7 7&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;&#13;&#10;      &lt;div class=&quot;flex items-center space-x-1.5&quot;&gt;&#13;&#10;        &lt;svg&#13;&#10;          xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;          class=&quot;h-4.5 w-4.5 text-slate-400 dark:text-navy-300&quot;&#13;&#10;          fill=&quot;none&quot;&#13;&#10;          viewBox=&quot;0 0 24 24&quot;&#13;&#10;          stroke=&quot;currentColor&quot;&#13;&#10;        &gt;&#13;&#10;          &lt;path&#13;&#10;            stroke-linecap=&quot;round&quot;&#13;&#10;            stroke-linejoin=&quot;round&quot;&#13;&#10;            stroke-width=&quot;1.5&quot;&#13;&#10;            d=&quot;M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z&quot;&#13;&#10;          /&gt;&#13;&#10;        &lt;/svg&gt;&#13;&#10;        &lt;span&gt;Calendar&lt;/span&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;  &lt;/ul&gt;</code>
+  &lt;ul class=&quot;flex flex-wrap items-center space-x-2&quot;&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;rounded-lg border border-slate-200 px-1.5 py-1 leading-none text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;svg&#13;&#10;          xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;          class=&quot;h-4.5 w-4.5&quot;&#13;&#10;          fill=&quot;none&quot;&#13;&#10;          viewBox=&quot;0 0 24 24&quot;&#13;&#10;          stroke=&quot;currentColor&quot;&#13;&#10;        &gt;&#13;&#10;          &lt;path&#13;&#10;            stroke-linecap=&quot;round&quot;&#13;&#10;            stroke-linejoin=&quot;round&quot;&#13;&#10;            stroke-width=&quot;1.5&quot;&#13;&#10;            d=&quot;M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6&quot;&#13;&#10;          /&gt;&#13;&#10;        &lt;/svg&gt;&#13;&#10;      &lt;/a&gt;&#13;&#10;      &lt;svg&#13;&#10;        x-ignore&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M9 5l7 7-7 7&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li class=&quot;flex items-center space-x-2&quot;&gt;&#13;&#10;      &lt;a&#13;&#10;        class=&quot;flex items-center space-x-1.5 rounded-lg border border-slate-200 py-1 px-1.5 leading-none text-primary transition-colors hover:text-primary-focus        href=&quot;#&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;svg&#13;&#10;          xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;          class=&quot;h-4.5 w-4.5&quot;&#13;&#10;          fill=&quot;none&quot;&#13;&#10;          viewBox=&quot;0 0 24 24&quot;&#13;&#10;          stroke=&quot;currentColor&quot;&#13;&#10;        &gt;&#13;&#10;          &lt;path&#13;&#10;            stroke-linecap=&quot;round&quot;&#13;&#10;            stroke-linejoin=&quot;round&quot;&#13;&#10;            stroke-width=&quot;1.5&quot;&#13;&#10;            d=&quot;M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z&quot;&#13;&#10;          &gt;&lt;/path&gt;&#13;&#10;        &lt;/svg&gt;&#13;&#10;        &lt;span&gt;Elements&lt;/span&gt;&#13;&#10;      &lt;/a&gt;&#13;&#10;      &lt;svg&#13;&#10;        x-ignore&#13;&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;        class=&quot;h-3.5 w-3.5&quot;&#13;&#10;        fill=&quot;none&quot;&#13;&#10;        viewBox=&quot;0 0 24 24&quot;&#13;&#10;        stroke=&quot;currentColor&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;path&#13;&#10;          stroke-linecap=&quot;round&quot;&#13;&#10;          stroke-linejoin=&quot;round&quot;&#13;&#10;          stroke-width=&quot;2&quot;&#13;&#10;          d=&quot;M9 5l7 7-7 7&quot;&#13;&#10;        /&gt;&#13;&#10;      &lt;/svg&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;    &lt;li&gt;&#13;&#10;      &lt;div class=&quot;flex items-center space-x-1.5&quot;&gt;&#13;&#10;        &lt;svg&#13;&#10;          xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;          class=&quot;h-4.5 w-4.5 text-slate-400          fill=&quot;none&quot;&#13;&#10;          viewBox=&quot;0 0 24 24&quot;&#13;&#10;          stroke=&quot;currentColor&quot;&#13;&#10;        &gt;&#13;&#10;          &lt;path&#13;&#10;            stroke-linecap=&quot;round&quot;&#13;&#10;            stroke-linejoin=&quot;round&quot;&#13;&#10;            stroke-width=&quot;1.5&quot;&#13;&#10;            d=&quot;M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z&quot;&#13;&#10;          /&gt;&#13;&#10;        &lt;/svg&gt;&#13;&#10;        &lt;span&gt;Calendar&lt;/span&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/li&gt;&#13;&#10;  &lt;/ul&gt;</code>
               </pre>
                 </div>
             </div>

@@ -2,17 +2,17 @@
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center space-x-4 py-5 lg:py-6">
           <h2
-            class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl"
+            class="text-xl font-medium text-slate-800 lg:text-2xl"
           >
             Avatar
           </h2>
           <div class="hidden h-full py-1 sm:flex">
-            <div class="h-full w-px bg-slate-300 dark:bg-navy-600"></div>
+            <div class="h-full w-px bg-slate-300"></div>
           </div>
           <ul class="hidden flex-wrap items-center space-x-2 sm:flex">
             <li class="flex items-center space-x-2">
               <a
-                class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                class="text-primary transition-colors hover:text-primary-focus"
                 href="#"
                 >Elements</a
               >
@@ -40,15 +40,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Rounded Avatar
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -124,15 +124,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Square Avatar
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -209,15 +209,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Squircle Avatar
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -295,15 +295,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Initial Avatar
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -316,7 +316,7 @@
               <div class="inline-space mt-5">
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600"
                   >
                     jd
                   </div>
@@ -324,7 +324,7 @@
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-primary text-base uppercase text-white dark:bg-accent"
+                    class="is-initial rounded-full bg-primary text-base uppercase text-white"
                   >
                     jd
                   </div>
@@ -377,7 +377,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-primary text-base uppercase text-white dark:bg-accent&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-secondary text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div class=&quot;is-initial rounded-full bg-info text-base uppercase text-white&quot;&gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-success text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-warning text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-error text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;
+  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-primary text-base uppercase text-white    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-secondary text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div class=&quot;is-initial rounded-full bg-info text-base uppercase text-white&quot;&gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-success text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-warning text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-error text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;
                 </code>
               </pre>
             </div>
@@ -387,15 +387,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Square Initial Avatar
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -410,7 +410,7 @@
               <div class="inline-space mt-5">
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-lg bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-lg bg-slate-200 text-base uppercase text-slate-600"
                   >
                     jd
                   </div>
@@ -418,7 +418,7 @@
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-lg bg-primary text-base uppercase text-white dark:bg-accent"
+                    class="is-initial rounded-lg bg-primary text-base uppercase text-white"
                   >
                     jd
                   </div>
@@ -471,7 +471,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-primary text-base uppercase text-white dark:bg-accent&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-secondary text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div class=&quot;is-initial rounded-lg bg-info text-base uppercase text-white&quot;&gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-success text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-warning text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-error text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;  
+  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-slate-200 text-base uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-primary text-base uppercase text-white    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-secondary text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div class=&quot;is-initial rounded-lg bg-info text-base uppercase text-white&quot;&gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-success text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-warning text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-error text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;  
                 </code>
               </pre>
             </div>
@@ -481,15 +481,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Squircle Initial Avatar
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -504,7 +504,7 @@
               <div class="inline-space mt-5">
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial mask is-squircle bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial mask is-squircle bg-slate-200 text-base uppercase text-slate-600"
                   >
                     jd
                   </div>
@@ -512,7 +512,7 @@
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial mask is-squircle bg-primary text-base uppercase text-white dark:bg-accent"
+                    class="is-initial mask is-squircle bg-primary text-base uppercase text-white"
                   >
                     jd
                   </div>
@@ -565,7 +565,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial mask is-squircle bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial mask is-squircle bg-primary text-base uppercase text-white dark:bg-accent&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial mask is-squircle bg-secondary text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div class=&quot;is-initial mask is-squircle bg-info text-base uppercase text-white&quot;&gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial mask is-squircle bg-success text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial mask is-squircle bg-warning text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial mask is-squircle bg-error text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;  &#13;&#10;                </code>
+  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial mask is-squircle bg-slate-200 text-base uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial mask is-squircle bg-primary text-base uppercase text-white    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial mask is-squircle bg-secondary text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div class=&quot;is-initial mask is-squircle bg-info text-base uppercase text-white&quot;&gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial mask is-squircle bg-success text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial mask is-squircle bg-warning text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial mask is-squircle bg-error text-base uppercase text-white&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;  &#13;&#10;                </code>
               </pre>
             </div>
           </div>
@@ -574,15 +574,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Soft Initial Avatar
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -595,7 +595,7 @@
               <div class="inline-space mt-5">
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-primary/10 text-base uppercase text-primary dark:bg-accent-light/10 dark:text-accent-light"
+                    class="is-initial rounded-full bg-primary/10 text-base uppercase text-primary"
                   >
                     jd
                   </div>
@@ -603,7 +603,7 @@
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-secondary/10 text-base uppercase text-secondary dark:bg-secondary-light/10 dark:text-secondary-light"
+                    class="is-initial rounded-full bg-secondary/10 text-base uppercase text-secondary"
                   >
                     jd
                   </div>
@@ -648,7 +648,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-primary/10 text-base uppercase text-primary dark:bg-accent-light/10 dark:text-accent-light&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-secondary/10 text-base uppercase text-secondary dark:bg-secondary-light/10 dark:text-secondary-light&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-info/10 text-base uppercase text-info&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-success/10 text-base uppercase text-success&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-warning/10 text-base uppercase text-warning&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-error/10 text-base uppercase text-error&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;                </code>
+  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-primary/10 text-base uppercase text-primary    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-secondary/10 text-base uppercase text-secondary    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-info/10 text-base uppercase text-info&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-success/10 text-base uppercase text-success&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-warning/10 text-base uppercase text-warning&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-error/10 text-base uppercase text-error&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;                </code>
               </pre>
             </div>
           </div>
@@ -657,15 +657,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Bordered Initial Avatar
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -678,7 +678,7 @@
               <div class="inline-space mt-5">
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full border border-primary/30 bg-primary/10 text-base uppercase text-primary dark:border-accent-light/30 dark:bg-accent-light/10 dark:text-accent-light"
+                    class="is-initial rounded-full border border-primary/30 bg-primary/10 text-base uppercase text-primary"
                   >
                     jd
                   </div>
@@ -686,7 +686,7 @@
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full border border-secondary/30 bg-secondary/10 text-base uppercase text-secondary dark:border-secondary-light/30 dark:bg-secondary-light/10 dark:text-secondary-light"
+                    class="is-initial rounded-full border border-secondary/30 bg-secondary/10 text-base uppercase text-secondary"
                   >
                     jd
                   </div>
@@ -731,7 +731,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full border border-primary/30 bg-primary/10 text-base uppercase text-primary dark:border-accent-light/30 dark:bg-accent-light/10 dark:text-accent-light&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full border border-secondary/30 bg-secondary/10 text-base uppercase text-secondary dark:border-secondary-light/30 dark:bg-secondary-light/10 dark:text-secondary-light&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full border border-info/30 bg-info/10 text-base uppercase text-info&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full border border-success/30 bg-success/10 text-base uppercase text-success&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full border border-warning/30 bg-warning/10 text-base uppercase text-warning&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full border border-error/30 bg-error/10 text-base uppercase text-error&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;
+  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full border border-primary/30 bg-primary/10 text-base uppercase text-primary    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full border border-secondary/30 bg-secondary/10 text-base uppercase text-secondary    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full border border-info/30 bg-info/10 text-base uppercase text-info&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full border border-success/30 bg-success/10 text-base uppercase text-success&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full border border-warning/30 bg-warning/10 text-base uppercase text-warning&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full border border-error/30 bg-error/10 text-base uppercase text-error&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;
                 </code>
               </pre>
             </div>
@@ -741,15 +741,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Square Soft Initial
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -763,7 +763,7 @@
               <div class="inline-space mt-5">
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-lg bg-primary/10 text-base uppercase text-primary dark:bg-accent-light/10 dark:text-accent-light"
+                    class="is-initial rounded-lg bg-primary/10 text-base uppercase text-primary"
                   >
                     jd
                   </div>
@@ -771,7 +771,7 @@
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-lg bg-secondary/10 text-base uppercase text-secondary dark:bg-secondary-light/10 dark:text-secondary-light"
+                    class="is-initial rounded-lg bg-secondary/10 text-base uppercase text-secondary"
                   >
                     jd
                   </div>
@@ -816,7 +816,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-primary/10 text-base uppercase text-primary dark:bg-accent-light/10 dark:text-accent-light&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-secondary/10 text-base uppercase text-secondary dark:bg-secondary-light/10 dark:text-secondary-light&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div class=&quot;is-initial rounded-lg bg-info/10 text-base uppercase text-info&quot;&gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-success/10 text-base uppercase text-success&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-warning/10 text-base uppercase text-warning&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-error/10 text-base uppercase text-error&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;    
+  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-primary/10 text-base uppercase text-primary    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-secondary/10 text-base uppercase text-secondary    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div class=&quot;is-initial rounded-lg bg-info/10 text-base uppercase text-info&quot;&gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-success/10 text-base uppercase text-success&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-warning/10 text-base uppercase text-warning&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-lg bg-error/10 text-base uppercase text-error&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;    
                 </code>
               </pre>
             </div>
@@ -826,15 +826,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Avatar With Dots
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -852,7 +852,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 h-2.5 w-2.5 rounded-full border border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 h-2.5 w-2.5 rounded-full border border-white bg-primary"
                   ></div>
                 </div>
 
@@ -863,7 +863,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
 
@@ -874,7 +874,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
 
@@ -885,7 +885,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 m-0.5 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 m-0.5 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
 
@@ -896,7 +896,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
 
@@ -907,7 +907,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 m-1.5 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 m-1.5 h-4 w-4 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
               </div>
@@ -918,7 +918,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-2.5 w-2.5 rounded-full border border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-10 w-10&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-16 w-16&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 m-0.5 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-20 w-20&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-24 w-24&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 m-1.5 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;
+  &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-2.5 w-2.5 rounded-full border border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-10 w-10&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-16 w-16&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 m-0.5 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-20 w-20&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-24 w-24&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 m-1.5 h-4 w-4 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;
                 </code>
               </pre>
             </div>
@@ -928,15 +928,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Squircle Avatar Dots
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -954,7 +954,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 -m-px h-2.5 w-2.5 rounded-full border border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 -m-px h-2.5 w-2.5 rounded-full border border-white bg-primary"
                   ></div>
                 </div>
 
@@ -965,7 +965,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 -m-0.5 h-3 w-3 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 -m-0.5 h-3 w-3 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
 
@@ -976,7 +976,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 -m-0.5 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 -m-0.5 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
 
@@ -987,7 +987,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 -m-px h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 -m-px h-3.5 w-3.5 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
 
@@ -998,7 +998,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 h-4 w-4 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
 
@@ -1009,7 +1009,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 h-4 w-4 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
               </div>
@@ -1020,7 +1020,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;mask is-squircle&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 -m-px h-2.5 w-2.5 rounded-full border border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-10 w-10&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;mask is-squircle&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 -m-0.5 h-3 w-3 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;mask is-squircle&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 -m-0.5 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-16 w-16&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;mask is-squircle&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 -m-px h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-20 w-20&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;mask is-squircle&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-24 w-24&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;mask is-squircle&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;  
+  &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;mask is-squircle&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 -m-px h-2.5 w-2.5 rounded-full border border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-10 w-10&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;mask is-squircle&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 -m-0.5 h-3 w-3 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;mask is-squircle&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 -m-0.5 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-16 w-16&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;mask is-squircle&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 -m-px h-3.5 w-3.5 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-20 w-20&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;mask is-squircle&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-4 w-4 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-24 w-24&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;mask is-squircle&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-4 w-4 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;  
                 </code>
               </pre>
             </div>
@@ -1030,15 +1030,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Initial With Dots
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -1051,67 +1051,67 @@
               <div class="inline-space mt-5 flex flex-wrap items-end">
                 <div class="avatar h-8 w-8">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-xs+ uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-xs+ uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute right-0 h-2.5 w-2.5 rounded-full border border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 h-2.5 w-2.5 rounded-full border border-white bg-primary"
                   ></div>
                 </div>
 
                 <div class="avatar h-10 w-10">
                   <div
-                    class="is-initial rounded-full bg-slate-200 uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
 
                 <div class="avatar h-16 w-16">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-lg uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-lg uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute right-0 m-0.5 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 m-0.5 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
 
                 <div class="avatar h-20 w-20">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-xl uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-xl uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
 
                 <div class="avatar h-24 w-24">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-2xl uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-2xl uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute right-0 m-1.5 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 m-1.5 h-4 w-4 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
               </div>
@@ -1122,7 +1122,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-xs+ uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-2.5 w-2.5 rounded-full border border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-10 w-10&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-16 w-16&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-lg uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 m-0.5 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-20 w-20&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-xl uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-24 w-24&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-2xl uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 m-1.5 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;    
+  &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-xs+ uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-2.5 w-2.5 rounded-full border border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-10 w-10&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-16 w-16&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-lg uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 m-0.5 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-20 w-20&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-xl uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-24 w-24&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-2xl uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 m-1.5 h-4 w-4 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;    
                 </code>
               </pre>
             </div>
@@ -1132,15 +1132,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Avatar Dot Colors
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -1158,7 +1158,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-slate-300"
                   ></div>
                 </div>
 
@@ -1169,7 +1169,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary"
                   ></div>
                 </div>
 
@@ -1180,7 +1180,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-secondary dark:border-navy-700 dark:bg-secondary-light"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-secondary"
                   ></div>
                 </div>
 
@@ -1191,7 +1191,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-info dark:border-navy-700"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-info"
                   ></div>
                 </div>
 
@@ -1202,7 +1202,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-success dark:border-navy-700"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-success"
                   ></div>
                 </div>
 
@@ -1213,7 +1213,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-warning dark:border-navy-700"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-warning"
                   ></div>
                 </div>
 
@@ -1224,7 +1224,7 @@
                     alt="avatar"
                   />
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-error dark:border-navy-700"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-error"
                   ></div>
                 </div>
               </div>
@@ -1235,7 +1235,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-secondary dark:border-navy-700 dark:bg-secondary-light&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-info dark:border-navy-700&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-success dark:border-navy-700&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-warning dark:border-navy-700&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-error dark:border-navy-700&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;                </code>
+  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-slate-300    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-secondary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-info    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-success    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-warning    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;img&#13;&#10;      class=&quot;rounded-full&quot;&#13;&#10;      src=&quot;images/200x200.png&quot;&#13;&#10;      alt=&quot;avatar&quot;&#13;&#10;    /&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-error    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;                </code>
               </pre>
             </div>
           </div>
@@ -1244,15 +1244,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Avatar Dot Ping
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -1266,42 +1266,42 @@
               <div class="inline-space mt-5 flex flex-wrap items-end">
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary"
                   >
                     <span
-                      class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80 dark:bg-accent"
+                      class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80"
                     ></span>
                   </div>
                 </div>
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-secondary dark:border-navy-700 dark:bg-secondary-light"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-secondary"
                   >
                     <span
-                      class="absolute inline-flex h-full w-full animate-ping rounded-full bg-secondary opacity-80 dark:bg-secondary-light"
+                      class="absolute inline-flex h-full w-full animate-ping rounded-full bg-secondary opacity-80"
                     ></span>
                   </div>
                 </div>
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-info dark:border-navy-700"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-info"
                   >
                     <span
                       class="absolute inline-flex h-full w-full animate-ping rounded-full bg-info opacity-80"
@@ -1311,12 +1311,12 @@
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-success dark:border-navy-700"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-success"
                   >
                     <span
                       class="absolute inline-flex h-full w-full animate-ping rounded-full bg-success opacity-80"
@@ -1326,12 +1326,12 @@
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-warning dark:border-navy-700"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-warning"
                   >
                     <span
                       class="absolute inline-flex h-full w-full animate-ping rounded-full bg-warning opacity-80"
@@ -1341,12 +1341,12 @@
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-error dark:border-navy-700"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-error"
                   >
                     <span
                       class="absolute inline-flex h-full w-full animate-ping rounded-full bg-error opacity-80"
@@ -1361,7 +1361,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-secondary dark:border-navy-700 dark:bg-secondary-light&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-secondary opacity-80 dark:bg-secondary-light&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-info dark:border-navy-700&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-info opacity-80&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-success dark:border-navy-700&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-success opacity-80&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-warning dark:border-navy-700&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-warning opacity-80&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-error dark:border-navy-700&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-error opacity-80&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;
+  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-secondary    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-secondary opacity-80      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-info    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-info opacity-80&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-success    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-success opacity-80&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-warning    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-warning opacity-80&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-error    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-error opacity-80&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;
                 </code>
               </pre>
             </div>
@@ -1371,15 +1371,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Avatar Dot Position
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -1392,60 +1392,60 @@
               <div class="inline-space mt-5 flex flex-wrap items-end">
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary"
                   >
                     <span
-                      class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80 dark:bg-accent"
+                      class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80"
                     ></span>
                   </div>
                 </div>
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute left-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute left-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary"
                   >
                     <span
-                      class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80 dark:bg-accent"
+                      class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80"
                     ></span>
                   </div>
                 </div>
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute bottom-0 right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute bottom-0 right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary"
                   >
                     <span
-                      class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80 dark:bg-accent"
+                      class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80"
                     ></span>
                   </div>
                 </div>
 
                 <div class="avatar h-12 w-12">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100"
+                    class="is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600"
                   >
                     jd
                   </div>
                   <div
-                    class="absolute bottom-0 left-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent"
+                    class="absolute bottom-0 left-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary"
                   >
                     <span
-                      class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80 dark:bg-accent"
+                      class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80"
                     ></span>
                   </div>
                 </div>
@@ -1457,7 +1457,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute left-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute bottom-0 right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600 dark:bg-navy-500 dark:text-navy-100&quot;&#13;&#10;    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute bottom-0 left-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;                </code>
+  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute left-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute bottom-0 right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div class=&quot;avatar h-12 w-12&quot;&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;is-initial rounded-full bg-slate-200 text-base uppercase text-slate-600    &gt;&#13;&#10;      jd&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;absolute bottom-0 left-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-primary    &gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;                </code>
               </pre>
             </div>
           </div>
@@ -1466,15 +1466,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Avatar Group
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -1487,7 +1487,7 @@
               <div class="mt-5 flex flex-wrap -space-x-2">
                 <div class="avatar h-8 w-8 hover:z-10">
                   <img
-                    class="rounded-full ring ring-white dark:ring-navy-700"
+                    class="rounded-full ring ring-white"
                     src="{{asset('images/200x200.png')}}"
                     alt="avatar"
                   />
@@ -1495,7 +1495,7 @@
 
                 <div class="avatar h-8 w-8 hover:z-10">
                   <div
-                    class="is-initial rounded-full bg-info text-xs+ uppercase text-white ring ring-white dark:ring-navy-700"
+                    class="is-initial rounded-full bg-info text-xs+ uppercase text-white ring ring-white"
                   >
                     jd
                   </div>
@@ -1503,7 +1503,7 @@
 
                 <div class="avatar h-8 w-8 hover:z-10">
                   <img
-                    class="rounded-full ring ring-white dark:ring-navy-700"
+                    class="rounded-full ring ring-white"
                     src="{{asset('images/200x200.png')}}"
                     alt="avatar"
                   />
@@ -1511,7 +1511,7 @@
 
                 <div class="avatar h-8 w-8 hover:z-10">
                   <img
-                    class="rounded-full ring ring-white dark:ring-navy-700"
+                    class="rounded-full ring ring-white"
                     src="{{asset('images/200x200.png')}}"
                     alt="avatar"
                   />
@@ -1519,7 +1519,7 @@
 
                 <div class="avatar h-8 w-8 hover:z-10">
                   <img
-                    class="rounded-full ring ring-white dark:ring-navy-700"
+                    class="rounded-full ring ring-white"
                     src="{{asset('images/200x200.png')}}"
                     alt="avatar"
                   />
@@ -1527,7 +1527,7 @@
 
                 <div class="avatar h-8 w-8 hover:z-10">
                   <img
-                    class="rounded-full ring ring-white dark:ring-navy-700"
+                    class="rounded-full ring ring-white"
                     src="{{asset('images/200x200.png')}}"
                     alt="avatar"
                   />
@@ -1540,7 +1540,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;flex flex-wrap -space-x-2&quot;&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full ring ring-white dark:ring-navy-700&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-full bg-info text-xs+ uppercase text-white ring ring-white dark:ring-navy-700&quot;&#13;&#10;      &gt;&#13;&#10;        jd&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full ring ring-white dark:ring-navy-700&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full ring ring-white dark:ring-navy-700&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full ring ring-white dark:ring-navy-700&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full ring ring-white dark:ring-navy-700&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;                </code>
+  &lt;div class=&quot;flex flex-wrap -space-x-2&quot;&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full ring ring-white        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-full bg-info text-xs+ uppercase text-white ring ring-white      &gt;&#13;&#10;        jd&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full ring ring-white        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full ring ring-white        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full ring ring-white        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full ring ring-white        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;                </code>
               </pre>
             </div>
           </div>
@@ -1549,15 +1549,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Square Avatar Group
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -1570,7 +1570,7 @@
               <div class="mt-5 flex flex-wrap -space-x-2">
                 <div class="avatar h-8 w-8 hover:z-10">
                   <img
-                    class="rounded-xl ring ring-white dark:ring-navy-700"
+                    class="rounded-xl ring ring-white"
                     src="{{asset('images/200x200.png')}}"
                     alt="avatar"
                   />
@@ -1578,7 +1578,7 @@
 
                 <div class="avatar h-8 w-8 hover:z-10">
                   <div
-                    class="is-initial rounded-xl bg-info text-xs+ uppercase text-white ring ring-white dark:ring-navy-700"
+                    class="is-initial rounded-xl bg-info text-xs+ uppercase text-white ring ring-white"
                   >
                     jd
                   </div>
@@ -1586,7 +1586,7 @@
 
                 <div class="avatar h-8 w-8 hover:z-10">
                   <img
-                    class="rounded-xl ring ring-white dark:ring-navy-700"
+                    class="rounded-xl ring ring-white"
                     src="{{asset('images/200x200.png')}}"
                     alt="avatar"
                   />
@@ -1594,7 +1594,7 @@
 
                 <div class="avatar h-8 w-8 hover:z-10">
                   <img
-                    class="rounded-xl ring ring-white dark:ring-navy-700"
+                    class="rounded-xl ring ring-white"
                     src="{{asset('images/200x200.png')}}"
                     alt="avatar"
                   />
@@ -1602,7 +1602,7 @@
 
                 <div class="avatar h-8 w-8 hover:z-10">
                   <img
-                    class="rounded-xl ring ring-white dark:ring-navy-700"
+                    class="rounded-xl ring ring-white"
                     src="{{asset('images/200x200.png')}}"
                     alt="avatar"
                   />
@@ -1610,7 +1610,7 @@
 
                 <div class="avatar h-8 w-8 hover:z-10">
                   <img
-                    class="rounded-xl ring ring-white dark:ring-navy-700"
+                    class="rounded-xl ring ring-white"
                     src="{{asset('images/200x200.png')}}"
                     alt="avatar"
                   />
@@ -1623,7 +1623,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>  
-  &lt;div class=&quot;flex flex-wrap -space-x-2&quot;&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-xl ring ring-white dark:ring-navy-700&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-xl bg-info text-xs+ uppercase text-white ring ring-white dark:ring-navy-700&quot;&#13;&#10;      &gt;&#13;&#10;        jd&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-xl ring ring-white dark:ring-navy-700&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-xl ring ring-white dark:ring-navy-700&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-xl ring ring-white dark:ring-navy-700&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-xl ring ring-white dark:ring-navy-700&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;</code>
+  &lt;div class=&quot;flex flex-wrap -space-x-2&quot;&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-xl ring ring-white        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-xl bg-info text-xs+ uppercase text-white ring ring-white      &gt;&#13;&#10;        jd&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-xl ring ring-white        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-xl ring ring-white        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-xl ring ring-white        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8 hover:z-10&quot;&gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-xl ring ring-white        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;</code>
               </pre>
             </div>
           </div>
@@ -1632,15 +1632,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Gradient Border
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -1655,7 +1655,7 @@
                   class="flex h-16 w-16 rounded-full bg-gradient-to-r from-sky-400 to-blue-600 p-0.5"
                 >
                   <div
-                    class="avatar h-full w-full rounded-full bg-white p-[3px] dark:bg-navy-700"
+                    class="avatar h-full w-full rounded-full bg-white p-[3px]"
                   >
                     <img
                       class="rounded-full"
@@ -1669,7 +1669,7 @@
                   class="flex h-16 w-16 rounded-full bg-gradient-to-r from-amber-400 to-orange-600 p-0.5"
                 >
                   <div
-                    class="avatar h-full w-full rounded-full bg-white p-[3px] dark:bg-navy-700"
+                    class="avatar h-full w-full rounded-full bg-white p-[3px]"
                   >
                     <img
                       class="rounded-full"
@@ -1683,7 +1683,7 @@
                   class="flex h-16 w-16 rounded-full bg-gradient-to-r from-pink-500 to-rose-500 p-0.5"
                 >
                   <div
-                    class="avatar h-full w-full rounded-full bg-white p-[3px] dark:bg-navy-700"
+                    class="avatar h-full w-full rounded-full bg-white p-[3px]"
                   >
                     <img
                       class="rounded-full"
@@ -1697,7 +1697,7 @@
                   class="flex h-16 w-16 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5"
                 >
                   <div
-                    class="avatar h-full w-full rounded-full bg-white p-[3px] dark:bg-navy-700"
+                    class="avatar h-full w-full rounded-full bg-white p-[3px]"
                   >
                     <img
                       class="rounded-full"
@@ -1705,7 +1705,7 @@
                       alt="avatar"
                     />
                     <div
-                      class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-error dark:border-navy-700"
+                      class="absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-error"
                     ></div>
                   </div>
                 </div>
@@ -1714,7 +1714,7 @@
                   class="flex h-16 w-16 rounded-full bg-gradient-to-r from-green-400 to-fuchsia-400 p-0.5"
                 >
                   <div
-                    class="avatar h-full w-full rounded-full bg-white p-[3px] dark:bg-navy-700"
+                    class="avatar h-full w-full rounded-full bg-white p-[3px]"
                   >
                     <img
                       class="rounded-full"
@@ -1731,7 +1731,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div&#13;&#10;    class=&quot;flex h-16 w-16 rounded-full bg-gradient-to-r from-sky-400 to-blue-600 p-0.5&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;avatar h-full w-full rounded-full bg-white p-[3px] dark:bg-navy-700&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;flex h-16 w-16 rounded-full bg-gradient-to-r from-amber-400 to-orange-600 p-0.5&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;avatar h-full w-full rounded-full bg-white p-[3px] dark:bg-navy-700&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;flex h-16 w-16 rounded-full bg-gradient-to-r from-pink-500 to-rose-500 p-0.5&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;avatar h-full w-full rounded-full bg-white p-[3px] dark:bg-navy-700&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;flex h-16 w-16 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;avatar h-full w-full rounded-full bg-white p-[3px] dark:bg-navy-700&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-error dark:border-navy-700&quot;&#13;&#10;      &gt;&lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;flex h-16 w-16 rounded-full bg-gradient-to-r from-green-400 to-fuchsia-400 p-0.5&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;avatar h-full w-full rounded-full bg-white p-[3px] dark:bg-navy-700&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;                </code>
+  &lt;div&#13;&#10;    class=&quot;flex h-16 w-16 rounded-full bg-gradient-to-r from-sky-400 to-blue-600 p-0.5&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;avatar h-full w-full rounded-full bg-white p-[3px]    &gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;flex h-16 w-16 rounded-full bg-gradient-to-r from-amber-400 to-orange-600 p-0.5&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;avatar h-full w-full rounded-full bg-white p-[3px]    &gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;flex h-16 w-16 rounded-full bg-gradient-to-r from-pink-500 to-rose-500 p-0.5&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;avatar h-full w-full rounded-full bg-white p-[3px]    &gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;flex h-16 w-16 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;avatar h-full w-full rounded-full bg-white p-[3px]    &gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;absolute right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-error      &gt;&lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;flex h-16 w-16 rounded-full bg-gradient-to-r from-green-400 to-fuchsia-400 p-0.5&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;avatar h-full w-full rounded-full bg-white p-[3px]    &gt;&#13;&#10;      &lt;img&#13;&#10;        class=&quot;rounded-full&quot;&#13;&#10;        src=&quot;images/200x200.png&quot;&#13;&#10;        alt=&quot;avatar&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;                </code>
                </pre>
             </div>
           </div>
@@ -1740,15 +1740,15 @@
           <div class="card px-4 pb-4 sm:px-5">
             <div class="my-3 flex h-8 items-center justify-between">
               <h2
-                class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
               >
                 Avatar Skeleton
               </h2>
               <label class="flex items-center space-x-2">
-                <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                <span class="text-xs text-slate-400">Code</span>
                 <input
                   @change="helpers.toggleCode"
-                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                  class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                   type="checkbox"
                 />
               </label>
@@ -1761,42 +1761,42 @@
               <div class="mt-5 flex animate-pulse flex-wrap -space-x-2">
                 <div class="avatar h-8 w-8">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-xs+ uppercase text-white ring ring-white dark:bg-navy-500 dark:ring-navy-700"
+                    class="is-initial rounded-full bg-slate-200 text-xs+ uppercase text-white ring ring-white"
                   >
                     <i class="fa fa-user"></i>
                   </div>
                 </div>
                 <div class="avatar h-8 w-8">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white dark:bg-navy-500 dark:ring-navy-700"
+                    class="is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white"
                   >
                     <i class="fa fa-user"></i>
                   </div>
                 </div>
                 <div class="avatar h-8 w-8">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white dark:bg-navy-500 dark:ring-navy-700"
+                    class="is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white"
                   >
                     <i class="fa fa-user"></i>
                   </div>
                 </div>
                 <div class="avatar h-8 w-8">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white dark:bg-navy-500 dark:ring-navy-700"
+                    class="is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white"
                   >
                     <i class="fa fa-user"></i>
                   </div>
                 </div>
                 <div class="avatar h-8 w-8">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white dark:bg-navy-500 dark:ring-navy-700"
+                    class="is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white"
                   >
                     <i class="fa fa-user"></i>
                   </div>
                 </div>
                 <div class="avatar h-8 w-8">
                   <div
-                    class="is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white dark:bg-navy-500 dark:ring-navy-700"
+                    class="is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white"
                   >
                     <i class="fa fa-user"></i>
                   </div>
@@ -1809,7 +1809,7 @@
                 x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;flex animate-pulse flex-wrap -space-x-2&quot;&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-full bg-slate-200 text-xs+ uppercase text-white ring ring-white dark:bg-navy-500 dark:ring-navy-700&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white dark:bg-navy-500 dark:ring-navy-700&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white dark:bg-navy-500 dark:ring-navy-700&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white dark:bg-navy-500 dark:ring-navy-700&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white dark:bg-navy-500 dark:ring-navy-700&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white dark:bg-navy-500 dark:ring-navy-700&quot;&#13;&#10;      &gt;&#13;&#10;        &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;
+  &lt;div class=&quot;flex animate-pulse flex-wrap -space-x-2&quot;&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-full bg-slate-200 text-xs+ uppercase text-white ring ring-white      &gt;&#13;&#10;        &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white      &gt;&#13;&#10;        &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white      &gt;&#13;&#10;        &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white      &gt;&#13;&#10;        &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white      &gt;&#13;&#10;        &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;avatar h-8 w-8&quot;&gt;&#13;&#10;      &lt;div&#13;&#10;        class=&quot;is-initial rounded-full bg-slate-200 text-xs+ text-white ring ring-white      &gt;&#13;&#10;        &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;
                 </code>
               </pre>
             </div>

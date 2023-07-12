@@ -5,7 +5,7 @@
         <div class="py-5 text-center lg:py-6">
           <p class="text-sm uppercase">Are you new here?</p>
           <h3
-            class="mt-1 text-xl font-semibold text-slate-600 dark:text-navy-100"
+            class="mt-1 text-xl font-semibold text-slate-600"
           >
             Welcome. Where do you like to Start?
           </h3>
@@ -23,7 +23,7 @@
             </div>
             <div class="px-4 pb-8 text-center sm:px-5">
               <h4
-                class="text-lg font-semibold text-slate-700 dark:text-navy-100"
+                class="text-lg font-semibold text-slate-700"
               >
                 Creative Design
               </h4>
@@ -32,7 +32,7 @@
                 Doloribus eius in qui!
               </p>
               <button
-                class="btn mt-8 bg-primary font-medium text-white shadow-lg shadow-primary/50 hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:shadow-accent/50 dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90"
+                class="btn mt-8 bg-primary font-medium text-white shadow-lg shadow-primary/50 hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90"
               >
                 Start Design
               </button>
@@ -48,7 +48,7 @@
             </div>
             <div class="px-4 pb-8 text-center sm:px-5">
               <h4
-                class="text-lg font-semibold text-slate-700 dark:text-navy-100"
+                class="text-lg font-semibold text-slate-700"
               >
                 Fully Responsive
               </h4>
@@ -57,7 +57,7 @@
                 ipsam odio totam?
               </p>
               <button
-                class="btn mt-8 bg-primary font-medium text-white shadow-lg shadow-primary/50 hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:shadow-accent/50 dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90"
+                class="btn mt-8 bg-primary font-medium text-white shadow-lg shadow-primary/50 hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90"
               >
                 Start Design
               </button>
@@ -73,7 +73,7 @@
             </div>
             <div class="px-4 pb-8 text-center sm:px-5">
               <h4
-                class="text-lg font-semibold text-slate-700 dark:text-navy-100"
+                class="text-lg font-semibold text-slate-700"
               >
                 Performance
               </h4>
@@ -82,7 +82,7 @@
                 necessitatibus quas sit.
               </p>
               <button
-                class="btn mt-8 bg-primary font-medium text-white shadow-lg shadow-primary/50 hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:shadow-accent/50 dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90"
+                class="btn mt-8 bg-primary font-medium text-white shadow-lg shadow-primary/50 hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90"
               >
                 Start Design
               </button>

@@ -25,11 +25,11 @@
 
                 <div class="mt-4 sm:mt-5 lg:mt-6">
                     <div class="flex h-8 items-center justify-between">
-                        <h2 class="text-base font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="text-base font-medium tracking-wide text-slate-700">
                             Appointment request
                         </h2>
                         <a href="#"
-                            class="border-b border-dotted border-current pb-0.5 text-xs+ font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                            class="border-b border-dotted border-current pb-0.5 text-xs+ font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                             All</a>
                     </div>
                     <div class="mt-3 grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5">
@@ -40,17 +40,17 @@
                                         alt="image" />
                                 </div>
                                 <div>
-                                    <h3 class="font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <h3 class="font-medium text-slate-700 line-clamp-1">
                                         Travis Fuller
                                     </h3>
-                                    <p class="mt-0.5 text-xs text-slate-400 dark:text-navy-300">
+                                    <p class="mt-0.5 text-xs text-slate-400">
                                         Scaling
                                     </p>
                                 </div>
                             </div>
                             <div>
                                 <p>Thu, 26 March</p>
-                                <p class="text-xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-xl font-medium text-slate-700">
                                     08:00
                                 </p>
                             </div>
@@ -74,7 +74,7 @@
                                     </button>
                                 </div>
                                 <button
-                                    class="btn h-7 w-7 rounded-full bg-slate-150 p-0 font-medium text-slate-800 hover:bg-slate-200 hover:shadow-lg hover:shadow-slate-200/50 focus:bg-slate-200 focus:shadow-lg focus:shadow-slate-200/50 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:hover:shadow-navy-450/50 dark:focus:bg-navy-450 dark:focus:shadow-navy-450/50 dark:active:bg-navy-450/90">
+                                    class="btn h-7 w-7 rounded-full bg-slate-150 p-0 font-medium text-slate-800 hover:bg-slate-200 hover:shadow-lg hover:shadow-slate-200/50 focus:bg-slate-200 focus:shadow-lg focus:shadow-slate-200/50 active:bg-slate-200/80">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 rotate-45" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -90,17 +90,17 @@
                                         alt="image" />
                                 </div>
                                 <div>
-                                    <h3 class="font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <h3 class="font-medium text-slate-700 line-clamp-1">
                                         Alfredo Elliott
                                     </h3>
-                                    <p class="mt-0.5 text-xs text-slate-400 dark:text-navy-300">
+                                    <p class="mt-0.5 text-xs text-slate-400">
                                         Checkup
                                     </p>
                                 </div>
                             </div>
                             <div>
                                 <p>Mon, 15 March</p>
-                                <p class="text-xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-xl font-medium text-slate-700">
                                     06:00
                                 </p>
                             </div>
@@ -124,7 +124,7 @@
                                     </button>
                                 </div>
                                 <button
-                                    class="btn h-7 w-7 rounded-full bg-slate-150 p-0 font-medium text-slate-800 hover:bg-slate-200 hover:shadow-lg hover:shadow-slate-200/50 focus:bg-slate-200 focus:shadow-lg focus:shadow-slate-200/50 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:hover:shadow-navy-450/50 dark:focus:bg-navy-450 dark:focus:shadow-navy-450/50 dark:active:bg-navy-450/90">
+                                    class="btn h-7 w-7 rounded-full bg-slate-150 p-0 font-medium text-slate-800 hover:bg-slate-200 hover:shadow-lg hover:shadow-slate-200/50 focus:bg-slate-200 focus:shadow-lg focus:shadow-slate-200/50 active:bg-slate-200/80">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 rotate-45" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -140,17 +140,17 @@
                                         alt="image" />
                                 </div>
                                 <div>
-                                    <h3 class="font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <h3 class="font-medium text-slate-700 line-clamp-1">
                                         Derrick Simmons
                                     </h3>
-                                    <p class="mt-0.5 text-xs text-slate-400 dark:text-navy-300">
+                                    <p class="mt-0.5 text-xs text-slate-400">
                                         Checkup
                                     </p>
                                 </div>
                             </div>
                             <div>
                                 <p>Wed, 14 March</p>
-                                <p class="text-xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-xl font-medium text-slate-700">
                                     11:00
                                 </p>
                             </div>
@@ -174,7 +174,7 @@
                                     </button>
                                 </div>
                                 <button
-                                    class="btn h-7 w-7 rounded-full bg-slate-150 p-0 font-medium text-slate-800 hover:bg-slate-200 hover:shadow-lg hover:shadow-slate-200/50 focus:bg-slate-200 focus:shadow-lg focus:shadow-slate-200/50 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:hover:shadow-navy-450/50 dark:focus:bg-navy-450 dark:focus:shadow-navy-450/50 dark:active:bg-navy-450/90">
+                                    class="btn h-7 w-7 rounded-full bg-slate-150 p-0 font-medium text-slate-800 hover:bg-slate-200 hover:shadow-lg hover:shadow-slate-200/50 focus:bg-slate-200 focus:shadow-lg focus:shadow-slate-200/50 active:bg-slate-200/80">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 rotate-45" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -188,7 +188,7 @@
 
                 <div class="mt-4 sm:mt-5 lg:mt-6">
                     <div class="flex items-center justify-between">
-                        <h2 class="text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                        <h2 class="text-base font-medium tracking-wide text-slate-700 line-clamp-1">
                             Appointments
                         </h2>
                         <div class="flex">
@@ -196,11 +196,11 @@
                                 <label class="block">
                                     <input x-effect="isInputActive === true && $nextTick(() => { $el.focus()});"
                                         :class="isInputActive ? 'w-32 lg:w-48' : 'w-0'"
-                                        class="form-input w-full bg-transparent px-1 text-right transition-all duration-100 placeholder:text-slate-500 dark:placeholder:text-navy-200"
+                                        class="form-input w-full bg-transparent px-1 text-right transition-all duration-100 placeholder:text-slate-500"
                                         placeholder="Search here..." type="text" />
                                 </label>
                                 <button @click="isInputActive = !isInputActive"
-                                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -211,7 +211,7 @@
                             <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                                 class="inline-flex">
                                 <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -220,28 +220,28 @@
                                 </button>
                                 <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                     <div
-                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                     Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                     else</a>
                                             </li>
                                         </ul>
-                                        <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                        <div class="my-1 h-px bg-slate-150"></div>
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                     Link</a>
                                             </li>
                                         </ul>
@@ -256,29 +256,29 @@
                                 <thead>
                                     <tr>
                                         <th
-                                            class="whitespace-nowrap rounded-tl-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                            class="whitespace-nowrap rounded-tl-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                             NAME
                                         </th>
                                         <th
-                                            class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                            class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                             LOCATION
                                         </th>
                                         <th
-                                            class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                            class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                             DATETIME
                                         </th>
                                         <th
-                                            class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                            class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                             STATUS
                                         </th>
 
                                         <th
-                                            class="whitespace-nowrap rounded-tr-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                            class="whitespace-nowrap rounded-tr-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                    <tr class="border-y border-transparent border-b-slate-200">
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                             <div class="flex items-center space-x-4">
                                                 <div class="avatar h-9 w-9">
@@ -287,7 +287,7 @@
                                                         alt="avatar" />
                                                 </div>
 
-                                                <span class="font-medium text-slate-700 dark:text-navy-100">Anthony
+                                                <span class="font-medium text-slate-700">Anthony
                                                     Jensen
                                                 </span>
                                             </div>
@@ -298,7 +298,7 @@
                                             </a>
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 sm:px-5">
                                             Mon, 12 May - 09:00
                                         </td>
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
@@ -312,7 +312,7 @@
 
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                             <button
-                                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
                                                     fill="none" viewBox="0 0 24 24" stroke="currentColor"
                                                     stroke-width="2">
@@ -322,7 +322,7 @@
                                             </button>
                                         </td>
                                     </tr>
-                                    <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                    <tr class="border-y border-transparent border-b-slate-200">
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                             <div class="flex items-center space-x-4">
                                                 <div class="avatar h-9 w-9">
@@ -331,7 +331,7 @@
                                                         alt="avatar" />
                                                 </div>
 
-                                                <span class="font-medium text-slate-700 dark:text-navy-100">Konnor
+                                                <span class="font-medium text-slate-700">Konnor
                                                     Guzman
                                                 </span>
                                             </div>
@@ -342,7 +342,7 @@
                                             </a>
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 sm:px-5">
                                             Tue, 17 June - 14:30
                                         </td>
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
@@ -356,7 +356,7 @@
 
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                             <button
-                                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
                                                     fill="none" viewBox="0 0 24 24" stroke="currentColor"
                                                     stroke-width="2">
@@ -366,7 +366,7 @@
                                             </button>
                                         </td>
                                     </tr>
-                                    <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                    <tr class="border-y border-transparent border-b-slate-200">
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                             <div class="flex items-center space-x-4">
                                                 <div class="avatar h-9 w-9">
@@ -375,7 +375,7 @@
                                                         alt="avatar" />
                                                 </div>
 
-                                                <span class="font-medium text-slate-700 dark:text-navy-100">Derrick
+                                                <span class="font-medium text-slate-700">Derrick
                                                     Simmons
                                                 </span>
                                             </div>
@@ -386,7 +386,7 @@
                                             </a>
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 sm:px-5">
                                             Wed, 29 May - 13:30
                                         </td>
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
@@ -400,7 +400,7 @@
 
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                             <button
-                                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
                                                     fill="none" viewBox="0 0 24 24" stroke="currentColor"
                                                     stroke-width="2">
@@ -411,7 +411,7 @@
                                         </td>
                                     </tr>
 
-                                    <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                    <tr class="border-y border-transparent border-b-slate-200">
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                             <div class="flex items-center space-x-4">
                                                 <div class="avatar h-9 w-9">
@@ -420,7 +420,7 @@
                                                         alt="avatar" />
                                                 </div>
 
-                                                <span class="font-medium text-slate-700 dark:text-navy-100">Henry
+                                                <span class="font-medium text-slate-700">Henry
                                                     Curtis
                                                 </span>
                                             </div>
@@ -431,7 +431,7 @@
                                             </a>
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 sm:px-5">
                                             Mon, 22 June - 15:00
                                         </td>
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
@@ -445,7 +445,7 @@
 
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                             <button
-                                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
                                                     fill="none" viewBox="0 0 24 24" stroke="currentColor"
                                                     stroke-width="2">
@@ -455,7 +455,7 @@
                                             </button>
                                         </td>
                                     </tr>
-                                    <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                    <tr class="border-y border-transparent border-b-slate-200">
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                             <div class="flex items-center space-x-4">
                                                 <div class="avatar h-9 w-9">
@@ -464,7 +464,7 @@
                                                         alt="avatar" />
                                                 </div>
 
-                                                <span class="font-medium text-slate-700 dark:text-navy-100">Katrina
+                                                <span class="font-medium text-slate-700">Katrina
                                                     West
                                                 </span>
                                             </div>
@@ -475,7 +475,7 @@
                                             </a>
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 sm:px-5">
                                             Tue, 17 June - 14:30
                                         </td>
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
@@ -489,7 +489,7 @@
 
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                             <button
-                                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
                                                     fill="none" viewBox="0 0 24 24" stroke="currentColor"
                                                     stroke-width="2">
@@ -509,7 +509,7 @@
                                                         alt="avatar" />
                                                 </div>
 
-                                                <span class="font-medium text-slate-700 dark:text-navy-100">Travis
+                                                <span class="font-medium text-slate-700">Travis
                                                     Fuller
                                                 </span>
                                             </div>
@@ -520,7 +520,7 @@
                                             </a>
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 sm:px-5">
                                             Wed, 19 May - 11:30
                                         </td>
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
@@ -534,7 +534,7 @@
 
                                         <td class="whitespace-nowrap rounded-br-lg px-4 py-3 sm:px-5">
                                             <button
-                                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
                                                     fill="none" viewBox="0 0 24 24" stroke="currentColor"
                                                     stroke-width="2">
@@ -552,15 +552,15 @@
             </div>
             <div class="col-span-12 lg:col-span-4 xl:col-span-3">
                 <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-1 lg:gap-6">
-                    <div class="rounded-lg bg-info/10 px-4 pb-5 dark:bg-navy-800 sm:px-5">
+                    <div class="rounded-lg bg-info/10 px-4 pb-5 sm:px-5">
                         <div class="flex items-center justify-between py-3">
-                            <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                            <h2 class="font-medium tracking-wide text-slate-700">
                                 Next Patient
                             </h2>
                             <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                                 class="inline-flex">
                                 <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                    class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -570,28 +570,28 @@
 
                                 <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                     <div
-                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                     Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                     else</a>
                                             </li>
                                         </ul>
-                                        <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                        <div class="my-1 h-px bg-slate-150"></div>
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                     Link</a>
                                             </li>
                                         </ul>
@@ -607,46 +607,46 @@
                                 </div>
                                 <div>
                                     <p>Today</p>
-                                    <p class="text-xl font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="text-xl font-medium text-slate-700">
                                         11:00
                                     </p>
                                 </div>
                             </div>
                             <div>
-                                <h3 class="text-lg font-medium text-slate-700 dark:text-navy-100">
+                                <h3 class="text-lg font-medium text-slate-700">
                                     Alfredo Elliott
                                 </h3>
-                                <p class="text-xs text-slate-400 dark:text-navy-300">
+                                <p class="text-xs text-slate-400">
                                     Checkup
                                 </p>
                             </div>
                             <div class="space-y-3 text-xs+">
                                 <div class="flex justify-between">
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         D.O.B.
                                     </p>
                                     <p class="text-right">25 Jan 1998</p>
                                 </div>
                                 <div class="flex justify-between">
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         Weight
                                     </p>
                                     <p class="text-right">56 kg</p>
                                 </div>
                                 <div class="flex justify-between">
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         Height
                                     </p>
                                     <p class="text-right">164 cm</p>
                                 </div>
                                 <div class="flex justify-between">
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         Last Appointment
                                     </p>
                                     <p class="text-right">25 May 2021</p>
                                 </div>
                                 <div class="flex justify-between">
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         Register Date
                                     </p>
                                     <p class="text-right">16 Jun 2020</p>
@@ -656,13 +656,13 @@
                     </div>
                     <div class="card sm:order-last sm:col-span-2 lg:order-none lg:col-span-1">
                         <div class="mt-3 flex items-center justify-between px-4 sm:px-5">
-                            <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                            <h2 class="font-medium tracking-wide text-slate-700">
                                 Number of Patients
                             </h2>
                             <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                                 class="inline-flex">
                                 <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                    class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -672,28 +672,28 @@
 
                                 <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                     <div
-                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                     Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                     else</a>
                                             </li>
                                         </ul>
-                                        <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                        <div class="my-1 h-px bg-slate-150"></div>
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                     Link</a>
                                             </li>
                                         </ul>
@@ -712,12 +712,12 @@
                     <div class="card p-4">
                         <div class="space-y-1 text-center font-inter text-xs+">
                             <div class="flex items-center justify-between px-2 pb-4">
-                                <p class="font-medium text-slate-700 dark:text-navy-100">
+                                <p class="font-medium text-slate-700">
                                     January 2022
                                 </p>
                                 <div class="-mr-1.5 flex space-x-2">
                                     <button
-                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -725,7 +725,7 @@
                                         </svg>
                                     </button>
                                     <button
-                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -735,175 +735,175 @@
                                 </div>
                             </div>
                             <div class="grid grid-cols-7 pb-2">
-                                <div class="text-tiny+ font-semibold text-primary dark:text-accent-light">
+                                <div class="text-tiny+ font-semibold text-primary">
                                     SUN
                                 </div>
-                                <div class="text-tiny+ font-semibold text-primary dark:text-accent-light">
+                                <div class="text-tiny+ font-semibold text-primary">
                                     MON
                                 </div>
-                                <div class="text-tiny+ font-semibold text-primary dark:text-accent-light">
+                                <div class="text-tiny+ font-semibold text-primary">
                                     TUE
                                 </div>
-                                <div class="text-tiny+ font-semibold text-primary dark:text-accent-light">
+                                <div class="text-tiny+ font-semibold text-primary">
                                     WED
                                 </div>
-                                <div class="text-tiny+ font-semibold text-primary dark:text-accent-light">
+                                <div class="text-tiny+ font-semibold text-primary">
                                     THU
                                 </div>
-                                <div class="text-tiny+ font-semibold text-primary dark:text-accent-light">
+                                <div class="text-tiny+ font-semibold text-primary">
                                     FRY
                                 </div>
-                                <div class="text-tiny+ font-semibold text-primary dark:text-accent-light">
+                                <div class="text-tiny+ font-semibold text-primary">
                                     SAT
                                 </div>
                             </div>
                             <div class="grid grid-cols-7 place-items-center">
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary dark:text-navy-300 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary">
                                     29
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary dark:text-navy-300 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary">
                                     30
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary dark:text-navy-300 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary">
                                     31
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     1
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     2
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     3
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     4
                                 </button>
                             </div>
                             <div class="grid grid-cols-7 place-items-center">
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     5
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     6
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     7
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     8
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     9
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     10
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     11
                                 </button>
                             </div>
                             <div class="grid grid-cols-7 place-items-center">
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     12
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     13
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl font-medium text-primary hover:bg-primary/10 hover:text-primary dark:text-accent-light dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl font-medium text-primary hover:bg-primary/10 hover:text-primary">
                                     14
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     15
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     16
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     17
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     18
                                 </button>
                             </div>
                             <div class="grid grid-cols-7 place-items-center">
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     19
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     20
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     21
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     22
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     23
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     24
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     25
                                 </button>
                             </div>
                             <div class="grid grid-cols-7 place-items-center">
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     26
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     27
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     28
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     29
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     30
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary dark:text-navy-300 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary">
                                     1
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary dark:text-navy-300 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary">
                                     2
                                 </button>
                             </div>

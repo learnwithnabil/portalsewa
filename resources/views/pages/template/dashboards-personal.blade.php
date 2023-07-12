@@ -32,7 +32,7 @@
                         <div class="card justify-center p-4.5">
                             <div class="flex items-center justify-between">
                                 <div>
-                                    <p class="text-base font-semibold text-slate-700 dark:text-navy-100">
+                                    <p class="text-base font-semibold text-slate-700">
                                         56
                                     </p>
                                     <p class="text-xs+ line-clamp-1">Projects</p>
@@ -48,7 +48,7 @@
                             </div>
                             <div>
                                 <div
-                                    class="badge mt-2 space-x-1 bg-success/10 py-1 px-1.5 text-success dark:bg-success/15">
+                                    class="badge mt-2 space-x-1 bg-success/10 py-1 px-1.5 text-success">
                                     <span>10%</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20"
                                         fill="currentColor">
@@ -62,7 +62,7 @@
                         <div class="card justify-center p-4.5">
                             <div class="flex items-center justify-between">
                                 <div>
-                                    <p class="text-base font-semibold text-slate-700 dark:text-navy-100">
+                                    <p class="text-base font-semibold text-slate-700">
                                         324
                                     </p>
                                     <p class="text-xs+ line-clamp-1">Total hours</p>
@@ -77,7 +77,7 @@
                             </div>
                             <div>
                                 <div
-                                    class="badge mt-2 space-x-1 bg-success/10 py-1 px-1.5 text-success dark:bg-success/15">
+                                    class="badge mt-2 space-x-1 bg-success/10 py-1 px-1.5 text-success">
                                     <span>6%</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20"
                                         fill="currentColor">
@@ -91,7 +91,7 @@
                         <div class="card justify-center p-4.5">
                             <div class="flex items-center justify-between">
                                 <div>
-                                    <p class="text-base font-semibold text-slate-700 dark:text-navy-100">
+                                    <p class="text-base font-semibold text-slate-700">
                                         7
                                     </p>
                                     <p class="text-xs+ line-clamp-1">Support Ticket</p>
@@ -107,7 +107,7 @@
                             </div>
                             <div>
                                 <div
-                                    class="badge mt-2 space-x-1 bg-success/10 py-1 px-1.5 text-success dark:bg-success/15">
+                                    class="badge mt-2 space-x-1 bg-success/10 py-1 px-1.5 text-success">
                                     <span>9%</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20"
                                         fill="currentColor">
@@ -121,7 +121,7 @@
                         <div class="card justify-center p-4.5">
                             <div class="flex items-center justify-between">
                                 <div>
-                                    <p class="text-base font-semibold text-slate-700 dark:text-navy-100">
+                                    <p class="text-base font-semibold text-slate-700">
                                         56
                                     </p>
                                     <p class="text-xs+ line-clamp-1">Active Task</p>
@@ -138,7 +138,7 @@
                                 </div>
                             </div>
                             <div>
-                                <div class="badge mt-2 space-x-1 bg-error/10 py-1 px-1.5 text-error dark:bg-error/15">
+                                <div class="badge mt-2 space-x-1 bg-error/10 py-1 px-1.5 text-error">
                                     <span>6%</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20"
                                         fill="currentColor">
@@ -153,13 +153,13 @@
                 </div>
                 <div>
                     <div class="flex items-center justify-between">
-                        <h2 class="text-sm+ font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="text-sm+ font-medium tracking-wide text-slate-700">
                             Ongoing Projects
                         </h2>
                         <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -169,28 +169,28 @@
 
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -205,24 +205,24 @@
                                     src="{{ asset('images/illustrations/lms-ui.svg') }}" alt="image" />
                                 <div class="flex-1">
                                     <div class="flex justify-between">
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             LMS App Design
                                         </p>
                                     </div>
-                                    <div class="mt-0.5 flex text-xs text-slate-400 dark:text-navy-300">
+                                    <div class="mt-0.5 flex text-xs text-slate-400">
                                         <p>Updated at 7 Sep</p>
-                                        <div class="mx-2 my-1 hidden w-px bg-slate-200 dark:bg-navy-500 sm:flex"></div>
+                                        <div class="mx-2 my-1 hidden w-px bg-slate-200 sm:flex"></div>
 
                                         <p class="hidden sm:flex">Deadline: 25.08.2020</p>
                                     </div>
                                 </div>
                             </div>
-                            <p class="-mt-3 text-right text-xs font-medium text-primary dark:text-accent-light">
+                            <p class="-mt-3 text-right text-xs font-medium text-primary">
                                 24%
                             </p>
-                            <div class="progress mt-2 h-1.5 bg-slate-150 dark:bg-navy-500">
+                            <div class="progress mt-2 h-1.5 bg-slate-150">
                                 <div
-                                    class="is-active relative w-4/12 overflow-hidden rounded-full bg-primary dark:bg-accent">
+                                    class="is-active relative w-4/12 overflow-hidden rounded-full bg-primary">
                                 </div>
                             </div>
                         </div>
@@ -232,23 +232,23 @@
                                     src="{{ asset('images/illustrations/store-ui.svg') }}" alt="image" />
                                 <div class="flex-1">
                                     <div class="flex justify-between">
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             Store Dashboard
                                         </p>
                                     </div>
-                                    <div class="mt-0.5 flex text-xs text-slate-400 dark:text-navy-300">
+                                    <div class="mt-0.5 flex text-xs text-slate-400">
                                         <p>Updated a hour ago</p>
-                                        <div class="mx-2 my-1 hidden w-px bg-slate-200 dark:bg-navy-500 sm:flex"></div>
+                                        <div class="mx-2 my-1 hidden w-px bg-slate-200 sm:flex"></div>
 
                                         <p class="hidden sm:flex">Deadline: 21.08.2020</p>
                                     </div>
                                 </div>
                             </div>
-                            <p class="-mt-3 text-right text-xs font-medium text-secondary dark:text-secondary-light">
+                            <p class="-mt-3 text-right text-xs font-medium text-secondary">
                                 56%
                             </p>
 
-                            <div class="progress mt-2 h-1.5 bg-secondary/15 dark:bg-secondary-light/25">
+                            <div class="progress mt-2 h-1.5 bg-secondary/15">
                                 <div class="w-6/12 rounded-full bg-secondary"></div>
                             </div>
                         </div>
@@ -258,13 +258,13 @@
                                     src="{{ asset('images/illustrations/chat-ui.svg') }}" alt="image" />
                                 <div class="flex-1">
                                     <div class="flex justify-between">
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             Chat Mobile App
                                         </p>
                                     </div>
-                                    <div class="mt-0.5 flex text-xs text-slate-400 dark:text-navy-300">
+                                    <div class="mt-0.5 flex text-xs text-slate-400">
                                         <p>Updated 3 days ago</p>
-                                        <div class="mx-2 my-1 hidden w-px bg-slate-200 dark:bg-navy-500 sm:flex"></div>
+                                        <div class="mx-2 my-1 hidden w-px bg-slate-200 sm:flex"></div>
 
                                         <p class="hidden sm:flex">Deadline: 16.09.2020</p>
                                     </div>
@@ -274,7 +274,7 @@
                                 64%
                             </p>
 
-                            <div class="progress mt-2 h-1.5 bg-warning/15 dark:bg-warning/25">
+                            <div class="progress mt-2 h-1.5 bg-warning/15">
                                 <div class="w-7/12 rounded-full bg-warning"></div>
                             </div>
                         </div>
@@ -284,13 +284,13 @@
                                     src="{{ asset('images/illustrations/nft.svg') }}" alt="image" />
                                 <div class="flex-1">
                                     <div class="flex justify-between">
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             NFT Marketplace App
                                         </p>
                                     </div>
-                                    <div class="mt-0.5 flex text-xs text-slate-400 dark:text-navy-300">
+                                    <div class="mt-0.5 flex text-xs text-slate-400">
                                         <p>Updated a week ago</p>
-                                        <div class="mx-2 my-1 hidden w-px bg-slate-200 dark:bg-navy-500 sm:flex"></div>
+                                        <div class="mx-2 my-1 hidden w-px bg-slate-200 sm:flex"></div>
 
                                         <p class="hidden sm:flex">Deadline: 26.11.2020</p>
                                     </div>
@@ -300,7 +300,7 @@
                                 14%
                             </p>
 
-                            <div class="progress mt-2 h-1.5 bg-info/15 dark:bg-info/25">
+                            <div class="progress mt-2 h-1.5 bg-info/15">
                                 <div class="w-2/12 rounded-full bg-info"></div>
                             </div>
                         </div>
@@ -309,14 +309,14 @@
                 <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:gap-6">
                     <div class="card px-4 pb-4 sm:px-5">
                         <div class="my-3 flex h-8 items-center justify-between">
-                            <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                            <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1">
                                 Contact List
                             </h2>
 
                             <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                                 class="inline-flex">
                                 <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                    class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -326,28 +326,28 @@
 
                                 <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                     <div
-                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                     Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                     else</a>
                                             </li>
                                         </ul>
-                                        <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                        <div class="my-1 h-px bg-slate-150"></div>
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                     Link</a>
                                             </li>
                                         </ul>
@@ -365,7 +365,7 @@
                                                 alt="avatar" />
                                         </div>
                                         <div>
-                                            <h3 class="font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                            <h3 class="font-medium text-slate-700 line-clamp-1">
                                                 Konnor Guzman
                                             </h3>
                                             <p class="mt-0.5 text-xs line-clamp-1">
@@ -374,7 +374,7 @@
                                         </div>
                                     </div>
                                     <button @click="expanded = !expanded"
-                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                         <i :class="expanded && '-rotate-180'"
                                             class="fas fa-chevron-down transition-transform"></i>
                                     </button>
@@ -390,7 +390,7 @@
                                             <i class="fa-solid fa-video text-xs"></i>
                                         </button>
                                         <button
-                                            class="btn h-7 w-7 rounded-full bg-secondary/10 p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25 dark:bg-secondary-light/10 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                                            class="btn h-7 w-7 rounded-full bg-secondary/10 p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25">
                                             <i class="fa-regular fa-comment text-xs"></i>
                                         </button>
                                         <button
@@ -398,7 +398,7 @@
                                             <i class="fa-regular fa-envelope text-xs"></i>
                                         </button>
                                         <button
-                                            class="btn h-7 w-7 rounded-full bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                            class="btn h-7 w-7 rounded-full bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                                             <i class="fa-solid fa-ellipsis"></i>
                                         </button>
                                     </div>
@@ -412,7 +412,7 @@
                                                 alt="avatar" />
                                         </div>
                                         <div>
-                                            <h3 class="font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                            <h3 class="font-medium text-slate-700 line-clamp-1">
                                                 Alfredo Elliott
                                             </h3>
                                             <p class="mt-0.5 text-xs line-clamp-1">
@@ -421,7 +421,7 @@
                                         </div>
                                     </div>
                                     <button @click="expanded = !expanded"
-                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                         <i :class="expanded && '-rotate-180'"
                                             class="fas fa-chevron-down transition-transform"></i>
                                     </button>
@@ -437,7 +437,7 @@
                                             <i class="fa-solid fa-video text-xs"></i>
                                         </button>
                                         <button
-                                            class="btn h-7 w-7 rounded-full bg-secondary/10 p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25 dark:bg-secondary-light/10 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                                            class="btn h-7 w-7 rounded-full bg-secondary/10 p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25">
                                             <i class="fa-regular fa-comment text-xs"></i>
                                         </button>
                                         <button
@@ -445,7 +445,7 @@
                                             <i class="fa-regular fa-envelope text-xs"></i>
                                         </button>
                                         <button
-                                            class="btn h-7 w-7 rounded-full bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                            class="btn h-7 w-7 rounded-full bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                                             <i class="fa-solid fa-ellipsis"></i>
                                         </button>
                                     </div>
@@ -460,7 +460,7 @@
                                             </div>
                                         </div>
                                         <div>
-                                            <h3 class="font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                            <h3 class="font-medium text-slate-700 line-clamp-1">
                                                 Derrick Simmons
                                             </h3>
                                             <p class="mt-0.5 text-xs line-clamp-1">
@@ -469,7 +469,7 @@
                                         </div>
                                     </div>
                                     <button @click="expanded = !expanded"
-                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                         <i :class="expanded && '-rotate-180'"
                                             class="fas fa-chevron-down transition-transform"></i>
                                     </button>
@@ -485,7 +485,7 @@
                                             <i class="fa-solid fa-video text-xs"></i>
                                         </button>
                                         <button
-                                            class="btn h-7 w-7 rounded-full bg-secondary/10 p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25 dark:bg-secondary-light/10 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                                            class="btn h-7 w-7 rounded-full bg-secondary/10 p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25">
                                             <i class="fa-regular fa-comment text-xs"></i>
                                         </button>
                                         <button
@@ -493,7 +493,7 @@
                                             <i class="fa-regular fa-envelope text-xs"></i>
                                         </button>
                                         <button
-                                            class="btn h-7 w-7 rounded-full bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                            class="btn h-7 w-7 rounded-full bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                                             <i class="fa-solid fa-ellipsis"></i>
                                         </button>
                                     </div>
@@ -507,7 +507,7 @@
                                                 alt="avatar" />
                                         </div>
                                         <div>
-                                            <h3 class="font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                            <h3 class="font-medium text-slate-700 line-clamp-1">
                                                 Henry Curtis
                                             </h3>
                                             <p class="mt-0.5 text-xs line-clamp-1">
@@ -516,7 +516,7 @@
                                         </div>
                                     </div>
                                     <button @click="expanded = !expanded"
-                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                         <i :class="expanded && '-rotate-180'"
                                             class="fas fa-chevron-down transition-transform"></i>
                                     </button>
@@ -532,7 +532,7 @@
                                             <i class="fa-solid fa-video text-xs"></i>
                                         </button>
                                         <button
-                                            class="btn h-7 w-7 rounded-full bg-secondary/10 p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25 dark:bg-secondary-light/10 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                                            class="btn h-7 w-7 rounded-full bg-secondary/10 p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25">
                                             <i class="fa-regular fa-comment text-xs"></i>
                                         </button>
                                         <button
@@ -540,7 +540,7 @@
                                             <i class="fa-regular fa-envelope text-xs"></i>
                                         </button>
                                         <button
-                                            class="btn h-7 w-7 rounded-full bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                            class="btn h-7 w-7 rounded-full bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                                             <i class="fa-solid fa-ellipsis"></i>
                                         </button>
                                     </div>
@@ -554,7 +554,7 @@
                                                 alt="avatar" />
                                         </div>
                                         <div>
-                                            <h3 class="font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                            <h3 class="font-medium text-slate-700 line-clamp-1">
                                                 John Doe
                                             </h3>
                                             <p class="mt-0.5 text-xs line-clamp-1">
@@ -563,7 +563,7 @@
                                         </div>
                                     </div>
                                     <button @click="expanded = !expanded"
-                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                         <i :class="expanded && '-rotate-180'"
                                             class="fas fa-chevron-down transition-transform"></i>
                                     </button>
@@ -579,7 +579,7 @@
                                             <i class="fa-solid fa-video text-xs"></i>
                                         </button>
                                         <button
-                                            class="btn h-7 w-7 rounded-full bg-secondary/10 p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25 dark:bg-secondary-light/10 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                                            class="btn h-7 w-7 rounded-full bg-secondary/10 p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25">
                                             <i class="fa-regular fa-comment text-xs"></i>
                                         </button>
                                         <button
@@ -587,7 +587,7 @@
                                             <i class="fa-regular fa-envelope text-xs"></i>
                                         </button>
                                         <button
-                                            class="btn h-7 w-7 rounded-full bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                                            class="btn h-7 w-7 rounded-full bg-slate-150 p-0 text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                                             <i class="fa-solid fa-ellipsis"></i>
                                         </button>
                                     </div>
@@ -597,11 +597,11 @@
                     </div>
                     <div class="card px-4 pb-4 sm:px-5">
                         <div class="my-3 flex h-8 items-center justify-between">
-                            <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                            <h2 class="font-medium tracking-wide text-slate-700">
                                 Recent Payments
                             </h2>
                             <a href="#"
-                                class="border-b border-dotted border-current pb-0.5 text-xs+ font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                                class="border-b border-dotted border-current pb-0.5 text-xs+ font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                                 All</a>
                         </div>
                         <div class="space-y-3.5">
@@ -612,15 +612,15 @@
                                             alt="avatar" />
                                     </div>
                                     <div>
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             Konnor Guzman
                                         </p>
-                                        <p class="text-xs text-slate-400 line-clamp-1 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400 line-clamp-1">
                                             Dec 21, 2021 - 08:05
                                         </p>
                                     </div>
                                 </div>
-                                <p class="font-medium text-slate-600 dark:text-navy-100">
+                                <p class="font-medium text-slate-600">
                                     $660.22
                                 </p>
                             </div>
@@ -631,15 +631,15 @@
                                             alt="avatar" />
                                     </div>
                                     <div>
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             Henry Curtis
                                         </p>
-                                        <p class="text-xs text-slate-400 line-clamp-1 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400 line-clamp-1">
                                             Dec 19, 2021 - 11:55
                                         </p>
                                     </div>
                                 </div>
-                                <p class="font-medium text-slate-600 dark:text-navy-100">
+                                <p class="font-medium text-slate-600">
                                     $33.63
                                 </p>
                             </div>
@@ -650,15 +650,15 @@
                                             alt="avatar" />
                                     </div>
                                     <div>
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             Derrick Simmons
                                         </p>
-                                        <p class="text-xs text-slate-400 line-clamp-1 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400 line-clamp-1">
                                             Dec 16, 2021 - 14:45
                                         </p>
                                     </div>
                                 </div>
-                                <p class="font-medium text-slate-600 dark:text-navy-100">
+                                <p class="font-medium text-slate-600">
                                     $674.63
                                 </p>
                             </div>
@@ -669,15 +669,15 @@
                                             alt="avatar" />
                                     </div>
                                     <div>
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             Kartina West
                                         </p>
-                                        <p class="text-xs text-slate-400 line-clamp-1 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400 line-clamp-1">
                                             Dec 13, 2021 - 11:30
                                         </p>
                                     </div>
                                 </div>
-                                <p class="font-medium text-slate-600 dark:text-navy-100">
+                                <p class="font-medium text-slate-600">
                                     $547.63
                                 </p>
                             </div>
@@ -688,15 +688,15 @@
                                             alt="avatar" />
                                     </div>
                                     <div>
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             Samantha Shelton
                                         </p>
-                                        <p class="text-xs text-slate-400 line-clamp-1 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400 line-clamp-1">
                                             Dec 10, 2021 - 09:41
                                         </p>
                                     </div>
                                 </div>
-                                <p class="font-medium text-slate-600 dark:text-navy-100">
+                                <p class="font-medium text-slate-600">
                                     $736.24
                                 </p>
                             </div>
@@ -707,15 +707,15 @@
                                             alt="avatar" />
                                     </div>
                                     <div>
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             Joe Perkins
                                         </p>
-                                        <p class="text-xs text-slate-400 line-clamp-1 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400 line-clamp-1">
                                             Dec 06, 2021 - 11:41
                                         </p>
                                     </div>
                                 </div>
-                                <p class="font-medium text-slate-600 dark:text-navy-100">
+                                <p class="font-medium text-slate-600">
                                     $736.24
                                 </p>
                             </div>
@@ -727,14 +727,14 @@
                 <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-1 lg:gap-6">
                     <div class="card px-4 pb-4 sm:px-5">
                         <div class="my-3 flex h-8 items-center justify-between">
-                            <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                            <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1">
                                 Client Messages
                             </h2>
 
                             <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                                 class="inline-flex">
                                 <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                    class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -744,28 +744,28 @@
 
                                 <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                     <div
-                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                     Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                     else</a>
                                             </li>
                                         </ul>
-                                        <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                        <div class="my-1 h-px bg-slate-150"></div>
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                     Link</a>
                                             </li>
                                         </ul>
@@ -782,21 +782,21 @@
                                     </div>
                                     <div>
                                         <div class="flex items-center space-x-2">
-                                            <p class="font-medium text-slate-700 dark:text-navy-100">
+                                            <p class="font-medium text-slate-700">
                                                 Konnor Guzman
                                             </p>
                                             <div
-                                                class="flex h-4.5 min-w-[1.125rem] items-center justify-center rounded-full bg-slate-200 px-1.5 text-tiny+ font-medium leading-none text-slate-800 dark:bg-navy-450 dark:text-white">
+                                                class="flex h-4.5 min-w-[1.125rem] items-center justify-center rounded-full bg-slate-200 px-1.5 text-tiny+ font-medium leading-none text-slate-800">
                                                 5
                                             </div>
                                         </div>
-                                        <p class="text-xs text-slate-400 line-clamp-1 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400 line-clamp-1">
                                             Hello Erick. Lorem ipsum dolor sit amet, consectetur.
                                         </p>
                                     </div>
                                 </div>
                                 <a href="#"
-                                    class="hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">
+                                    class="hover:text-primary focus:text-primary">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -811,16 +811,16 @@
                                             alt="avatar" />
                                     </div>
                                     <div>
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             Travis Fuller
                                         </p>
-                                        <p class="text-xs text-slate-400 line-clamp-1 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400 line-clamp-1">
                                             Excepturi magni sequi voluptate.
                                         </p>
                                     </div>
                                 </div>
                                 <a href="#"
-                                    class="hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">
+                                    class="hover:text-primary focus:text-primary">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -835,16 +835,16 @@
                                             alt="avatar" />
                                     </div>
                                     <div>
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             Alfredo Elliott
                                         </p>
-                                        <p class="text-xs text-slate-400 line-clamp-1 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400 line-clamp-1">
                                             Adipisicing eli itaque!
                                         </p>
                                     </div>
                                 </div>
                                 <a href="#"
-                                    class="hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">
+                                    class="hover:text-primary focus:text-primary">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -859,16 +859,16 @@
                                             alt="avatar" />
                                     </div>
                                     <div>
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             Derrick Simmons
                                         </p>
-                                        <p class="text-xs text-slate-400 line-clamp-1 dark:text-navy-300">
+                                        <p class="text-xs text-slate-400 line-clamp-1">
                                             Ad hic minus repudiandae.
                                         </p>
                                     </div>
                                 </div>
                                 <a href="#"
-                                    class="hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">
+                                    class="hover:text-primary focus:text-primary">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -880,14 +880,14 @@
                     </div>
                     <div class="card">
                         <div class="mt-3 flex h-8 items-center justify-between px-4 sm:px-5">
-                            <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                            <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1">
                                 Income
                             </h2>
 
                             <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                                 class="inline-flex">
                                 <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                    class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -897,28 +897,28 @@
 
                                 <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                     <div
-                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                     Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                     else</a>
                                             </li>
                                         </ul>
-                                        <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                        <div class="my-1 h-px bg-slate-150"></div>
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                     Link</a>
                                             </li>
                                         </ul>
@@ -936,12 +936,12 @@
                     <div class="card p-4">
                         <div class="space-y-1 text-center font-inter text-xs+">
                             <div class="flex items-center justify-between px-2 pb-4">
-                                <p class="font-medium text-slate-700 dark:text-navy-100">
+                                <p class="font-medium text-slate-700">
                                     January 2022
                                 </p>
                                 <div class="-mr-1.5 flex space-x-2">
                                     <button
-                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -949,7 +949,7 @@
                                         </svg>
                                     </button>
                                     <button
-                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -959,175 +959,175 @@
                                 </div>
                             </div>
                             <div class="grid grid-cols-7 pb-2">
-                                <div class="text-tiny+ font-semibold text-primary dark:text-accent-light">
+                                <div class="text-tiny+ font-semibold text-primary">
                                     SUN
                                 </div>
-                                <div class="text-tiny+ font-semibold text-primary dark:text-accent-light">
+                                <div class="text-tiny+ font-semibold text-primary">
                                     MON
                                 </div>
-                                <div class="text-tiny+ font-semibold text-primary dark:text-accent-light">
+                                <div class="text-tiny+ font-semibold text-primary">
                                     TUE
                                 </div>
-                                <div class="text-tiny+ font-semibold text-primary dark:text-accent-light">
+                                <div class="text-tiny+ font-semibold text-primary">
                                     WED
                                 </div>
-                                <div class="text-tiny+ font-semibold text-primary dark:text-accent-light">
+                                <div class="text-tiny+ font-semibold text-primary">
                                     THU
                                 </div>
-                                <div class="text-tiny+ font-semibold text-primary dark:text-accent-light">
+                                <div class="text-tiny+ font-semibold text-primary">
                                     FRY
                                 </div>
-                                <div class="text-tiny+ font-semibold text-primary dark:text-accent-light">
+                                <div class="text-tiny+ font-semibold text-primary">
                                     SAT
                                 </div>
                             </div>
                             <div class="grid grid-cols-7 place-items-center">
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary dark:text-navy-300 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary">
                                     29
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary dark:text-navy-300 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary">
                                     30
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary dark:text-navy-300 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary">
                                     31
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     1
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     2
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     3
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     4
                                 </button>
                             </div>
                             <div class="grid grid-cols-7 place-items-center">
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     5
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     6
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     7
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     8
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     9
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     10
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     11
                                 </button>
                             </div>
                             <div class="grid grid-cols-7 place-items-center">
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     12
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     13
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl font-medium text-primary hover:bg-primary/10 hover:text-primary dark:text-accent-light dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl font-medium text-primary hover:bg-primary/10 hover:text-primary">
                                     14
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     15
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     16
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     17
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     18
                                 </button>
                             </div>
                             <div class="grid grid-cols-7 place-items-center">
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     19
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     20
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     21
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     22
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     23
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     24
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     25
                                 </button>
                             </div>
                             <div class="grid grid-cols-7 place-items-center">
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     26
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     27
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     28
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     29
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary dark:text-navy-100 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-900 hover:bg-primary/10 hover:text-primary">
                                     30
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary dark:text-navy-300 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary">
                                     1
                                 </button>
                                 <button
-                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary dark:text-navy-300 dark:hover:bg-accent-light/10 dark:hover:text-accent-light">
+                                    class="flex h-7 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-primary/10 hover:text-primary">
                                     2
                                 </button>
                             </div>
@@ -1140,7 +1140,7 @@
                                     <div class="swiper-slide p-4 sm:p-5">
                                         <div class="flex items-center justify-between">
                                             <a href="#"
-                                                class="font-inter font-medium tracking-wide transition-colors hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100">
+                                                class="font-inter font-medium tracking-wide transition-colors hover:text-slate-800 focus:text-slate-800">
                                                 @twitteraccount
                                             </a>
 
@@ -1152,20 +1152,20 @@
                                         </p>
                                         <div class="mt-2 pb-5 text-xs">
                                             <a href="#"
-                                                class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#PHP
+                                                class="text-xs+ text-primary hover:text-primary-focus">#PHP
                                             </a>
                                             <a href="#"
-                                                class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#ReactJS
+                                                class="text-xs+ text-primary hover:text-primary-focus">#ReactJS
                                             </a>
                                             <a href="#"
-                                                class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#NextJS
+                                                class="text-xs+ text-primary hover:text-primary-focus">#NextJS
                                             </a>
                                         </div>
                                     </div>
                                     <div class="swiper-slide p-4 sm:p-5">
                                         <div class="flex items-center justify-between">
                                             <a href="#"
-                                                class="font-inter font-medium tracking-wide transition-colors hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100">
+                                                class="font-inter font-medium tracking-wide transition-colors hover:text-slate-800 focus:text-slate-800">
                                                 @twitteraccount
                                             </a>
 
@@ -1177,20 +1177,20 @@
                                         </p>
                                         <div class="mt-2 pb-5 text-xs">
                                             <a href="#"
-                                                class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#PHP
+                                                class="text-xs+ text-primary hover:text-primary-focus">#PHP
                                             </a>
                                             <a href="#"
-                                                class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#ReactJS
+                                                class="text-xs+ text-primary hover:text-primary-focus">#ReactJS
                                             </a>
                                             <a href="#"
-                                                class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#NextJS
+                                                class="text-xs+ text-primary hover:text-primary-focus">#NextJS
                                             </a>
                                         </div>
                                     </div>
                                     <div class="swiper-slide p-4 sm:p-5">
                                         <div class="flex items-center justify-between">
                                             <a href="#"
-                                                class="font-inter font-medium tracking-wide transition-colors hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100">
+                                                class="font-inter font-medium tracking-wide transition-colors hover:text-slate-800 focus:text-slate-800">
                                                 @twitteraccount
                                             </a>
 
@@ -1202,13 +1202,13 @@
                                         </p>
                                         <div class="mt-2 pb-5 text-xs">
                                             <a href="#"
-                                                class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#PHP
+                                                class="text-xs+ text-primary hover:text-primary-focus">#PHP
                                             </a>
                                             <a href="#"
-                                                class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#ReactJS
+                                                class="text-xs+ text-primary hover:text-primary-focus">#ReactJS
                                             </a>
                                             <a href="#"
-                                                class="text-xs+ text-primary hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">#NextJS
+                                                class="text-xs+ text-primary hover:text-primary-focus">#NextJS
                                             </a>
                                         </div>
                                     </div>

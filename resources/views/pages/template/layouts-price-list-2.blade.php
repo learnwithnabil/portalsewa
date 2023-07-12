@@ -2,29 +2,29 @@
     <main class="main-content w-full place-items-center px-[var(--margin-x)] pb-12">
         <div class="py-5 text-center lg:py-6">
             <p class="text-sm uppercase">Are you new here?</p>
-            <h3 class="mt-1 text-xl font-semibold text-slate-600 dark:text-navy-100">
+            <h3 class="mt-1 text-xl font-semibold text-slate-600">
                 Welcome. Where do you like to Start?
             </h3>
         </div>
         <div
-            class="grid max-w-4xl grid-cols-1 gap-4 divide-y divide-slate-150 bg-white shadow-soft dark:divide-navy-500 dark:bg-navy-700 dark:shadow-none sm:grid-cols-3 sm:gap-5 sm:divide-x sm:divide-y-0 lg:gap-6">
+            class="grid max-w-4xl grid-cols-1 gap-4 divide-y divide-slate-150 bg-white shadow-soft sm:grid-cols-3 sm:gap-5 sm:divide-x sm:divide-y-0 lg:gap-6">
             <div class="p-4 text-center sm:p-5">
                 <div class="mt-8">
-                    <i class="fa fa-car text-6xl text-primary dark:text-accent-light"></i>
+                    <i class="fa fa-car text-6xl text-primary"></i>
                 </div>
                 <div class="mt-5">
-                    <h4 class="text-xl font-semibold text-slate-600 dark:text-navy-100">
+                    <h4 class="text-xl font-semibold text-slate-600">
                         Basic
                     </h4>
                     <p>the starter choise</p>
                 </div>
                 <div class="mt-5">
-                    <span class="text-4xl tracking-tight text-primary dark:text-accent-light">$5</span>/month
+                    <span class="text-4xl tracking-tight text-primary">$5</span>/month
                 </div>
                 <div class="mt-8 space-y-4 text-left">
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -36,7 +36,7 @@
                     </div>
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -48,7 +48,7 @@
                     </div>
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -109,33 +109,33 @@
                 </div>
                 <div class="mt-8">
                     <button
-                        class="btn rounded-full border border-slate-200 font-medium text-primary hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80 dark:border-navy-500 dark:text-accent-light dark:hover:bg-navy-500 dark:focus:bg-navy-500 dark:active:bg-navy-500/90">
+                        class="btn rounded-full border border-slate-200 font-medium text-primary hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80">
                         Choose Plan
                     </button>
                 </div>
             </div>
             <div class="relative p-4 text-center sm:p-5">
                 <div class="absolute top-0 right-0 p-3">
-                    <div class="badge rounded-full bg-info/10 text-info dark:bg-info/15">
+                    <div class="badge rounded-full bg-info/10 text-info">
                         Recommended
                     </div>
                 </div>
                 <div class="mt-8">
-                    <i class="fa fa-plane text-6xl text-primary dark:text-accent-light"></i>
+                    <i class="fa fa-plane text-6xl text-primary"></i>
                 </div>
                 <div class="mt-5">
-                    <h4 class="text-xl font-semibold text-slate-600 dark:text-navy-100">
+                    <h4 class="text-xl font-semibold text-slate-600">
                         Pro
                     </h4>
                     <p>the starter choise</p>
                 </div>
                 <div class="mt-5">
-                    <span class="text-4xl tracking-tight text-primary dark:text-accent-light">$15</span>/month
+                    <span class="text-4xl tracking-tight text-primary">$15</span>/month
                 </div>
                 <div class="mt-8 space-y-4 text-left">
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -147,7 +147,7 @@
                     </div>
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -159,7 +159,7 @@
                     </div>
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -171,7 +171,7 @@
                     </div>
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -183,7 +183,7 @@
                     </div>
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -220,28 +220,28 @@
                 </div>
                 <div class="mt-8">
                     <button
-                        class="btn rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                        class="btn rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                         Choose Plan
                     </button>
                 </div>
             </div>
             <div class="p-4 text-center sm:p-5">
                 <div class="mt-8">
-                    <i class="fa fa-rocket text-6xl text-primary dark:text-accent-light"></i>
+                    <i class="fa fa-rocket text-6xl text-primary"></i>
                 </div>
                 <div class="mt-5">
-                    <h4 class="text-xl font-semibold text-slate-600 dark:text-navy-100">
+                    <h4 class="text-xl font-semibold text-slate-600">
                         Enterprice
                     </h4>
                     <p>the starter choise</p>
                 </div>
                 <div class="mt-5">
-                    <span class="text-4xl tracking-tight text-primary dark:text-accent-light">$25</span>/month
+                    <span class="text-4xl tracking-tight text-primary">$25</span>/month
                 </div>
                 <div class="mt-8 space-y-4 text-left">
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -253,7 +253,7 @@
                     </div>
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -265,7 +265,7 @@
                     </div>
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -277,7 +277,7 @@
                     </div>
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -289,7 +289,7 @@
                     </div>
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -301,7 +301,7 @@
                     </div>
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -313,7 +313,7 @@
                     </div>
                     <div class="flex items-start space-x-3">
                         <div
-                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-accent/10 dark:text-accent-light">
+                            class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -326,7 +326,7 @@
                 </div>
                 <div class="mt-8">
                     <button
-                        class="btn rounded-full border border-slate-200 font-medium text-primary hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80 dark:border-navy-500 dark:text-accent-light dark:hover:bg-navy-500 dark:focus:bg-navy-500 dark:active:bg-navy-500/90">
+                        class="btn rounded-full border border-slate-200 font-medium text-primary hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80">
                         Choose Plan
                     </button>
                 </div>

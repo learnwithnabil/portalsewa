@@ -1,15 +1,15 @@
 <x-app-layout title="Swiper Component" is-sidebar-open="true" is-header-blur="true">
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center space-x-4 py-5 lg:py-6">
-            <h2 class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl">
+            <h2 class="text-xl font-medium text-slate-800 lg:text-2xl">
                 Swiper
             </h2>
             <div class="hidden h-full py-1 sm:flex">
-                <div class="h-full w-px bg-slate-300 dark:bg-navy-600"></div>
+                <div class="h-full w-px bg-slate-300"></div>
             </div>
             <ul class="hidden flex-wrap items-center space-x-2 sm:flex">
                 <li class="flex items-center space-x-2">
-                    <a class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                    <a class="text-primary transition-colors hover:text-primary-focus"
                         href="#">
                         Components
                     </a>
@@ -27,20 +27,20 @@
                 <div class="card px-4 pb-4 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
                         <h2
-                            class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                            class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                             Default Carousel
                         </h2>
                         <label class="inline-flex items-center space-x-2">
-                            <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                            <span class="text-xs text-slate-400">Code</span>
                             <input @change="helpers.toggleCode"
-                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                 type="checkbox" />
                         </label>
                     </div>
                     <div class="max-w-xl">
                         <p>
                             <a href="https://github.com/nolimits4web/swiper"
-                                class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Swiper</a>
+                                class="font-normal text-primary transition-colors hover:text-primary-focus">Swiper</a>
                             is the free and most modern mobile touch slider with hardware
                             accelerated transitions and amazing native behavior. Check out
                             code for detail of usage.
@@ -83,20 +83,20 @@
                 <div class="card px-4 pb-4 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
                         <h2
-                            class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                            class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                             Lazy Loading Images
                         </h2>
                         <label class="inline-flex items-center space-x-2">
-                            <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                            <span class="text-xs text-slate-400">Code</span>
                             <input @change="helpers.toggleCode"
-                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                 type="checkbox" />
                         </label>
                     </div>
                     <div class="max-w-xl">
                         <p>
                             <a href="https://github.com/nolimits4web/swiper"
-                                class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Swiper</a>
+                                class="font-normal text-primary transition-colors hover:text-primary-focus">Swiper</a>
                             is the free and most modern mobile touch slider with hardware
                             accelerated transitions and amazing native behavior. Check out
                             code for detail of usage.
@@ -143,20 +143,20 @@
                 <div class="card px-4 pb-4 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
                         <h2
-                            class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                            class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                             Space Between
                         </h2>
                         <label class="inline-flex items-center space-x-2">
-                            <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                            <span class="text-xs text-slate-400">Code</span>
                             <input @change="helpers.toggleCode"
-                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                 type="checkbox" />
                         </label>
                     </div>
                     <div class="max-w-xl">
                         <p>
                             <a href="https://github.com/nolimits4web/swiper"
-                                class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Swiper</a>
+                                class="font-normal text-primary transition-colors hover:text-primary-focus">Swiper</a>
                             is the free and most modern mobile touch slider with hardware
                             accelerated transitions and amazing native behavior. Check out
                             code for detail of usage.
@@ -197,20 +197,20 @@
                 <div class="card px-4 pb-4 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
                         <h2
-                            class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                            class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                             Zoom
                         </h2>
                         <label class="inline-flex items-center space-x-2">
-                            <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                            <span class="text-xs text-slate-400">Code</span>
                             <input @change="helpers.toggleCode"
-                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                 type="checkbox" />
                         </label>
                     </div>
                     <div class="max-w-xl">
                         <p>
                             <a href="https://github.com/nolimits4web/swiper"
-                                class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Swiper</a>
+                                class="font-normal text-primary transition-colors hover:text-primary-focus">Swiper</a>
                             is the free and most modern mobile touch slider with hardware
                             accelerated transitions and amazing native behavior. Check out
                             code for detail of usage.
@@ -261,20 +261,20 @@
                 <div class="card px-4 pb-4 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
                         <h2
-                            class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                            class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                             Flip Effect
                         </h2>
                         <label class="inline-flex items-center space-x-2">
-                            <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                            <span class="text-xs text-slate-400">Code</span>
                             <input @change="helpers.toggleCode"
-                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                 type="checkbox" />
                         </label>
                     </div>
                     <div class="max-w-xl">
                         <p>
                             <a href="https://github.com/nolimits4web/swiper"
-                                class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Swiper</a>
+                                class="font-normal text-primary transition-colors hover:text-primary-focus">Swiper</a>
                             is the free and most modern mobile touch slider with hardware
                             accelerated transitions and amazing native behavior. Check out
                             code for detail of usage.
@@ -325,20 +325,20 @@
                 <div class="card px-4 pb-4 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
                         <h2
-                            class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                            class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                             Cube Effect
                         </h2>
                         <label class="inline-flex items-center space-x-2">
-                            <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                            <span class="text-xs text-slate-400">Code</span>
                             <input @change="helpers.toggleCode"
-                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                 type="checkbox" />
                         </label>
                     </div>
                     <div class="max-w-xl">
                         <p>
                             <a href="https://github.com/nolimits4web/swiper"
-                                class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Swiper</a>
+                                class="font-normal text-primary transition-colors hover:text-primary-focus">Swiper</a>
                             is the free and most modern mobile touch slider with hardware
                             accelerated transitions and amazing native behavior. Check out
                             code for detail of usage.
@@ -379,20 +379,20 @@
                 <div class="card px-4 pb-4 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
                         <h2
-                            class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                            class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                             Card Effect
                         </h2>
                         <label class="inline-flex items-center space-x-2">
-                            <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                            <span class="text-xs text-slate-400">Code</span>
                             <input @change="helpers.toggleCode"
-                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                 type="checkbox" />
                         </label>
                     </div>
                     <div class="max-w-xl">
                         <p>
                             <a href="https://github.com/nolimits4web/swiper"
-                                class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Swiper</a>
+                                class="font-normal text-primary transition-colors hover:text-primary-focus">Swiper</a>
                             is the free and most modern mobile touch slider with hardware
                             accelerated transitions and amazing native behavior. Check out
                             code for detail of usage.
@@ -434,20 +434,20 @@
                 <div class="card px-4 pb-4 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
                         <h2
-                            class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                            class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                             Pagination
                         </h2>
                         <label class="inline-flex items-center space-x-2">
-                            <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                            <span class="text-xs text-slate-400">Code</span>
                             <input @change="helpers.toggleCode"
-                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                 type="checkbox" />
                         </label>
                     </div>
                     <div class="max-w-xl">
                         <p>
                             <a href="https://github.com/nolimits4web/swiper"
-                                class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Swiper</a>
+                                class="font-normal text-primary transition-colors hover:text-primary-focus">Swiper</a>
                             is the free and most modern mobile touch slider with hardware
                             accelerated transitions and amazing native behavior. Check out
                             code for detail of usage.
@@ -488,20 +488,20 @@
                 <div class="card px-4 pb-4 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
                         <h2
-                            class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                            class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                             Vertical Slider
                         </h2>
                         <label class="inline-flex items-center space-x-2">
-                            <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                            <span class="text-xs text-slate-400">Code</span>
                             <input @change="helpers.toggleCode"
-                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                 type="checkbox" />
                         </label>
                     </div>
                     <div class="max-w-xl">
                         <p>
                             <a href="https://github.com/nolimits4web/swiper"
-                                class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Swiper</a>
+                                class="font-normal text-primary transition-colors hover:text-primary-focus">Swiper</a>
                             is the free and most modern mobile touch slider with hardware
                             accelerated transitions and amazing native behavior. Check out
                             code for detail of usage.
@@ -542,20 +542,20 @@
                 <div class="card px-4 pb-4 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
                         <h2
-                            class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                            class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                             With Scrollbar
                         </h2>
                         <label class="inline-flex items-center space-x-2">
-                            <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                            <span class="text-xs text-slate-400">Code</span>
                             <input @change="helpers.toggleCode"
-                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                 type="checkbox" />
                         </label>
                     </div>
                     <div class="max-w-xl">
                         <p>
                             <a href="https://github.com/nolimits4web/swiper"
-                                class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Swiper</a>
+                                class="font-normal text-primary transition-colors hover:text-primary-focus">Swiper</a>
                             is the free and most modern mobile touch slider with hardware
                             accelerated transitions and amazing native behavior. Check out
                             code for detail of usage.
@@ -598,20 +598,20 @@
                 <div class="card px-4 pb-4 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
                         <h2
-                            class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                            class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                             Fade Effect
                         </h2>
                         <label class="inline-flex items-center space-x-2">
-                            <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                            <span class="text-xs text-slate-400">Code</span>
                             <input @change="helpers.toggleCode"
-                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                 type="checkbox" />
                         </label>
                     </div>
                     <div class="max-w-xl">
                         <p>
                             <a href="https://github.com/nolimits4web/swiper"
-                                class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Swiper</a>
+                                class="font-normal text-primary transition-colors hover:text-primary-focus">Swiper</a>
                             is the free and most modern mobile touch slider with hardware
                             accelerated transitions and amazing native behavior. Check out
                             code for detail of usage.
@@ -653,20 +653,20 @@
                 <div class="card px-4 pb-4 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
                         <h2
-                            class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                            class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                             Coverflow Effect
                         </h2>
                         <label class="inline-flex items-center space-x-2">
-                            <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                            <span class="text-xs text-slate-400">Code</span>
                             <input @change="helpers.toggleCode"
-                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                 type="checkbox" />
                         </label>
                     </div>
                     <div class="max-w-xl">
                         <p>
                             <a href="https://github.com/nolimits4web/swiper"
-                                class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Swiper</a>
+                                class="font-normal text-primary transition-colors hover:text-primary-focus">Swiper</a>
                             is the free and most modern mobile touch slider with hardware
                             accelerated transitions and amazing native behavior. Check out
                             code for detail of usage.
@@ -708,20 +708,20 @@
                 <div class="card px-4 pb-4 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
                         <h2
-                            class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                            class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                             Parallax
                         </h2>
                         <label class="inline-flex items-center space-x-2">
-                            <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                            <span class="text-xs text-slate-400">Code</span>
                             <input @change="helpers.toggleCode"
-                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                 type="checkbox" />
                         </label>
                     </div>
                     <div class="max-w-xl">
                         <p>
                             <a href="https://github.com/nolimits4web/swiper"
-                                class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Swiper</a>
+                                class="font-normal text-primary transition-colors hover:text-primary-focus">Swiper</a>
                             is the free and most modern mobile touch slider with hardware
                             accelerated transitions and amazing native behavior. Check out
                             code for detail of usage.
@@ -797,20 +797,20 @@
                 <div class="card px-4 pb-4 sm:px-5">
                     <div class="my-3 flex h-8 items-center justify-between">
                         <h2
-                            class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                            class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                             Creative Effect
                         </h2>
                         <label class="inline-flex items-center space-x-2">
-                            <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                            <span class="text-xs text-slate-400">Code</span>
                             <input @change="helpers.toggleCode"
-                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                 type="checkbox" />
                         </label>
                     </div>
                     <div class="max-w-xl">
                         <p>
                             <a href="https://github.com/nolimits4web/swiper"
-                                class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Swiper</a>
+                                class="font-normal text-primary transition-colors hover:text-primary-focus">Swiper</a>
                             is the free and most modern mobile touch slider with hardware
                             accelerated transitions and amazing native behavior. Check out
                             code for detail of usage.

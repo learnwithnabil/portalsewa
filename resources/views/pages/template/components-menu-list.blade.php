@@ -2,17 +2,17 @@
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center space-x-4 py-5 lg:py-6">
           <h2
-            class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl"
+            class="text-xl font-medium text-slate-800 lg:text-2xl"
           >
             Menu
           </h2>
           <div class="hidden h-full py-1 sm:flex">
-            <div class="h-full w-px bg-slate-300 dark:bg-navy-600"></div>
+            <div class="h-full w-px bg-slate-300"></div>
           </div>
           <ul class="hidden flex-wrap items-center space-x-2 sm:flex">
             <li class="flex items-center space-x-2">
               <a
-                class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                class="text-primary transition-colors hover:text-primary-focus"
                 href="#"
                 >Components</a
               >
@@ -42,10 +42,10 @@
             <!-- Menu List Example 1 -->
             <div class="card">
               <div
-                class="border-b border-slate-200 p-4 dark:border-navy-500 sm:px-5"
+                class="border-b border-slate-200 p-4 sm:px-5"
               >
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Menu List Example 1
                 </h2>
@@ -54,7 +54,7 @@
                 <ul class="space-y-3.5 font-inter font-medium">
                   <li>
                     <a
-                      class="inline-flex items-center font-medium tracking-wide text-primary outline-none dark:text-accent-light"
+                      class="inline-flex items-center font-medium tracking-wide text-primary outline-none"
                       href="#"
                     >
                       <span>Getting start</span>
@@ -62,7 +62,7 @@
                   </li>
                   <li>
                     <a
-                      class="inline-flex items-center tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100"
+                      class="inline-flex items-center tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800"
                       href="#"
                     >
                       <span>Shipping</span>
@@ -70,7 +70,7 @@
                   </li>
                   <li>
                     <a
-                      class="inline-flex items-center tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100"
+                      class="inline-flex items-center tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800"
                       href="#"
                     >
                       <span>Payments</span>
@@ -78,7 +78,7 @@
                   </li>
                   <li>
                     <a
-                      class="inline-flex items-center tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100"
+                      class="inline-flex items-center tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800"
                       href="#"
                     >
                       <span>Returns</span>
@@ -86,7 +86,7 @@
                   </li>
                   <li>
                     <a
-                      class="inline-flex items-center tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100"
+                      class="inline-flex items-center tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800"
                       href="#"
                     >
                       <span>My Account</span>
@@ -94,7 +94,7 @@
                   </li>
                   <li>
                     <a
-                      class="inline-flex items-center tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100"
+                      class="inline-flex items-center tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800"
                       href="#"
                     >
                       <span>Copyright &amp; Legal</span>
@@ -102,7 +102,7 @@
                   </li>
                   <li>
                     <a
-                      class="inline-flex items-center tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100"
+                      class="inline-flex items-center tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800"
                       href="#"
                     >
                       <span>Mobile App</span>
@@ -110,7 +110,7 @@
                   </li>
                   <li>
                     <a
-                      class="inline-flex items-center tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100"
+                      class="inline-flex items-center tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800"
                       href="#"
                     >
                       <span>Security</span>
@@ -123,10 +123,10 @@
             <!-- Menu List Example 2 -->
             <div class="card">
               <div
-                class="border-b border-slate-200 p-4 dark:border-navy-500 sm:px-5"
+                class="border-b border-slate-200 p-4 sm:px-5"
               >
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Menu List Example 2
                 </h2>
@@ -135,12 +135,12 @@
                 <ul class="space-y-3.5 font-inter font-medium">
                   <li>
                     <a
-                      class="inline-flex items-center space-x-2 tracking-wide text-primary outline-none dark:text-accent-light"
+                      class="inline-flex items-center space-x-2 tracking-wide text-primary outline-none"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-primary dark:text-accent-light"
+                        class="h-5 w-5 text-primary"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -158,12 +158,12 @@
                   </li>
                   <li>
                     <a
-                      class="group inline-flex items-center space-x-2 tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100"
+                      class="group inline-flex items-center space-x-2 tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -184,12 +184,12 @@
                   </li>
                   <li>
                     <a
-                      class="group inline-flex items-center space-x-2 tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-navy-800 dark:hover:text-navy-100 dark:focus:text-navy-100"
+                      class="group inline-flex items-center space-x-2 tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-navy-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
@@ -206,12 +206,12 @@
                   </li>
                   <li>
                     <a
-                      class="group inline-flex items-center space-x-2 tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-navy-800 dark:hover:text-navy-100 dark:focus:text-navy-100"
+                      class="group inline-flex items-center space-x-2 tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-navy-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -228,12 +228,12 @@
                   </li>
                   <li>
                     <a
-                      class="group inline-flex items-center space-x-2 tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-navy-800 dark:hover:text-navy-100 dark:focus:text-navy-100"
+                      class="group inline-flex items-center space-x-2 tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-navy-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -251,12 +251,12 @@
                   </li>
                   <li>
                     <a
-                      class="group inline-flex items-center space-x-2 tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-navy-800 dark:hover:text-navy-100 dark:focus:text-navy-100"
+                      class="group inline-flex items-center space-x-2 tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-navy-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         viewBox="0 0 24 24"
                         fill="none"
                       >
@@ -278,12 +278,12 @@
                   </li>
                   <li>
                     <a
-                      class="group inline-flex items-center space-x-2 tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-navy-800 dark:hover:text-navy-100 dark:focus:text-navy-100"
+                      class="group inline-flex items-center space-x-2 tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-navy-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -300,12 +300,12 @@
                   </li>
                   <li>
                     <a
-                      class="group inline-flex items-center space-x-2 tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-navy-800 dark:hover:text-navy-100 dark:focus:text-navy-100"
+                      class="group inline-flex items-center space-x-2 tracking-wide outline-none transition-colors hover:text-slate-800 focus:text-navy-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -329,10 +329,10 @@
             <!-- Menu List Example 3 -->
             <div class="card">
               <div
-                class="border-b border-slate-200 p-4 dark:border-navy-500 sm:px-5"
+                class="border-b border-slate-200 p-4 sm:px-5"
               >
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Menu List Example 3
                 </h2>
@@ -341,7 +341,7 @@
                 <ul class="space-y-1.5 font-inter font-medium">
                   <li>
                     <a
-                      class="flex rounded-lg bg-primary px-4 py-2.5 tracking-wide text-white outline-none transition-all dark:bg-accent"
+                      class="flex rounded-lg bg-primary px-4 py-2.5 tracking-wide text-white outline-none transition-all"
                       href="#"
                     >
                       <span>Getting start</span>
@@ -349,7 +349,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Shipping</span>
@@ -357,7 +357,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Payments</span>
@@ -365,7 +365,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Returns</span>
@@ -373,7 +373,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>My Account</span>
@@ -381,7 +381,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Copyright &amp; Legal</span>
@@ -394,10 +394,10 @@
             <!-- Menu List Example 4 -->
             <div class="card">
               <div
-                class="border-b border-slate-200 p-4 dark:border-navy-500 sm:px-5"
+                class="border-b border-slate-200 p-4 sm:px-5"
               >
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Menu List Example 4
                 </h2>
@@ -406,7 +406,7 @@
                 <ul class="space-y-1.5 font-inter font-medium">
                   <li>
                     <a
-                      class="flex items-center space-x-2 rounded-lg bg-primary px-4 py-2.5 tracking-wide text-white outline-none transition-all dark:bg-accent"
+                      class="flex items-center space-x-2 rounded-lg bg-primary px-4 py-2.5 tracking-wide text-white outline-none transition-all"
                       href="#"
                     >
                       <svg
@@ -428,12 +428,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -454,12 +454,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
@@ -476,12 +476,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -498,12 +498,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -520,12 +520,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         viewBox="0 0 24 24"
                         fill="none"
                       >
@@ -553,10 +553,10 @@
             <!-- Menu List Example 5 -->
             <div class="card">
               <div
-                class="border-b border-slate-200 p-4 dark:border-navy-500 sm:px-5"
+                class="border-b border-slate-200 p-4 sm:px-5"
               >
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Menu List Example 5
                 </h2>
@@ -565,7 +565,7 @@
                 <ul class="space-y-1.5 font-inter font-medium">
                   <li>
                     <a
-                      class="flex rounded-full bg-primary px-5 py-2.5 tracking-wide text-white outline-none transition-all dark:bg-accent"
+                      class="flex rounded-full bg-primary px-5 py-2.5 tracking-wide text-white outline-none transition-all"
                       href="#"
                     >
                       <span>Getting start</span>
@@ -573,7 +573,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary dark:hover:bg-accent-light/15 dark:hover:text-accent-light dark:focus:bg-accent-light/15 dark:focus:text-accent-light"
+                      class="flex rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary"
                       href="#"
                     >
                       <span>Shipping</span>
@@ -581,7 +581,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary dark:hover:bg-accent-light/15 dark:hover:text-accent-light dark:focus:bg-accent-light/15 dark:focus:text-accent-light"
+                      class="flex rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary"
                       href="#"
                     >
                       <span>Payments</span>
@@ -589,7 +589,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary dark:hover:bg-accent-light/15 dark:hover:text-accent-light dark:focus:bg-accent-light/15 dark:focus:text-accent-light"
+                      class="flex rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary"
                       href="#"
                     >
                       <span>Returns</span>
@@ -597,7 +597,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary dark:hover:bg-accent-light/15 dark:hover:text-accent-light dark:focus:bg-accent-light/15 dark:focus:text-accent-light"
+                      class="flex rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary"
                       href="#"
                     >
                       <span>My Account</span>
@@ -605,7 +605,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary dark:hover:bg-accent-light/15 dark:hover:text-accent-light dark:focus:bg-accent-light/15 dark:focus:text-accent-light"
+                      class="flex rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary"
                       href="#"
                     >
                       <span>Copyright &amp; Legal</span>
@@ -618,10 +618,10 @@
             <!-- Menu List Example 6 -->
             <div class="card">
               <div
-                class="border-b border-slate-200 p-4 dark:border-navy-500 sm:px-5"
+                class="border-b border-slate-200 p-4 sm:px-5"
               >
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Menu List Example 6
                 </h2>
@@ -630,7 +630,7 @@
                 <ul class="space-y-1.5 font-inter font-medium">
                   <li>
                     <a
-                      class="flex items-center space-x-2 rounded-full bg-primary px-5 py-2.5 tracking-wide text-white outline-none transition-all dark:bg-accent"
+                      class="flex items-center space-x-2 rounded-full bg-primary px-5 py-2.5 tracking-wide text-white outline-none transition-all"
                       href="#"
                     >
                       <svg
@@ -652,12 +652,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary dark:hover:bg-accent-light/15 dark:hover:text-accent-light dark:focus:bg-accent-light/15 dark:focus:text-accent-light"
+                      class="group flex space-x-2 rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-primary group-focus:text-primary dark:text-navy-300 dark:group-hover:text-accent dark:group-focus:text-accent"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-primary group-focus:text-primary"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -678,12 +678,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary dark:hover:bg-accent-light/15 dark:hover:text-accent-light dark:focus:bg-accent-light/15 dark:focus:text-accent-light"
+                      class="group flex space-x-2 rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-primary group-focus:text-primary dark:text-navy-300 dark:group-hover:text-accent dark:group-focus:text-accent"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-primary group-focus:text-primary"
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
@@ -700,12 +700,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary dark:hover:bg-accent-light/15 dark:hover:text-accent-light dark:focus:bg-accent-light/15 dark:focus:text-accent-light"
+                      class="group flex space-x-2 rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-primary group-focus:text-primary dark:text-navy-300 dark:group-hover:text-accent dark:group-focus:text-accent"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-primary group-focus:text-primary"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -722,12 +722,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary dark:hover:bg-accent-light/15 dark:hover:text-accent-light dark:focus:bg-accent-light/15 dark:focus:text-accent-light"
+                      class="group flex space-x-2 rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-primary group-focus:text-primary dark:text-navy-300 dark:group-hover:text-accent dark:group-focus:text-accent"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-primary group-focus:text-primary"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -744,12 +744,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary dark:hover:bg-accent-light/15 dark:hover:text-accent-light dark:focus:bg-accent-light/15 dark:focus:text-accent-light"
+                      class="group flex space-x-2 rounded-full px-5 py-2.5 tracking-wide outline-none transition-all hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-primary group-focus:text-primary dark:text-navy-300 dark:group-hover:text-accent dark:group-focus:text-accent"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-primary group-focus:text-primary"
                         viewBox="0 0 24 24"
                         fill="none"
                       >
@@ -777,10 +777,10 @@
             <!-- Menu List Example 7 -->
             <div class="card">
               <div
-                class="border-b border-slate-200 p-4 dark:border-navy-500 sm:px-5"
+                class="border-b border-slate-200 p-4 sm:px-5"
               >
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Menu List Example 7
                 </h2>
@@ -789,7 +789,7 @@
                 <ul class="space-y-1.5 font-inter font-medium">
                   <li>
                     <a
-                      class="flex rounded-lg bg-slate-150 px-4 py-2.5 tracking-wide text-slate-800 outline-none transition-all dark:bg-navy-500 dark:text-navy-50"
+                      class="flex rounded-lg bg-slate-150 px-4 py-2.5 tracking-wide text-slate-800 outline-none transition-all"
                       href="#"
                     >
                       <span>Getting start</span>
@@ -797,7 +797,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Shipping</span>
@@ -805,7 +805,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Payments</span>
@@ -813,7 +813,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Returns</span>
@@ -821,7 +821,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>My Account</span>
@@ -829,7 +829,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Copyright &amp; Legal</span>
@@ -842,10 +842,10 @@
             <!-- Menu List Example 8 -->
             <div class="card">
               <div
-                class="border-b border-slate-200 p-4 dark:border-navy-500 sm:px-5"
+                class="border-b border-slate-200 p-4 sm:px-5"
               >
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Menu List Example 8
                 </h2>
@@ -855,7 +855,7 @@
                   <li>
                     <a
                       href="#"
-                      class="flex space-x-2 rounded-lg bg-slate-150 px-4 py-2.5 tracking-wide text-slate-800 outline-none transition-all dark:bg-navy-500 dark:text-navy-50"
+                      class="flex space-x-2 rounded-lg bg-slate-150 px-4 py-2.5 tracking-wide text-slate-800 outline-none transition-all"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -876,12 +876,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -902,12 +902,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
@@ -924,12 +924,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -946,12 +946,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -968,12 +968,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         viewBox="0 0 24 24"
                         fill="none"
                       >
@@ -1001,10 +1001,10 @@
             <!-- Menu List Example 9 -->
             <div class="card">
               <div
-                class="border-b border-slate-200 p-4 dark:border-navy-500 sm:px-5"
+                class="border-b border-slate-200 p-4 sm:px-5"
               >
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Menu List Example 9
                 </h2>
@@ -1021,7 +1021,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Shipping</span>
@@ -1029,7 +1029,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Payments</span>
@@ -1037,7 +1037,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Returns</span>
@@ -1045,7 +1045,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>My Account</span>
@@ -1053,7 +1053,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Copyright &amp; Legal</span>
@@ -1066,10 +1066,10 @@
             <!-- Menu List Example 10 -->
             <div class="card">
               <div
-                class="border-b border-slate-200 p-4 dark:border-navy-500 sm:px-5"
+                class="border-b border-slate-200 p-4 sm:px-5"
               >
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Menu List Example 10
                 </h2>
@@ -1100,12 +1100,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -1126,12 +1126,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
@@ -1148,12 +1148,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -1170,12 +1170,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -1192,12 +1192,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         viewBox="0 0 24 24"
                         fill="none"
                       >
@@ -1225,10 +1225,10 @@
             <!-- Menu List Example 11 -->
             <div class="card">
               <div
-                class="border-b border-slate-200 p-4 dark:border-navy-500 sm:px-5"
+                class="border-b border-slate-200 p-4 sm:px-5"
               >
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Menu List Example 11
                 </h2>
@@ -1237,7 +1237,7 @@
                 <ul class="space-y-1.5 font-inter font-medium">
                   <li>
                     <a
-                      class="flex rounded-lg border border-slate-150 px-4 py-2.5 tracking-wide text-primary shadow-sm outline-none transition-all dark:border-navy-500 dark:text-accent-light"
+                      class="flex rounded-lg border border-slate-150 px-4 py-2.5 tracking-wide text-primary shadow-sm outline-none transition-all"
                       href="#"
                     >
                       <span>Getting start</span>
@@ -1245,7 +1245,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Shipping</span>
@@ -1253,7 +1253,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Payments</span>
@@ -1261,7 +1261,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Returns</span>
@@ -1269,7 +1269,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>My Account</span>
@@ -1277,7 +1277,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="flex rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <span>Copyright &amp; Legal</span>
@@ -1290,10 +1290,10 @@
             <!-- Menu List Example 12 -->
             <div class="card">
               <div
-                class="border-b border-slate-200 p-4 dark:border-navy-500 sm:px-5"
+                class="border-b border-slate-200 p-4 sm:px-5"
               >
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Menu List Example 12
                 </h2>
@@ -1303,7 +1303,7 @@
                   <li>
                     <a
                       href="#"
-                      class="flex space-x-2 rounded-lg border border-slate-150 px-4 py-2.5 tracking-wide text-primary shadow-sm outline-none transition-all dark:border-navy-500 dark:text-accent-light"
+                      class="flex space-x-2 rounded-lg border border-slate-150 px-4 py-2.5 tracking-wide text-primary shadow-sm outline-none transition-all"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1324,12 +1324,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -1350,12 +1350,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
@@ -1372,12 +1372,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -1394,12 +1394,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -1416,12 +1416,12 @@
                   </li>
                   <li>
                     <a
-                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                      class="group flex space-x-2 rounded-lg px-4 py-2.5 tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800"
                       href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500 dark:text-navy-300 dark:group-hover:text-navy-200 dark:group-focus:text-navy-200"
+                        class="h-5 w-5 text-slate-400 transition-colors group-hover:text-slate-500 group-focus:text-slate-500"
                         viewBox="0 0 24 24"
                         fill="none"
                       >

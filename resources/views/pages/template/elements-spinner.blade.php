@@ -2,17 +2,17 @@
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center space-x-4 py-5 lg:py-6">
             <h2
-                class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl"
+                class="text-xl font-medium text-slate-800 lg:text-2xl"
             >
                 Spinner
             </h2>
             <div class="hidden h-full py-1 sm:flex">
-                <div class="h-full w-px bg-slate-300 dark:bg-navy-600"></div>
+                <div class="h-full w-px bg-slate-300"></div>
             </div>
             <ul class="hidden flex-wrap items-center space-x-2 sm:flex">
                 <li class="flex items-center space-x-2">
                     <a
-                        class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                        class="text-primary transition-colors hover:text-primary-focus"
                         href="#"
                     >Elements</a
                     >
@@ -40,15 +40,15 @@
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
                     <h2
-                        class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                        class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                     >
                         Basic Spinner
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input
                             @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox"
                         />
                     </label>
@@ -61,10 +61,10 @@
                     </p>
                     <div class="inline-space mt-5 flex flex-wrap">
                         <div
-                            class="spinner h-7 w-7 animate-spin rounded-full border-[3px] border-slate-500 border-r-transparent dark:border-navy-300 dark:border-r-transparent"
+                            class="spinner h-7 w-7 animate-spin rounded-full border-[3px] border-slate-500 border-r-transparent"
                         ></div>
                         <div
-                            class="spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary border-r-transparent dark:border-accent dark:border-r-transparent"
+                            class="spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary border-r-transparent"
                         ></div>
                         <div
                             class="spinner h-7 w-7 animate-spin rounded-full border-[3px] border-secondary border-r-transparent"
@@ -90,7 +90,7 @@
                   x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-slate-500 border-r-transparent dark:border-navy-300 dark:border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary border-r-transparent dark:border-accent dark:border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-secondary border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-info border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-success border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-warning border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-error border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;</code>
+  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-slate-500 border-r-transparent  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary border-r-transparent  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-secondary border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-info border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-success border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-warning border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-error border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;</code>
               </pre>
                 </div>
             </div>
@@ -99,15 +99,15 @@
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
                     <h2
-                        class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                        class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                     >
                         Elastic Timing Function
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input
                             @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox"
                         />
                     </label>
@@ -121,10 +121,10 @@
                     </p>
                     <div class="inline-space mt-5 flex flex-wrap">
                         <div
-                            class="spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-slate-500 border-r-transparent dark:border-navy-300 dark:border-r-transparent"
+                            class="spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-slate-500 border-r-transparent"
                         ></div>
                         <div
-                            class="spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-primary border-r-transparent dark:border-accent dark:border-r-transparent"
+                            class="spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-primary border-r-transparent"
                         ></div>
                         <div
                             class="spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-secondary border-r-transparent"
@@ -150,7 +150,7 @@
                   x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-slate-500 border-r-transparent dark:border-navy-300 dark:border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-primary border-r-transparent dark:border-accent dark:border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-secondary border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-info border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-success border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-warning border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-error border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;</code>
+  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-slate-500 border-r-transparent  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-primary border-r-transparent  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-secondary border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-info border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-success border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-warning border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-error border-r-transparent&quot;&#13;&#10;  &gt;&lt;/div&gt;</code>
               </pre>
                 </div>
             </div>
@@ -159,15 +159,15 @@
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
                     <h2
-                        class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                        class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                     >
                         Soft Color Spinner
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input
                             @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox"
                         />
                     </label>
@@ -180,10 +180,10 @@
                     </p>
                     <div class="inline-space mt-5 flex flex-wrap">
                         <div
-                            class="spinner h-7 w-7 animate-spin rounded-full border-[3px] border-slate-150 border-r-slate-500 dark:border-navy-500 dark:border-r-navy-300"
+                            class="spinner h-7 w-7 animate-spin rounded-full border-[3px] border-slate-150 border-r-slate-500"
                         ></div>
                         <div
-                            class="spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary/30 border-r-primary dark:border-accent/30 dark:border-r-accent"
+                            class="spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary/30 border-r-primary"
                         ></div>
                         <div
                             class="spinner h-7 w-7 animate-spin rounded-full border-[3px] border-secondary/30 border-r-secondary"
@@ -208,7 +208,7 @@
                   x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-slate-150 border-r-slate-500 dark:border-navy-500 dark:border-r-navy-300&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary/30 border-r-primary dark:border-accent/30 dark:border-r-accent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-secondary/30 border-r-secondary&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-info/30 border-r-info&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-success/30 border-r-success&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-warning/30 border-r-warning&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-error/30 border-r-error&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;</code>
+  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-slate-150 border-r-slate-500  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary/30 border-r-primary  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-secondary/30 border-r-secondary&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-info/30 border-r-info&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-success/30 border-r-success&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-warning/30 border-r-warning&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-error/30 border-r-error&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;</code>
               </pre>
                 </div>
             </div>
@@ -217,15 +217,15 @@
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
                     <h2
-                        class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                        class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                     >
                         Soft Elsatic Spinner
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input
                             @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox"
                         />
                     </label>
@@ -239,10 +239,10 @@
                     </p>
                     <div class="inline-space mt-5 flex flex-wrap">
                         <div
-                            class="spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-slate-150 border-r-slate-500 dark:border-navy-500 dark:border-r-navy-300"
+                            class="spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-slate-150 border-r-slate-500"
                         ></div>
                         <div
-                            class="spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-primary/30 border-r-primary dark:border-accent/30 dark:border-r-accent"
+                            class="spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-primary/30 border-r-primary"
                         ></div>
                         <div
                             class="spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-secondary/30 border-r-secondary"
@@ -267,7 +267,7 @@
                   x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-slate-150 border-r-slate-500 dark:border-navy-500 dark:border-r-navy-300&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-primary/30 border-r-primary dark:border-accent/30 dark:border-r-accent&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-secondary/30 border-r-secondary&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-info/30 border-r-info&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-success/30 border-r-success&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-warning/30 border-r-warning&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-error/30 border-r-error&quot;&#13;&#10;  &gt;&lt;/div&gt;</code>
+  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-slate-150 border-r-slate-500  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-primary/30 border-r-primary  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-secondary/30 border-r-secondary&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-info/30 border-r-info&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-success/30 border-r-success&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-warning/30 border-r-warning&quot;&#13;&#10;  &gt;&lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin rounded-full border-[3px] border-error/30 border-r-error&quot;&#13;&#10;  &gt;&lt;/div&gt;</code>
               </pre>
                 </div>
             </div>
@@ -276,15 +276,15 @@
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
                     <h2
-                        class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                        class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                     >
                         Grow Spinner
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input
                             @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox"
                         />
                     </label>
@@ -298,18 +298,18 @@
                     <div class="inline-space mt-5 flex flex-wrap">
                         <div class="spinner is-grow relative h-7 w-7">
                   <span
-                      class="absolute inline-block h-full w-full rounded-full bg-slate-500 opacity-75 dark:bg-navy-300"
+                      class="absolute inline-block h-full w-full rounded-full bg-slate-500 opacity-75"
                   ></span>
                             <span
-                                class="absolute inline-block h-full w-full rounded-full bg-slate-500 opacity-75 dark:bg-navy-300"
+                                class="absolute inline-block h-full w-full rounded-full bg-slate-500 opacity-75"
                             ></span>
                         </div>
                         <div class="spinner is-grow relative h-7 w-7">
                   <span
-                      class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent"
+                      class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75"
                   ></span>
                             <span
-                                class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent"
+                                class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75"
                             ></span>
                         </div>
                         <div class="spinner is-grow relative h-7 w-7">
@@ -360,7 +360,7 @@
                   x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-slate-500 opacity-75 dark:bg-navy-300&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-slate-500 opacity-75 dark:bg-navy-300&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-secondary opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-secondary opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-info opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-info opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-success opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-success opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-warning opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-warning opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-error opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-error opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;  &lt;/div&gt;</code>
+  &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-slate-500 opacity-75    &gt;&lt;/span&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-slate-500 opacity-75    &gt;&lt;/span&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75    &gt;&lt;/span&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75    &gt;&lt;/span&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-secondary opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-secondary opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-info opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-info opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-success opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-success opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-warning opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-warning opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-error opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;    &lt;span&#13;&#10;      class=&quot;absolute inline-block h-full w-full rounded-full bg-error opacity-75&quot;&#13;&#10;    &gt;&lt;/span&gt;&#13;&#10;  &lt;/div&gt;</code>
               </pre>
                 </div>
             </div>
@@ -369,15 +369,15 @@
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
                     <h2
-                        class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                        class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                     >
                         SVG Spinner
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input
                             @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox"
                         />
                     </label>
@@ -390,7 +390,7 @@
                     </p>
                     <div class="inline-space mt-5 flex flex-wrap">
                         <div
-                            class="spinner h-7 w-7 animate-spin text-slate-500 dark:text-navy-300"
+                            class="spinner h-7 w-7 animate-spin text-slate-500"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -407,7 +407,7 @@
                             </svg>
                         </div>
                         <div
-                            class="spinner h-7 w-7 animate-spin text-primary dark:text-accent"
+                            class="spinner h-7 w-7 animate-spin text-primary"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -424,7 +424,7 @@
                             </svg>
                         </div>
                         <div
-                            class="spinner h-7 w-7 animate-spin text-secondary dark:text-secondary-light"
+                            class="spinner h-7 w-7 animate-spin text-secondary"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -508,7 +508,7 @@
                   x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div class=&quot;spinner h-7 w-7 animate-spin text-slate-500 dark:text-navy-300&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner h-7 w-7 animate-spin text-primary dark:text-accent&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin text-secondary dark:text-secondary-light&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner h-7 w-7 animate-spin text-info&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner h-7 w-7 animate-spin text-success&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner h-7 w-7 animate-spin text-warning&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner h-7 w-7 animate-spin text-error&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;</code>
+  &lt;div class=&quot;spinner h-7 w-7 animate-spin text-slate-500    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner h-7 w-7 animate-spin text-primary    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner h-7 w-7 animate-spin text-secondary  &gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner h-7 w-7 animate-spin text-info&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner h-7 w-7 animate-spin text-success&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner h-7 w-7 animate-spin text-warning&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner h-7 w-7 animate-spin text-error&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;</code>
               </pre>
                 </div>
             </div>
@@ -517,15 +517,15 @@
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
                     <h2
-                        class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                        class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                     >
                         SVG Spinner Elastic
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input
                             @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox"
                         />
                     </label>
@@ -539,7 +539,7 @@
                     </p>
                     <div class="inline-space mt-5 flex flex-wrap">
                         <div
-                            class="spinner is-elastic h-7 w-7 animate-spin text-slate-500 dark:text-navy-300"
+                            class="spinner is-elastic h-7 w-7 animate-spin text-slate-500"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -556,7 +556,7 @@
                             </svg>
                         </div>
                         <div
-                            class="spinner is-elastic h-7 w-7 animate-spin text-primary dark:text-accent"
+                            class="spinner is-elastic h-7 w-7 animate-spin text-primary"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -573,7 +573,7 @@
                             </svg>
                         </div>
                         <div
-                            class="spinner is-elastic h-7 w-7 animate-spin text-secondary dark:text-secondary-light"
+                            class="spinner is-elastic h-7 w-7 animate-spin text-secondary"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -661,7 +661,7 @@
                   x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin text-slate-500 dark:text-navy-300&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin text-primary dark:text-accent&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin text-secondary dark:text-secondary-light&quot;&#13;&#10;  &gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-elastic h-7 w-7 animate-spin text-info&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-elastic h-7 w-7 animate-spin text-success&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-elastic h-7 w-7 animate-spin text-warning&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-elastic h-7 w-7 animate-spin text-error&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;</code>
+  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin text-slate-500  &gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin text-primary  &gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div&#13;&#10;    class=&quot;spinner is-elastic h-7 w-7 animate-spin text-secondary  &gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-elastic h-7 w-7 animate-spin text-info&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-elastic h-7 w-7 animate-spin text-success&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-elastic h-7 w-7 animate-spin text-warning&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;  &lt;div class=&quot;spinner is-elastic h-7 w-7 animate-spin text-error&quot;&gt;&#13;&#10;    &lt;svg&#13;&#10;      xmlns=&quot;http://www.w3.org/2000/svg&quot;&#13;&#10;      class=&quot;h-full w-full&quot;&#13;&#10;      fill=&quot;none&quot;&#13;&#10;      viewBox=&quot;0 0 28 28&quot;&#13;&#10;    &gt;&#13;&#10;      &lt;path&#13;&#10;        fill=&quot;currentColor&quot;&#13;&#10;        fill-rule=&quot;evenodd&quot;&#13;&#10;        d=&quot;M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14zm-2.764.005c0 6.185-5.014 11.2-11.2 11.2-6.185 0-11.2-5.015-11.2-11.2 0-6.186 5.015-11.2 11.2-11.2 6.186 0 11.2 5.014 11.2 11.2zM8.4 16.8a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z&quot;&#13;&#10;        clip-rule=&quot;evenodd&quot;&#13;&#10;      /&gt;&#13;&#10;    &lt;/svg&gt;&#13;&#10;  &lt;/div&gt;</code>
               </pre>
                 </div>
             </div>
@@ -670,15 +670,15 @@
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
                     <h2
-                        class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                        class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                     >
                         Spinner Size
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input
                             @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox"
                         />
                     </label>
@@ -693,38 +693,38 @@
                         <!-- Basic Spinner -->
                         <div class="inline-space mt-5 flex flex-wrap">
                             <div
-                                class="spinner h-5 w-5 animate-spin rounded-full border-2 border-primary border-r-transparent dark:border-accent dark:border-r-transparent"
+                                class="spinner h-5 w-5 animate-spin rounded-full border-2 border-primary border-r-transparent"
                             ></div>
                             <div
-                                class="spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary border-r-transparent dark:border-accent dark:border-r-transparent"
+                                class="spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary border-r-transparent"
                             ></div>
                             <div
-                                class="spinner h-10 w-10 animate-spin rounded-full border-4 border-primary border-r-transparent dark:border-accent dark:border-r-transparent"
+                                class="spinner h-10 w-10 animate-spin rounded-full border-4 border-primary border-r-transparent"
                             ></div>
                             <div
-                                class="spinner h-12 w-12 animate-spin rounded-full border-4 border-primary border-r-transparent dark:border-accent dark:border-r-transparent"
+                                class="spinner h-12 w-12 animate-spin rounded-full border-4 border-primary border-r-transparent"
                             ></div>
                             <div
-                                class="spinner h-16 w-16 animate-spin rounded-full border-4 border-primary border-r-transparent dark:border-accent dark:border-r-transparent"
+                                class="spinner h-16 w-16 animate-spin rounded-full border-4 border-primary border-r-transparent"
                             ></div>
                         </div>
 
                         <!-- Soft Color Spinner -->
                         <div class="inline-space mt-5 flex flex-wrap">
                             <div
-                                class="spinner h-5 w-5 animate-spin rounded-full border-2 border-primary/30 border-r-primary dark:border-accent/30 dark:border-r-accent"
+                                class="spinner h-5 w-5 animate-spin rounded-full border-2 border-primary/30 border-r-primary"
                             ></div>
                             <div
-                                class="spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary/30 border-r-primary dark:border-accent/30 dark:border-r-accent"
+                                class="spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary/30 border-r-primary"
                             ></div>
                             <div
-                                class="spinner h-10 w-10 animate-spin rounded-full border-4 border-primary/30 border-r-primary dark:border-accent/30 dark:border-r-accent"
+                                class="spinner h-10 w-10 animate-spin rounded-full border-4 border-primary/30 border-r-primary"
                             ></div>
                             <div
-                                class="spinner h-12 w-12 animate-spin rounded-full border-4 border-primary/30 border-r-primary dark:border-accent/30 dark:border-r-accent"
+                                class="spinner h-12 w-12 animate-spin rounded-full border-4 border-primary/30 border-r-primary"
                             ></div>
                             <div
-                                class="spinner h-16 w-16 animate-spin rounded-full border-4 border-primary/30 border-r-primary dark:border-accent/30 dark:border-r-accent"
+                                class="spinner h-16 w-16 animate-spin rounded-full border-4 border-primary/30 border-r-primary"
                             ></div>
                         </div>
 
@@ -732,42 +732,42 @@
                         <div class="inline-space mt-5 flex flex-wrap">
                             <div class="spinner is-grow relative h-5 w-5">
                     <span
-                        class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent"
+                        class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75"
                     ></span>
                                 <span
-                                    class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent"
+                                    class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75"
                                 ></span>
                             </div>
                             <div class="spinner is-grow relative h-7 w-7">
                     <span
-                        class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent"
+                        class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75"
                     ></span>
                                 <span
-                                    class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent"
+                                    class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75"
                                 ></span>
                             </div>
                             <div class="spinner is-grow relative h-10 w-10">
                     <span
-                        class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent"
+                        class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75"
                     ></span>
                                 <span
-                                    class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent"
+                                    class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75"
                                 ></span>
                             </div>
                             <div class="spinner is-grow relative h-12 w-12">
                     <span
-                        class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent"
+                        class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75"
                     ></span>
                                 <span
-                                    class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent"
+                                    class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75"
                                 ></span>
                             </div>
                             <div class="spinner is-grow relative h-16 w-16">
                     <span
-                        class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent"
+                        class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75"
                     ></span>
                                 <span
-                                    class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent"
+                                    class="absolute inline-block h-full w-full rounded-full bg-primary opacity-75"
                                 ></span>
                             </div>
                         </div>
@@ -780,7 +780,7 @@
                   x-init="hljs.highlightElement($el)"
               >
                 <code class="language-html" x-ignore>
-  &lt;!-- Basic Spinner --&gt;&#13;&#10;  &lt;div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-5 w-5 animate-spin rounded-full border-2 border-primary border-r-transparent dark:border-accent dark:border-r-transparent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary border-r-transparent dark:border-accent dark:border-r-transparent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-10 w-10 animate-spin rounded-full border-4 border-primary border-r-transparent dark:border-accent dark:border-r-transparent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-12 w-12 animate-spin rounded-full border-4 border-primary border-r-transparent dark:border-accent dark:border-r-transparent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-16 w-16 animate-spin rounded-full border-4 border-primary border-r-transparent dark:border-accent dark:border-r-transparent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;!-- Soft Color Spinner --&gt;&#13;&#10;  &lt;div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-5 w-5 animate-spin rounded-full border-2 border-primary/30 border-r-primary dark:border-accent/30 dark:border-r-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary/30 border-r-primary dark:border-accent/30 dark:border-r-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-10 w-10 animate-spin rounded-full border-4 border-primary/30 border-r-primary dark:border-accent/30 dark:border-r-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-12 w-12 animate-spin rounded-full border-4 border-primary/30 border-r-primary dark:border-accent/30 dark:border-r-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-16 w-16 animate-spin rounded-full border-4 border-primary/30 border-r-primary dark:border-accent/30 dark:border-r-accent&quot;&#13;&#10;    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;!-- Grow Spinner --&gt;&#13;&#10;  &lt;div&gt;&#13;&#10;    &lt;div class=&quot;spinner is-grow relative h-5 w-5&quot;&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;spinner is-grow relative h-10 w-10&quot;&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;spinner is-grow relative h-12 w-12&quot;&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;spinner is-grow relative h-16 w-16&quot;&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75 dark:bg-accent&quot;&#13;&#10;      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;</code>
+  &lt;!-- Basic Spinner --&gt;&#13;&#10;  &lt;div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-5 w-5 animate-spin rounded-full border-2 border-primary border-r-transparent    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary border-r-transparent    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-10 w-10 animate-spin rounded-full border-4 border-primary border-r-transparent    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-12 w-12 animate-spin rounded-full border-4 border-primary border-r-transparent    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-16 w-16 animate-spin rounded-full border-4 border-primary border-r-transparent    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;!-- Soft Color Spinner --&gt;&#13;&#10;  &lt;div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-5 w-5 animate-spin rounded-full border-2 border-primary/30 border-r-primary    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-7 w-7 animate-spin rounded-full border-[3px] border-primary/30 border-r-primary    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-10 w-10 animate-spin rounded-full border-4 border-primary/30 border-r-primary    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-12 w-12 animate-spin rounded-full border-4 border-primary/30 border-r-primary    &gt;&lt;/div&gt;&#13;&#10;    &lt;div&#13;&#10;      class=&quot;spinner h-16 w-16 animate-spin rounded-full border-4 border-primary/30 border-r-primary    &gt;&lt;/div&gt;&#13;&#10;  &lt;/div&gt;&#13;&#10;&#13;&#10;  &lt;!-- Grow Spinner --&gt;&#13;&#10;  &lt;div&gt;&#13;&#10;    &lt;div class=&quot;spinner is-grow relative h-5 w-5&quot;&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75      &gt;&lt;/span&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;spinner is-grow relative h-7 w-7&quot;&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75      &gt;&lt;/span&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;spinner is-grow relative h-10 w-10&quot;&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75      &gt;&lt;/span&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;spinner is-grow relative h-12 w-12&quot;&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75      &gt;&lt;/span&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;    &lt;div class=&quot;spinner is-grow relative h-16 w-16&quot;&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75      &gt;&lt;/span&gt;&#13;&#10;      &lt;span&#13;&#10;        class=&quot;absolute inline-block h-full w-full rounded-full bg-primary opacity-75      &gt;&lt;/span&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/div&gt;</code>
               </pre>
                 </div>
             </div>

@@ -2,15 +2,15 @@
     <!-- Main Content Wrapper -->
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center space-x-4 py-5 lg:py-6">
-            <h2 class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl">
+            <h2 class="text-xl font-medium text-slate-800 lg:text-2xl">
                 Tom Select
             </h2>
             <div class="hidden h-full py-1 sm:flex">
-                <div class="h-full w-px bg-slate-300 dark:bg-navy-600"></div>
+                <div class="h-full w-px bg-slate-300"></div>
             </div>
             <ul class="hidden flex-wrap items-center space-x-2 sm:flex">
                 <li class="flex items-center space-x-2">
-                    <a class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                    <a class="text-primary transition-colors hover:text-primary-focus"
                         href="#">Forms</a>
                     <svg x-ignore xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
@@ -24,20 +24,20 @@
             <!-- Input Tags -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Input Tags
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
                 <div class="max-w-xl">
                     <p>
                         <a href="https://tom-select.js.org/"
-                            class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Tom
+                            class="text-primary transition-colors hover:text-primary-focus">Tom
                             Select</a>
                         is a versatile and dynamic &lt;select&gt; UI control. With
                         autocomplete and native-feeling keyboard navigation, it's useful
@@ -62,20 +62,20 @@
             <!-- Remove Button -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Remove Button
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
                 <div class="max-w-xl">
                     <p>
                         <a href="https://tom-select.js.org/"
-                            class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Tom
+                            class="text-primary transition-colors hover:text-primary-focus">Tom
                             Select</a>
                         is a versatile and dynamic &lt;select&gt; UI control. With
                         autocomplete and native-feeling keyboard navigation, it's useful
@@ -106,20 +106,20 @@
             <!-- Restore on Backspace -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Restore on Backspace
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
                 <div class="max-w-xl">
                     <p>
                         <a href="https://tom-select.js.org/"
-                            class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Tom
+                            class="text-primary transition-colors hover:text-primary-focus">Tom
                             Select</a>
                         is a versatile and dynamic &lt;select&gt; UI control. With
                         autocomplete and native-feeling keyboard navigation, it's useful
@@ -144,20 +144,20 @@
             <!-- Clear Button -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Clear Button
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
                 <div class="max-w-xl">
                     <p>
                         <a href="https://tom-select.js.org/"
-                            class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Tom
+                            class="text-primary transition-colors hover:text-primary-focus">Tom
                             Select</a>
                         is a versatile and dynamic &lt;select&gt; UI control. With
                         autocomplete and native-feeling keyboard navigation, it's useful
@@ -190,20 +190,20 @@
             <!-- Single Select -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Single Select
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
                 <div class="max-w-xl">
                     <p>
                         <a href="https://tom-select.js.org/"
-                            class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Tom
+                            class="text-primary transition-colors hover:text-primary-focus">Tom
                             Select</a>
                         is a versatile and dynamic &lt;select&gt; UI control. With
                         autocomplete and native-feeling keyboard navigation, it's useful
@@ -232,20 +232,20 @@
             <!-- Select Multiple -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Select Multiple
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
                 <div class="max-w-xl">
                     <p>
                         <a href="https://tom-select.js.org/"
-                            class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Tom
+                            class="text-primary transition-colors hover:text-primary-focus">Tom
                             Select</a>
                         is a versatile and dynamic &lt;select&gt; UI control. With
                         autocomplete and native-feeling keyboard navigation, it's useful
@@ -323,20 +323,20 @@
             <!-- Custom HTML -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Custom HTML
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
                 <div class="max-w-xl">
                     <p>
                         <a href="https://tom-select.js.org/"
-                            class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Tom
+                            class="text-primary transition-colors hover:text-primary-focus">Tom
                             Select</a>
                         is a versatile and dynamic &lt;select&gt; UI control. With
                         autocomplete and native-feeling keyboard navigation, it's useful
@@ -361,20 +361,20 @@
             <!-- Disable Persist -->
             <div class="card px-4 pb-4 sm:px-5">
                 <div class="my-3 flex h-8 items-center justify-between">
-                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base">
                         Disable Persist
                     </h2>
                     <label class="flex items-center space-x-2">
-                        <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
+                        <span class="text-xs text-slate-400">Code</span>
                         <input @change="helpers.toggleCode"
-                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                            class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                             type="checkbox" />
                     </label>
                 </div>
                 <div class="max-w-xl">
                     <p>
                         <a href="https://tom-select.js.org/"
-                            class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent">Tom
+                            class="text-primary transition-colors hover:text-primary-focus">Tom
                             Select</a>
                         is a versatile and dynamic &lt;select&gt; UI control. With
                         autocomplete and native-feeling keyboard navigation, it's useful

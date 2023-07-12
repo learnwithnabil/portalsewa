@@ -2,22 +2,22 @@
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center justify-between py-5 lg:py-6">
             <div class="flex items-center space-x-1">
-                <h2 class="text-xl font-medium text-slate-700 line-clamp-1 dark:text-navy-50 lg:text-2xl">
+                <h2 class="text-xl font-medium text-slate-700 line-clamp-1 lg:text-2xl">
                     User Card
                 </h2>
                 <div x-data="usePopper({ placement: 'bottom-start', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false" class="inline-flex">
                     <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                         <i class="fas fa-chevron-down"></i>
                     </button>
 
                     <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                         <div
-                            class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                            class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                             <ul>
                                 <li>
                                     <a href="#"
-                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">
+                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="mt-px h-4.5 w-4.5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
@@ -26,7 +26,7 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">
+                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="mt-px h-4.5 w-4.5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -36,7 +36,7 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">
+                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="mt-px h-4.5 w-4.5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -55,10 +55,10 @@
             <div class="flex items-center space-x-2">
                 <label class="relative hidden sm:flex">
                     <input
-                        class="form-input peer h-9 w-full rounded-full border border-slate-300 bg-transparent px-3 py-2 pl-9 text-xs+ placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                        class="form-input peer h-9 w-full rounded-full border border-slate-300 bg-transparent px-3 py-2 pl-9 text-xs+ placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                         placeholder="Search users..." type="text" />
                     <span
-                        class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent">
+                        class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-colors duration-200"
                             fill="currentColor" viewBox="0 0 24 24">
                             <path
@@ -69,7 +69,7 @@
 
                 <div class="flex">
                     <button
-                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:hidden sm:h-9 sm:w-9">
+                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:hidden sm:h-9 sm:w-9">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" stroke="currentColor" fill="none"
                             viewBox="0 0 24 24">
                             <circle cx="10.2" cy="10.2" r="7.2" stroke-width="1.5"></circle>
@@ -77,14 +77,14 @@
                         </svg>
                     </button>
                     <button
-                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:h-9 sm:w-9">
+                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:h-9 sm:w-9">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24">
                             <path fill="currentColor"
                                 d="M3 5.109C3 4.496 3.47 4 4.05 4h16.79c.58 0 1.049.496 1.049 1.109 0 .612-.47 1.108-1.05 1.108H4.05C3.47 6.217 3 5.721 3 5.11zM5.798 12.5c0-.612.47-1.109 1.05-1.109H18.04c.58 0 1.05.497 1.05 1.109s-.47 1.109-1.05 1.109H6.848c-.58 0-1.05-.497-1.05-1.109zM9.646 18.783c-.58 0-1.05.496-1.05 1.108 0 .613.47 1.109 1.05 1.109h5.597c.58 0 1.05-.496 1.05-1.109 0-.612-.47-1.108-1.05-1.108H9.646z" />
                         </svg>
                     </button>
                     <button
-                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:h-9 sm:w-9">
+                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:h-9 sm:w-9">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -101,39 +101,39 @@
                 <div class="avatar h-20 w-20">
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                     <div
-                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent">
+                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary">
                     </div>
                 </div>
-                <h3 class="pt-3 text-lg font-medium text-slate-700 dark:text-navy-100">
+                <h3 class="pt-3 text-lg font-medium text-slate-700">
                     Konnor Guzman
                 </h3>
                 <p class="text-xs+">Senior Developer</p>
-                <div class="my-4 h-px w-full bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-4 h-px w-full bg-slate-200"></div>
                 <div class="grow space-y-4">
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-phone text-xs"></i>
                         </div>
                         <p>(01) 22 888 4444</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-envelope text-xs"></i>
                         </div>
                         <p>konnor@example.com</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-link text-xs"></i>
                         </div>
                         <p>www.konnor.com</p>
                     </div>
                 </div>
                 <button
-                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
@@ -146,39 +146,39 @@
                 <div class="avatar h-20 w-20">
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                     <div
-                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300">
                     </div>
                 </div>
-                <h3 class="pt-3 text-lg font-medium text-slate-700 dark:text-navy-100">
+                <h3 class="pt-3 text-lg font-medium text-slate-700">
                     Travis Fuller
                 </h3>
                 <p class="text-xs+">Web designer</p>
-                <div class="my-4 h-px w-full bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-4 h-px w-full bg-slate-200"></div>
                 <div class="grow space-y-4">
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-phone text-xs"></i>
                         </div>
                         <p>(095)-800-8313</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-envelope text-xs"></i>
                         </div>
                         <p>travis@example.com</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-link text-xs"></i>
                         </div>
                         <p>www.travis-fuller.com</p>
                     </div>
                 </div>
                 <button
-                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
@@ -191,39 +191,39 @@
                 <div class="avatar h-20 w-20">
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                     <div
-                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300">
                     </div>
                 </div>
-                <h3 class="pt-3 text-lg font-medium text-slate-700 dark:text-navy-100">
+                <h3 class="pt-3 text-lg font-medium text-slate-700">
                     Alfredo Elliott
                 </h3>
                 <p class="text-xs+">React Developer</p>
-                <div class="my-4 h-px w-full bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-4 h-px w-full bg-slate-200"></div>
                 <div class="grow space-y-4">
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-phone text-xs"></i>
                         </div>
                         <p>(374)-961-6674</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-envelope text-xs"></i>
                         </div>
                         <p>alfredo@example.com</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-link text-xs"></i>
                         </div>
                         <p>www.alfredo.com</p>
                     </div>
                 </div>
                 <button
-                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
@@ -236,39 +236,39 @@
                 <div class="avatar h-20 w-20">
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                     <div
-                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent">
+                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary">
                     </div>
                 </div>
-                <h3 class="pt-3 text-lg font-medium text-slate-700 dark:text-navy-100">
+                <h3 class="pt-3 text-lg font-medium text-slate-700">
                     Derrick Simmons
                 </h3>
                 <p class="text-xs+">React Developer</p>
-                <div class="my-4 h-px w-full bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-4 h-px w-full bg-slate-200"></div>
                 <div class="grow space-y-4">
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-phone text-xs"></i>
                         </div>
                         <p>(350)-813-3861</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-envelope text-xs"></i>
                         </div>
                         <p>derrick@example.com</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-link text-xs"></i>
                         </div>
                         <p>www.derrick-sims.com</p>
                     </div>
                 </div>
                 <button
-                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
@@ -281,39 +281,39 @@
                 <div class="avatar h-20 w-20">
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                     <div
-                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300">
                     </div>
                 </div>
-                <h3 class="pt-3 text-lg font-medium text-slate-700 dark:text-navy-100">
+                <h3 class="pt-3 text-lg font-medium text-slate-700">
                     Katrina West
                 </h3>
                 <p class="text-xs+">Android Developer</p>
-                <div class="my-4 h-px w-full bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-4 h-px w-full bg-slate-200"></div>
                 <div class="grow space-y-4">
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-phone text-xs"></i>
                         </div>
                         <p>(052)-747-5542</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-envelope text-xs"></i>
                         </div>
                         <p>katrina@example.com</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-link text-xs"></i>
                         </div>
                         <p>www.katrina.com</p>
                     </div>
                 </div>
                 <button
-                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
@@ -326,39 +326,39 @@
                 <div class="avatar h-20 w-20">
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                     <div
-                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300">
                     </div>
                 </div>
-                <h3 class="pt-3 text-lg font-medium text-slate-700 dark:text-navy-100">
+                <h3 class="pt-3 text-lg font-medium text-slate-700">
                     Henry Curtis
                 </h3>
                 <p class="text-xs+">Laravel Developer</p>
-                <div class="my-4 h-px w-full bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-4 h-px w-full bg-slate-200"></div>
                 <div class="grow space-y-4">
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-phone text-xs"></i>
                         </div>
                         <p>(675)-975-0083</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-envelope text-xs"></i>
                         </div>
                         <p>henry@example.com</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-link text-xs"></i>
                         </div>
                         <p>www.henry.com</p>
                     </div>
                 </div>
                 <button
-                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
@@ -371,39 +371,39 @@
                 <div class="avatar h-20 w-20">
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                     <div
-                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent">
+                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary">
                     </div>
                 </div>
-                <h3 class="pt-3 text-lg font-medium text-slate-700 dark:text-navy-100">
+                <h3 class="pt-3 text-lg font-medium text-slate-700">
                     Raul Bradley
                 </h3>
                 <p class="text-xs+">Laravel Developer</p>
-                <div class="my-4 h-px w-full bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-4 h-px w-full bg-slate-200"></div>
                 <div class="grow space-y-4">
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-phone text-xs"></i>
                         </div>
                         <p>(381)-627-2351</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-envelope text-xs"></i>
                         </div>
                         <p>raul-brad@example.com</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-link text-xs"></i>
                         </div>
                         <p>www.bradley.com</p>
                     </div>
                 </div>
                 <button
-                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
@@ -416,39 +416,39 @@
                 <div class="avatar h-20 w-20">
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                     <div
-                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300">
                     </div>
                 </div>
-                <h3 class="pt-3 text-lg font-medium text-slate-700 dark:text-navy-100">
+                <h3 class="pt-3 text-lg font-medium text-slate-700">
                     Samantha Shelton
                 </h3>
                 <p class="text-xs+">Backed Developer</p>
-                <div class="my-4 h-px w-full bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-4 h-px w-full bg-slate-200"></div>
                 <div class="grow space-y-4">
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-phone text-xs"></i>
                         </div>
                         <p>(727)-810-3880</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-envelope text-xs"></i>
                         </div>
                         <p>saman2@example.com</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-link text-xs"></i>
                         </div>
                         <p>www.samantha.com</p>
                     </div>
                 </div>
                 <button
-                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
@@ -461,39 +461,39 @@
                 <div class="avatar h-20 w-20">
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                     <div
-                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300">
                     </div>
                 </div>
-                <h3 class="pt-3 text-lg font-medium text-slate-700 dark:text-navy-100">
+                <h3 class="pt-3 text-lg font-medium text-slate-700">
                     Corey Evans
                 </h3>
                 <p class="text-xs+">Frontend Developer</p>
-                <div class="my-4 h-px w-full bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-4 h-px w-full bg-slate-200"></div>
                 <div class="grow space-y-4">
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-phone text-xs"></i>
                         </div>
                         <p>(723)-756-2206</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-envelope text-xs"></i>
                         </div>
                         <p>corey@example.com</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-link text-xs"></i>
                         </div>
                         <p>www.corey-evans.com</p>
                     </div>
                 </div>
                 <button
-                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
@@ -506,39 +506,39 @@
                 <div class="avatar h-20 w-20">
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                     <div
-                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300">
                     </div>
                 </div>
-                <h3 class="pt-3 text-lg font-medium text-slate-700 dark:text-navy-100">
+                <h3 class="pt-3 text-lg font-medium text-slate-700">
                     Lance Tucker
                 </h3>
                 <p class="text-xs+">NodeJs Developer</p>
-                <div class="my-4 h-px w-full bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-4 h-px w-full bg-slate-200"></div>
                 <div class="grow space-y-4">
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-phone text-xs"></i>
                         </div>
                         <p>(040)-129-7702</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-envelope text-xs"></i>
                         </div>
                         <p>lance@example.com</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-link text-xs"></i>
                         </div>
                         <p>www.lance.com</p>
                     </div>
                 </div>
                 <button
-                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
@@ -551,39 +551,39 @@
                 <div class="avatar h-20 w-20">
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                     <div
-                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-slate-300">
                     </div>
                 </div>
-                <h3 class="pt-3 text-lg font-medium text-slate-700 dark:text-navy-100">
+                <h3 class="pt-3 text-lg font-medium text-slate-700">
                     Anthony Jensen
                 </h3>
                 <p class="text-xs+">Web Designer</p>
-                <div class="my-4 h-px w-full bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-4 h-px w-full bg-slate-200"></div>
                 <div class="grow space-y-4">
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-phone text-xs"></i>
                         </div>
                         <p>(631)-475-8183</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-envelope text-xs"></i>
                         </div>
                         <p>jensen@example.com</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-link text-xs"></i>
                         </div>
                         <p>www.jensen.com</p>
                     </div>
                 </div>
                 <button
-                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
@@ -596,39 +596,39 @@
                 <div class="avatar h-20 w-20">
                     <img class="rounded-full " src="{{asset('images/200x200.png')}}" alt="avatar" />
                     <div
-                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent">
+                        class="absolute right-0 m-1 h-4 w-4 rounded-full border-2 border-white bg-primary">
                     </div>
                 </div>
-                <h3 class="pt-3 text-lg font-medium text-slate-700 dark:text-navy-100">
+                <h3 class="pt-3 text-lg font-medium text-slate-700">
                     Joe Perkins
                 </h3>
                 <p class="text-xs+">UI/UX Designer</p>
-                <div class="my-4 h-px w-full bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-4 h-px w-full bg-slate-200"></div>
                 <div class="grow space-y-4">
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-phone text-xs"></i>
                         </div>
                         <p>(832)-013-3691</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-envelope text-xs"></i>
                         </div>
                         <p>perkins@example.com</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <div
-                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="flex h-7 w-7 items-center rounded-lg bg-primary/10 p-2 text-primary">
                             <i class="fa fa-link text-xs"></i>
                         </div>
                         <p>www.joe-perkins.com</p>
                     </div>
                 </div>
                 <button
-                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                    class="btn mt-5 space-x-2 rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"

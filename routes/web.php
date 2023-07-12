@@ -1,6 +1,10 @@
 <?php
 
+use App\Http\Controllers\Access\AccessController;
+use App\Http\Controllers\Access\RoleController;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -9,21 +13,30 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
 |
 */
 
-Route::middleware('guest')->group(function () {
-    Route::get('/login', [\App\Http\Controllers\AuthController::class, 'loginView'])->name('loginView');
-    Route::post('/login', [\App\Http\Controllers\AuthController::class, 'login'])->name('login');
-    Route::get('/register', [\App\Http\Controllers\AuthController::class, 'registerView'])->name('registerView');
-    Route::post('/register', [\App\Http\Controllers\AuthController::class, 'register'])->name('register');
-});
+require __DIR__.'/auth.php';
 
 Route::middleware('auth')->group(function () {
-    Route::post('/logout', [\App\Http\Controllers\AuthController::class, 'logout'])->name('logout');
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
     Route::get('/', [PagesController::class, 'dashboardsPersonal'])->name('index')->middleware('role:superoot');
+
+    Route::resources([
+        'roles' => RoleController::class,
+    ]);
+
+    Route::prefix('access')->name('access/')->group(function () {
+        Route::get('/', [AccessController::class, 'index'])->name('access.index');
+        Route::resources([
+            'roles' => RoleController::class,
+        ]);
+    });
 
     Route::get('/elements/avatar', [PagesController::class, 'elementsAvatar'])->name('elements/avatar');
     Route::get('/elements/alert', [PagesController::class, 'elementsAlert'])->name('elements/alert');

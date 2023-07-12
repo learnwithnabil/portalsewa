@@ -2,17 +2,17 @@
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center space-x-4 py-5 lg:py-6">
             <h2
-                class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl"
+                class="text-xl font-medium text-slate-800 lg:text-2xl"
             >
                 Card
             </h2>
             <div class="hidden h-full py-1 sm:flex">
-                <div class="h-full w-px bg-slate-300 dark:bg-navy-600"></div>
+                <div class="h-full w-px bg-slate-300"></div>
             </div>
             <ul class="hidden flex-wrap items-center space-x-2 sm:flex">
                 <li class="flex items-center space-x-2">
                     <a
-                        class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                        class="text-primary transition-colors hover:text-primary-focus"
                         href="#"
                     >Elements</a
                     >
@@ -39,7 +39,7 @@
             <div class="card px-4 py-4 sm:px-5">
                 <div>
                     <h2
-                        class="text-lg font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100"
+                        class="text-lg font-medium tracking-wide text-slate-700 line-clamp-1"
                     >
                         Simple Card
                     </h2>
@@ -55,7 +55,7 @@
             <div class="card rounded-2xl px-4 py-4 sm:px-5">
                 <div>
                     <h2
-                        class="text-lg font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100"
+                        class="text-lg font-medium tracking-wide text-slate-700 line-clamp-1"
                     >
                         Rounded Card
                     </h2>
@@ -69,11 +69,11 @@
                 </div>
             </div>
             <div
-                class="card border border-slate-150 px-4 py-4 shadow-none dark:border-navy-600 sm:px-5"
+                class="card border border-slate-150 px-4 py-4 shadow-none sm:px-5"
             >
                 <div>
                     <h2
-                        class="text-lg font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100"
+                        class="text-lg font-medium tracking-wide text-slate-700 line-clamp-1"
                     >
                         Bordered Card
                     </h2>
@@ -87,7 +87,7 @@
                 </div>
             </div>
             <div
-                class="rounded-lg bg-primary px-4 py-4 text-white dark:bg-accent sm:px-5"
+                class="rounded-lg bg-primary px-4 py-4 text-white sm:px-5"
             >
                 <div>
                     <h2 class="text-lg font-medium tracking-wide line-clamp-1">
@@ -173,7 +173,7 @@
                 </div>
             </div>
             <div
-                class="rounded-lg bg-primary px-4 py-4 text-white shadow-lg shadow-primary/50 dark:bg-accent dark:shadow-accent/50 sm:px-5"
+                class="rounded-lg bg-primary px-4 py-4 text-white shadow-lg shadow-primary/50 sm:px-5"
             >
                 <div>
                     <h2 class="text-lg font-medium tracking-wide line-clamp-1">
@@ -270,11 +270,11 @@
             </div>
             <div class="rounded-lg bg-gradient-to-r from-sky-400 to-blue-600 p-1">
                 <div
-                    class="rounded-lg bg-slate-50 px-4 py-4 dark:bg-navy-900 sm:px-5"
+                    class="rounded-lg bg-slate-50 px-4 py-4 sm:px-5"
                 >
                     <div>
                         <h2
-                            class="text-lg font-medium tracking-wide text-slate-600 line-clamp-1 dark:text-navy-100"
+                            class="text-lg font-medium tracking-wide text-slate-600 line-clamp-1"
                         >
                             Outlined Gradient
                         </h2>
@@ -292,11 +292,11 @@
                 class="rounded-lg bg-gradient-to-r from-green-400 to-fuchsia-400 p-1"
             >
                 <div
-                    class="rounded-lg bg-slate-50 px-4 py-4 dark:bg-navy-900 sm:px-5"
+                    class="rounded-lg bg-slate-50 px-4 py-4 sm:px-5"
                 >
                     <div>
                         <h2
-                            class="text-lg font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100"
+                            class="text-lg font-medium tracking-wide text-slate-700 line-clamp-1"
                         >
                             Outlined Gradient
                         </h2>
@@ -314,11 +314,11 @@
                 class="rounded-lg bg-gradient-to-r from-amber-400 to-orange-600 p-1"
             >
                 <div
-                    class="rounded-lg bg-slate-50 px-4 py-4 dark:bg-navy-900 sm:px-5"
+                    class="rounded-lg bg-slate-50 px-4 py-4 sm:px-5"
                 >
                     <div>
                         <h2
-                            class="text-lg font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100"
+                            class="text-lg font-medium tracking-wide text-slate-700 line-clamp-1"
                         >
                             Outlined Gradient
                         </h2>

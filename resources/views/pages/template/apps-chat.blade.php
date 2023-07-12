@@ -6,13 +6,13 @@
 
         <!-- Sidebar Panel -->
         <div class="sidebar-panel">
-            <div class="flex h-full grow flex-col bg-white pl-[var(--main-sidebar-width)] dark:bg-navy-750">
+            <div class="flex h-full grow flex-col bg-white pl-[var(--main-sidebar-width)]">
                 <!-- Sidebar Panel Header -->
                 <div class="flex h-18 w-full items-center justify-between pl-4 pr-1">
                     <div class="flex items-center">
                         <div class="avatar mr-3 hidden h-9 w-9 lg:flex">
                             <div
-                                class="is-initial rounded-full bg-primary/10 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                                class="is-initial rounded-full bg-primary/10 text-primary">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                     stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -20,13 +20,13 @@
                                 </svg>
                             </div>
                         </div>
-                        <p class="text-lg font-medium tracking-wider text-slate-800 line-clamp-1 dark:text-navy-100">
+                        <p class="text-lg font-medium tracking-wider text-slate-800 line-clamp-1">
                             Chat
                         </p>
                     </div>
 
                     <button @click="$store.global.isSidebarExpanded = false"
-                        class="btn h-7 w-7 rounded-full p-0 text-primary hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:text-accent-light/80 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 xl:hidden">
+                        class="btn h-7 w-7 rounded-full p-0 text-primary hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 xl:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
@@ -42,7 +42,7 @@
                             <span class="text-xs+ font-medium uppercase">History</span>
                             <div class="-mr-1.5 flex">
                                 <button
-                                    class="btn h-6 w-6 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn h-6 w-6 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
@@ -55,198 +55,198 @@
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Konnor
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Travis
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Fuller
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Alfredo
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Elliott
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Derrick
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Simmons
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Katrina
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Henry
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Curtis
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Bradley
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Samantha
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Corey
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Lance
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Tucker
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Jensen
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Perkins
                                     </p>
                                 </div>
                                 <div class="swiper-slide flex w-11 shrink-0 flex-col items-center justify-center">
                                     <div
                                         class="h-11 w-11 rounded-full bg-gradient-to-r from-purple-500 to-orange-600 p-0.5">
-                                        <img class="h-full w-full rounded-full border-2 border-white object-cover dark:border-slate-700"
+                                        <img class="h-full w-full rounded-full border-2 border-white object-cover"
                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                     </div>
                                     <p
-                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1 dark:text-navy-100">
+                                        class="mt-1 w-14 break-words text-center text-xs text-slate-600 line-clamp-1">
                                         Evans
                                     </p>
                                 </div>
@@ -257,10 +257,10 @@
                     <div class="mt-4 flex px-4">
                         <label class="relative mr-1.5 flex">
                             <input
-                                class="form-input peer h-8 w-full rounded-lg bg-slate-150 px-3 py-2 pl-9 text-xs+ ring-primary/50 placeholder:text-slate-400 hover:bg-slate-200 focus:ring dark:bg-navy-900/90 dark:ring-accent/50 dark:placeholder:text-navy-300 dark:hover:bg-navy-900 dark:focus:bg-navy-900"
+                                class="form-input peer h-8 w-full rounded-lg bg-slate-150 px-3 py-2 pl-9 text-xs+ ring-primary/50 placeholder:text-slate-400 hover:bg-slate-200 focus:ring"
                                 placeholder="Search chats" type="text" />
                             <span
-                                class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent">
+                                class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-colors duration-200"
                                     fill="currentColor" viewBox="0 0 24 24">
                                     <path
@@ -270,7 +270,7 @@
                         </label>
 
                         <button
-                            class="btn -mr-2 h-8 w-8 shrink-0 rounded-full p-0 text-slate-500 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:text-navy-200 dark:hover:bg-navy-300/20 dark:hover:text-accent dark:focus:bg-navy-300/20 dark:focus:text-accent dark:active:bg-navy-300/25">
+                            class="btn -mr-2 h-8 w-8 shrink-0 rounded-full p-0 text-slate-500 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
@@ -281,178 +281,178 @@
 
                     <div class="is-scrollbar-hidden mt-3 flex grow flex-col overflow-y-auto">
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-1',avatar_url:'/images/200x200.png',name:'Alfredo Elliott'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                 <div
-                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300">
                                 </div>
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Alfredo Elliott
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">11:03</span>
+                                    <span class="text-tiny+ text-slate-400">11:03</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         😂 Lorem ipsum dolor
                                     </p>
                                     <div
-                                        class="flex h-4.5 min-w-[1.125rem] items-center justify-center rounded-full bg-slate-200 px-1.5 text-tiny+ font-medium leading-none text-slate-800 dark:bg-navy-450 dark:text-white">
+                                        class="flex h-4.5 min-w-[1.125rem] items-center justify-center rounded-full bg-slate-200 px-1.5 text-tiny+ font-medium leading-none text-slate-800">
                                         5
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-2',avatar_url:'/images/200x200.png',name:'Konnor Guzman'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Konnor Guzman
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">09:16</span>
+                                    <span class="text-tiny+ text-slate-400">09:16</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         💣 Adipisicing elit. Prov ident?
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-3',avatar_url:'/images/200x200.png',name:'Travis Fuller'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                 <div
-                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent">
+                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary">
                                     <span
-                                        class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80 dark:bg-accent"></span>
+                                        class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80"></span>
                                 </div>
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Travis Fuller
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">08:05</span>
+                                    <span class="text-tiny+ text-slate-400">08:05</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         Dolor set. Prov ident?
                                     </p>
                                     <div
-                                        class="flex h-4.5 min-w-[1.125rem] items-center justify-center rounded-full bg-primary px-1.5 text-tiny+ font-medium leading-none text-white dark:bg-accent">
+                                        class="flex h-4.5 min-w-[1.125rem] items-center justify-center rounded-full bg-primary px-1.5 text-tiny+ font-medium leading-none text-white">
                                         4
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-1',avatar_url:'/images/200x200.png',name:'Derrick Simmons'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                 <div
-                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300">
                                 </div>
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Derrick Simmons
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">06:21</span>
+                                    <span class="text-tiny+ text-slate-400">06:21</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         And that’s why a 15th century
                                     </p>
                                     <div
-                                        class="flex h-4.5 min-w-[1.125rem] items-center justify-center rounded-full bg-slate-200 px-1.5 text-tiny+ font-medium leading-none text-slate-800 dark:bg-navy-450 dark:text-white">
+                                        class="flex h-4.5 min-w-[1.125rem] items-center justify-center rounded-full bg-slate-200 px-1.5 text-tiny+ font-medium leading-none text-slate-800">
                                         2
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-2',avatar_url:'/images/200x200.png',name:'Katrina West'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                 <div
-                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300">
                                 </div>
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Katrina West
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">06:21</span>
+                                    <span class="text-tiny+ text-slate-400">06:21</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         he wanted people to focus
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-3',avatar_url:'/images/200x200.png',name:'Corey Evans'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Corey Evans
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">Tue</span>
+                                    <span class="text-tiny+ text-slate-400">Tue</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         Ut enim ad minim veniam
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-1',avatar_url:'/images/200x200.png',name:'Anthony Jensen'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Anthony Jensen
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">Tue</span>
+                                    <span class="text-tiny+ text-slate-400">Tue</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         Excepteur sint occaecat cupidatat
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-2',avatar_url:'/images/200x200.png',name:'Lance Tucker'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Lance Tucker
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">Tue</span>
+                                    <span class="text-tiny+ text-slate-400">Tue</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         Duis aute irure dolor in
                                     </p>
                                 </div>
@@ -460,178 +460,178 @@
                         </div>
 
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-1',avatar_url:'/images/200x200.png',name:'Alfredo Elliott'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                 <div
-                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300">
                                 </div>
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Alfredo Elliott
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">11:03</span>
+                                    <span class="text-tiny+ text-slate-400">11:03</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         😂 Lorem ipsum dolor
                                     </p>
                                     <div
-                                        class="flex h-4.5 min-w-[1.125rem] items-center justify-center rounded-full bg-slate-200 px-1.5 text-tiny+ font-medium leading-none text-slate-800 dark:bg-navy-450 dark:text-white">
+                                        class="flex h-4.5 min-w-[1.125rem] items-center justify-center rounded-full bg-slate-200 px-1.5 text-tiny+ font-medium leading-none text-slate-800">
                                         5
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-2',avatar_url:'/images/200x200.png',name:'Konnor Guzman'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Konnor Guzman
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">09:16</span>
+                                    <span class="text-tiny+ text-slate-400">09:16</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         💣 Adipisicing elit. Prov ident?
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-3',avatar_url:'/images/200x200.png',name:'Travis Fuller'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                 <div
-                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent">
+                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary">
                                     <span
-                                        class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80 dark:bg-accent"></span>
+                                        class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80"></span>
                                 </div>
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Travis Fuller
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">08:05</span>
+                                    <span class="text-tiny+ text-slate-400">08:05</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         Dolor set. Prov ident?
                                     </p>
                                     <div
-                                        class="flex h-4.5 min-w-[1.125rem] items-center justify-center rounded-full bg-primary px-1.5 text-tiny+ font-medium leading-none text-white dark:bg-accent">
+                                        class="flex h-4.5 min-w-[1.125rem] items-center justify-center rounded-full bg-primary px-1.5 text-tiny+ font-medium leading-none text-white">
                                         4
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-1',avatar_url:'/images/200x200.png',name:'Derrick Simmons'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                 <div
-                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300">
                                 </div>
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Derrick Simmons
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">06:21</span>
+                                    <span class="text-tiny+ text-slate-400">06:21</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         And that’s why a 15th century
                                     </p>
                                     <div
-                                        class="flex h-4.5 min-w-[1.125rem] items-center justify-center rounded-full bg-slate-200 px-1.5 text-tiny+ font-medium leading-none text-slate-800 dark:bg-navy-450 dark:text-white">
+                                        class="flex h-4.5 min-w-[1.125rem] items-center justify-center rounded-full bg-slate-200 px-1.5 text-tiny+ font-medium leading-none text-slate-800">
                                         2
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-2',avatar_url:'/images/200x200.png',name:'Katrina West'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                 <div
-                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                                    class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300">
                                 </div>
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Katrina West
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">06:21</span>
+                                    <span class="text-tiny+ text-slate-400">06:21</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         he wanted people to focus
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-3',avatar_url:'/images/200x200.png',name:'Corey Evans'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Corey Evans
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">Tue</span>
+                                    <span class="text-tiny+ text-slate-400">Tue</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         Ut enim ad minim veniam
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-1',avatar_url:'/images/200x200.png',name:'Anthony Jensen'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Anthony Jensen
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">Tue</span>
+                                    <span class="text-tiny+ text-slate-400">Tue</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         Excepteur sint occaecat cupidatat
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div @click="$dispatch('change-active-chat',{chatId:'chat-2',avatar_url:'/images/200x200.png',name:'Lance Tucker'})"
-                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150 dark:hover:bg-navy-600">
+                            class="flex cursor-pointer items-center space-x-2.5 px-4 py-2.5 font-inter hover:bg-slate-150">
                             <div class="avatar h-10 w-10">
                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}" alt="avatar" />
                             </div>
                             <div class="flex flex-1 flex-col">
                                 <div class="flex items-baseline justify-between space-x-1.5">
-                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                    <p class="text-xs+ font-medium text-slate-700 line-clamp-1">
                                         Lance Tucker
                                     </p>
-                                    <span class="text-tiny+ text-slate-400 dark:text-navy-300">Tue</span>
+                                    <span class="text-tiny+ text-slate-400">Tue</span>
                                 </div>
                                 <div class="mt-1 flex items-center justify-between space-x-1">
-                                    <p class="text-xs+ text-slate-400 line-clamp-1 dark:text-navy-300">
+                                    <p class="text-xs+ text-slate-400 line-clamp-1">
                                         Duis aute irure dolor in
                                     </p>
                                 </div>
@@ -640,9 +640,9 @@
                     </div>
 
                     <div
-                        class="flex h-12 shrink-0 justify-between border-t border-slate-150 px-1.5 py-1 dark:border-navy-600">
+                        class="flex h-12 shrink-0 justify-between border-t border-slate-150 px-1.5 py-1">
                         <a href="#" x-tooltip="'All Chats'"
-                            class="btn h-9 w-9 rounded-full p-0 text-primary hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:text-accent dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-9 w-9 rounded-full p-0 text-primary hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z" />
@@ -651,7 +651,7 @@
                             </svg>
                         </a>
                         <a href="#" x-tooltip="'Users'"
-                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:hover:text-accent dark:focus:bg-navy-300/20 dark:focus:text-accent dark:active:bg-navy-300/25">
+                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -660,7 +660,7 @@
                         </a>
 
                         <a href="#" x-tooltip="'Groups'"
-                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:hover:text-accent dark:focus:bg-navy-300/20 dark:focus:text-accent dark:active:bg-navy-300/25">
+                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -668,7 +668,7 @@
                             </svg>
                         </a>
                         <a href="#" x-tooltip="'Channels'"
-                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:hover:text-accent dark:focus:bg-navy-300/20 dark:focus:text-accent dark:active:bg-navy-300/25">
+                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -677,7 +677,7 @@
                         </a>
 
                         <a href="#" x-tooltip="'More'"
-                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:hover:text-accent dark:focus:bg-navy-300/20 dark:focus:text-accent dark:active:bg-navy-300/25">
+                            class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -691,11 +691,11 @@
 
         <!-- Minimized Sidebar Panel -->
         <div class="sidebar-panel-min">
-            <div class="flex h-full flex-col bg-white dark:bg-navy-750">
+            <div class="flex h-full flex-col bg-white">
                 <div class="flex h-18 shrink-0 items-center justify-center">
                     <div class="avatar flex h-10 w-10">
                         <div
-                            class="is-initial is-initial rounded-full bg-primary/10 text-primary dark:bg-accent-light/10 dark:text-accent-light">
+                            class="is-initial is-initial rounded-full bg-primary/10 text-primary">
                             <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 xmlns="http://www.w3.org/2000/svg" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -710,7 +710,7 @@
                         <ul class="mt-2 flex flex-col items-center justify-center space-y-1">
                             <li>
                                 <a href="#"
-                                    class="btn h-10 w-10 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn h-10 w-10 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5.5 w-5.5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -720,7 +720,7 @@
                             </li>
                             <li>
                                 <a href="#"
-                                    class="btn h-10 w-10 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn h-10 w-10 p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5.5 w-5.5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -729,144 +729,144 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="my-4 mx-4 h-px shrink-0 bg-slate-200 dark:bg-navy-500"></div>
+                        <div class="my-4 mx-4 h-px shrink-0 bg-slate-200"></div>
                         <div class="flex flex-col">
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-1',avatar_url:'/images/200x200.png',name:'Alfredo Elliott'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
                                     <div
-                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300">
                                     </div>
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-2',avatar_url:'/images/200x200.png',name:'Konnor Guzman'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-3',avatar_url:'/images/200x200.png',name:'Travis Fuller'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
 
                                     <div
-                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent">
+                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary">
                                         <span
-                                            class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80 dark:bg-accent"></span>
+                                            class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80"></span>
                                     </div>
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-1',avatar_url:'/images/200x200.png',name:'Derrick Simmons'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
                                     <div
-                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300">
                                     </div>
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-2',avatar_url:'/images/200x200.png',name:'Katrina West'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
                                     <div
-                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300">
                                     </div>
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-3',avatar_url:'/images/200x200.png',name:'Corey Evans'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-1',avatar_url:'/images/200x200.png',name:'Anthony Jensen'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-2',avatar_url:'/images/200x200.png',name:'Lance Tucker'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-1',avatar_url:'/images/200x200.png',name:'Alfredo Elliott'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
                                     <div
-                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300">
                                     </div>
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-2',avatar_url:'/images/200x200.png',name:'Konnor Guzman'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-3',avatar_url:'/images/200x200.png',name:'Travis Fuller'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
                                     <div
-                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary dark:border-navy-700 dark:bg-accent">
+                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-primary">
                                         <span
-                                            class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80 dark:bg-accent"></span>
+                                            class="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-80"></span>
                                     </div>
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-1',avatar_url:'/images/200x200.png',name:'Derrick Simmons'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
                                     <div
-                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300">
                                     </div>
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-2',avatar_url:'/images/200x200.png',name:'Katrina West'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
                                     <div
-                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300 dark:border-navy-700">
+                                        class="absolute right-0 h-3 w-3 rounded-full border-2 border-white bg-slate-300">
                                     </div>
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-3',avatar_url:'/images/200x200.png',name:'Corey Evans'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-1',avatar_url:'/images/200x200.png',name:'Anthony Jensen'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
                                 </div>
                             </div>
                             <div @click="$dispatch('change-active-chat',{chatId:'chat-2',avatar_url:'/images/200x200.png',name:'Lance Tucker'})"
-                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150 dark:hover:bg-navy-600">
+                                class="flex cursor-pointer items-center justify-center py-2.5 hover:bg-slate-150">
                                 <div class="avatar h-10 w-10">
                                     <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                         alt="avatar" />
@@ -879,7 +879,7 @@
                         <div x-data="usePopper({ placement: 'right-start', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn h-10 w-10 rounded-full border border-slate-200 p-0 font-medium hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80 dark:border-navy-500 dark:hover:bg-navy-500 dark:focus:bg-navy-500 dark:active:bg-navy-500/90">
+                                class="btn h-10 w-10 rounded-full border border-slate-200 p-0 font-medium hover:bg-slate-150 focus:bg-slate-150 active:bg-slate-150/80">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -890,28 +890,28 @@
                             <template x-teleport="#x-teleport-target">
                                 <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                     <div
-                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                     Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                     else</a>
                                             </li>
                                         </ul>
-                                        <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                        <div class="my-1 h-px bg-slate-150"></div>
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                     Link</a>
                                             </li>
                                         </ul>
@@ -934,11 +934,11 @@
         class="main-content h-100vh chat-app mt-0 flex w-full flex-col" :class="isShowChatInfo && 'lg:mr-80'"
         @change-active-chat.window="activeChat=$event.detail">
         <div
-            class="chat-header h-[61px] border-b border-slate-150 dark:border-navy-700 relative z-10 flex w-full shrink-0 items-center justify-between bg-white px-[calc(var(--margin-x)-.5rem)] shadow-sm transition-[padding,width] duration-[.25s] dark:bg-navy-800">
+            class="chat-header h-[61px] border-b border-slate-150 relative z-10 flex w-full shrink-0 items-center justify-between bg-white px-[calc(var(--margin-x)-.5rem)] shadow-sm transition-[padding,width] duration-[.25s]">
             <div class="flex items-center space-x-5">
                 <div class="ml-1 h-7 w-7">
                     <button
-                        class="menu-toggle ml-0.5 flex h-7 w-7 flex-col justify-center space-y-1.5 text-primary outline-none focus:outline-none dark:text-accent-light/80"
+                        class="menu-toggle ml-0.5 flex h-7 w-7 flex-col justify-center space-y-1.5 text-primary outline-none focus:outline-none"
                         :class="$store.global.isSidebarExpanded && 'active'"
                         @click="$store.global.isSidebarExpanded = !$store.global.isSidebarExpanded">
                         <span></span>
@@ -951,7 +951,7 @@
                         <img class="rounded-full" :src="activeChat.avatar_url" alt="avatar" />
                     </div>
                     <div>
-                        <p class="font-medium text-slate-700 line-clamp-1 dark:text-navy-100"
+                        <p class="font-medium text-slate-700 line-clamp-1"
                             x-text="activeChat.name"></p>
                         <p class="mt-0.5 text-xs">Last seen recently</p>
                     </div>
@@ -959,7 +959,7 @@
             </div>
             <div class="-mr-1 flex items-center">
                 <button
-                    class="btn hidden h-9 w-9 rounded-full p-0 text-slate-500 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:text-navy-200 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:flex">
+                    class="btn hidden h-9 w-9 rounded-full p-0 text-slate-500 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:flex">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5.5 w-5.5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor" stroke-width="1.5">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -967,7 +967,7 @@
                     </svg>
                 </button>
                 <button
-                    class="btn h-9 w-9 rounded-full p-0 text-slate-500 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:text-navy-200 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                    class="btn h-9 w-9 rounded-full p-0 text-slate-500 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5.5 w-5.5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor" stroke-width="1.5">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -975,8 +975,8 @@
                     </svg>
                 </button>
                 <button @click="isShowChatInfo = !isShowChatInfo"
-                    :class="isShowChatInfo ? 'text-primary dark:text-accent-light' : 'text-slate-500 dark:text-navy-200'"
-                    class="btn hidden h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:flex">
+                    :class="isShowChatInfo ? 'text-primary' : 'text-slate-500'"
+                    class="btn hidden h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:flex">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5.5 w-5.5" fill="none" stroke="currentColor"
                         stroke-width="1.5" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -986,7 +986,7 @@
                 <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                     class="inline-flex">
                     <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                        class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                        class="btn h-9 w-9 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5.5 w-5.5" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -996,11 +996,11 @@
 
                     <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                         <div
-                            class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                            class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                             <ul>
                                 <li>
                                     <a href="#"
-                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">
+                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="mt-px h-5 w-5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -1013,7 +1013,7 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">
+                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="mt-px h-5 w-5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -1025,7 +1025,7 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">
+                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="mt-px h-5 w-5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -1056,9 +1056,9 @@
                 x-transition:enter-start="opacity-0 [transform:translate3d(0,1rem,0)]"
                 x-transition:enter-end="opacity-100 [transform:translate3d(0,0,0)]" class="space-y-5">
                 <div class="mx-4 flex items-center space-x-3">
-                    <div class="h-px flex-1 bg-slate-200 dark:bg-navy-500"></div>
+                    <div class="h-px flex-1 bg-slate-200"></div>
                     <p>Sunday</p>
-                    <div class="h-px flex-1 bg-slate-200 dark:bg-navy-500"></div>
+                    <div class="h-px flex-1 bg-slate-200"></div>
                 </div>
 
                 <div class="flex items-start space-x-2.5 sm:space-x-5">
@@ -1069,10 +1069,10 @@
                     <div class="flex flex-col items-start space-y-3.5">
                         <div class="mr-4 max-w-lg sm:mr-10">
                             <div
-                                class="rounded-2xl rounded-tl-none bg-white p-3 text-slate-700 shadow-sm dark:bg-navy-700 dark:text-navy-100">
+                                class="rounded-2xl rounded-tl-none bg-white p-3 text-slate-700 shadow-sm">
                                 Hello My Dear. Lorem ipsum dolor sit amet, consectetur.
                             </div>
-                            <p class="mt-1 ml-auto text-right text-xs text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 ml-auto text-right text-xs text-slate-400">
                                 08:16
                             </p>
                         </div>
@@ -1083,17 +1083,17 @@
                     <div class="flex flex-col items-end space-y-3.5">
                         <div class="ml-4 max-w-lg md:ml-10">
                             <div
-                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm dark:bg-accent dark:text-white">
+                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 Assumenda necessitatibus, ratione. Voluptatum.
                             </div>
                         </div>
                         <div class="ml-4 max-w-lg md:ml-10">
                             <div
-                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm dark:bg-accent dark:text-white">
+                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm">
                                 And that’s why a 15th century
                             </div>
-                            <p class="mt-1 ml-auto text-left text-xs text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 ml-auto text-left text-xs text-slate-400">
                                 08:16
                             </p>
                         </div>
@@ -1111,11 +1111,11 @@
                     <div class="flex flex-col items-start space-y-3.5">
                         <div class="mr-4 max-w-lg sm:mr-10">
                             <div
-                                class="rounded-2xl rounded-tl-none bg-white p-3 text-slate-700 shadow-sm dark:bg-navy-700 dark:text-navy-100">
+                                class="rounded-2xl rounded-tl-none bg-white p-3 text-slate-700 shadow-sm">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 Eius.
                             </div>
-                            <p class="mt-1 ml-auto text-right text-xs text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 ml-auto text-right text-xs text-slate-400">
                                 08:16
                             </p>
                         </div>
@@ -1204,7 +1204,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="mt-1 ml-auto text-right text-xs text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 ml-auto text-right text-xs text-slate-400">
                                 08:21
                             </p>
                         </div>
@@ -1212,9 +1212,9 @@
                 </div>
 
                 <div class="mx-4 flex items-center space-x-3">
-                    <div class="h-px flex-1 bg-slate-200 dark:bg-navy-500"></div>
+                    <div class="h-px flex-1 bg-slate-200"></div>
                     <p>Monday</p>
-                    <div class="h-px flex-1 bg-slate-200 dark:bg-navy-500"></div>
+                    <div class="h-px flex-1 bg-slate-200"></div>
                 </div>
 
                 <div class="flex items-start justify-end space-x-2.5 sm:space-x-5">
@@ -1238,10 +1238,10 @@
                         </div>
                         <div class="ml-4 max-w-lg md:ml-10">
                             <div
-                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm dark:bg-accent dark:text-white">
+                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm">
                                 Please Download This File
                             </div>
-                            <p class="mt-1 ml-auto text-left text-xs text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 ml-auto text-left text-xs text-slate-400">
                                 08:16
                             </p>
                         </div>
@@ -1255,9 +1255,9 @@
                 x-transition:enter-start="opacity-0 [transform:translate3d(0,1rem,0)]"
                 x-transition:enter-end="opacity-100 [transform:translate3d(0,0,0)]" class="space-y-5">
                 <div class="mx-4 flex items-center space-x-3">
-                    <div class="h-px flex-1 bg-slate-200 dark:bg-navy-500"></div>
+                    <div class="h-px flex-1 bg-slate-200"></div>
                     <p>Yesterday</p>
-                    <div class="h-px flex-1 bg-slate-200 dark:bg-navy-500"></div>
+                    <div class="h-px flex-1 bg-slate-200"></div>
                 </div>
 
                 <div class="flex items-start space-x-2.5 sm:space-x-5">
@@ -1268,10 +1268,10 @@
                     <div class="flex flex-col items-start space-y-3.5">
                         <div class="mr-4 max-w-lg sm:mr-10">
                             <div
-                                class="rounded-2xl rounded-tl-none bg-white p-3 text-slate-700 shadow-sm dark:bg-navy-700 dark:text-navy-100">
+                                class="rounded-2xl rounded-tl-none bg-white p-3 text-slate-700 shadow-sm">
                                 Hello My Dear. Lorem ipsum dolor sit amet, consectetur.
                             </div>
-                            <p class="mt-1 ml-auto text-right text-xs text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 ml-auto text-right text-xs text-slate-400">
                                 08:16
                             </p>
                         </div>
@@ -1282,17 +1282,17 @@
                     <div class="flex flex-col items-end space-y-3.5">
                         <div class="ml-4 max-w-lg md:ml-10">
                             <div
-                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm dark:bg-accent dark:text-white">
+                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 Assumenda necessitatibus, ratione. Voluptatum.
                             </div>
                         </div>
                         <div class="ml-4 max-w-lg md:ml-10">
                             <div
-                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm dark:bg-accent dark:text-white">
+                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm">
                                 And that’s why a 15th century
                             </div>
-                            <p class="mt-1 ml-auto text-left text-xs text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 ml-auto text-left text-xs text-slate-400">
                                 08:16
                             </p>
                         </div>
@@ -1306,9 +1306,9 @@
                 x-transition:enter-start="opacity-0 [transform:translate3d(0,1rem,0)]"
                 x-transition:enter-end="opacity-100 [transform:translate3d(0,0,0)]" class="space-y-5">
                 <div class="mx-4 flex items-center space-x-3">
-                    <div class="h-px flex-1 bg-slate-200 dark:bg-navy-500"></div>
+                    <div class="h-px flex-1 bg-slate-200"></div>
                     <p>Sunday</p>
-                    <div class="h-px flex-1 bg-slate-200 dark:bg-navy-500"></div>
+                    <div class="h-px flex-1 bg-slate-200"></div>
                 </div>
 
                 <div class="flex items-start space-x-2.5 sm:space-x-5">
@@ -1319,10 +1319,10 @@
                     <div class="flex flex-col items-start space-y-3.5">
                         <div class="mr-4 max-w-lg sm:mr-10">
                             <div
-                                class="rounded-2xl rounded-tl-none bg-white p-3 text-slate-700 shadow-sm dark:bg-navy-700 dark:text-navy-100">
+                                class="rounded-2xl rounded-tl-none bg-white p-3 text-slate-700 shadow-sm">
                                 Hello My Dear. Lorem ipsum dolor sit amet, consectetur.
                             </div>
-                            <p class="mt-1 ml-auto text-right text-xs text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 ml-auto text-right text-xs text-slate-400">
                                 08:16
                             </p>
                         </div>
@@ -1333,17 +1333,17 @@
                     <div class="flex flex-col items-end space-y-3.5">
                         <div class="ml-4 max-w-lg md:ml-10">
                             <div
-                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm dark:bg-accent dark:text-white">
+                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 Assumenda necessitatibus, ratione. Voluptatum.
                             </div>
                         </div>
                         <div class="ml-4 max-w-lg md:ml-10">
                             <div
-                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm dark:bg-accent dark:text-white">
+                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm">
                                 And that’s why a 15th century
                             </div>
-                            <p class="mt-1 ml-auto text-left text-xs text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 ml-auto text-left text-xs text-slate-400">
                                 08:16
                             </p>
                         </div>
@@ -1361,10 +1361,10 @@
                     <div class="flex flex-col items-start space-y-3.5">
                         <div class="mr-4 max-w-lg sm:mr-10">
                             <div
-                                class="rounded-2xl rounded-tl-none bg-white p-3 text-slate-700 shadow-sm dark:bg-navy-700 dark:text-navy-100">
+                                class="rounded-2xl rounded-tl-none bg-white p-3 text-slate-700 shadow-sm">
                                 Ei eum populo dictas, ad sed tempor minimum voluptatibus,
                             </div>
-                            <p class="mt-1 ml-auto text-right text-xs text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 ml-auto text-right text-xs text-slate-400">
                                 08:16
                             </p>
                         </div>
@@ -1375,16 +1375,16 @@
                     <div class="flex flex-col items-end space-y-3.5">
                         <div class="ml-4 max-w-lg md:ml-10">
                             <div
-                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm dark:bg-accent dark:text-white">
+                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm">
                                 No mei stet periculis consequat, agam nostro
                             </div>
                         </div>
                         <div class="ml-4 max-w-lg md:ml-10">
                             <div
-                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm dark:bg-accent dark:text-white">
+                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm">
                                 at has eius harum
                             </div>
-                            <p class="mt-1 ml-auto text-left text-xs text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 ml-auto text-left text-xs text-slate-400">
                                 08:16
                             </p>
                         </div>
@@ -1395,9 +1395,9 @@
                 </div>
 
                 <div class="mx-4 flex items-center space-x-3">
-                    <div class="h-px flex-1 bg-slate-200 dark:bg-navy-500"></div>
+                    <div class="h-px flex-1 bg-slate-200"></div>
                     <p>Today</p>
-                    <div class="h-px flex-1 bg-slate-200 dark:bg-navy-500"></div>
+                    <div class="h-px flex-1 bg-slate-200"></div>
                 </div>
 
                 <div class="flex items-start space-x-2.5 sm:space-x-5">
@@ -1408,11 +1408,11 @@
                     <div class="flex flex-col items-start space-y-3.5">
                         <div class="mr-4 max-w-lg sm:mr-10">
                             <div
-                                class="rounded-2xl rounded-tl-none bg-white p-3 text-slate-700 shadow-sm dark:bg-navy-700 dark:text-navy-100">
+                                class="rounded-2xl rounded-tl-none bg-white p-3 text-slate-700 shadow-sm">
                                 Recusabo mandamus cum ex, ius unum nibh an, usu liber oratio
                                 liberavisse ea.
                             </div>
-                            <p class="mt-1 ml-auto text-right text-xs text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 ml-auto text-right text-xs text-slate-400">
                                 08:16
                             </p>
                         </div>
@@ -1423,16 +1423,16 @@
                     <div class="flex flex-col items-end space-y-3.5">
                         <div class="ml-4 max-w-lg md:ml-10">
                             <div
-                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm dark:bg-accent dark:text-white">
+                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm">
                                 Ocurreret rationibus intellegebat eu eos,
                             </div>
                         </div>
                         <div class="ml-4 max-w-lg md:ml-10">
                             <div
-                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm dark:bg-accent dark:text-white">
+                                class="rounded-2xl rounded-tr-none bg-info/10 p-3 text-slate-700 shadow-sm">
                                 Veri dolorum cu ius. Vim id nullam putent invidunt.
                             </div>
-                            <p class="mt-1 ml-auto text-left text-xs text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 ml-auto text-left text-xs text-slate-400">
                                 08:16
                             </p>
                         </div>
@@ -1445,10 +1445,10 @@
         </div>
 
         <div
-            class="chat-footer relative flex h-12 w-full shrink-0 items-center justify-between border-t border-slate-150 bg-white px-[calc(var(--margin-x)-.25rem)] transition-[padding,width] duration-[.25s] dark:border-navy-600 dark:bg-navy-800">
+            class="chat-footer relative flex h-12 w-full shrink-0 items-center justify-between border-t border-slate-150 bg-white px-[calc(var(--margin-x)-.25rem)] transition-[padding,width] duration-[.25s]">
             <div class="-ml-1.5 flex flex-1 space-x-2">
                 <button
-                    class="btn h-9 w-9 shrink-0 rounded-full p-0 text-slate-500 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:text-navy-200 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                    class="btn h-9 w-9 shrink-0 rounded-full p-0 text-slate-500 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5.5 w-5.5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor" stroke-width="1.5">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -1462,7 +1462,7 @@
 
             <div class="-mr-1.5 flex">
                 <button
-                    class="btn h-9 w-9 shrink-0 rounded-full p-0 text-slate-500 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:text-navy-200 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                    class="btn h-9 w-9 shrink-0 rounded-full p-0 text-slate-500 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5.5 w-5.5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor" stroke-width="1.5">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -1470,7 +1470,7 @@
                     </svg>
                 </button>
                 <button
-                    class="btn h-9 w-9 shrink-0 rounded-full p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                    class="btn h-9 w-9 shrink-0 rounded-full p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5.5 w-5.5" fill="none"
                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -1491,20 +1491,20 @@
                     x-transition:enter-end="opacity-100" x-transition:leave="ease-in"
                     x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"></div>
                 <div class="fixed right-0 top-0 z-[101] h-full w-full sm:w-80">
-                    <div class="flex h-full w-full flex-col border-l border-slate-150 bg-white transition-transform duration-200 dark:border-navy-600 dark:bg-navy-750"
+                    <div class="flex h-full w-full flex-col border-l border-slate-150 bg-white transition-transform duration-200"
                         x-show="showDrawer" x-transition:enter="ease-out transform-gpu"
                         x-transition:enter-start="translate-x-full" x-transition:enter-end="translate-x-0"
                         x-transition:leave="ease-in transform-gpu" x-transition:leave-start="translate-x-0"
                         x-transition:leave-end="translate-x-full">
                         <div class="flex h-[60px] items-center justify-between p-4">
-                            <h3 class="text-base font-medium text-slate-700 dark:text-navy-100">
+                            <h3 class="text-base font-medium text-slate-700">
                                 Chat Info
                             </h3>
                             <div class="-mr-1.5 flex space-x-1">
                                 <button @click="$store.global.isRightSidebarExpanded = true"
-                                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="h-5.5 w-5.5 text-slate-500 dark:text-navy-100" fill="none"
+                                        class="h-5.5 w-5.5 text-slate-500" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                             d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
@@ -1512,7 +1512,7 @@
                                 </button>
 
                                 <button @click="$store.global.isDarkModeEnabled = !$store.global.isDarkModeEnabled"
-                                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg x-show="$store.global.isDarkModeEnabled"
                                         x-transition:enter="transition-transform duration-200 ease-out absolute origin-top"
                                         x-transition:enter-start="scale-75"
@@ -1534,7 +1534,7 @@
                                 </button>
 
                                 <button @click="showDrawer=false"
-                                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -1547,11 +1547,11 @@
                                 <img class="rounded-full" :src="activeChat.avatar_url" alt="avatar" />
                             </div>
                             <h3 x-text="activeChat.name"
-                                class="mt-2 text-lg font-medium text-slate-700 dark:text-navy-100"></h3>
+                                class="mt-2 text-lg font-medium text-slate-700"></h3>
                             <p>Frontend Developer</p>
                             <div class="mt-2 flex space-x-1.5">
                                 <button
-                                    class="btn h-10 w-10 rounded-full p-0 text-slate-600 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:text-navy-100 dark:hover:bg-navy-300/20 dark:hover:text-accent dark:focus:bg-navy-300/20 dark:focus:text-accent dark:active:bg-navy-300/25">
+                                    class="btn h-10 w-10 rounded-full p-0 text-slate-600 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -1559,7 +1559,7 @@
                                     </svg>
                                 </button>
                                 <button
-                                    class="btn h-10 w-10 rounded-full p-0 text-slate-600 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:text-navy-100 dark:hover:bg-navy-300/20 dark:hover:text-accent dark:focus:bg-navy-300/20 dark:focus:text-accent dark:active:bg-navy-300/25">
+                                    class="btn h-10 w-10 rounded-full p-0 text-slate-600 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -1567,7 +1567,7 @@
                                     </svg>
                                 </button>
                                 <button
-                                    class="btn h-10 w-10 rounded-full p-0 text-slate-600 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:text-navy-100 dark:hover:bg-navy-300/20 dark:hover:text-accent dark:focus:bg-navy-300/20 dark:focus:text-accent dark:active:bg-navy-300/25">
+                                    class="btn h-10 w-10 rounded-full p-0 text-slate-600 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -1581,15 +1581,15 @@
                                 <div class="tabs-list flex">
                                     <button @click="activeTab = 'tabImages'"
                                         :class="activeTab === 'tabImages' ?
-                                            'border-primary dark:border-accent text-primary dark:text-accent-light' :
-                                            'border-transparent hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100'"
+                                            'border-primary text-primary' :
+                                            'border-transparent hover:text-slate-800 focus:text-slate-800'"
                                         class="btn shrink-0 rounded-none border-b-2 px-3 py-2 font-medium">
                                         Images
                                     </button>
                                     <button @click="activeTab = 'tabFiles'"
                                         :class="activeTab === 'tabFiles' ?
-                                            'border-primary dark:border-accent text-primary dark:text-accent-light' :
-                                            'border-transparent hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100'"
+                                            'border-primary text-primary' :
+                                            'border-transparent hover:text-slate-800 focus:text-slate-800'"
                                         class="btn shrink-0 rounded-none border-b-2 px-3 py-2 font-medium">
                                         Files
                                     </button>
@@ -1645,12 +1645,12 @@
                                                 </svg>
                                             </div>
                                             <div>
-                                                <p class="font-medium text-slate-700 dark:text-navy-100">
+                                                <p class="font-medium text-slate-700">
                                                     Slow Music
                                                 </p>
-                                                <div class="flex text-xs text-slate-400 dark:text-navy-300">
+                                                <div class="flex text-xs text-slate-400">
                                                     <span>03:12</span>
-                                                    <div class="mx-2 my-1 w-px bg-slate-200 dark:bg-navy-500"></div>
+                                                    <div class="mx-2 my-1 w-px bg-slate-200"></div>
 
                                                     <span>8.32 MB</span>
                                                 </div>
@@ -1667,10 +1667,10 @@
                                                 </svg>
                                             </div>
                                             <div>
-                                                <p class="font-medium text-slate-700 dark:text-navy-100">
+                                                <p class="font-medium text-slate-700">
                                                     Final.fig
                                                 </p>
-                                                <div class="flex text-xs text-slate-400 dark:text-navy-300">
+                                                <div class="flex text-xs text-slate-400">
                                                     <span>45 MB</span>
                                                 </div>
                                             </div>
@@ -1686,10 +1686,10 @@
                                                 </svg>
                                             </div>
                                             <div>
-                                                <p class="font-medium text-slate-700 dark:text-navy-100">
+                                                <p class="font-medium text-slate-700">
                                                     Report.docx
                                                 </p>
-                                                <div class="flex text-xs text-slate-400 dark:text-navy-300">
+                                                <div class="flex text-xs text-slate-400">
                                                     <span>3.5 MB</span>
                                                 </div>
                                             </div>
@@ -1705,10 +1705,10 @@
                                                 </svg>
                                             </div>
                                             <div>
-                                                <p class="font-medium text-slate-700 dark:text-navy-100">
+                                                <p class="font-medium text-slate-700">
                                                     TheBook.pdf
                                                 </p>
-                                                <div class="flex text-xs text-slate-400 dark:text-navy-300">
+                                                <div class="flex text-xs text-slate-400">
                                                     <span>14 MB</span>
                                                 </div>
                                             </div>

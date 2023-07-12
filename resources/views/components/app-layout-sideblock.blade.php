@@ -76,7 +76,10 @@
     @isset($script)
         {{ $script }}
     @endisset
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    @include('sweetalert::alert', ['cdn' => "https://cdn.jsdelivr.net/npm/sweetalert2@9"])
 
+    @stack('script')
 </body>
 
 </html>

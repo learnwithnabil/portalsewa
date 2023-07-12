@@ -7,7 +7,7 @@
                     <i class="fa-solid fa-shapes text-2xl"></i>
                 </div>
             </div>
-            <h3 class="mt-3 text-xl font-semibold text-slate-600 dark:text-navy-100">
+            <h3 class="mt-3 text-xl font-semibold text-slate-600">
                 Lineone Applications
             </h3>
             <p class="mt-0.5 text-base">
@@ -25,7 +25,7 @@
                         </svg>
                     </div>
                 </div>
-                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1">
                     Chat App
                 </h2>
                 <p class="mt-1">
@@ -34,7 +34,7 @@
                 </p>
                 <div class="mt-5 pb-1">
                     <a href="{{ route('apps/chat') }}"
-                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                         Application</a>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                         </svg>
                     </div>
                 </div>
-                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1">
                     Kanban Board
                 </h2>
                 <p class="mt-1">
@@ -56,7 +56,7 @@
                 </p>
                 <div class="mt-5 pb-1">
                     <a href="{{ route('apps/kanban') }}"
-                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                         Application</a>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                         </svg>
                     </div>
                 </div>
-                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1">
                     File Manager
                 </h2>
                 <p class="mt-1">
@@ -78,13 +78,13 @@
                 </p>
                 <div class="mt-5 pb-1">
                     <a href="{{ route('apps/filemanager') }}"
-                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                         Application</a>
                 </div>
             </div>
             <div class="card p-4 sm:p-5">
                 <div class="avatar h-12 w-12">
-                    <div class="is-initial rounded-full bg-primary text-white dark:bg-accent">
+                    <div class="is-initial rounded-full bg-primary text-white">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor" stroke-width="2">
                             <path d="M12.5293 18L20.9999 8.40002" stroke-linecap="round" stroke-linejoin="round" />
@@ -92,7 +92,7 @@
                         </svg>
                     </div>
                 </div>
-                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1">
                     Todo App
                 </h2>
                 <p class="mt-1">
@@ -101,7 +101,7 @@
                 </p>
                 <div class="mt-5 pb-1">
                     <a href="{{ route('apps/todo') }}"
-                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                         Application</a>
                 </div>
             </div>
@@ -115,7 +115,7 @@
                         </svg>
                     </div>
                 </div>
-                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1">
                     Mail App
                 </h2>
                 <p class="mt-1">
@@ -123,7 +123,7 @@
                 </p>
                 <div class="mt-5 pb-1">
                     <a href="{{ route('apps/mail') }}"
-                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                         Application</a>
                 </div>
             </div>
@@ -133,7 +133,7 @@
                         <i class="fa-solid fa-n text-xl"></i>
                     </div>
                 </div>
-                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1">
                     NFT Marketplace V1
                 </h2>
                 <p class="mt-1">
@@ -142,7 +142,7 @@
                 </p>
                 <div class="mt-5 pb-1">
                     <a href="{{ route('apps/nft1') }}"
-                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                         Application</a>
                 </div>
             </div>
@@ -152,7 +152,7 @@
                         <i class="fa-solid fa-n text-xl"></i>
                     </div>
                 </div>
-                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1">
                     NFT Marketplace V2
                 </h2>
                 <p class="mt-1">
@@ -161,7 +161,7 @@
                 </p>
                 <div class="mt-5 pb-1">
                     <a href="{{ route('apps/nft2') }}"
-                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                         Application</a>
                 </div>
             </div>
@@ -175,7 +175,7 @@
                         </svg>
                     </div>
                 </div>
-                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1">
                     Point of Sale
                 </h2>
                 <p class="mt-1">
@@ -184,18 +184,18 @@
                 </p>
                 <div class="mt-5 pb-1">
                     <a href="{{ route('apps/pos') }}"
-                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                         Application</a>
                 </div>
             </div>
 
             <div class="card p-4 sm:p-5">
                 <div class="avatar h-12 w-12">
-                    <div class="is-initial rounded-full bg-primary text-white dark:bg-accent">
+                    <div class="is-initial rounded-full bg-primary text-white">
                         <i class="fa-solid fa-car-rear text-xl"></i>
                     </div>
                 </div>
-                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                <h2 class="mt-5 text-base font-medium tracking-wide text-slate-700 line-clamp-1">
                     Travel
                 </h2>
                 <p class="mt-1">
@@ -204,7 +204,7 @@
                 </p>
                 <div class="mt-5 pb-1">
                     <a href="{{ route('apps/travel') }}"
-                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                        class="border-b border-dashed border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                         Application</a>
                 </div>
             </div>

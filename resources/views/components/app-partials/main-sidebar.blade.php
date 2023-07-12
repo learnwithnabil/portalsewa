@@ -113,7 +113,19 @@
                         fill="currentColor" />
                 </svg>
             </a>
+
+            <!-- Access Setting -->
+            <a href="{{ route('access/access.index') }}"
+                class="flex h-11 w-11 items-center justify-center rounded-lg outline-none transition-colors duration-200 {{ $routePrefix === 'access' ? 'text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-navy-600 bg-primary/10 dark:text-accent-light dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90' : 'hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25' }}"
+                x-tooltip.placement.right="'Setting Access'">
+                <svg class="h-8 w-8" viewBox="0 0 24 24" fill="none"  xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.30976 6.69267L3.98623 9.19267C3.2584 10.5675 2.89448 11.2549 2.89448 12C2.89448 12.7451 3.2584 13.4325 3.98623 14.8073L5.30976 17.3073C6.13314 18.8626 6.54483 19.6402 7.25883 20.0701C7.97282 20.5 8.85271 20.5 10.6125 20.5H13.3875C15.1473 20.5 16.0272 20.5 16.7412 20.0701C17.4552 19.6402 17.8669 18.8626 18.6902 17.3073L20.0138 14.8073C20.7416 13.4325 21.1055 12.7451 21.1055 12C21.1055 11.2549 20.7416 10.5675 20.0138 9.19268L18.6902 6.69267C17.8669 5.1374 17.4552 4.35977 16.7412 3.92988C16.0272 3.5 15.1473 3.5 13.3875 3.5H10.6125C8.85271 3.5 7.97282 3.5 7.25883 3.92988C6.54483 4.35977 6.13314 5.1374 5.30976 6.69267Z" fill="currentColor" fill-opacity="0.24"/>
+                    <circle cx="12" cy="12" r="3" fill="currentColor"/>
+                </svg>
+            </a>
         </div>
+
+
 
         <!-- Bottom Links -->
         <div class="flex flex-col items-center space-y-3 py-3">
@@ -276,6 +288,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>

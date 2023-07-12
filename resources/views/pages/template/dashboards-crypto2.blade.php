@@ -6,36 +6,36 @@
                 <div class="grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6">
                     <div :class="$store.breakpoints.smAndUp && 'card px-5 pb-3'">
                         <div class="flex items-center justify-between sm:py-3">
-                            <h3 class="text-base font-medium text-slate-800 dark:text-navy-50">
+                            <h3 class="text-base font-medium text-slate-800">
                                 Statistics
                             </h3>
 
-                            <div class="flex space-x-4 font-inter text-slate-700 dark:text-navy-100"
+                            <div class="flex space-x-4 font-inter text-slate-700"
                                 x-data="{ activeTab: '12hr' }">
                                 <div
-                                    class="hidden w-full justify-between space-x-4 font-inter text-slate-700 dark:text-navy-100 sm:flex">
+                                    class="hidden w-full justify-between space-x-4 font-inter text-slate-700 sm:flex">
                                     <button @click="activeTab = '1wk'" class="font-medium tracking-wide"
-                                        :class="activeTab === '1wk' && 'text-primary dark:text-accent-light'">
+                                        :class="activeTab === '1wk' && 'text-primary'">
                                         1 Wk
                                     </button>
 
                                     <button @click="activeTab = '5days'" class="font-medium tracking-wide"
-                                        :class="activeTab === '5days' && 'text-primary dark:text-accent-light'">
+                                        :class="activeTab === '5days' && 'text-primary'">
                                         5 days
                                     </button>
 
                                     <button @click="activeTab = '1days'" class="font-medium tracking-wide"
-                                        :class="activeTab === '1days' && 'text-primary dark:text-accent-light'">
+                                        :class="activeTab === '1days' && 'text-primary'">
                                         1 days
                                     </button>
 
                                     <button @click="activeTab = '12hr'" class="font-medium tracking-wide"
-                                        :class="activeTab === '12hr' && 'text-primary dark:text-accent-light'">
+                                        :class="activeTab === '12hr' && 'text-primary'">
                                         12 Hr
                                     </button>
 
                                     <button @click="activeTab = '1hr'" class="font-medium tracking-wide"
-                                        :class="activeTab === '1hr' && 'text-primary dark:text-accent-light'">
+                                        :class="activeTab === '1hr' && 'text-primary'">
                                         1 Hr
                                     </button>
                                 </div>
@@ -43,7 +43,7 @@
                                 <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                                     class="inline-flex">
                                     <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:-mr-1.5">
+                                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:-mr-1.5">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -53,28 +53,28 @@
 
                                     <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                         <div
-                                            class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                            class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                             <ul>
                                                 <li>
                                                     <a href="#"
-                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                                 </li>
                                                 <li>
                                                     <a href="#"
-                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                         Action</a>
                                                 </li>
                                                 <li>
                                                     <a href="#"
-                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                         else</a>
                                                 </li>
                                             </ul>
-                                            <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                            <div class="my-1 h-px bg-slate-150"></div>
                                             <ul>
                                                 <li>
                                                     <a href="#"
-                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                         Link</a>
                                                 </li>
                                             </ul>
@@ -91,13 +91,13 @@
                         </div>
                     </div>
                     <div class="grid grid-cols-2 gap-4 sm:order-first sm:grid-cols-4 sm:gap-5 lg:gap-6">
-                        <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700">
+                        <div class="rounded-lg border border-slate-150 p-3">
                             <div class="flex justify-between space-x-1">
-                                <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                                <p class="text-xl font-semibold text-slate-700">
                                     $5,679
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-5 w-5 shrink-0 text-primary dark:text-accent" fill="none"
+                                    class="h-5 w-5 shrink-0 text-primary" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
@@ -105,9 +105,9 @@
                             </div>
                             <p class="mt-1 text-xs+ line-clamp-1">Total Mining</p>
                         </div>
-                        <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700">
+                        <div class="rounded-lg border border-slate-150 p-3">
                             <div class="flex justify-between">
-                                <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                                <p class="text-xl font-semibold text-slate-700">
                                     $12.6k
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0 text-success"
@@ -118,9 +118,9 @@
                             </div>
                             <p class="mt-1 text-xs+ line-clamp-1">Total Networth</p>
                         </div>
-                        <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700">
+                        <div class="rounded-lg border border-slate-150 p-3">
                             <div class="flex justify-between">
-                                <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                                <p class="text-xl font-semibold text-slate-700">
                                     $10.3k
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-warning" fill="none"
@@ -131,9 +131,9 @@
                             </div>
                             <p class="mt-1 text-xs+ line-clamp-1">Earnings</p>
                         </div>
-                        <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700">
+                        <div class="rounded-lg border border-slate-150 p-3">
                             <div class="flex justify-between">
-                                <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                                <p class="text-xl font-semibold text-slate-700">
                                     651
                                 </p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-info" fill="none"
@@ -147,13 +147,13 @@
                     </div>
                     <div class="card px-4 pb-4 sm:px-5">
                         <div class="flex items-center justify-between py-3">
-                            <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                            <h2 class="font-medium tracking-wide text-slate-700">
                                 Mining Stats
                             </h2>
                             <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                                 class="inline-flex">
                                 <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                    class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -163,28 +163,28 @@
 
                                 <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                     <div
-                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                     Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                     else</a>
                                             </li>
                                         </ul>
-                                        <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                        <div class="my-1 h-px bg-slate-150"></div>
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                     Link</a>
                                             </li>
                                         </ul>
@@ -195,7 +195,7 @@
 
                         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
                             <div
-                                class="flex items-center justify-between space-x-2 rounded-lg border border-slate-200 p-3 dark:border-navy-600">
+                                class="flex items-center justify-between space-x-2 rounded-lg border border-slate-200 p-3">
                                 <div class="flex items-center space-x-3">
                                     <div
                                         class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-success">
@@ -207,7 +207,7 @@
                                         </svg>
                                     </div>
                                     <div>
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             ID: 5988745
                                         </p>
                                         <p class="mt-0.5 text-xs text-success line-clamp-1">
@@ -216,11 +216,11 @@
                                     </div>
                                 </div>
                                 <input checked
-                                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                     type="checkbox" />
                             </div>
                             <div
-                                class="flex items-center justify-between space-x-2 rounded-lg border border-slate-200 p-3 dark:border-navy-600">
+                                class="flex items-center justify-between space-x-2 rounded-lg border border-slate-200 p-3">
                                 <div class="flex items-center space-x-3">
                                     <div
                                         class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-success">
@@ -232,7 +232,7 @@
                                         </svg>
                                     </div>
                                     <div>
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             ID: 5488615
                                         </p>
                                         <p class="mt-0.5 text-xs text-success line-clamp-1">
@@ -241,11 +241,11 @@
                                     </div>
                                 </div>
                                 <input checked
-                                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                     type="checkbox" />
                             </div>
                             <div
-                                class="flex items-center justify-between space-x-2 rounded-lg border border-slate-200 p-3 dark:border-navy-600">
+                                class="flex items-center justify-between space-x-2 rounded-lg border border-slate-200 p-3">
                                 <div class="flex items-center space-x-3">
                                     <div
                                         class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-warning">
@@ -257,7 +257,7 @@
                                         </svg>
                                     </div>
                                     <div>
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             ID: 3591458
                                         </p>
                                         <p class="mt-0.5 text-xs text-warning line-clamp-1">
@@ -266,14 +266,14 @@
                                     </div>
                                 </div>
                                 <input
-                                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                     type="checkbox" />
                             </div>
                             <div
-                                class="flex items-center justify-between space-x-2 rounded-lg border border-slate-200 p-3 dark:border-navy-600">
+                                class="flex items-center justify-between space-x-2 rounded-lg border border-slate-200 p-3">
                                 <div class="flex items-center space-x-3">
                                     <div
-                                        class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-slate-300 text-slate-700 dark:bg-navy-450 dark:text-navy-100">
+                                        class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-slate-300 text-slate-700">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -281,14 +281,14 @@
                                         </svg>
                                     </div>
                                     <div>
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="font-medium text-slate-700">
                                             ID: 6517997
                                         </p>
                                         <p class="mt-0.5 text-xs line-clamp-1">Power Off</p>
                                     </div>
                                 </div>
                                 <input
-                                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white"
+                                    class="form-switch h-5 w-10 rounded-lg bg-slate-300 before:rounded-md before:bg-slate-50 checked:bg-primary checked:before:bg-white"
                                     type="checkbox" />
                             </div>
                         </div>
@@ -298,9 +298,9 @@
             <div class="col-span-12 lg:col-span-4">
                 <div class="grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-5 lg:grid-cols-2 lg:gap-6">
                     <div
-                        class="rounded-lg bg-primary p-4 transition-shadow duration-300 hover:shadow-lg hover:shadow-primary/50 dark:bg-accent dark:shadow-accent/50 dark:hover:shadow-accent/50">
+                        class="rounded-lg bg-primary p-4 transition-shadow duration-300 hover:shadow-lg hover:shadow-primary/50">
                         <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-white/90">
-                            <i class="fa-brands fa-btc text-xl text-primary dark:text-accent"></i>
+                            <i class="fa-brands fa-btc text-xl text-primary"></i>
                         </div>
                         <p class="mt-3 text-base font-medium text-white">Bitcoin</p>
                         <div class="mt-8">
@@ -347,13 +347,13 @@
 
                 <div class="card mt-4 px-4 pb-4 sm:mt-5 sm:px-5 lg:mt-6">
                     <div class="flex items-center justify-between py-3">
-                        <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="font-medium tracking-wide text-slate-700">
                             Exchange
                         </h2>
                         <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -363,28 +363,28 @@
 
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -394,11 +394,11 @@
                     </div>
                     <div x-data="{ activeTab: 'tabReceive' }" class="tabs flex flex-col">
                         <div
-                            class="is-scrollbar-hidden overflow-x-auto rounded-lg bg-slate-150 text-slate-600 dark:bg-navy-800 dark:text-navy-200">
+                            class="is-scrollbar-hidden overflow-x-auto rounded-lg bg-slate-150 text-slate-600">
                             <div class="tabs-list flex px-1.5 py-1">
                                 <button @click="activeTab = 'tabReceive'"
-                                    :class="activeTab === 'tabReceive' ? 'bg-white shadow dark:bg-navy-500 dark:text-navy-100' :
-                                        'hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100'"
+                                    :class="activeTab === 'tabReceive' ? 'bg-white shadow' :
+                                        'hover:text-slate-800 focus:text-slate-800'"
                                     class="btn flex-1 space-x-2 px-3 py-2 font-medium">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                         fill="currentColor">
@@ -409,8 +409,8 @@
                                     <span> Receive </span>
                                 </button>
                                 <button @click="activeTab = 'tabSend'"
-                                    :class="activeTab === 'tabSend' ? 'bg-white shadow dark:bg-navy-500 dark:text-navy-100' :
-                                        'hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100'"
+                                    :class="activeTab === 'tabSend' ? 'bg-white shadow' :
+                                        'hover:text-slate-800 focus:text-slate-800'"
                                     class="btn flex-1 space-x-2 px-3 py-2 font-medium">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" viewBox="0 0 20 20"
                                         fill="currentColor">
@@ -427,9 +427,9 @@
                         <div class="pt-4">
                             <p class="text-xs+">You send</p>
                             <div
-                                class="mt-1 flex justify-between space-x-2 rounded-2xl bg-slate-150 p-1.5 dark:bg-navy-800">
+                                class="mt-1 flex justify-between space-x-2 rounded-2xl bg-slate-150 p-1.5">
                                 <select
-                                    class="form-select h-8 rounded-2xl border border-transparent bg-white px-4 py-0 pr-9 text-xs+ hover:border-slate-400 focus:border-primary dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent">
+                                    class="form-select h-8 rounded-2xl border border-transparent bg-white px-4 py-0 pr-9 text-xs+ hover:border-slate-400 focus:border-primary">
                                     <option>Bitcoin</option>
                                     <option>Ethereum</option>
                                     <option>Solana</option>
@@ -443,9 +443,9 @@
                         <div class="pt-4">
                             <p class="text-xs+">You receive</p>
                             <div
-                                class="mt-1 flex justify-between space-x-2 rounded-2xl bg-slate-150 p-1.5 dark:bg-navy-800">
+                                class="mt-1 flex justify-between space-x-2 rounded-2xl bg-slate-150 p-1.5">
                                 <select
-                                    class="form-select h-8 rounded-2xl border border-transparent bg-white px-4 py-0 pr-9 text-xs+ hover:border-slate-400 focus:border-primary dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent">
+                                    class="form-select h-8 rounded-2xl border border-transparent bg-white px-4 py-0 pr-9 text-xs+ hover:border-slate-400 focus:border-primary">
                                     <option>Dollar</option>
                                     <option>Ethereum</option>
                                     <option>Solana</option>
@@ -458,7 +458,7 @@
                         </div>
                         <div class="absolute right-0 top-1/2 mt-1">
                             <button
-                                class="btn mask is-hexagon h-7 w-7 bg-primary p-0 font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                class="btn mask is-hexagon h-7 w-7 bg-primary p-0 font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -468,7 +468,7 @@
                         </div>
                     </div>
                     <button
-                        class="btn mt-6 h-10 w-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                        class="btn mt-6 h-10 w-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                         Buy BTC
                     </button>
                 </div>

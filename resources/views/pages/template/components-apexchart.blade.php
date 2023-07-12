@@ -2,17 +2,17 @@
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center space-x-4 py-5 lg:py-6">
           <h2
-            class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl"
+            class="text-xl font-medium text-slate-800 lg:text-2xl"
           >
             Apexcharts
           </h2>
           <div class="hidden h-full py-1 sm:flex">
-            <div class="h-full w-px bg-slate-300 dark:bg-navy-600"></div>
+            <div class="h-full w-px bg-slate-300"></div>
           </div>
           <ul class="hidden flex-wrap items-center space-x-2 sm:flex">
             <li class="flex items-center space-x-2">
               <a
-                class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                class="text-primary transition-colors hover:text-primary-focus"
                 href="#"
                 >Components</a
               >
@@ -41,7 +41,7 @@
             <div class="card px-4 pb-4 sm:px-5">
               <div class="my-3 flex h-8 items-center justify-between">
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Area Chart
                 </h2>
@@ -50,7 +50,7 @@
                 <p>
                   <a
                     href="https://github.com/apexcharts/apexcharts.js"
-                    class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                    class="font-normal text-primary transition-colors hover:text-primary-focus"
                     >Apexcharts</a
                   >
                   a modern JavaScript charting library that allows you to build
@@ -71,7 +71,7 @@
             <div class="card px-4 pb-4 sm:px-5">
               <div class="my-3 flex h-8 items-center justify-between">
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Bar Chart
                 </h2>
@@ -80,7 +80,7 @@
                 <p>
                   <a
                     href="https://github.com/apexcharts/apexcharts.js"
-                    class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                    class="font-normal text-primary transition-colors hover:text-primary-focus"
                     >Apexcharts</a
                   >
                   a modern JavaScript charting library that allows you to build
@@ -101,7 +101,7 @@
             <div class="card px-4 pb-4 sm:px-5">
               <div class="my-3 flex h-8 items-center justify-between">
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Candlestick
                 </h2>
@@ -110,7 +110,7 @@
                 <p>
                   <a
                     href="https://github.com/apexcharts/apexcharts.js"
-                    class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                    class="font-normal text-primary transition-colors hover:text-primary-focus"
                     >Apexcharts</a
                   >
                   a modern JavaScript charting library that allows you to build
@@ -131,7 +131,7 @@
             <div class="card px-4 pb-4 sm:px-5">
               <div class="my-3 flex h-8 items-center justify-between">
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Bubble Chart
                 </h2>
@@ -140,7 +140,7 @@
                 <p>
                   <a
                     href="https://github.com/apexcharts/apexcharts.js"
-                    class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                    class="font-normal text-primary transition-colors hover:text-primary-focus"
                     >Apexcharts</a
                   >
                   a modern JavaScript charting library that allows you to build
@@ -161,7 +161,7 @@
             <div class="card px-4 pb-4 sm:px-5">
               <div class="my-3 flex h-8 items-center justify-between">
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Radar Chart
                 </h2>
@@ -170,7 +170,7 @@
                 <p>
                   <a
                     href="https://github.com/apexcharts/apexcharts.js"
-                    class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                    class="font-normal text-primary transition-colors hover:text-primary-focus"
                     >Apexcharts</a
                   >
                   a modern JavaScript charting library that allows you to build
@@ -193,7 +193,7 @@
             <div class="card px-4 pb-4 sm:px-5">
               <div class="my-3 flex h-8 items-center justify-between">
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Area Chart
                 </h2>
@@ -202,7 +202,7 @@
                 <p>
                   <a
                     href="https://github.com/apexcharts/apexcharts.js"
-                    class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                    class="font-normal text-primary transition-colors hover:text-primary-focus"
                     >Apexcharts</a
                   >
                   a modern JavaScript charting library that allows you to build
@@ -223,7 +223,7 @@
             <div class="card px-4 pb-4 sm:px-5">
               <div class="my-3 flex h-8 items-center justify-between">
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Line Chart
                 </h2>
@@ -232,7 +232,7 @@
                 <p>
                   <a
                     href="https://github.com/apexcharts/apexcharts.js"
-                    class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                    class="font-normal text-primary transition-colors hover:text-primary-focus"
                     >Apexcharts</a
                   >
                   a modern JavaScript charting library that allows you to build
@@ -253,7 +253,7 @@
             <div class="card px-4 pb-4 sm:px-5">
               <div class="my-3 flex h-8 items-center justify-between">
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Column Chart
                 </h2>
@@ -262,7 +262,7 @@
                 <p>
                   <a
                     href="https://github.com/apexcharts/apexcharts.js"
-                    class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                    class="font-normal text-primary transition-colors hover:text-primary-focus"
                     >Apexcharts</a
                   >
                   a modern JavaScript charting library that allows you to build
@@ -283,7 +283,7 @@
             <div class="card px-4 pb-4 sm:px-5">
               <div class="my-3 flex h-8 items-center justify-between">
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Radialbar Chart
                 </h2>
@@ -292,7 +292,7 @@
                 <p>
                   <a
                     href="https://github.com/apexcharts/apexcharts.js"
-                    class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                    class="font-normal text-primary transition-colors hover:text-primary-focus"
                     >Apexcharts</a
                   >
                   a modern JavaScript charting library that allows you to build
@@ -313,7 +313,7 @@
             <div class="card px-4 pb-4 sm:px-5">
               <div class="my-3 flex h-8 items-center justify-between">
                 <h2
-                  class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"
+                  class="font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-base"
                 >
                   Polar Area Chart
                 </h2>
@@ -322,7 +322,7 @@
                 <p>
                   <a
                     href="https://github.com/apexcharts/apexcharts.js"
-                    class="font-normal text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
+                    class="font-normal text-primary transition-colors hover:text-primary-focus"
                     >Apexcharts</a
                   >
                   a modern JavaScript charting library that allows you to build

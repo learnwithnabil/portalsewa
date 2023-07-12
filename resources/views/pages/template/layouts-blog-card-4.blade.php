@@ -2,22 +2,22 @@
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center justify-between py-5 lg:py-6">
             <div class="flex items-center space-x-1">
-                <h2 class="text-xl font-medium text-slate-700 line-clamp-1 dark:text-navy-50 lg:text-2xl">
+                <h2 class="text-xl font-medium text-slate-700 line-clamp-1 lg:text-2xl">
                     Blog Cards
                 </h2>
                 <div x-data="usePopper({ placement: 'bottom-start', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false" class="inline-flex">
                     <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                         <i class="fas fa-chevron-down"></i>
                     </button>
 
                     <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                         <div
-                            class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                            class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                             <ul>
                                 <li>
                                     <a href="#"
-                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">
+                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="mt-px h-4.5 w-4.5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
@@ -26,7 +26,7 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">
+                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="mt-px h-4.5 w-4.5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -36,7 +36,7 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">
+                                        class="flex h-8 items-center space-x-3 px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="mt-px h-4.5 w-4.5" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -55,10 +55,10 @@
             <div class="flex items-center space-x-2">
                 <label class="relative hidden sm:flex">
                     <input
-                        class="form-input peer h-9 w-full rounded-full border border-slate-300 bg-transparent px-3 py-2 pl-9 text-xs+ placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                        class="form-input peer h-9 w-full rounded-full border border-slate-300 bg-transparent px-3 py-2 pl-9 text-xs+ placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary"
                         placeholder="Search users..." type="text" />
                     <span
-                        class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent">
+                        class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-colors duration-200"
                             fill="currentColor" viewBox="0 0 24 24">
                             <path
@@ -69,7 +69,7 @@
 
                 <div class="flex">
                     <button
-                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:hidden sm:h-9 sm:w-9">
+                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:hidden sm:h-9 sm:w-9">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" stroke="currentColor" fill="none"
                             viewBox="0 0 24 24">
                             <circle cx="10.2" cy="10.2" r="7.2" stroke-width="1.5"></circle>
@@ -77,14 +77,14 @@
                         </svg>
                     </button>
                     <button
-                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:h-9 sm:w-9">
+                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:h-9 sm:w-9">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24">
                             <path fill="currentColor"
                                 d="M3 5.109C3 4.496 3.47 4 4.05 4h16.79c.58 0 1.049.496 1.049 1.109 0 .612-.47 1.108-1.05 1.108H4.05C3.47 6.217 3 5.721 3 5.11zM5.798 12.5c0-.612.47-1.109 1.05-1.109H18.04c.58 0 1.05.497 1.05 1.109s-.47 1.109-1.05 1.109H6.848c-.58 0-1.05-.497-1.05-1.109zM9.646 18.783c-.58 0-1.05.496-1.05 1.108 0 .613.47 1.109 1.05 1.109h5.597c.58 0 1.05-.496 1.05-1.109 0-.612-.47-1.108-1.05-1.108H9.646z" />
                         </svg>
                     </button>
                     <button
-                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:h-9 sm:w-9">
+                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:h-9 sm:w-9">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -114,28 +114,28 @@
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div class="popper-box">
                                     <div
-                                        class="flex w-48 flex-col items-center rounded-md border border-slate-150 bg-white p-3 text-center dark:border-navy-600 dark:bg-navy-700">
+                                        class="flex w-48 flex-col items-center rounded-md border border-slate-150 bg-white p-3 text-center">
                                         <div class="avatar h-16 w-16">
                                             <img class="rounded-full " src="{{ asset('images/200x200.png') }}"
                                                 alt="avatar" />
                                         </div>
-                                        <p class="mt-2 font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                                        <p class="mt-2 font-medium tracking-wide text-slate-700">
                                             Konnor Guzman
                                         </p>
                                         <a href="#"
-                                            class="font-inter text-xs tracking-wide hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@konnoraccount
+                                            class="font-inter text-xs tracking-wide hover:text-primary focus:text-primary">@konnoraccount
                                         </a>
                                         <button
-                                            class="btn mt-4 h-6 rounded-full bg-primary px-4 text-xs font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                            class="btn mt-4 h-6 rounded-full bg-primary px-4 text-xs font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                                             Follow
                                         </button>
                                     </div>
                                     <div class="h-4 w-4" data-popper-arrow>
                                         <svg viewBox="0 0 16 9" xmlns="http://www.w3.org/2000/svg"
                                             class="absolute h-4 w-4" fill="currentColor">
-                                            <path class="text-slate-150 dark:text-navy-600"
+                                            <path class="text-slate-150"
                                                 d="M1.5 8.357s-.48.624 2.754-4.779C5.583 1.35 6.796.01 8 0c1.204-.009 2.417 1.33 3.76 3.578 3.253 5.43 2.74 4.78 2.74 4.78h-13z" />
-                                            <path class="text-white dark:text-navy-700"
+                                            <path class="text-white"
                                                 d="M0 9s1.796-.017 4.67-4.648C5.853 2.442 6.93 1.293 8 1.286c1.07-.008 2.147 1.14 3.343 3.066C14.233 9.006 15.999 9 15.999 9H0z" />
                                         </svg>
                                     </div>
@@ -143,10 +143,10 @@
                             </div>
                         </div>
                         <div>
-                            <p class="text-slate-700 line-clamp-1 dark:text-navy-100">
+                            <p class="text-slate-700 line-clamp-1">
                                 Konnor Guzman
                             </p>
-                            <p class="text-xs text-slate-400 dark:text-navy-300">
+                            <p class="text-xs text-slate-400">
                                 55 min ago
                             </p>
                         </div>
@@ -154,7 +154,7 @@
                     <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                         class="inline-flex">
                         <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                            class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -164,28 +164,28 @@
 
                         <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                             <div
-                                class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                 <ul>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                             Action</a>
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                             else</a>
                                     </li>
                                 </ul>
-                                <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                <div class="my-1 h-px bg-slate-150"></div>
                                 <ul>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                             Link</a>
                                     </li>
                                 </ul>
@@ -197,7 +197,7 @@
                     alt="image" />
                 <div class="grow px-4 pt-4">
                     <a href="#"
-                        class="text-base font-medium text-slate-700 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Food:
+                        class="text-base font-medium text-slate-700 hover:text-primary focus:text-primary">Food:
                         A Simple Definition</a>
                     <p class="mt-2 line-clamp-3">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
@@ -210,7 +210,7 @@
                             Food
                         </a>
                         <a href="#"
-                            class="tag rounded-full bg-primary/10 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                            class="tag rounded-full bg-primary/10 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                             Health
                         </a>
                         <a href="#"
@@ -222,30 +222,30 @@
                 <div class="flex justify-between px-4 py-4">
                     <div class="flex flex-wrap -space-x-2">
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
                             <div
-                                class="is-initial rounded-full bg-info text-xs+ uppercase text-white ring ring-white dark:ring-navy-700">
+                                class="is-initial rounded-full bg-info text-xs+ uppercase text-white ring ring-white">
                                 jd
                             </div>
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
                     </div>
                     <div class="-mr-1.5 flex">
                         <button x-tooltip.secondary="'Like'"
-                            class="btn h-7 w-7 rounded-full p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                            class="btn h-7 w-7 rounded-full p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -253,7 +253,7 @@
                             </svg>
                         </button>
                         <button x-tooltip="'Save'"
-                            class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -262,18 +262,18 @@
                         </button>
                     </div>
                 </div>
-                <div class="border-t border-slate-200 px-2 py-1.5 dark:border-navy-500">
+                <div class="border-t border-slate-200 px-2 py-1.5">
                     <div class="relative flex w-full">
                         <input
                             class="form-input peer h-8 w-full bg-transparent px-8 py-2 text-xs+ placeholder:text-slate-400/70"
                             placeholder="Write the commnet..." type="text" />
                         <div
-                            class="pointer-events-none absolute flex h-full w-8 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent">
+                            class="pointer-events-none absolute flex h-full w-8 items-center justify-center text-slate-400 peer-focus:text-primary">
                             <i class="fa fa-paper-plane"></i>
                         </div>
                         <div class="absolute right-0 z-10 flex h-8 w-8 items-center justify-center">
                             <button
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:hover:text-accent-light dark:focus:bg-navy-300/20 dark:focus:text-accent-light dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                                 <i class="fa-solid fa-microphone"></i>
                             </button>
                         </div>
@@ -297,28 +297,28 @@
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div class="popper-box">
                                     <div
-                                        class="flex w-48 flex-col items-center rounded-md border border-slate-150 bg-white p-3 text-center dark:border-navy-600 dark:bg-navy-700">
+                                        class="flex w-48 flex-col items-center rounded-md border border-slate-150 bg-white p-3 text-center">
                                         <div class="avatar h-16 w-16">
                                             <img class="rounded-full " src="{{ asset('images/200x200.png') }}"
                                                 alt="avatar" />
                                         </div>
-                                        <p class="mt-2 font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                                        <p class="mt-2 font-medium tracking-wide text-slate-700">
                                             Travis Fuller
                                         </p>
                                         <a href="#"
-                                            class="font-inter text-xs tracking-wide hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@travisaccount
+                                            class="font-inter text-xs tracking-wide hover:text-primary focus:text-primary">@travisaccount
                                         </a>
                                         <button
-                                            class="btn mt-4 h-6 rounded-full bg-primary px-4 text-xs font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                            class="btn mt-4 h-6 rounded-full bg-primary px-4 text-xs font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                                             Follow
                                         </button>
                                     </div>
                                     <div class="h-4 w-4" data-popper-arrow>
                                         <svg viewBox="0 0 16 9" xmlns="http://www.w3.org/2000/svg"
                                             class="absolute h-4 w-4" fill="currentColor">
-                                            <path class="text-slate-150 dark:text-navy-600"
+                                            <path class="text-slate-150"
                                                 d="M1.5 8.357s-.48.624 2.754-4.779C5.583 1.35 6.796.01 8 0c1.204-.009 2.417 1.33 3.76 3.578 3.253 5.43 2.74 4.78 2.74 4.78h-13z" />
-                                            <path class="text-white dark:text-navy-700"
+                                            <path class="text-white"
                                                 d="M0 9s1.796-.017 4.67-4.648C5.853 2.442 6.93 1.293 8 1.286c1.07-.008 2.147 1.14 3.343 3.066C14.233 9.006 15.999 9 15.999 9H0z" />
                                         </svg>
                                     </div>
@@ -326,10 +326,10 @@
                             </div>
                         </div>
                         <div>
-                            <p class="text-slate-700 line-clamp-1 dark:text-navy-100">
+                            <p class="text-slate-700 line-clamp-1">
                                 Travis Fuller
                             </p>
-                            <p class="text-xs text-slate-400 dark:text-navy-300">
+                            <p class="text-xs text-slate-400">
                                 2 hours ago
                             </p>
                         </div>
@@ -337,7 +337,7 @@
                     <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                         class="inline-flex">
                         <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                            class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -347,28 +347,28 @@
 
                         <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                             <div
-                                class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                 <ul>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                             Action</a>
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                             else</a>
                                     </li>
                                 </ul>
-                                <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                <div class="my-1 h-px bg-slate-150"></div>
                                 <ul>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                             Link</a>
                                     </li>
                                 </ul>
@@ -380,7 +380,7 @@
                     alt="image" />
                 <div class="grow px-4 pt-4">
                     <a href="#"
-                        class="text-base font-medium text-slate-700 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">How
+                        class="text-base font-medium text-slate-700 hover:text-primary focus:text-primary">How
                         Did We Get Here? The History of Music Told Through
                         Tweets</a>
                     <p class="mt-2 line-clamp-3">
@@ -393,7 +393,7 @@
                             Music
                         </a>
                         <a href="#"
-                            class="tag rounded-full bg-secondary/10 text-secondary hover:bg-secondary/20 focus:bg-primary/20 active:bg-secondary/25 dark:bg-secondary-light/10 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                            class="tag rounded-full bg-secondary/10 text-secondary hover:bg-secondary/20 focus:bg-primary/20 active:bg-secondary/25">
                             Art
                         </a>
                         <a href="#"
@@ -405,30 +405,30 @@
                 <div class="flex justify-between px-4 py-4">
                     <div class="flex flex-wrap -space-x-2">
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
                             <div
-                                class="is-initial rounded-full bg-warning text-xs+ uppercase text-white ring ring-white dark:ring-navy-700">
+                                class="is-initial rounded-full bg-warning text-xs+ uppercase text-white ring ring-white">
                                 SM
                             </div>
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
                     </div>
                     <div class="-mr-1.5 flex">
                         <button x-tooltip.secondary="'Like'"
-                            class="btn h-7 w-7 rounded-full p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                            class="btn h-7 w-7 rounded-full p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -436,7 +436,7 @@
                             </svg>
                         </button>
                         <button x-tooltip="'Save'"
-                            class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -445,18 +445,18 @@
                         </button>
                     </div>
                 </div>
-                <div class="border-t border-slate-200 px-2 py-1.5 dark:border-navy-500">
+                <div class="border-t border-slate-200 px-2 py-1.5">
                     <div class="relative flex w-full">
                         <input
                             class="form-input peer h-8 w-full bg-transparent px-8 py-2 text-xs+ placeholder:text-slate-400/70"
                             placeholder="Write the commnet..." type="text" />
                         <div
-                            class="pointer-events-none absolute flex h-full w-8 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent">
+                            class="pointer-events-none absolute flex h-full w-8 items-center justify-center text-slate-400 peer-focus:text-primary">
                             <i class="fa fa-paper-plane"></i>
                         </div>
                         <div class="absolute right-0 z-10 flex h-8 w-8 items-center justify-center">
                             <button
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:hover:text-accent-light dark:focus:bg-navy-300/20 dark:focus:text-accent-light dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                                 <i class="fa-solid fa-microphone"></i>
                             </button>
                         </div>
@@ -480,28 +480,28 @@
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div class="popper-box">
                                     <div
-                                        class="flex w-48 flex-col items-center rounded-md border border-slate-150 bg-white p-3 text-center dark:border-navy-600 dark:bg-navy-700">
+                                        class="flex w-48 flex-col items-center rounded-md border border-slate-150 bg-white p-3 text-center">
                                         <div class="avatar h-16 w-16">
                                             <img class="rounded-full " src="{{ asset('images/200x200.png') }}"
                                                 alt="avatar" />
                                         </div>
-                                        <p class="mt-2 font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                                        <p class="mt-2 font-medium tracking-wide text-slate-700">
                                             Alfredo Elliott
                                         </p>
                                         <a href="#"
-                                            class="font-inter text-xs tracking-wide hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@alfredaccount
+                                            class="font-inter text-xs tracking-wide hover:text-primary focus:text-primary">@alfredaccount
                                         </a>
                                         <button
-                                            class="btn mt-4 h-6 rounded-full bg-primary px-4 text-xs font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                            class="btn mt-4 h-6 rounded-full bg-primary px-4 text-xs font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                                             Follow
                                         </button>
                                     </div>
                                     <div class="h-4 w-4" data-popper-arrow>
                                         <svg viewBox="0 0 16 9" xmlns="http://www.w3.org/2000/svg"
                                             class="absolute h-4 w-4" fill="currentColor">
-                                            <path class="text-slate-150 dark:text-navy-600"
+                                            <path class="text-slate-150"
                                                 d="M1.5 8.357s-.48.624 2.754-4.779C5.583 1.35 6.796.01 8 0c1.204-.009 2.417 1.33 3.76 3.578 3.253 5.43 2.74 4.78 2.74 4.78h-13z" />
-                                            <path class="text-white dark:text-navy-700"
+                                            <path class="text-white"
                                                 d="M0 9s1.796-.017 4.67-4.648C5.853 2.442 6.93 1.293 8 1.286c1.07-.008 2.147 1.14 3.343 3.066C14.233 9.006 15.999 9 15.999 9H0z" />
                                         </svg>
                                     </div>
@@ -509,10 +509,10 @@
                             </div>
                         </div>
                         <div>
-                            <p class="text-slate-700 line-clamp-1 dark:text-navy-100">
+                            <p class="text-slate-700 line-clamp-1">
                                 Alfredo Elliott
                             </p>
-                            <p class="text-xs text-slate-400 dark:text-navy-300">
+                            <p class="text-xs text-slate-400">
                                 a day ago
                             </p>
                         </div>
@@ -520,7 +520,7 @@
                     <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                         class="inline-flex">
                         <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                            class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -530,28 +530,28 @@
 
                         <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                             <div
-                                class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                 <ul>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                             Action</a>
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                             else</a>
                                     </li>
                                 </ul>
-                                <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                <div class="my-1 h-px bg-slate-150"></div>
                                 <ul>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                             Link</a>
                                     </li>
                                 </ul>
@@ -563,7 +563,7 @@
                     alt="image" />
                 <div class="grow px-4 pt-4">
                     <a href="#"
-                        class="text-base font-medium text-slate-700 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">The
+                        class="text-base font-medium text-slate-700 hover:text-primary focus:text-primary">The
                         12 Worst Types Business Accounts You Follow on Twitter</a>
                     <p class="mt-2 line-clamp-3">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -571,7 +571,7 @@
                     </p>
                     <div class="inline-space mt-3 flex flex-wrap">
                         <a href="#"
-                            class="tag rounded-full bg-primary/10 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                            class="tag rounded-full bg-primary/10 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                             Business
                         </a>
                         <a href="#"
@@ -579,7 +579,7 @@
                             Twitter
                         </a>
                         <a href="#"
-                            class="tag rounded-full bg-secondary/10 text-secondary hover:bg-secondary/20 focus:bg-primary/20 active:bg-secondary/25 dark:bg-secondary-light/10 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                            class="tag rounded-full bg-secondary/10 text-secondary hover:bg-secondary/20 focus:bg-primary/20 active:bg-secondary/25">
                             Development
                         </a>
                     </div>
@@ -587,30 +587,30 @@
                 <div class="flex justify-between px-4 py-4">
                     <div class="flex flex-wrap -space-x-2">
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
                             <div
-                                class="is-initial rounded-full bg-success text-xs+ uppercase text-white ring ring-white dark:ring-navy-700">
+                                class="is-initial rounded-full bg-success text-xs+ uppercase text-white ring ring-white">
                                 SM
                             </div>
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
                     </div>
                     <div class="-mr-1.5 flex">
                         <button x-tooltip.secondary="'Like'"
-                            class="btn h-7 w-7 rounded-full p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                            class="btn h-7 w-7 rounded-full p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -618,7 +618,7 @@
                             </svg>
                         </button>
                         <button x-tooltip="'Save'"
-                            class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -627,18 +627,18 @@
                         </button>
                     </div>
                 </div>
-                <div class="border-t border-slate-200 px-2 py-1.5 dark:border-navy-500">
+                <div class="border-t border-slate-200 px-2 py-1.5">
                     <div class="relative flex w-full">
                         <input
                             class="form-input peer h-8 w-full bg-transparent px-8 py-2 text-xs+ placeholder:text-slate-400/70"
                             placeholder="Write the commnet..." type="text" />
                         <div
-                            class="pointer-events-none absolute flex h-full w-8 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent">
+                            class="pointer-events-none absolute flex h-full w-8 items-center justify-center text-slate-400 peer-focus:text-primary">
                             <i class="fa fa-paper-plane"></i>
                         </div>
                         <div class="absolute right-0 z-10 flex h-8 w-8 items-center justify-center">
                             <button
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:hover:text-accent-light dark:focus:bg-navy-300/20 dark:focus:text-accent-light dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                                 <i class="fa-solid fa-microphone"></i>
                             </button>
                         </div>
@@ -662,28 +662,28 @@
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div class="popper-box">
                                     <div
-                                        class="flex w-48 flex-col items-center rounded-md border border-slate-150 bg-white p-3 text-center dark:border-navy-600 dark:bg-navy-700">
+                                        class="flex w-48 flex-col items-center rounded-md border border-slate-150 bg-white p-3 text-center">
                                         <div class="avatar h-16 w-16">
                                             <img class="rounded-full " src="{{ asset('images/200x200.png') }}"
                                                 alt="avatar" />
                                         </div>
-                                        <p class="mt-2 font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                                        <p class="mt-2 font-medium tracking-wide text-slate-700">
                                             Katrina West
                                         </p>
                                         <a href="#"
-                                            class="font-inter text-xs tracking-wide hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@katrinawest
+                                            class="font-inter text-xs tracking-wide hover:text-primary focus:text-primary">@katrinawest
                                         </a>
                                         <button
-                                            class="btn mt-4 h-6 rounded-full bg-primary px-4 text-xs font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                            class="btn mt-4 h-6 rounded-full bg-primary px-4 text-xs font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                                             Follow
                                         </button>
                                     </div>
                                     <div class="h-4 w-4" data-popper-arrow>
                                         <svg viewBox="0 0 16 9" xmlns="http://www.w3.org/2000/svg"
                                             class="absolute h-4 w-4" fill="currentColor">
-                                            <path class="text-slate-150 dark:text-navy-600"
+                                            <path class="text-slate-150"
                                                 d="M1.5 8.357s-.48.624 2.754-4.779C5.583 1.35 6.796.01 8 0c1.204-.009 2.417 1.33 3.76 3.578 3.253 5.43 2.74 4.78 2.74 4.78h-13z" />
-                                            <path class="text-white dark:text-navy-700"
+                                            <path class="text-white"
                                                 d="M0 9s1.796-.017 4.67-4.648C5.853 2.442 6.93 1.293 8 1.286c1.07-.008 2.147 1.14 3.343 3.066C14.233 9.006 15.999 9 15.999 9H0z" />
                                         </svg>
                                     </div>
@@ -691,10 +691,10 @@
                             </div>
                         </div>
                         <div>
-                            <p class="text-slate-700 line-clamp-1 dark:text-navy-100">
+                            <p class="text-slate-700 line-clamp-1">
                                 Katrina West
                             </p>
-                            <p class="text-xs text-slate-400 dark:text-navy-300">
+                            <p class="text-xs text-slate-400">
                                 3 days ago
                             </p>
                         </div>
@@ -702,7 +702,7 @@
                     <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                         class="inline-flex">
                         <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                            class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -712,28 +712,28 @@
 
                         <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                             <div
-                                class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                 <ul>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                             Action</a>
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                             else</a>
                                     </li>
                                 </ul>
-                                <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                <div class="my-1 h-px bg-slate-150"></div>
                                 <ul>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                             Link</a>
                                     </li>
                                 </ul>
@@ -745,7 +745,7 @@
                     alt="image" />
                 <div class="grow px-4 pt-4">
                     <a href="#"
-                        class="text-base font-medium text-slate-700 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">10
+                        class="text-base font-medium text-slate-700 hover:text-primary focus:text-primary">10
                         Tips for Making a Good Camera Even Better</a>
                     <p class="mt-2 line-clamp-3">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -754,7 +754,7 @@
                     </p>
                     <div class="inline-space mt-3 flex flex-wrap">
                         <a href="#"
-                            class="tag rounded-full bg-primary/10 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                            class="tag rounded-full bg-primary/10 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                             Phorograpy
                         </a>
                         <a href="#"
@@ -762,7 +762,7 @@
                             Camera
                         </a>
                         <a href="#"
-                            class="tag rounded-full bg-secondary/10 text-secondary hover:bg-secondary/20 focus:bg-primary/20 active:bg-secondary/25 dark:bg-secondary-light/10 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                            class="tag rounded-full bg-secondary/10 text-secondary hover:bg-secondary/20 focus:bg-primary/20 active:bg-secondary/25">
                             Shot
                         </a>
                     </div>
@@ -770,30 +770,30 @@
                 <div class="flex justify-between px-4 py-4">
                     <div class="flex flex-wrap -space-x-2">
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
                             <div
-                                class="is-initial rounded-full bg-primary text-xs+ uppercase text-white ring ring-white dark:bg-accent dark:ring-navy-700">
+                                class="is-initial rounded-full bg-primary text-xs+ uppercase text-white ring ring-white">
                                 SM
                             </div>
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
                     </div>
                     <div class="-mr-1.5 flex">
                         <button x-tooltip.secondary="'Like'"
-                            class="btn h-7 w-7 rounded-full p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                            class="btn h-7 w-7 rounded-full p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -801,7 +801,7 @@
                             </svg>
                         </button>
                         <button x-tooltip="'Save'"
-                            class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -810,18 +810,18 @@
                         </button>
                     </div>
                 </div>
-                <div class="border-t border-slate-200 px-2 py-1.5 dark:border-navy-500">
+                <div class="border-t border-slate-200 px-2 py-1.5">
                     <div class="relative flex w-full">
                         <input
                             class="form-input peer h-8 w-full bg-transparent px-8 py-2 text-xs+ placeholder:text-slate-400/70"
                             placeholder="Write the commnet..." type="text" />
                         <div
-                            class="pointer-events-none absolute flex h-full w-8 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent">
+                            class="pointer-events-none absolute flex h-full w-8 items-center justify-center text-slate-400 peer-focus:text-primary">
                             <i class="fa fa-paper-plane"></i>
                         </div>
                         <div class="absolute right-0 z-10 flex h-8 w-8 items-center justify-center">
                             <button
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:hover:text-accent-light dark:focus:bg-navy-300/20 dark:focus:text-accent-light dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                                 <i class="fa-solid fa-microphone"></i>
                             </button>
                         </div>
@@ -845,28 +845,28 @@
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div class="popper-box">
                                     <div
-                                        class="flex w-48 flex-col items-center rounded-md border border-slate-150 bg-white p-3 text-center dark:border-navy-600 dark:bg-navy-700">
+                                        class="flex w-48 flex-col items-center rounded-md border border-slate-150 bg-white p-3 text-center">
                                         <div class="avatar h-16 w-16">
                                             <img class="rounded-full " src="{{ asset('images/200x200.png') }}"
                                                 alt="avatar" />
                                         </div>
-                                        <p class="mt-2 font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                                        <p class="mt-2 font-medium tracking-wide text-slate-700">
                                             Henry Curtis
                                         </p>
                                         <a href="#"
-                                            class="font-inter text-xs tracking-wide hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@Henrycurtis
+                                            class="font-inter text-xs tracking-wide hover:text-primary focus:text-primary">@Henrycurtis
                                         </a>
                                         <button
-                                            class="btn mt-4 h-6 rounded-full bg-primary px-4 text-xs font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                            class="btn mt-4 h-6 rounded-full bg-primary px-4 text-xs font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                                             Follow
                                         </button>
                                     </div>
                                     <div class="h-4 w-4" data-popper-arrow>
                                         <svg viewBox="0 0 16 9" xmlns="http://www.w3.org/2000/svg"
                                             class="absolute h-4 w-4" fill="currentColor">
-                                            <path class="text-slate-150 dark:text-navy-600"
+                                            <path class="text-slate-150"
                                                 d="M1.5 8.357s-.48.624 2.754-4.779C5.583 1.35 6.796.01 8 0c1.204-.009 2.417 1.33 3.76 3.578 3.253 5.43 2.74 4.78 2.74 4.78h-13z" />
-                                            <path class="text-white dark:text-navy-700"
+                                            <path class="text-white"
                                                 d="M0 9s1.796-.017 4.67-4.648C5.853 2.442 6.93 1.293 8 1.286c1.07-.008 2.147 1.14 3.343 3.066C14.233 9.006 15.999 9 15.999 9H0z" />
                                         </svg>
                                     </div>
@@ -874,10 +874,10 @@
                             </div>
                         </div>
                         <div>
-                            <p class="text-slate-700 line-clamp-1 dark:text-navy-100">
+                            <p class="text-slate-700 line-clamp-1">
                                 Henry Curtis
                             </p>
-                            <p class="text-xs text-slate-400 dark:text-navy-300">
+                            <p class="text-xs text-slate-400">
                                 8 days ago
                             </p>
                         </div>
@@ -885,7 +885,7 @@
                     <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                         class="inline-flex">
                         <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                            class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -895,28 +895,28 @@
 
                         <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                             <div
-                                class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                 <ul>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                             Action</a>
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                             else</a>
                                     </li>
                                 </ul>
-                                <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                <div class="my-1 h-px bg-slate-150"></div>
                                 <ul>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                             Link</a>
                                     </li>
                                 </ul>
@@ -928,7 +928,7 @@
                     alt="image" />
                 <div class="grow px-4 pt-4">
                     <a href="#"
-                        class="text-base font-medium text-slate-700 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">10
+                        class="text-base font-medium text-slate-700 hover:text-primary focus:text-primary">10
                         Meetups About Food You Should Attend</a>
                     <p class="mt-2 line-clamp-3">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -941,7 +941,7 @@
                             Food
                         </a>
                         <a href="#"
-                            class="tag rounded-full bg-primary/10 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                            class="tag rounded-full bg-primary/10 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                             Health
                         </a>
                         <a href="#"
@@ -953,30 +953,30 @@
                 <div class="flex justify-between px-4 py-4">
                     <div class="flex flex-wrap -space-x-2">
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
                             <div
-                                class="is-initial rounded-full bg-error text-xs+ uppercase text-white ring ring-white dark:ring-navy-700">
+                                class="is-initial rounded-full bg-error text-xs+ uppercase text-white ring ring-white">
                                 ZI
                             </div>
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
                     </div>
                     <div class="-mr-1.5 flex">
                         <button x-tooltip.secondary="'Like'"
-                            class="btn h-7 w-7 rounded-full p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                            class="btn h-7 w-7 rounded-full p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -984,7 +984,7 @@
                             </svg>
                         </button>
                         <button x-tooltip="'Save'"
-                            class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -993,18 +993,18 @@
                         </button>
                     </div>
                 </div>
-                <div class="border-t border-slate-200 px-2 py-1.5 dark:border-navy-500">
+                <div class="border-t border-slate-200 px-2 py-1.5">
                     <div class="relative flex w-full">
                         <input
                             class="form-input peer h-8 w-full bg-transparent px-8 py-2 text-xs+ placeholder:text-slate-400/70"
                             placeholder="Write the commnet..." type="text" />
                         <div
-                            class="pointer-events-none absolute flex h-full w-8 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent">
+                            class="pointer-events-none absolute flex h-full w-8 items-center justify-center text-slate-400 peer-focus:text-primary">
                             <i class="fa fa-paper-plane"></i>
                         </div>
                         <div class="absolute right-0 z-10 flex h-8 w-8 items-center justify-center">
                             <button
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:hover:text-accent-light dark:focus:bg-navy-300/20 dark:focus:text-accent-light dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                                 <i class="fa-solid fa-microphone"></i>
                             </button>
                         </div>
@@ -1028,28 +1028,28 @@
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div class="popper-box">
                                     <div
-                                        class="flex w-48 flex-col items-center rounded-md border border-slate-150 bg-white p-3 text-center dark:border-navy-600 dark:bg-navy-700">
+                                        class="flex w-48 flex-col items-center rounded-md border border-slate-150 bg-white p-3 text-center">
                                         <div class="avatar h-16 w-16">
                                             <img class="rounded-full " src="{{ asset('images/200x200.png') }}"
                                                 alt="avatar" />
                                         </div>
-                                        <p class="mt-2 font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                                        <p class="mt-2 font-medium tracking-wide text-slate-700">
                                             Samantha Shelton
                                         </p>
                                         <a href="#"
-                                            class="font-inter text-xs tracking-wide hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@Samanthashelton
+                                            class="font-inter text-xs tracking-wide hover:text-primary focus:text-primary">@Samanthashelton
                                         </a>
                                         <button
-                                            class="btn mt-4 h-6 rounded-full bg-primary px-4 text-xs font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                            class="btn mt-4 h-6 rounded-full bg-primary px-4 text-xs font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                                             Follow
                                         </button>
                                     </div>
                                     <div class="h-4 w-4" data-popper-arrow>
                                         <svg viewBox="0 0 16 9" xmlns="http://www.w3.org/2000/svg"
                                             class="absolute h-4 w-4" fill="currentColor">
-                                            <path class="text-slate-150 dark:text-navy-600"
+                                            <path class="text-slate-150"
                                                 d="M1.5 8.357s-.48.624 2.754-4.779C5.583 1.35 6.796.01 8 0c1.204-.009 2.417 1.33 3.76 3.578 3.253 5.43 2.74 4.78 2.74 4.78h-13z" />
-                                            <path class="text-white dark:text-navy-700"
+                                            <path class="text-white"
                                                 d="M0 9s1.796-.017 4.67-4.648C5.853 2.442 6.93 1.293 8 1.286c1.07-.008 2.147 1.14 3.343 3.066C14.233 9.006 15.999 9 15.999 9H0z" />
                                         </svg>
                                     </div>
@@ -1057,10 +1057,10 @@
                             </div>
                         </div>
                         <div>
-                            <p class="text-slate-700 line-clamp-1 dark:text-navy-100">
+                            <p class="text-slate-700 line-clamp-1">
                                 Samantha Shelton
                             </p>
-                            <p class="text-xs text-slate-400 dark:text-navy-300">
+                            <p class="text-xs text-slate-400">
                                 12 days ago
                             </p>
                         </div>
@@ -1068,7 +1068,7 @@
                     <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                         class="inline-flex">
                         <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                            class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -1078,28 +1078,28 @@
 
                         <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                             <div
-                                class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                 <ul>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                             Action</a>
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                             else</a>
                                     </li>
                                 </ul>
-                                <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                <div class="my-1 h-px bg-slate-150"></div>
                                 <ul>
                                     <li>
                                         <a href="#"
-                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                            class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                             Link</a>
                                     </li>
                                 </ul>
@@ -1111,7 +1111,7 @@
                     alt="image" />
                 <div class="grow px-4 pt-4">
                     <a href="#"
-                        class="text-base font-medium text-slate-700 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">25
+                        class="text-base font-medium text-slate-700 hover:text-primary focus:text-primary">25
                         Surprising Facts About Chair</a>
                     <p class="mt-2 line-clamp-3">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -1125,7 +1125,7 @@
                             Chair
                         </a>
                         <a href="#"
-                            class="tag rounded-full bg-secondary/10 text-secondary hover:bg-secondary/20 focus:bg-primary/20 active:bg-secondary/25 dark:bg-secondary-light/10 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                            class="tag rounded-full bg-secondary/10 text-secondary hover:bg-secondary/20 focus:bg-primary/20 active:bg-secondary/25">
                             Facts
                         </a>
                         <a href="#"
@@ -1137,30 +1137,30 @@
                 <div class="flex justify-between px-4 py-4">
                     <div class="flex flex-wrap -space-x-2">
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
                             <div
-                                class="is-initial rounded-full bg-warning text-xs+ uppercase text-white ring ring-white dark:ring-navy-700">
+                                class="is-initial rounded-full bg-warning text-xs+ uppercase text-white ring ring-white">
                                 Yt
                             </div>
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
 
                         <div class="avatar h-7 w-7 hover:z-10">
-                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                            <img class="rounded-full ring ring-white"
                                 src="{{ asset('images/200x200.png') }}" alt="avatar" />
                         </div>
                     </div>
                     <div class="-mr-1.5 flex">
                         <button x-tooltip.secondary="'Like'"
-                            class="btn h-7 w-7 rounded-full p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25 dark:text-secondary-light dark:hover:bg-secondary-light/20 dark:focus:bg-secondary-light/20 dark:active:bg-secondary-light/25">
+                            class="btn h-7 w-7 rounded-full p-0 text-secondary hover:bg-secondary/20 focus:bg-secondary/20 active:bg-secondary/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -1168,7 +1168,7 @@
                             </svg>
                         </button>
                         <button x-tooltip="'Save'"
-                            class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                            class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -1177,18 +1177,18 @@
                         </button>
                     </div>
                 </div>
-                <div class="border-t border-slate-200 px-2 py-1.5 dark:border-navy-500">
+                <div class="border-t border-slate-200 px-2 py-1.5">
                     <div class="relative flex w-full">
                         <input
                             class="form-input peer h-8 w-full bg-transparent px-8 py-2 text-xs+ placeholder:text-slate-400/70"
                             placeholder="Write the commnet..." type="text" />
                         <div
-                            class="pointer-events-none absolute flex h-full w-8 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent">
+                            class="pointer-events-none absolute flex h-full w-8 items-center justify-center text-slate-400 peer-focus:text-primary">
                             <i class="fa fa-paper-plane"></i>
                         </div>
                         <div class="absolute right-0 z-10 flex h-8 w-8 items-center justify-center">
                             <button
-                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:hover:text-accent-light dark:focus:bg-navy-300/20 dark:focus:text-accent-light dark:active:bg-navy-300/25">
+                                class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 hover:text-primary focus:bg-slate-300/20 focus:text-primary active:bg-slate-300/25">
                                 <i class="fa-solid fa-microphone"></i>
                             </button>
                         </div>

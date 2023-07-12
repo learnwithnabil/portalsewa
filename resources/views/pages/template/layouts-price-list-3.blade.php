@@ -2,29 +2,29 @@
     <main class="main-content w-full place-items-center px-[var(--margin-x)] pb-12">
         <div class="py-5 text-center lg:py-6">
             <p class="text-sm uppercase">Are you new here?</p>
-            <h3 class="mt-1 text-xl font-semibold text-slate-600 dark:text-navy-100">
+            <h3 class="mt-1 text-xl font-semibold text-slate-600">
                 Welcome. Where do you like to Start?
             </h3>
         </div>
         <div class="grid max-w-4xl grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5 lg:gap-6">
             <div class="rounded-xl bg-gradient-to-br from-pink-500 to-rose-500 p-1">
-                <div class="rounded-xl bg-slate-50 p-4 text-center dark:bg-navy-900 sm:p-5">
+                <div class="rounded-xl bg-slate-50 p-4 text-center sm:p-5">
                     <div class="mt-8">
                         <svg xmlns="http://www.w3.org/2000/svg"
-                            class="inline h-16 w-16 text-secondary dark:text-secondary-light" fill="none"
+                            class="inline h-16 w-16 text-secondary" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
                                 d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                         </svg>
                     </div>
                     <div class="mt-5">
-                        <h4 class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                        <h4 class="text-xl font-semibold text-slate-700">
                             Personal
                         </h4>
                         <p>the starter choise</p>
                     </div>
                     <div class="mt-5">
-                        <span class="text-4xl tracking-tight text-secondary dark:text-secondary-light">$5</span>/month
+                        <span class="text-4xl tracking-tight text-secondary">$5</span>/month
                     </div>
                     <div class="mt-8 space-y-4 text-left">
                         <div class="flex items-start space-x-3">
@@ -114,28 +114,28 @@
                 </div>
             </div>
             <div class="rounded-xl bg-gradient-to-br from-purple-500 to-indigo-600 p-1">
-                <div class="relative rounded-xl bg-slate-50 p-4 text-center dark:bg-navy-900 sm:p-5">
+                <div class="relative rounded-xl bg-slate-50 p-4 text-center sm:p-5">
                     <div class="absolute top-0 right-0 p-3">
-                        <div class="badge rounded-full bg-info/10 text-info dark:bg-info/15">
+                        <div class="badge rounded-full bg-info/10 text-info">
                             Recommended
                         </div>
                     </div>
                     <div class="mt-8">
                         <svg xmlns="http://www.w3.org/2000/svg"
-                            class="inline h-16 w-16 text-primary dark:text-accent-light" fill="none"
+                            class="inline h-16 w-16 text-primary" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
                                 d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                         </svg>
                     </div>
                     <div class="mt-5">
-                        <h4 class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                        <h4 class="text-xl font-semibold text-slate-700">
                             Team
                         </h4>
                         <p>the starter choise</p>
                     </div>
                     <div class="mt-5">
-                        <span class="text-4xl tracking-tight text-primary dark:text-accent-light">$15</span>/month
+                        <span class="text-4xl tracking-tight text-primary">$15</span>/month
                     </div>
                     <div class="mt-8 space-y-4 text-left">
                         <div class="flex items-start space-x-3">
@@ -218,14 +218,14 @@
                     </div>
                     <div class="mt-8">
                         <button
-                            class="btn rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                            class="btn rounded-full bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                             Choose Plan
                         </button>
                     </div>
                 </div>
             </div>
             <div class="rounded-xl bg-gradient-to-br from-amber-400 to-orange-600 p-1">
-                <div class="rounded-xl bg-slate-50 p-4 text-center dark:bg-navy-900 sm:p-5">
+                <div class="rounded-xl bg-slate-50 p-4 text-center sm:p-5">
                     <div class="mt-8">
                         <svg xmlns="http://www.w3.org/2000/svg" class="inline h-16 w-16 text-warning" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
@@ -234,7 +234,7 @@
                         </svg>
                     </div>
                     <div class="mt-5">
-                        <h4 class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                        <h4 class="text-xl font-semibold text-slate-700">
                             Enterprice
                         </h4>
                         <p>the starter choise</p>

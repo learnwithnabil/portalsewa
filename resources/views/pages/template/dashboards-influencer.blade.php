@@ -7,7 +7,7 @@
                     <div>
                         <p class="text-xs+ uppercase">New Followers</p>
                         <div class="mt-8 flex items-baseline space-x-1">
-                            <p class="text-2xl font-semibold text-slate-700 dark:text-navy-100">
+                            <p class="text-2xl font-semibold text-slate-700">
                                 1.3k
                             </p>
                             <p class="text-xs text-success">+21%</p>
@@ -24,7 +24,7 @@
                     <div>
                         <p class="text-xs+ uppercase">Views</p>
                         <div class="mt-8 flex items-baseline space-x-1">
-                            <p class="text-2xl font-semibold text-slate-700 dark:text-navy-100">
+                            <p class="text-2xl font-semibold text-slate-700">
                                 30.6m
                             </p>
                             <p class="text-xs text-success">+4%</p>
@@ -41,7 +41,7 @@
                     <div>
                         <p class="text-xs+ uppercase">Likes</p>
                         <div class="mt-8 flex items-baseline space-x-1">
-                            <p class="text-2xl font-semibold text-slate-700 dark:text-navy-100">
+                            <p class="text-2xl font-semibold text-slate-700">
                                 4.3m
                             </p>
                             <p class="text-xs text-success">+8%</p>
@@ -58,7 +58,7 @@
                     <div>
                         <p class="text-xs+ uppercase">Reports</p>
                         <div class="mt-8 flex items-baseline space-x-1">
-                            <p class="text-2xl font-semibold text-slate-700 dark:text-navy-100">
+                            <p class="text-2xl font-semibold text-slate-700">
                                 11.6k
                             </p>
                             <p class="text-xs text-error">-2.3%</p>
@@ -75,12 +75,12 @@
             <div class="grid grid-cols-1 gap-4 sm:gap-5 lg:grid-cols-2 lg:gap-6">
                 <div>
                     <div class="flex h-8 items-center justify-between">
-                        <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                        <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1">
                             Activity
                         </h2>
 
                         <select
-                            class="form-select h-8 rounded-full border border-slate-300 bg-slate-50 px-2.5 pr-9 text-xs+ hover:border-slate-400 focus:border-primary dark:border-navy-600 dark:bg-navy-900 dark:hover:border-navy-400 dark:focus:border-accent">
+                            class="form-select h-8 rounded-full border border-slate-300 bg-slate-50 px-2.5 pr-9 text-xs+ hover:border-slate-400 focus:border-primary">
                             <option>05 - 12 May</option>
                             <option>12 - 19 May</option>
                             <option>19 - 26 May</option>
@@ -98,12 +98,12 @@
                 </div>
                 <div>
                     <div class="flex h-8 items-center justify-between">
-                        <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                        <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1">
                             Top Perfrormers
                         </h2>
 
                         <a href="#"
-                            class="border-b border-dotted border-current pb-0.5 text-xs+ font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">
+                            class="border-b border-dotted border-current pb-0.5 text-xs+ font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">
                             View All
                         </a>
                     </div>
@@ -117,18 +117,18 @@
                                             <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                                 alt="avatar" />
                                         </div>
-                                        <h3 class="font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                        <h3 class="font-medium text-slate-700 line-clamp-1">
                                             Konnor Guzman
                                         </h3>
                                     </div>
                                 </td>
                                 <td class="whitespace-nowrap px-2 pt-4">
                                     <a href="#"
-                                        class="font-inter tracking-wide text-slate-400 hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@konnor721
+                                        class="font-inter tracking-wide text-slate-400 hover:text-primary focus:text-primary">@konnor721
                                     </a>
                                 </td>
                                 <td class="whitespace-nowrap pt-4">
-                                    <p class="text-right font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="text-right font-medium text-slate-700">
                                         25%
                                     </p>
                                 </td>
@@ -140,18 +140,18 @@
                                             <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                                 alt="avatar" />
                                         </div>
-                                        <h3 class="font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                        <h3 class="font-medium text-slate-700 line-clamp-1">
                                             Alfredo Elliott
                                         </h3>
                                     </div>
                                 </td>
                                 <td class="whitespace-nowrap px-2 pt-4">
                                     <a href="#"
-                                        class="font-inter tracking-wide text-slate-400 hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@Alfredoe
+                                        class="font-inter tracking-wide text-slate-400 hover:text-primary focus:text-primary">@Alfredoe
                                     </a>
                                 </td>
                                 <td class="whitespace-nowrap pt-4">
-                                    <p class="text-right font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="text-right font-medium text-slate-700">
                                         36%
                                     </p>
                                 </td>
@@ -163,18 +163,18 @@
                                             <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                                 alt="avatar" />
                                         </div>
-                                        <h3 class="font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                        <h3 class="font-medium text-slate-700 line-clamp-1">
                                             Henry Curtis
                                         </h3>
                                     </div>
                                 </td>
                                 <td class="whitespace-nowrap px-2 pt-4">
                                     <a href="#"
-                                        class="font-inter tracking-wide text-slate-400 hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@Henry2001
+                                        class="font-inter tracking-wide text-slate-400 hover:text-primary focus:text-primary">@Henry2001
                                     </a>
                                 </td>
                                 <td class="whitespace-nowrap pt-4">
-                                    <p class="text-right font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="text-right font-medium text-slate-700">
                                         65%
                                     </p>
                                 </td>
@@ -186,18 +186,18 @@
                                             <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                                 alt="avatar" />
                                         </div>
-                                        <h3 class="font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                        <h3 class="font-medium text-slate-700 line-clamp-1">
                                             Katrina West
                                         </h3>
                                     </div>
                                 </td>
                                 <td class="whitespace-nowrap px-2 pt-4">
                                     <a href="#"
-                                        class="font-inter tracking-wide text-slate-400 hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@Katrinlady
+                                        class="font-inter tracking-wide text-slate-400 hover:text-primary focus:text-primary">@Katrinlady
                                     </a>
                                 </td>
                                 <td class="whitespace-nowrap pt-4">
-                                    <p class="text-right font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="text-right font-medium text-slate-700">
                                         69%
                                     </p>
                                 </td>
@@ -209,18 +209,18 @@
                                             <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                                 alt="avatar" />
                                         </div>
-                                        <h3 class="font-medium text-slate-700 line-clamp-1 dark:text-navy-100">
+                                        <h3 class="font-medium text-slate-700 line-clamp-1">
                                             Lance Tucker
                                         </h3>
                                     </div>
                                 </td>
                                 <td class="whitespace-nowrap px-2 pt-4">
                                     <a href="#"
-                                        class="font-inter tracking-wide text-slate-400 hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@Lanc11
+                                        class="font-inter tracking-wide text-slate-400 hover:text-primary focus:text-primary">@Lanc11
                                     </a>
                                 </td>
                                 <td class="whitespace-nowrap pt-4">
-                                    <p class="text-right font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="text-right font-medium text-slate-700">
                                         86%
                                     </p>
                                 </td>
@@ -229,10 +229,10 @@
                     </table>
                 </div>
             </div>
-            <div class="flex flex-col rounded-xl bg-info/10 py-5 dark:bg-navy-800 lg:flex-row">
+            <div class="flex flex-col rounded-xl bg-info/10 py-5 lg:flex-row">
                 <div class="flex flex-col px-4 sm:px-5 lg:w-48 lg:shrink-0 lg:py-3">
                     <h3
-                        class="text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-lg">
+                        class="text-base font-medium tracking-wide text-slate-700 line-clamp-1 lg:text-lg">
                         Channels
                     </h3>
                     <p class="mt-3 grow">
@@ -246,7 +246,7 @@
                                     d="M7 11l5-5m0 0l5 5m-5-5v12" />
                             </svg>
                         </div>
-                        <p class="text-base font-medium text-slate-700 dark:text-navy-100">
+                        <p class="text-base font-medium text-slate-700">
                             3.3%
                         </p>
                     </div>
@@ -256,17 +256,17 @@
                         <img class="z-10 h-10 w-10" src="{{ asset('images/100x100.png') }}" alt="flag" />
 
                         <div class="card -mt-5 w-full rounded-2xl px-3 py-5 text-center">
-                            <p class="mt-3 text-base font-medium text-slate-700 dark:text-navy-100">
+                            <p class="mt-3 text-base font-medium text-slate-700">
                                 Instagram
                             </p>
                             <a href="#"
-                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@theapp721
+                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary">@theapp721
                             </a>
                             <div class="mt-6 flex justify-center space-x-1 font-inter">
-                                <p class="text-4xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-4xl font-medium text-slate-700">
                                     +2
                                 </p>
-                                <p class="mt-1 font-medium text-slate-700 dark:text-navy-100">
+                                <p class="mt-1 font-medium text-slate-700">
                                     %
                                 </p>
                             </div>
@@ -276,17 +276,17 @@
                         <img class="z-10 h-10 w-10" src="{{ asset('images/100x100.png') }}" alt="flag" />
 
                         <div class="card -mt-5 w-full rounded-2xl px-3 py-5 text-center">
-                            <p class="mt-3 text-base font-medium text-slate-700 dark:text-navy-100">
+                            <p class="mt-3 text-base font-medium text-slate-700">
                                 Facebook
                             </p>
                             <a href="#"
-                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@theapp721
+                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary">@theapp721
                             </a>
                             <div class="mt-6 flex justify-center space-x-1 font-inter">
-                                <p class="text-4xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-4xl font-medium text-slate-700">
                                     +3
                                 </p>
-                                <p class="mt-1 font-medium text-slate-700 dark:text-navy-100">
+                                <p class="mt-1 font-medium text-slate-700">
                                     %
                                 </p>
                             </div>
@@ -296,17 +296,17 @@
                         <img class="z-10 h-10 w-10" src="{{ asset('images/100x100.png') }}" alt="flag" />
 
                         <div class="card -mt-5 w-full rounded-2xl px-3 py-5 text-center">
-                            <p class="mt-3 text-base font-medium text-slate-700 dark:text-navy-100">
+                            <p class="mt-3 text-base font-medium text-slate-700">
                                 Tik Tok
                             </p>
                             <a href="#"
-                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@theapptik
+                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary">@theapptik
                             </a>
                             <div class="mt-6 flex justify-center space-x-1 font-inter">
-                                <p class="text-4xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-4xl font-medium text-slate-700">
                                     +1
                                 </p>
-                                <p class="mt-1 font-medium text-slate-700 dark:text-navy-100">
+                                <p class="mt-1 font-medium text-slate-700">
                                     %
                                 </p>
                             </div>
@@ -316,17 +316,17 @@
                         <img class="z-10 h-10 w-10" src="{{ asset('images/100x100.png') }}" alt="flag" />
 
                         <div class="card -mt-5 w-full rounded-2xl px-3 py-5 text-center">
-                            <p class="mt-3 text-base font-medium text-slate-700 dark:text-navy-100">
+                            <p class="mt-3 text-base font-medium text-slate-700">
                                 Twitter
                             </p>
                             <a href="#"
-                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@theapporg
+                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary">@theapporg
                             </a>
                             <div class="mt-6 flex justify-center space-x-1 font-inter">
-                                <p class="text-4xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-4xl font-medium text-slate-700">
                                     +1
                                 </p>
-                                <p class="mt-1 font-medium text-slate-700 dark:text-navy-100">
+                                <p class="mt-1 font-medium text-slate-700">
                                     %
                                 </p>
                             </div>
@@ -336,17 +336,17 @@
                         <img class="z-10 h-10 w-10" src="{{ asset('images/100x100.png') }}" alt="flag" />
 
                         <div class="card -mt-5 w-full rounded-2xl px-3 py-5 text-center">
-                            <p class="mt-3 text-base font-medium text-slate-700 dark:text-navy-100">
+                            <p class="mt-3 text-base font-medium text-slate-700">
                                 Pinterest
                             </p>
                             <a href="#"
-                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@theapporg
+                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary">@theapporg
                             </a>
                             <div class="mt-6 flex justify-center space-x-1 font-inter">
-                                <p class="text-4xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-4xl font-medium text-slate-700">
                                     +2
                                 </p>
-                                <p class="mt-1 font-medium text-slate-700 dark:text-navy-100">
+                                <p class="mt-1 font-medium text-slate-700">
                                     %
                                 </p>
                             </div>
@@ -356,17 +356,17 @@
                         <img class="z-10 h-10 w-10" src="{{ asset('images/100x100.png') }}" alt="flag" />
 
                         <div class="card -mt-5 w-full rounded-2xl px-3 py-5 text-center">
-                            <p class="mt-3 text-base font-medium text-slate-700 dark:text-navy-100">
+                            <p class="mt-3 text-base font-medium text-slate-700">
                                 Discord
                             </p>
                             <a href="#"
-                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@theapp2
+                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary">@theapp2
                             </a>
                             <div class="mt-6 flex justify-center space-x-1 font-inter">
-                                <p class="text-4xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-4xl font-medium text-slate-700">
                                     +1
                                 </p>
-                                <p class="mt-1 font-medium text-slate-700 dark:text-navy-100">
+                                <p class="mt-1 font-medium text-slate-700">
                                     %
                                 </p>
                             </div>
@@ -376,17 +376,17 @@
                         <img class="z-10 h-10 w-10" src="{{ asset('images/100x100.png') }}" alt="flag" />
 
                         <div class="card -mt-5 w-full rounded-2xl px-3 py-5 text-center">
-                            <p class="mt-3 text-base font-medium text-slate-700 dark:text-navy-100">
+                            <p class="mt-3 text-base font-medium text-slate-700">
                                 Youtube
                             </p>
                             <a href="#"
-                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@theapp
+                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary">@theapp
                             </a>
                             <div class="mt-6 flex justify-center space-x-1 font-inter">
-                                <p class="text-4xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-4xl font-medium text-slate-700">
                                     +2
                                 </p>
-                                <p class="mt-1 font-medium text-slate-700 dark:text-navy-100">
+                                <p class="mt-1 font-medium text-slate-700">
                                     %
                                 </p>
                             </div>
@@ -396,17 +396,17 @@
                         <img class="z-10 h-10 w-10" src="{{ asset('images/100x100.png') }}" alt="flag" />
 
                         <div class="card -mt-5 w-full rounded-2xl px-3 py-5 text-center">
-                            <p class="mt-3 text-base font-medium text-slate-700 dark:text-navy-100">
+                            <p class="mt-3 text-base font-medium text-slate-700">
                                 Tumblr
                             </p>
                             <a href="#"
-                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@theapp
+                                class="mt-1 font-inter text-xs+ tracking-wide text-slate-400 hover:text-primary focus:text-primary">@theapp
                             </a>
                             <div class="mt-6 flex justify-center space-x-1 font-inter">
-                                <p class="text-4xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="text-4xl font-medium text-slate-700">
                                     +1
                                 </p>
-                                <p class="mt-1 font-medium text-slate-700 dark:text-navy-100">
+                                <p class="mt-1 font-medium text-slate-700">
                                     %
                                 </p>
                             </div>

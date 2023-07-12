@@ -1,13 +1,13 @@
 <x-app-layout title="Invoice 2" is-header-blur="true">
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center justify-between py-5 lg:py-6">
-            <h2 class="text-xl font-medium text-slate-700 line-clamp-1 dark:text-navy-50 lg:text-2xl">
+            <h2 class="text-xl font-medium text-slate-700 line-clamp-1 lg:text-2xl">
                 Invoice
             </h2>
 
             <div class="flex">
                 <button @click="window.print()"
-                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:h-9 sm:w-9">
+                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:h-9 sm:w-9">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor" stroke-width="1.5">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -15,7 +15,7 @@
                     </svg>
                 </button>
                 <button
-                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25 sm:h-9 sm:w-9">
+                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 sm:h-9 sm:w-9">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -30,7 +30,7 @@
             <div class="card px-5 py-12 sm:px-18">
                 <div>
                     <div class="text-center sm:text-left">
-                        <h2 class="text-2xl font-semibold uppercase text-primary dark:text-accent-light">
+                        <h2 class="text-2xl font-semibold uppercase text-primary">
                             lineone
                         </h2>
                         <div class="space-y-1 pt-2">
@@ -40,10 +40,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="my-7 h-px bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-7 h-px bg-slate-200"></div>
                 <div class="flex flex-col justify-between sm:flex-row">
                     <div class="text-center sm:text-left">
-                        <h2 class="text-2xl font-semibold uppercase text-slate-600 dark:text-navy-100">
+                        <h2 class="text-2xl font-semibold uppercase text-slate-600">
                             invoice
                         </h2>
                         <div class="space-y-1 pt-2">
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                     <div class="mt-4 text-center sm:mt-0 sm:text-right">
-                        <p class="text-lg font-medium text-slate-600 dark:text-navy-100">
+                        <p class="text-lg font-medium text-slate-600">
                             Invoiced To:
                         </p>
                         <div class="space-y-1 pt-2">
@@ -65,29 +65,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="my-7 h-px bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-7 h-px bg-slate-200"></div>
                 <div class="is-scrollbar-hidden min-w-full overflow-x-auto">
                     <table class="is-zebra w-full text-left">
                         <thead>
                             <tr>
                                 <th
-                                    class="whitespace-nowrap rounded-l-lg bg-slate-200 px-3 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                    class="whitespace-nowrap rounded-l-lg bg-slate-200 px-3 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                     #
                                 </th>
                                 <th
-                                    class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                    class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                     DESCRIPTION
                                 </th>
                                 <th
-                                    class="whitespace-nowrap bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                    class="whitespace-nowrap bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 lg:px-5">
                                     HRS
                                 </th>
                                 <th
-                                    class="whitespace-nowrap bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                    class="whitespace-nowrap bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 lg:px-5">
                                     RATE
                                 </th>
                                 <th
-                                    class="whitespace-nowrap rounded-r-lg bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                    class="whitespace-nowrap rounded-r-lg bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 lg:px-5">
                                     SUBTOTAL
                                 </th>
                             </tr>
@@ -99,7 +99,7 @@
                                 </td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                     <div>
-                                        <p class="font-medium text-slate-600 dark:text-navy-100">
+                                        <p class="font-medium text-slate-600">
                                             Template Design
                                         </p>
                                         <p class="text-xs+">
@@ -125,7 +125,7 @@
                                 </td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                     <div>
-                                        <p class="font-medium text-slate-600 dark:text-navy-100">
+                                        <p class="font-medium text-slate-600">
                                             Mobile App
                                         </p>
                                         <p class="text-xs+">
@@ -151,7 +151,7 @@
                                 </td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                     <div>
-                                        <p class="font-medium text-slate-600 dark:text-navy-100">
+                                        <p class="font-medium text-slate-600">
                                             CRM App
                                         </p>
                                         <p class="text-xs+">
@@ -177,7 +177,7 @@
                                 </td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                     <div>
-                                        <p class="font-medium text-slate-600 dark:text-navy-100">
+                                        <p class="font-medium text-slate-600">
                                             CMS App
                                         </p>
                                         <p class="text-xs+">
@@ -202,7 +202,7 @@
                                 </td>
                                 <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                     <div>
-                                        <p class="font-medium text-slate-600 dark:text-navy-100">
+                                        <p class="font-medium text-slate-600">
                                             UI/UX Design
                                         </p>
                                         <p class="text-xs+">
@@ -225,10 +225,10 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="my-7 h-px bg-slate-200 dark:bg-navy-500"></div>
+                <div class="my-7 h-px bg-slate-200"></div>
                 <div class="flex flex-col justify-between sm:flex-row">
                     <div class="text-center sm:text-left">
-                        <p class="text-lg font-medium text-slate-600 dark:text-navy-100">
+                        <p class="text-lg font-medium text-slate-600">
                             Payment Method:
                         </p>
                         <div class="space-y-1 pt-2">
@@ -236,14 +236,14 @@
                         </div>
                     </div>
                     <div class="mt-4 text-center sm:mt-0 sm:text-right">
-                        <p class="text-lg font-medium text-slate-600 dark:text-navy-100">
+                        <p class="text-lg font-medium text-slate-600">
                             Total:
                         </p>
                         <div class="space-y-1 pt-2">
                             <p>Summary : <span class="font-medium">$7320</span></p>
                             <p>Discount : <span class="font-medium">$20</span></p>
                             <p>Tax : <span class="font-medium">20%</span></p>
-                            <p class="text-lg text-primary dark:text-accent-light">
+                            <p class="text-lg text-primary">
                                 Total: <span class="font-medium">8780</span>
                             </p>
                         </div>

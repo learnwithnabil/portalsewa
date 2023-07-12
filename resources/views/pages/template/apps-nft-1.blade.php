@@ -4,42 +4,42 @@
         <div class="grid grid-cols-12 gap-4 sm:gap-5 lg:gap-6">
             <div class="col-span-12 lg:col-span-8 xl:col-span-9">
                 <div class="flex items-center justify-between py-5">
-                    <h3 class="text-xl font-medium text-slate-800 dark:text-navy-50">
+                    <h3 class="text-xl font-medium text-slate-800">
                         Trending NFT's
                     </h3>
                     <a href="#"
-                        class="border-b border-dotted border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                        class="border-b border-dotted border-current pb-0.5 font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                         All</a>
                 </div>
                 <div class="is-scrollbar-hidden overflow-x-auto">
                     <div class="flex w-max space-x-3">
                         <a href="#"
-                            class="tag h-7 rounded-full bg-primary text-xs+ text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                            class="tag h-7 rounded-full bg-primary text-xs+ text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                             🔥 All
                         </a>
 
                         <a href="#"
-                            class="tag h-7 rounded-full bg-slate-150 text-xs+ text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-700 dark:text-navy-100 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                            class="tag h-7 rounded-full bg-slate-150 text-xs+ text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                             🎨 Art
                         </a>
                         <a href="#"
-                            class="tag h-7 rounded-full bg-slate-150 text-xs+ text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-700 dark:text-navy-100 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                            class="tag h-7 rounded-full bg-slate-150 text-xs+ text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                             🎵 Music
                         </a>
                         <a href="#"
-                            class="tag h-7 rounded-full bg-slate-150 text-xs+ text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-700 dark:text-navy-100 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                            class="tag h-7 rounded-full bg-slate-150 text-xs+ text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                             🎯 Game
                         </a>
                         <a href="#"
-                            class="tag h-7 rounded-full bg-slate-150 text-xs+ text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-700 dark:text-navy-100 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                            class="tag h-7 rounded-full bg-slate-150 text-xs+ text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                             👗 Fashion
                         </a>
                         <a href="#"
-                            class="tag h-7 rounded-full bg-slate-150 text-xs+ text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-700 dark:text-navy-100 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                            class="tag h-7 rounded-full bg-slate-150 text-xs+ text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                             📸 Photograpgy
                         </a>
                         <a href="#"
-                            class="tag h-7 rounded-full bg-slate-150 text-xs+ text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-700 dark:text-navy-100 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+                            class="tag h-7 rounded-full bg-slate-150 text-xs+ text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80">
                             🤽‍♂️ Sport
                         </a>
                     </div>
@@ -62,7 +62,7 @@
                                 </div>
                                 <div>
                                     <div
-                                        class="badge rounded-full bg-white text-slate-800 dark:bg-navy-600 dark:text-navy-50">
+                                        class="badge rounded-full bg-white text-slate-800">
                                         2 days left
                                     </div>
                                 </div>
@@ -70,7 +70,7 @@
                         </div>
                         <div class="mx-2 mt-3">
                             <div class="flex justify-between text-xs">
-                                <a href="#" class="text-slate-400 hover:underline dark:text-navy-300">
+                                <a href="#" class="text-slate-400 hover:underline">
                                     Konnor Guzman
                                 </a>
                                 <p>
@@ -79,19 +79,19 @@
                                 </p>
                             </div>
                             <a href="#"
-                                class="mt-1.5 text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                                class="mt-1.5 text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">
                                 The Runner #265
                             </a>
                             <div class="mt-2 flex items-center justify-between">
-                                <p class="text-xs text-slate-400 dark:text-navy-300">
+                                <p class="text-xs text-slate-400">
                                     Current bid
                                 </p>
                                 <p>
-                                    <span class="font-semibold text-slate-700 dark:text-navy-100">
+                                    <span class="font-semibold text-slate-700">
                                         <i class="fa-brands fa-ethereum text-sm+"></i>
                                         5.01
                                     </span>
-                                    <span class="text-slate-400 dark:text-navy-300">ETH</span>
+                                    <span class="text-slate-400">ETH</span>
                                 </p>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                                 </div>
                                 <div>
                                     <div
-                                        class="badge rounded-full bg-white text-slate-800 dark:bg-navy-600 dark:text-navy-50">
+                                        class="badge rounded-full bg-white text-slate-800">
                                         3 days left
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@
                         </div>
                         <div class="mx-2 mt-3">
                             <div class="flex justify-between text-xs">
-                                <a href="#" class="text-slate-400 hover:underline dark:text-navy-300">
+                                <a href="#" class="text-slate-400 hover:underline">
                                     Katrina West
                                 </a>
                                 <p>
@@ -131,19 +131,19 @@
                                 </p>
                             </div>
                             <a href="#"
-                                class="mt-1.5 text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                                class="mt-1.5 text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">
                                 Punkiber #015
                             </a>
                             <div class="mt-2 flex items-center justify-between">
-                                <p class="text-xs text-slate-400 dark:text-navy-300">
+                                <p class="text-xs text-slate-400">
                                     Current bid
                                 </p>
                                 <p>
-                                    <span class="font-semibold text-slate-700 dark:text-navy-100">
+                                    <span class="font-semibold text-slate-700">
                                         <i class="fa-brands fa-ethereum text-sm+"></i>
                                         9.15
                                     </span>
-                                    <span class="text-slate-400 dark:text-navy-300">ETH</span>
+                                    <span class="text-slate-400">ETH</span>
                                 </p>
                             </div>
                         </div>
@@ -166,7 +166,7 @@
                                 </div>
                                 <div>
                                     <div
-                                        class="badge rounded-full bg-white text-slate-800 dark:bg-navy-600 dark:text-navy-50">
+                                        class="badge rounded-full bg-white text-slate-800">
                                         5 days left
                                     </div>
                                 </div>
@@ -174,7 +174,7 @@
                         </div>
                         <div class="mx-2 mt-3">
                             <div class="flex justify-between text-xs">
-                                <a href="#" class="text-slate-400 hover:underline dark:text-navy-300">
+                                <a href="#" class="text-slate-400 hover:underline">
                                     Travis Fuller
                                 </a>
                                 <p>
@@ -183,19 +183,19 @@
                                 </p>
                             </div>
                             <a href="#"
-                                class="mt-1.5 text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">
+                                class="mt-1.5 text-base font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">
                                 Cube Store #015
                             </a>
                             <div class="mt-2 flex items-center justify-between">
-                                <p class="text-xs text-slate-400 dark:text-navy-300">
+                                <p class="text-xs text-slate-400">
                                     Current bid
                                 </p>
                                 <p>
-                                    <span class="font-semibold text-slate-700 dark:text-navy-100">
+                                    <span class="font-semibold text-slate-700">
                                         <i class="fa-brands fa-ethereum text-sm+"></i>
                                         4.69
                                     </span>
-                                    <span class="text-slate-400 dark:text-navy-300">ETH</span>
+                                    <span class="text-slate-400">ETH</span>
                                 </p>
                             </div>
                         </div>
@@ -203,22 +203,22 @@
                 </div>
                 <div class="mt-4 sm:mt-5 lg:mt-6" x-data="{ activeTab: 'tabRecent' }">
                     <div class="flex items-center justify-between space-x-2">
-                        <h2 class="text-base font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="text-base font-medium tracking-wide text-slate-700">
                             Top NFT's
                         </h2>
 
                         <div
-                            class="is-scrollbar-hidden overflow-x-auto rounded-lg bg-slate-200 text-slate-600 dark:bg-navy-800 dark:text-navy-200">
+                            class="is-scrollbar-hidden overflow-x-auto rounded-lg bg-slate-200 text-slate-600">
                             <div class="tabs-list flex p-1">
                                 <button @click="activeTab = 'tabRecent'"
-                                    :class="activeTab === 'tabRecent' ? 'bg-white shadow dark:bg-navy-500 dark:text-navy-100' :
-                                        'hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100'"
+                                    :class="activeTab === 'tabRecent' ? 'bg-white shadow' :
+                                        'hover:text-slate-800 focus:text-slate-800'"
                                     class="btn shrink-0 px-3 py-1 text-xs+ font-medium">
                                     Last 7 days
                                 </button>
                                 <button @click="activeTab = 'tabAll'"
-                                    :class="activeTab === 'tabAll' ? 'bg-white shadow dark:bg-navy-500 dark:text-navy-100' :
-                                        'hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100'"
+                                    :class="activeTab === 'tabAll' ? 'bg-white shadow' :
+                                        'hover:text-slate-800 focus:text-slate-800'"
                                     class="btn shrink-0 px-3 py-1 text-xs+ font-medium">
                                     All Time
                                 </button>
@@ -231,30 +231,30 @@
                                 <thead>
                                     <tr>
                                         <th
-                                            class="whitespace-nowrap rounded-tl-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                            class="whitespace-nowrap rounded-tl-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                             Collection
                                         </th>
                                         <th
-                                            class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                            class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                             Volume
                                         </th>
                                         <th
-                                            class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                            class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                             24h%
                                         </th>
                                         <th
-                                            class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                            class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                             Owners
                                         </th>
 
                                         <th
-                                            class="whitespace-nowrap rounded-tr-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                            class="whitespace-nowrap rounded-tr-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                             Items
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                    <tr class="border-y border-transparent border-b-slate-200">
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                             <div class="flex items-center space-x-4">
                                                 <div class="avatar">
@@ -262,28 +262,28 @@
                                                         alt="avatar" />
                                                 </div>
 
-                                                <span class="font-medium text-slate-700 dark:text-navy-100">Abstrac
+                                                <span class="font-medium text-slate-700">Abstrac
                                                     Point</span>
                                             </div>
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-700 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-700 sm:px-5">
                                             $3,225.00
                                         </td>
                                         <td class="whitespace-nowrap px-4 py-3 font-medium text-success sm:px-5">
                                             +13.4%
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 text-slate-700 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 text-slate-700 sm:px-5">
                                             6.7k
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 text-slate-700 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 text-slate-700 sm:px-5">
                                             286
                                         </td>
                                     </tr>
 
-                                    <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                    <tr class="border-y border-transparent border-b-slate-200">
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                             <div class="flex items-center space-x-4">
                                                 <div class="avatar">
@@ -291,28 +291,28 @@
                                                         alt="avatar" />
                                                 </div>
 
-                                                <span class="font-medium text-slate-700 dark:text-navy-100">3D Cube
+                                                <span class="font-medium text-slate-700">3D Cube
                                                     Art</span>
                                             </div>
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-700 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-700 sm:px-5">
                                             $6,923.00
                                         </td>
                                         <td class="whitespace-nowrap px-4 py-3 font-medium text-error sm:px-5">
                                             -8.8%
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 text-slate-700 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 text-slate-700 sm:px-5">
                                             2.75k
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 text-slate-700 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 text-slate-700 sm:px-5">
                                             49
                                         </td>
                                     </tr>
 
-                                    <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                    <tr class="border-y border-transparent border-b-slate-200">
                                         <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                             <div class="flex items-center space-x-4">
                                                 <div class="avatar">
@@ -320,23 +320,23 @@
                                                         alt="avatar" />
                                                 </div>
 
-                                                <span class="font-medium text-slate-700 dark:text-navy-100">The Digital
+                                                <span class="font-medium text-slate-700">The Digital
                                                     Art</span>
                                             </div>
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-700 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-700 sm:px-5">
                                             $8,367.00
                                         </td>
                                         <td class="whitespace-nowrap px-4 py-3 font-medium text-success sm:px-5">
                                             +32.4%
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 text-slate-700 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 text-slate-700 sm:px-5">
                                             8.46k
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 text-slate-700 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 text-slate-700 sm:px-5">
                                             1,856
                                         </td>
                                     </tr>
@@ -349,23 +349,23 @@
                                                         alt="avatar" />
                                                 </div>
 
-                                                <span class="font-medium text-slate-700 dark:text-navy-100">Geomatro
+                                                <span class="font-medium text-slate-700">Geomatro
                                                     Art</span>
                                             </div>
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-700 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 font-medium text-slate-700 sm:px-5">
                                             $35,496.00
                                         </td>
                                         <td class="whitespace-nowrap px-4 py-3 font-medium text-success sm:px-5">
                                             +29.7%
                                         </td>
                                         <td
-                                            class="whitespace-nowrap px-4 py-3 text-slate-700 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap px-4 py-3 text-slate-700 sm:px-5">
                                             16.4k
                                         </td>
                                         <td
-                                            class="whitespace-nowrap rounded-br-lg px-4 py-3 text-slate-700 dark:text-navy-100 sm:px-5">
+                                            class="whitespace-nowrap rounded-br-lg px-4 py-3 text-slate-700 sm:px-5">
                                             5,644
                                         </td>
                                     </tr>
@@ -392,28 +392,28 @@
 
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -452,11 +452,11 @@
 
                 <div class="card px-4 pb-4">
                     <div class="my-3 flex h-8 items-center justify-between">
-                        <h2 class="text-sm+ font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                        <h2 class="text-sm+ font-medium tracking-wide text-slate-700">
                             Top Artists
                         </h2>
                         <a href="#"
-                            class="border-b border-dotted border-current pb-0.5 text-xs+ font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70 dark:text-accent-light dark:hover:text-accent-light/70 dark:focus:text-accent-light/70">View
+                            class="border-b border-dotted border-current pb-0.5 text-xs+ font-medium text-primary outline-none transition-colors duration-300 hover:text-primary/70 focus:text-primary/70">View
                             All</a>
                     </div>
 
@@ -469,15 +469,15 @@
                                 </div>
                                 <div>
                                     <a href="#"
-                                        class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">Travis
+                                        class="font-medium text-slate-600 line-clamp-1">Travis
                                         Fuller</a>
-                                    <p class="text-xs text-slate-400 dark:text-navy-300">
+                                    <p class="text-xs text-slate-400">
                                         952 items
                                     </p>
                                 </div>
                             </div>
                             <button
-                                class="btn h-7 rounded-full bg-primary/10 px-2.5 text-xs font-medium text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-7 rounded-full bg-primary/10 px-2.5 text-xs font-medium text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 Follow
                             </button>
                         </div>
@@ -489,15 +489,15 @@
                                 </div>
                                 <div>
                                     <a href="#"
-                                        class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">Katrina
+                                        class="font-medium text-slate-600 line-clamp-1">Katrina
                                         West</a>
-                                    <p class="text-xs text-slate-400 dark:text-navy-300">
+                                    <p class="text-xs text-slate-400">
                                         1,588 items
                                     </p>
                                 </div>
                             </div>
                             <button
-                                class="btn h-7 rounded-full bg-primary/10 px-2.5 text-xs font-medium text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-7 rounded-full bg-primary/10 px-2.5 text-xs font-medium text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 Follow
                             </button>
                         </div>
@@ -509,15 +509,15 @@
                                 </div>
                                 <div>
                                     <a href="#"
-                                        class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">Henry Curtis
+                                        class="font-medium text-slate-600 line-clamp-1">Henry Curtis
                                     </a>
-                                    <p class="text-xs text-slate-400 dark:text-navy-300">
+                                    <p class="text-xs text-slate-400">
                                         359 items
                                     </p>
                                 </div>
                             </div>
                             <button
-                                class="btn h-7 rounded-full bg-primary/10 px-2.5 text-xs font-medium text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-7 rounded-full bg-primary/10 px-2.5 text-xs font-medium text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 Follow
                             </button>
                         </div>
@@ -529,15 +529,15 @@
                                 </div>
                                 <div>
                                     <a href="#"
-                                        class="font-medium text-slate-600 line-clamp-1 dark:text-navy-100">Lance Tucker
+                                        class="font-medium text-slate-600 line-clamp-1">Lance Tucker
                                     </a>
-                                    <p class="text-xs text-slate-400 dark:text-navy-300">
+                                    <p class="text-xs text-slate-400">
                                         9,568 items
                                     </p>
                                 </div>
                             </div>
                             <button
-                                class="btn h-7 rounded-full bg-primary/10 px-2.5 text-xs font-medium text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                class="btn h-7 rounded-full bg-primary/10 px-2.5 text-xs font-medium text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                 Follow
                             </button>
                         </div>
@@ -562,29 +562,29 @@
                                 <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                     <div class="popper-box">
                                         <div
-                                            class="flex w-48 flex-col items-center rounded-md border border-slate-150 bg-white p-3 text-center dark:border-navy-600 dark:bg-navy-700">
+                                            class="flex w-48 flex-col items-center rounded-md border border-slate-150 bg-white p-3 text-center">
                                             <div class="avatar h-16 w-16">
                                                 <img class="rounded-full" src="{{ asset('images/200x200.png') }}"
                                                     alt="avatar" />
                                             </div>
                                             <p
-                                                class="mt-2 font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                                                class="mt-2 font-medium tracking-wide text-slate-700">
                                                 Konnor Guzman
                                             </p>
                                             <a href="#"
-                                                class="font-inter text-xs tracking-wide hover:text-primary focus:text-primary dark:hover:text-accent-light dark:focus:text-accent-light">@konnoraccount
+                                                class="font-inter text-xs tracking-wide hover:text-primary focus:text-primary">@konnoraccount
                                             </a>
                                             <button
-                                                class="btn mt-4 h-6 rounded-full bg-primary px-4 text-xs font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                                class="btn mt-4 h-6 rounded-full bg-primary px-4 text-xs font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90">
                                                 Follow
                                             </button>
                                         </div>
                                         <div class="h-4 w-4" data-popper-arrow>
                                             <svg viewBox="0 0 16 9" xmlns="http://www.w3.org/2000/svg"
                                                 class="absolute h-4 w-4" fill="currentColor">
-                                                <path class="text-slate-150 dark:text-navy-600"
+                                                <path class="text-slate-150"
                                                     d="M1.5 8.357s-.48.624 2.754-4.779C5.583 1.35 6.796.01 8 0c1.204-.009 2.417 1.33 3.76 3.578 3.253 5.43 2.74 4.78 2.74 4.78h-13z" />
-                                                <path class="text-white dark:text-navy-700"
+                                                <path class="text-white"
                                                     d="M0 9s1.796-.017 4.67-4.648C5.853 2.442 6.93 1.293 8 1.286c1.07-.008 2.147 1.14 3.343 3.066C14.233 9.006 15.999 9 15.999 9H0z" />
                                             </svg>
                                         </div>
@@ -592,10 +592,10 @@
                                 </div>
                             </div>
                             <div>
-                                <p class="text-slate-700 line-clamp-1 dark:text-navy-100">
+                                <p class="text-slate-700 line-clamp-1">
                                     Konnor Guzman
                                 </p>
-                                <p class="text-xs text-slate-400 dark:text-navy-300">
+                                <p class="text-xs text-slate-400">
                                     15.155 items
                                 </p>
                             </div>
@@ -603,7 +603,7 @@
                         <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -613,28 +613,28 @@
 
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -648,14 +648,14 @@
                             <img class="w-28 rounded-lg object-cover object-center"
                                 src="{{ asset('images/800x600.png') }}" alt="images" />
                             <a href="#"
-                                class="mt-1.5 font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Cube
+                                class="mt-1.5 font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">Cube
                                 Store #025</a>
                             <p class="mt-1.5">
-                                <span class="font-semibold text-slate-700 dark:text-navy-100">
+                                <span class="font-semibold text-slate-700">
                                     <i class="fa-brands fa-ethereum text-sm+"></i>
                                     5.01
                                 </span>
-                                <span class="text-slate-400 dark:text-navy-300">ETH</span>
+                                <span class="text-slate-400">ETH</span>
                             </p>
                         </div>
 
@@ -663,14 +663,14 @@
                             <img class="w-28 rounded-lg object-cover object-center"
                                 src="{{ asset('images/800x600.png') }}" alt="images" />
                             <a href="#"
-                                class="mt-1.5 font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">Punkiber
+                                class="mt-1.5 font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">Punkiber
                                 #5764</a>
                             <p class="mt-1.5">
-                                <span class="font-semibold text-slate-700 dark:text-navy-100">
+                                <span class="font-semibold text-slate-700">
                                     <i class="fa-brands fa-ethereum text-sm+"></i>
                                     7.63
                                 </span>
-                                <span class="text-slate-400 dark:text-navy-300">ETH</span>
+                                <span class="text-slate-400">ETH</span>
                             </p>
                         </div>
 
@@ -678,14 +678,14 @@
                             <img class="w-28 rounded-lg object-cover object-center"
                                 src="{{ asset('images/800x600.png') }}" alt="images" />
                             <a href="#"
-                                class="mt-1.5 font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary dark:text-navy-100 dark:hover:text-accent-light dark:focus:text-accent-light">The
+                                class="mt-1.5 font-medium text-slate-700 line-clamp-1 hover:text-primary focus:text-primary">The
                                 Runner #0456</a>
                             <p class="mt-1.5">
-                                <span class="font-semibold text-slate-700 dark:text-navy-100">
+                                <span class="font-semibold text-slate-700">
                                     <i class="fa-brands fa-ethereum text-sm+"></i>
                                     19.33
                                 </span>
-                                <span class="text-slate-400 dark:text-navy-300">ETH</span>
+                                <span class="text-slate-400">ETH</span>
                             </p>
                         </div>
                     </div>

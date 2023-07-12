@@ -4,7 +4,7 @@
         <div class="mt-4 grid grid-cols-12 gap-4 sm:mt-5 sm:gap-5 lg:mt-6 lg:gap-6">
             <div class="card col-span-12 pb-4">
                 <div class="mt-3 flex items-center justify-between px-4 sm:px-5">
-                    <h2 class="text-sm+ font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                    <h2 class="text-sm+ font-medium tracking-wide text-slate-700">
                         Page Views
                     </h2>
 
@@ -18,7 +18,7 @@
                             <p>Previous Period</p>
                         </div>
                         <select
-                            class="form-select h-8 rounded-full border border-slate-300 bg-white px-2.5 pr-9 text-xs+ hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent">
+                            class="form-select h-8 rounded-full border border-slate-300 bg-white px-2.5 pr-9 text-xs+ hover:border-slate-400 focus:border-primary">
                             <option>Last week</option>
                             <option>Last month</option>
                             <option>Last year</option>
@@ -37,54 +37,54 @@
                         </select>
                         <div class="mt-6 grid grid-cols-2 gap-x-4 gap-y-8">
                             <div>
-                                <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
+                                <p class="text-xs uppercase text-slate-400">
                                     Total Views
                                 </p>
-                                <p class="mt-1 text-xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="mt-1 text-xl font-medium text-slate-700">
                                     695,454
                                 </p>
                             </div>
 
                             <div>
-                                <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
+                                <p class="text-xs uppercase text-slate-400">
                                     Monthly increase
                                 </p>
                                 <p class="mt-1">
-                                    <span class="text-xl font-medium text-slate-700 dark:text-navy-100">
+                                    <span class="text-xl font-medium text-slate-700">
                                         16,146
                                     </span>
                                     <span class="text-xs text-success">+3%</span>
                                 </p>
                             </div>
                             <div>
-                                <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
+                                <p class="text-xs uppercase text-slate-400">
                                     Post made
                                 </p>
-                                <p class="mt-1 text-xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="mt-1 text-xl font-medium text-slate-700">
                                     469
                                 </p>
                             </div>
                             <div>
-                                <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
+                                <p class="text-xs uppercase text-slate-400">
                                     Avg post view
                                 </p>
-                                <p class="mt-1 text-xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="mt-1 text-xl font-medium text-slate-700">
                                     1,559
                                 </p>
                             </div>
                             <div>
-                                <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
+                                <p class="text-xs uppercase text-slate-400">
                                     Total comments
                                 </p>
-                                <p class="mt-1 text-xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="mt-1 text-xl font-medium text-slate-700">
                                     198
                                 </p>
                             </div>
                             <div>
-                                <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
+                                <p class="text-xs uppercase text-slate-400">
                                     Post Referred
                                 </p>
-                                <p class="mt-1 text-xl font-medium text-slate-700 dark:text-navy-100">
+                                <p class="mt-1 text-xl font-medium text-slate-700">
                                     49
                                 </p>
                             </div>
@@ -101,128 +101,128 @@
             <div class="col-span-12 xl:col-span-7">
                 <div class="card">
                     <div
-                        class="grid grid-cols-1 divide-y divide-slate-150 dark:divide-navy-500 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+                        class="grid grid-cols-1 divide-y divide-slate-150 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
                         <div class="p-4 sm:p-5">
-                            <h3 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                            <h3 class="font-medium tracking-wide text-slate-700">
                                 Broken images
                             </h3>
-                            <p class="mt-1 text-xs+ text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 text-xs+ text-slate-400">
                                 01 - 30 Oct, 2022
                             </p>
                             <p class="mt-4">
-                                <span class="text-3xl font-medium text-slate-700 dark:text-navy-100">
+                                <span class="text-3xl font-medium text-slate-700">
                                     236
                                 </span>
                                 <span class="text-xs text-success">+3%</span>
                             </p>
                             <div class="mt-4 flex justify-between">
-                                <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
+                                <p class="text-xs uppercase text-slate-400">
                                     Blog name
                                 </p>
-                                <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
+                                <p class="text-xs uppercase text-slate-400">
                                     images
                                 </p>
                             </div>
                             <div class="mt-2 space-y-2.5">
                                 <div class="flex justify-between space-x-2">
                                     <p class="line-clamp-1">What is Tailwind CSS?</p>
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         12
                                     </p>
                                 </div>
                                 <div class="flex justify-between space-x-2">
                                     <p class="line-clamp-1">What is PHP?</p>
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         18
                                     </p>
                                 </div>
                                 <div class="flex justify-between space-x-2">
                                     <p class="line-clamp-1">Top Design Systems</p>
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         17
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="p-4 sm:p-5">
-                            <h3 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                            <h3 class="font-medium tracking-wide text-slate-700">
                                 Broken links
                             </h3>
-                            <p class="mt-1 text-xs+ text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 text-xs+ text-slate-400">
                                 01 - 30 Oct, 2022
                             </p>
                             <p class="mt-4">
-                                <span class="text-3xl font-medium text-slate-700 dark:text-navy-100">
+                                <span class="text-3xl font-medium text-slate-700">
                                     648
                                 </span>
                                 <span class="text-xs text-success">+2.6%</span>
                             </p>
                             <div class="mt-4 flex justify-between">
-                                <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
+                                <p class="text-xs uppercase text-slate-400">
                                     Blog name
                                 </p>
-                                <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
+                                <p class="text-xs uppercase text-slate-400">
                                     link
                                 </p>
                             </div>
                             <div class="mt-2 space-y-2.5">
                                 <div class="flex justify-between space-x-2">
                                     <p class="line-clamp-1">313 Pattern and Color ideas</p>
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         33
                                     </p>
                                 </div>
                                 <div class="flex justify-between space-x-2">
                                     <p class="line-clamp-1">What is Tailwind CSS?</p>
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         25
                                     </p>
                                 </div>
                                 <div class="flex justify-between space-x-2">
                                     <p class="line-clamp-1">NodeJS Design Patterns</p>
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         19
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="p-4 sm:p-5">
-                            <h3 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                            <h3 class="font-medium tracking-wide text-slate-700">
                                 Comments
                             </h3>
-                            <p class="mt-1 text-xs+ text-slate-400 dark:text-navy-300">
+                            <p class="mt-1 text-xs+ text-slate-400">
                                 01 - 30 Oct, 2022
                             </p>
                             <p class="mt-4">
-                                <span class="text-3xl font-medium text-slate-700 dark:text-navy-100">
+                                <span class="text-3xl font-medium text-slate-700">
                                     238
                                 </span>
                                 <span class="text-xs text-success">+6.2%</span>
                             </p>
                             <div class="mt-4 flex justify-between">
-                                <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
+                                <p class="text-xs uppercase text-slate-400">
                                     Blog name
                                 </p>
-                                <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
+                                <p class="text-xs uppercase text-slate-400">
                                     Comments
                                 </p>
                             </div>
                             <div class="mt-2 space-y-2.5">
                                 <div class="flex justify-between space-x-2">
                                     <p class="line-clamp-1">What is PHP?</p>
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         21
                                     </p>
                                 </div>
                                 <div class="flex justify-between space-x-2">
                                     <p class="line-clamp-1">Tailwind CSS Card Example</p>
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         46
                                     </p>
                                 </div>
                                 <div class="flex justify-between space-x-2">
                                     <p class="line-clamp-1">Top Design Systems</p>
-                                    <p class="font-medium text-slate-700 dark:text-navy-100">
+                                    <p class="font-medium text-slate-700">
                                         19
                                     </p>
                                 </div>
@@ -233,13 +233,13 @@
                 <div class="mt-4 grid grid-cols-12 gap-4 sm:mt-5 sm:gap-5 lg:mt-6 lg:gap-6">
                     <div class="col-span-12 -mt-1 sm:col-span-5 lg:col-span-4 xl:col-span-5">
                         <div class="flex items-center justify-between">
-                            <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                            <h2 class="font-medium tracking-wide text-slate-700">
                                 Top Writers
                             </h2>
                             <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                                 class="inline-flex">
                                 <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -249,28 +249,28 @@
 
                                 <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                     <div
-                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                     Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                     else</a>
                                             </li>
                                         </ul>
-                                        <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                        <div class="my-1 h-px bg-slate-150"></div>
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                     Link</a>
                                             </li>
                                         </ul>
@@ -284,36 +284,36 @@
                                 <div class="swiper" x-init="$nextTick(() => $el._x_swiper = new Swiper($el, { pagination: { el: '.swiper-pagination', clickable: true } }))">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <div class="h-20 rounded-t-lg bg-primary dark:bg-accent">
+                                            <div class="h-20 rounded-t-lg bg-primary">
                                                 <img class="h-full w-full rounded-t-lg object-cover object-center"
                                                     src="{{ asset('images/800x600.png') }}" alt="image" />
                                             </div>
                                             <div class="px-4 py-2 sm:px-5">
                                                 <div class="flex justify-between space-x-4">
                                                     <div class="avatar -mt-12 h-20 w-20">
-                                                        <img class="rounded-full border-2 border-white dark:border-navy-700"
+                                                        <img class="rounded-full border-2 border-white"
                                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                                     </div>
                                                     <div class="flex space-x-2">
                                                         <button
-                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                                             <i class="fab fa-twitter"></i>
                                                         </button>
                                                         <button
-                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                                             <i class="fab fa-instagram text-base"></i>
                                                         </button>
                                                         <button
-                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                                             <i class="fab fa-facebook-f"></i>
                                                         </button>
                                                     </div>
                                                 </div>
                                                 <h3
-                                                    class="pt-2 text-base font-medium text-slate-700 dark:text-navy-100">
+                                                    class="pt-2 text-base font-medium text-slate-700">
                                                     Konnor Guzman
                                                 </h3>
-                                                <p class="text-xs text-slate-400 dark:text-navy-300">
+                                                <p class="text-xs text-slate-400">
                                                     USA, Washington DC
                                                 </p>
                                                 <div class="mt-2 flex items-center space-x-4">
@@ -326,7 +326,7 @@
                                                     </div>
                                                     <div class="w-3/12 text-center">
                                                         <p
-                                                            class="text-xl font-medium text-slate-700 dark:text-navy-100">
+                                                            class="text-xl font-medium text-slate-700">
                                                             24
                                                         </p>
                                                         <p class="text-xs+">Posts</p>
@@ -335,26 +335,26 @@
                                                 <div class="mt-3 flex justify-between">
                                                     <div class="flex -space-x-2">
                                                         <div class="avatar h-7 w-7 hover:z-10">
-                                                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                                                            <img class="rounded-full ring ring-white"
                                                                 src="{{ asset('images/200x200.png') }}"
                                                                 alt="avatar" />
                                                         </div>
 
                                                         <div class="avatar h-7 w-7 hover:z-10">
                                                             <div
-                                                                class="is-initial rounded-full bg-info text-xs+ uppercase text-white ring ring-white dark:ring-navy-700">
+                                                                class="is-initial rounded-full bg-info text-xs+ uppercase text-white ring ring-white">
                                                                 jd
                                                             </div>
                                                         </div>
 
                                                         <div class="avatar h-7 w-7 hover:z-10">
-                                                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                                                            <img class="rounded-full ring ring-white"
                                                                 src="{{ asset('images/200x200.png') }}"
                                                                 alt="avatar" />
                                                         </div>
                                                     </div>
                                                     <button
-                                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
                                                             fill="none" viewBox="0 0 24 24" stroke="currentColor"
                                                             stroke-width="1.5">
@@ -370,36 +370,36 @@
                                         </div>
 
                                         <div class="swiper-slide">
-                                            <div class="h-20 rounded-t-lg bg-primary dark:bg-accent">
+                                            <div class="h-20 rounded-t-lg bg-primary">
                                                 <img class="h-full w-full rounded-t-lg object-cover object-center"
                                                     src="{{ asset('images/800x600.png') }}" alt="image" />
                                             </div>
                                             <div class="px-4 py-2 sm:px-5">
                                                 <div class="flex justify-between space-x-4">
                                                     <div class="avatar -mt-12 h-20 w-20">
-                                                        <img class="rounded-full border-2 border-white dark:border-navy-700"
+                                                        <img class="rounded-full border-2 border-white"
                                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                                     </div>
                                                     <div class="flex space-x-2">
                                                         <button
-                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                                             <i class="fab fa-twitter"></i>
                                                         </button>
                                                         <button
-                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                                             <i class="fab fa-instagram text-base"></i>
                                                         </button>
                                                         <button
-                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                                             <i class="fab fa-facebook-f"></i>
                                                         </button>
                                                     </div>
                                                 </div>
                                                 <h3
-                                                    class="pt-2 text-base font-medium text-slate-700 dark:text-navy-100">
+                                                    class="pt-2 text-base font-medium text-slate-700">
                                                     Travis Fuller
                                                 </h3>
-                                                <p class="text-xs text-slate-400 dark:text-navy-300">
+                                                <p class="text-xs text-slate-400">
                                                     UK, London
                                                 </p>
                                                 <div class="mt-3 flex items-center space-x-4">
@@ -412,7 +412,7 @@
                                                     </div>
                                                     <div class="w-3/12 text-center">
                                                         <p
-                                                            class="text-xl font-medium text-slate-700 dark:text-navy-100">
+                                                            class="text-xl font-medium text-slate-700">
                                                             168
                                                         </p>
                                                         <p class="text-xs+">Posts</p>
@@ -421,26 +421,26 @@
                                                 <div class="mt-3 flex justify-between">
                                                     <div class="flex -space-x-2">
                                                         <div class="avatar h-7 w-7 hover:z-10">
-                                                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                                                            <img class="rounded-full ring ring-white"
                                                                 src="{{ asset('images/200x200.png') }}"
                                                                 alt="avatar" />
                                                         </div>
 
                                                         <div class="avatar h-7 w-7 hover:z-10">
                                                             <div
-                                                                class="is-initial rounded-full bg-warning text-xs+ uppercase text-white ring ring-white dark:ring-navy-700">
+                                                                class="is-initial rounded-full bg-warning text-xs+ uppercase text-white ring ring-white">
                                                                 qe
                                                             </div>
                                                         </div>
 
                                                         <div class="avatar h-7 w-7 hover:z-10">
-                                                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                                                            <img class="rounded-full ring ring-white"
                                                                 src="{{ asset('images/200x200.png') }}"
                                                                 alt="avatar" />
                                                         </div>
                                                     </div>
                                                     <button
-                                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
                                                             fill="none" viewBox="0 0 24 24" stroke="currentColor"
                                                             stroke-width="1.5">
@@ -456,36 +456,36 @@
                                         </div>
 
                                         <div class="swiper-slide">
-                                            <div class="h-20 rounded-t-lg bg-primary dark:bg-accent">
+                                            <div class="h-20 rounded-t-lg bg-primary">
                                                 <img class="h-full w-full rounded-t-lg object-cover object-center"
                                                     src="{{ asset('images/800x600.png') }}" alt="image" />
                                             </div>
                                             <div class="px-4 py-2 sm:px-5">
                                                 <div class="flex justify-between space-x-4">
                                                     <div class="avatar -mt-12 h-20 w-20">
-                                                        <img class="rounded-full border-2 border-white dark:border-navy-700"
+                                                        <img class="rounded-full border-2 border-white"
                                                             src="{{ asset('images/200x200.png') }}" alt="avatar" />
                                                     </div>
                                                     <div class="flex space-x-2">
                                                         <button
-                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                                             <i class="fab fa-twitter"></i>
                                                         </button>
                                                         <button
-                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                                             <i class="fab fa-instagram text-base"></i>
                                                         </button>
                                                         <button
-                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-accent-light/10 dark:text-accent-light dark:hover:bg-accent-light/20 dark:focus:bg-accent-light/20 dark:active:bg-accent-light/25">
+                                                            class="btn h-7 w-7 rounded-full bg-primary/10 p-0 text-primary hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25">
                                                             <i class="fab fa-facebook-f"></i>
                                                         </button>
                                                     </div>
                                                 </div>
                                                 <h3
-                                                    class="pt-2 text-base font-medium text-slate-700 dark:text-navy-100">
+                                                    class="pt-2 text-base font-medium text-slate-700">
                                                     Alfredo Elliott
                                                 </h3>
-                                                <p class="text-xs text-slate-400 dark:text-navy-300">
+                                                <p class="text-xs text-slate-400">
                                                     Australia, Sydney
                                                 </p>
                                                 <div class="mt-3 flex items-center space-x-4">
@@ -498,7 +498,7 @@
                                                     </div>
                                                     <div class="w-3/12 text-center">
                                                         <p
-                                                            class="text-xl font-medium text-slate-700 dark:text-navy-100">
+                                                            class="text-xl font-medium text-slate-700">
                                                             426
                                                         </p>
                                                         <p class="text-xs+">Posts</p>
@@ -507,26 +507,26 @@
                                                 <div class="mt-3 flex justify-between">
                                                     <div class="flex -space-x-2">
                                                         <div class="avatar h-7 w-7 hover:z-10">
-                                                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                                                            <img class="rounded-full ring ring-white"
                                                                 src="{{ asset('images/200x200.png') }}"
                                                                 alt="avatar" />
                                                         </div>
 
                                                         <div class="avatar h-7 w-7 hover:z-10">
                                                             <div
-                                                                class="is-initial rounded-full bg-error text-xs+ uppercase text-white ring ring-white dark:ring-navy-700">
+                                                                class="is-initial rounded-full bg-error text-xs+ uppercase text-white ring ring-white">
                                                                 za
                                                             </div>
                                                         </div>
 
                                                         <div class="avatar h-7 w-7 hover:z-10">
-                                                            <img class="rounded-full ring ring-white dark:ring-navy-700"
+                                                            <img class="rounded-full ring ring-white"
                                                                 src="{{ asset('images/200x200.png') }}"
                                                                 alt="avatar" />
                                                         </div>
                                                     </div>
                                                     <button
-                                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                                        class="btn h-7 w-7 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
                                                             fill="none" viewBox="0 0 24 24" stroke="currentColor"
                                                             stroke-width="1.5">
@@ -548,13 +548,13 @@
                     </div>
                     <div class="card col-span-12 sm:col-span-7 lg:col-span-8 xl:col-span-7">
                         <div class="my-3 flex items-center justify-between px-4">
-                            <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+                            <h2 class="font-medium tracking-wide text-slate-700">
                                 Site Overview
                             </h2>
                             <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                                 class="inline-flex">
                                 <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                    class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                    class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -564,28 +564,28 @@
 
                                 <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                     <div
-                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                     Action</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                     else</a>
                                             </li>
                                         </ul>
-                                        <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                        <div class="my-1 h-px bg-slate-150"></div>
                                         <ul>
                                             <li>
                                                 <a href="#"
-                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                     Link</a>
                                             </li>
                                         </ul>
@@ -594,13 +594,13 @@
                             </div>
                         </div>
                         <div class="grid grid-cols-2 gap-3 px-4">
-                            <div class="rounded-lg bg-slate-100 p-3 dark:bg-navy-600">
+                            <div class="rounded-lg bg-slate-100 p-3">
                                 <div class="flex justify-between space-x-1">
-                                    <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                                    <p class="text-xl font-semibold text-slate-700">
                                         11.3M
                                     </p>
                                     <svg xmlns="http://www.w3.org/2000/svg" stroke-width="1.5"
-                                        class="h-5 w-5 text-primary dark:text-accent" fill="none"
+                                        class="h-5 w-5 text-primary" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -610,9 +610,9 @@
                                 </div>
                                 <p class="mt-1 text-xs+">Total Views</p>
                             </div>
-                            <div class="rounded-lg bg-slate-100 p-3 dark:bg-navy-600">
+                            <div class="rounded-lg bg-slate-100 p-3">
                                 <div class="flex justify-between">
-                                    <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                                    <p class="text-xl font-semibold text-slate-700">
                                         4,566
                                     </p>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-success"
@@ -635,7 +635,7 @@
             </div>
             <div class="col-span-12 xl:col-span-5">
                 <div class="-mt-1 flex items-center justify-between">
-                    <h2 class="text-sm+ font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+                    <h2 class="text-sm+ font-medium tracking-wide text-slate-700 line-clamp-1">
                         Post Rankings
                     </h2>
                     <div class="flex">
@@ -643,11 +643,11 @@
                             <label class="block">
                                 <input x-effect="isInputActive === true && $nextTick(() => { $el.focus()});"
                                     :class="isInputActive ? 'w-32 lg:w-48' : 'w-0'"
-                                    class="form-input w-full bg-transparent px-1 text-right transition-all duration-100 placeholder:text-slate-500 dark:placeholder:text-navy-200"
+                                    class="form-input w-full bg-transparent px-1 text-right transition-all duration-100 placeholder:text-slate-500"
                                     placeholder="Search here..." type="text" />
                             </label>
                             <button @click="isInputActive = !isInputActive"
-                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -658,7 +658,7 @@
                         <div x-data="usePopper({ placement: 'bottom-end', offset: 4 })" @click.outside="if(isShowPopper) isShowPopper = false"
                             class="inline-flex">
                             <button x-ref="popperRef" @click="isShowPopper = !isShowPopper"
-                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
+                                class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4.5 w-4.5" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -667,28 +667,28 @@
                             </button>
                             <div x-ref="popperRoot" class="popper-root" :class="isShowPopper && 'show'">
                                 <div
-                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                                    class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter">
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Another
                                                 Action</a>
                                         </li>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Something
                                                 else</a>
                                         </li>
                                     </ul>
-                                    <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                                    <div class="my-1 h-px bg-slate-150"></div>
                                     <ul>
                                         <li>
                                             <a href="#"
-                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated
+                                                class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800">Separated
                                                 Link</a>
                                         </li>
                                     </ul>
@@ -703,28 +703,28 @@
                             <thead>
                                 <tr>
                                     <th
-                                        class="whitespace-nowrap rounded-tl-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100">
+                                        class="whitespace-nowrap rounded-tl-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800">
                                         Rank
                                     </th>
                                     <th
-                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                         Post Title
                                     </th>
                                     <th
-                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                        class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                         View
                                     </th>
 
                                     <th
-                                        class="whitespace-nowrap rounded-tr-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                                        class="whitespace-nowrap rounded-tr-lg bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 lg:px-5">
                                         Position
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3">
-                                        <p class="text-center text-base font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-center text-base font-medium text-slate-700">
                                             01.
                                         </p>
                                     </td>
@@ -735,18 +735,18 @@
                                                     src="{{ asset('images/800x600.png') }}" alt="avatar" />
                                             </div>
 
-                                            <span class="font-medium text-slate-700 line-clamp-2 dark:text-navy-100">25
+                                            <span class="font-medium text-slate-700 line-clamp-2">25
                                                 Surprising Facts About Chair
                                             </span>
                                         </div>
                                     </td>
                                     <td
-                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 dark:text-navy-100 sm:px-5">
+                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 sm:px-5">
                                         1,994
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <div class="flex items-center justify-end space-x-1">
-                                            <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                            <p class="text-sm+ text-slate-800">
                                                 2
                                             </p>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success"
@@ -758,9 +758,9 @@
                                     </td>
                                 </tr>
 
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3">
-                                        <p class="text-center text-base font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-center text-base font-medium text-slate-700">
                                             02.
                                         </p>
                                     </td>
@@ -772,18 +772,18 @@
                                             </div>
 
                                             <span
-                                                class="font-medium text-slate-700 line-clamp-2 dark:text-navy-100">What
+                                                class="font-medium text-slate-700 line-clamp-2">What
                                                 is Tailwind CSS?
                                             </span>
                                         </div>
                                     </td>
                                     <td
-                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 dark:text-navy-100 sm:px-5">
+                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 sm:px-5">
                                         1,719
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <div class="flex items-center justify-end space-x-1">
-                                            <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                            <p class="text-sm+ text-slate-800">
                                                 3
                                             </p>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success"
@@ -795,9 +795,9 @@
                                     </td>
                                 </tr>
 
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3">
-                                        <p class="text-center text-base font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-center text-base font-medium text-slate-700">
                                             03.
                                         </p>
                                     </td>
@@ -809,18 +809,18 @@
                                             </div>
 
                                             <span
-                                                class="font-medium text-slate-700 line-clamp-2 dark:text-navy-100">Tailwind
+                                                class="font-medium text-slate-700 line-clamp-2">Tailwind
                                                 CSS Card Example
                                             </span>
                                         </div>
                                     </td>
                                     <td
-                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 dark:text-navy-100 sm:px-5">
+                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 sm:px-5">
                                         1,621
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <div class="flex items-center justify-end space-x-1">
-                                            <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                            <p class="text-sm+ text-slate-800">
                                                 1
                                             </p>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-error"
@@ -832,9 +832,9 @@
                                     </td>
                                 </tr>
 
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3">
-                                        <p class="text-center text-base font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-center text-base font-medium text-slate-700">
                                             04.
                                         </p>
                                     </td>
@@ -846,18 +846,18 @@
                                             </div>
 
                                             <span
-                                                class="font-medium text-slate-700 line-clamp-2 dark:text-navy-100">What
+                                                class="font-medium text-slate-700 line-clamp-2">What
                                                 is PHP?
                                             </span>
                                         </div>
                                     </td>
                                     <td
-                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 dark:text-navy-100 sm:px-5">
+                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 sm:px-5">
                                         1,411
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <div class="flex items-center justify-end space-x-1">
-                                            <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                            <p class="text-sm+ text-slate-800">
                                                 1
                                             </p>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success"
@@ -869,9 +869,9 @@
                                     </td>
                                 </tr>
 
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3">
-                                        <p class="text-center text-base font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-center text-base font-medium text-slate-700">
                                             05.
                                         </p>
                                     </td>
@@ -883,18 +883,18 @@
                                             </div>
 
                                             <span
-                                                class="font-medium text-slate-700 line-clamp-2 dark:text-navy-100">Top
+                                                class="font-medium text-slate-700 line-clamp-2">Top
                                                 Design Systems
                                             </span>
                                         </div>
                                     </td>
                                     <td
-                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 dark:text-navy-100 sm:px-5">
+                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 sm:px-5">
                                         1,269
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <div class="flex items-center justify-end space-x-1">
-                                            <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                            <p class="text-sm+ text-slate-800">
                                                 2
                                             </p>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success"
@@ -906,9 +906,9 @@
                                     </td>
                                 </tr>
 
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3">
-                                        <p class="text-center text-base font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-center text-base font-medium text-slate-700">
                                             06.
                                         </p>
                                     </td>
@@ -920,18 +920,18 @@
                                             </div>
 
                                             <span
-                                                class="font-medium text-slate-700 line-clamp-2 dark:text-navy-100">313
+                                                class="font-medium text-slate-700 line-clamp-2">313
                                                 Pattern and Color ideas
                                             </span>
                                         </div>
                                     </td>
                                     <td
-                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 dark:text-navy-100 sm:px-5">
+                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 sm:px-5">
                                         894
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <div class="flex items-center justify-end space-x-1">
-                                            <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                            <p class="text-sm+ text-slate-800">
                                                 1
                                             </p>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-success"
@@ -943,9 +943,9 @@
                                     </td>
                                 </tr>
 
-                                <tr class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500">
+                                <tr class="border-y border-transparent border-b-slate-200">
                                     <td class="whitespace-nowrap px-4 py-3">
-                                        <p class="text-center text-base font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-center text-base font-medium text-slate-700">
                                             07.
                                         </p>
                                     </td>
@@ -957,18 +957,18 @@
                                             </div>
 
                                             <span
-                                                class="font-medium text-slate-700 line-clamp-2 dark:text-navy-100">NodeJS
+                                                class="font-medium text-slate-700 line-clamp-2">NodeJS
                                                 Design Patterns
                                             </span>
                                         </div>
                                     </td>
                                     <td
-                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 dark:text-navy-100 sm:px-5">
+                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 sm:px-5">
                                         636
                                     </td>
                                     <td class="whitespace-nowrap px-4 py-3 sm:px-5">
                                         <div class="flex items-center justify-end space-x-1">
-                                            <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                            <p class="text-sm+ text-slate-800">
                                                 2
                                             </p>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-error"
@@ -982,7 +982,7 @@
 
                                 <tr class="border-y border-transparent">
                                     <td class="whitespace-nowrap rounded-bl-lg px-4 py-3">
-                                        <p class="text-center text-base font-medium text-slate-700 dark:text-navy-100">
+                                        <p class="text-center text-base font-medium text-slate-700">
                                             08.
                                         </p>
                                     </td>
@@ -994,18 +994,18 @@
                                             </div>
 
                                             <span
-                                                class="font-medium text-slate-700 line-clamp-2 dark:text-navy-100">Tailwind
+                                                class="font-medium text-slate-700 line-clamp-2">Tailwind
                                                 CSS Card Example
                                             </span>
                                         </div>
                                     </td>
                                     <td
-                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 dark:text-navy-100 sm:px-5">
+                                        class="whitespace-nowrap px-4 py-3 font-medium text-slate-600 sm:px-5">
                                         411
                                     </td>
                                     <td class="whitespace-nowrap rounded-br-lg px-4 py-3 sm:px-5">
                                         <div class="flex items-center justify-end space-x-1">
-                                            <p class="text-sm+ text-slate-800 dark:text-navy-100">
+                                            <p class="text-sm+ text-slate-800">
                                                 1
                                             </p>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-error"
